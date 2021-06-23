@@ -14,7 +14,7 @@ It's definitely not for every use case. For me though, I liked it for my site be
 
 But, as might not have escaped your notice, dear reader, the vast majority of the world is in lockdown due to COVID-19. With that comes a seeming necessity to learn a new skill. Some took to baking, others to Tik-Tok dancing. I’m already a pretty good baker, and the less the world sees of my dancing the better. I decided to rebuild my personal website from scratch, using two technologies I had very little experience with: [Jekyll](https://jekyllrb.com/) and [Markdown](https://guides.github.com/features/mastering-markdown/)
 
-## Wait, is this blog post an excuse for you to talk about nerdy web-dev things?  
+## Wait, is this blog post an excuse for you to talk about nerdy web-dev things?
 Yes. Consider yourself warned.
 
 ## Fine, what made you choose Jekyll and Markdown?
