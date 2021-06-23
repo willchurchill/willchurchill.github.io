@@ -1,0 +1,33 @@
+<div class="row wc-content-card-spacing">
+	{% if post.content-type=="external" %}
+		<div class="col-sm-12 col-md-3 card-image-main" style="background-image:url({{post.image}})" onclick="clicklink('{{post.posturl}}')"></div>
+	{% else %}
+		<div class="col-sm-12 col-md-3 card-image-main" style="background-image:url({{post.image}})" onclick="clicklink('{{site.baseurl}}{{post.url}}')"></div>
+	{% endif %}
+	<div class="col banner-secondary-post-text">
+		{% if post.content-type=="external" %}
+			<h3><a href="{{post.posturl}}" target="_blank" class="text-link">{{post.title}}</a></h3>
+		{% else %}
+			<h3><a href="{{site.baseurl}}{{post.url}}" class="text-link">{{post.title}}</a></h3>
+		{% endif %}
+		<div>{{post.description}}</div>
+		<span class="text-muted">
+			{% if post.content-type=="external" %}
+				{{ post.date | date: '%b %d, %Y' }} | 
+				via <strong><a class="text-capitalize text-muted anchor-link" href="{{ post.externalsite[1] }}">{{ post.externalsite[0] }}</a></strong>
+			{% elsif post.content-type=="fiction" %}
+				Tags: 
+				{% for tag in post.tags %}
+					<a class="text-capitalize text-muted anchor-link" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag }}</a>
+				{% endfor %}
+			{% elsif post.content-type=="musing" %}
+				{{ post.date | date: '%b %d, %Y' }} | 
+				{% for category in post.categories[0] %}
+					a <strong><a class="text-capitalize text-muted anchor-link" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a></strong> musing
+				{% endfor %}
+			{% else %}
+				{{ post.date | date: '%b %d, %Y' }}
+			{% endif %}
+		</span>
+	</div>
+</div>

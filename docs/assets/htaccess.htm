@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteBase /
+
+# Remove .html extension
+RewriteCond %{THE_REQUEST} ^GET\ /[^?\s]+\.html
+RewriteRule (.*)\.html$ /$1/ [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/(.+)/$
+RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+RewriteRule ^(.*)/$ $1.html [L]
+
+# Force trailing slash
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule .*[^/]$ $0/ [L,R=301]
+
+# Custom redirects for folder structure
+RewriteRule ^musings/? /musings.html [R=301,L]

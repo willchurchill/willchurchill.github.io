@@ -1,0 +1,46 @@
+<div class="row mb-4">
+	<div class="col-1" onclick="clicklink('{{post.posturl}}')">
+		{% if post.content-type=="musing" %}
+			{% if post.categories contains "politics" %}
+				<i class="fas fa-vote-yea"></i>
+			{% elsif post.categories contains "mental health" %}
+				<i class="fas fa-heart"></i>
+			{% elsif post.categories contains "technology" %}
+				<i class="fas fa-microchip"></i>
+			{% else %}
+				<i class="far fa-comment-dots"></i>
+			{% endif %}
+		{% elsif post.content-type=="letter" %}
+			<i class="fas fa-envelope-open-text"></i>
+		{% elsif post.content-type=="fiction" %}
+			<i class="fas fa-pen-square"></i>
+		{% else %}
+			<i class="fas fa-align-left"></i>
+		{% endif %}
+	</div>
+	<div class="col">
+		{% if post.content-type=="external" %}
+			<a href="{{post.posturl}}" target="_blank" class="text-link"><h4>{{post.title}}</h4></a>
+		{% else %}
+			<a href="{{site.baseurl}}{{post.url}}" class="text-link"><h4>{{post.title}}</h4></a>
+		{% endif %}
+		<div class="text-muted font-italic">
+			{% if post.content-type=="external" %}
+				{{ post.date | date: '%b %d, %Y' }} | 
+				via <a class="text-capitalize text-muted anchor-link" href="{{ post.externalsite[1] }}">{{ post.externalsite[0] }}</a>
+			{% elsif post.content-type=="fiction" %}
+				{{ post.date | date: '%b %d, %Y' }} | <strong>Fiction</strong>
+			{% elsif post.content-type=="letter" %}
+				{{ post.date | date: '%b %d, %Y' }} |
+				{% for category in post.categories %}
+					a letter on <strong><a class="text-capitalize text-muted anchor-link" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a></strong>
+				{% endfor %}
+			{% else %}
+				{{ post.date | date: '%b %d, %Y' }} | 
+				{% for category in post.categories[0] %}
+					a <strong><a class="text-capitalize text-muted anchor-link" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a></strong> Musing
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+</div>

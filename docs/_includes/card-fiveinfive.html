@@ -1,0 +1,27 @@
+{% capture current_collection %}{{ post.url | remove: "5in5s" | remove: "/" | remove: " " }}{% endcapture %}
+<div class="container mb-5 justify-content-between">
+	<div class="row">
+		<!--
+		<div class="col-md-2 col-sm-2 pr-3">
+			<a href="{{site.baseurl}}{{post.url}}">
+				<i class="fas fa-dice-five fa-4x"></i>
+			</a>
+		</div>
+		-->
+		<div class="col">
+			<h2 class="mb-1 pt-2 pt-md-0 h4 font-weight-bold">
+			<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+			</h2>
+			<p>{{ post.description }}</p>
+			<small class="text-muted">
+			{% assign fiveitems = site.fiveinfiveitems | sort: 'order' %}
+			{% for fiveitem in fiveitems %}
+				{% capture captured_parent_collection %}{{ fiveitem.parent-collection | slugify }}{% endcapture %}
+				{% if captured_parent_collection == current_collection %}
+					<span class="text-muted smoothscroll text-warning font-breeserif"><i class="fas fa-{{ fiveitem.icon }}"></i> {{ fiveitem.title }}</span>&nbsp;
+				{% endif %}
+			{% endfor %}
+			</small>
+		</div>
+	</div>
+</div>

@@ -26,11 +26,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "/willchurchill.github.io/docs/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: willchurchill
 github_username:  willchurchill
+include: ["_pages"]
+permalink: /musings/:title/
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +54,93 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Collections
+collections:
+  
+  fiveinfiveitems:
+    output: true 
+  fiveinfives: 
+    output: true  
+    permalink: /5in5s/:path/
+  
+  external:
+    output: true
+
+  interesting:
+    output: true
+
+  portfolio:
+    output: true
+    permalink: /:collection/:title/
+
+  roles:
+    output: true
+    permalink: /:collection/:title/
+
+  university:
+    output: true 
+    permalink: /:collection/:title/
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      author: "Will Churchill"
+      layout: post
+      content-type: musing
+      all-content: true
+      blog: true
+      news: true
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+  # all 5in5s
+  - scope:
+      path: "_fiveinfives"
+    values:
+      layout: fiveinfives
+      content-type: fiveinfives
+      image: https://willchurchill.co.uk/assets/images/posts/5-in-5.png
+      all-content: true
+      blog: true
+      news: true
+
+  # all external
+  - scope:
+      path: "_external"
+    values:
+      layout: post
+      content-type: external
+      all-content: true
+      blog: true
+  
+  # all portfolio
+  - scope:
+      path: "_portfolio"
+    values:
+      layout: portfolio
+
+  # all roles
+  - scope:
+      path: "_roles"
+    values:
+      layout: role
+    
+  # all university
+  - scope:
+      path: "_university"
+    values:
+      author: "Will Churchill"
+      layout: essay
+      content-type: university
+      image: https://willchurchill.co.uk/assets/images/posts/typewriter.png
+      all-content: true
+      
