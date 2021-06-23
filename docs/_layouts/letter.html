@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% assign author = site.authors[page.author] %}
+<div class="container-fluid letter-page-background">
+	<div class="letter-container">
+		<div class="row">
+			<div class="col letter-header">
+				<span class="letter-eyebrow">From the keyboard of</span>
+				<h2>Will Churchill</h2>
+				<p><a href="https://willchurchill.co.uk">willchurchill.co.uk</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col letter-date">Date: {{ page.date | date: '%-d %b, %Y' }}</div>
+		</div>
+		<div class="row">
+			<div class="col-12 letter-subject">FAO: {{ page.fao }}</div>
+			<div class="col-12 letter-subject">RE: {{ page.subject }}</div>
+		</div>
+		<div class="row">
+			<div class="col letter-content">
+				<article class="article-post">                
+					{{ content }}                
+				</article>
+			</div>
+		</div>
+		<div class="row">
+			<div class="letter-signature"></div>
+			<div class="col-12 letter-signoff">Will Churchill</div>
+		</div>
+	</div>
+	
+	<div class="row letter-otherbox">
+		<div class="col"><a href="{{site.baseurl}}/letters.html">View all letters</a></div>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+---
+title: "Fiction"
+layout: default
+permalink: "/fiction/"
+---
+
+<div class="container-fluid wc-two-col wc-nav-spacing">
+    <div class="row">
+        <div class="col">
+            <h1>FICTION</h1>
+        </div>
+    </div>
+    <div class="row">
+        {% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
+        {% for post in fiction %}
+            <div class="col-sm-12 col-md-6">{% include content-card-dedicated.html %}</div>
+        {% endfor %}
+    </div>
+</div>

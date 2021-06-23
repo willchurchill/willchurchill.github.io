@@ -1,0 +1,26 @@
+---
+title: "Open Letters to..."
+layout: default
+permalink: "/letters/"
+---
+<div class="container-fluid wc-two-col wc-nav-spacing">
+    <div class="row">
+        <div class="col">
+            <p>Like many people, I’ve often been snide on Twitter - directly replying to individuals in the public eye with sarcastic comments, trolling, or - when I’m feeling particularly erudite - something half-way resembling a point.</p>
+            <p>It always makes me feel better, for about 5 minutes. But then the reality sinks in. My reply is one of thousands that gets swallowed into the ephemeral mess that is social media. At best, half a dozen people chuckle under their breath and then get on with their day. But really, nothing happens as a result.</p>
+            <p>So instead, I thought I’d try something else. For every sarcastic tweet I want to write, instead I’m going to put my thoughts into a letter to the intended recipient. For me, it’s an extension of why I write publicly - a way of thinking through a position and determining what I think.</p>
+            <p>Who knows, maybe they might even read it?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h1>LETTERS</h1>
+        </div>
+    </div>
+    <div class="row">
+        {% assign letters = site.posts | where: "layout","letter" | sort: 'date' | reverse %}
+        {% for post in letters %}
+            <div class="col-sm-12 col-md-6">{% include content-card-dedicated.html %}</div>
+        {% endfor %}
+    </div>
+</div>

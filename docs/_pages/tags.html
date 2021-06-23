@@ -1,0 +1,34 @@
+---
+title: "Tags"
+layout: default
+permalink: "/tags.html"
+---
+
+<div class="container-fluid wc-two-col wc-nav-spacing">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Tags</h1>
+
+      {% assign tags_ordered = site.tags | sort: tags %}    
+      {% for tag in tags_ordered %} 
+        <h2 class="anchor-header" id="{{ tag[0] | downcase }}"><span>{{ tag[0] }}</span></h2>            
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list %}
+          {% if post.title != null %}
+            {% if group == null or group == post.group %}
+              {% include content-card-tags.html %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+      {% endfor %}
+
+    </div>
+      
+    <div class="col-md-4">
+      {% include sidebar-featured.html %}    
+    </div>
+      
+  </div>
+</div>

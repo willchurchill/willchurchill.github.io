@@ -1,0 +1,54 @@
+---
+layout: default
+---
+{% assign author = site.authors[page.author] %}
+<div class="container">
+	<div class="row">
+		{% if page.image %}
+			<div class="col-sm-12 col-md-6">
+				<img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+			</div>
+		{% endif %}
+		<div class="col align-self-center">
+			
+			<p class="text-uppercase font-weight-bold">
+				<span class="catlist">
+				{% for category in page.categories %}
+					<a class="text-info" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep"></span>
+				{% endfor %}
+				</span>
+			</p>
+			<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
+			<div class="d-flex align-items-center">
+				<small>
+					<span class="text-muted d-block mt-1">{{ page.date | date: '%d %b, %Y' }} · {% include meta-read-time.html %}</span>
+				</small>
+			</div>
+				
+		</div>
+	</div>
+</div>
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+		<div class="col-md-12 col-lg-6">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			{{ content }}                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				{% for tag in page.tags %}
+				  <a class="btn btn-secondary btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+				{% endfor %}
+				</span>
+			</div>
+            
+		</div>
+        
+	</div>
+</div>

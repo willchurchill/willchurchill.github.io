@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+	<!-- Content -->
+	{% assign author = site.authors[page.author] %}
+	<div class="container-fluid">
+		<div class="row fiction-header-image" style="background-image:url('{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}')">
+			<div class="container-fluid wc-one-col align-self-center">
+				<div class="col text-center bg-light fiction-header-text">
+					<p class="text-uppercase font-weight-bold">
+						<a class="text-warning" href="{{site.baseurl}}/fiction/">Fiction</a><span class="sep"></span>
+					</p>
+					<h1 class="py-2">{{ page.title }}</h1>
+					<span class="text-muted">{{ page.date | date: '%d %b, %Y' }} · {% include meta-read-time.html %}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid wc-one-col">
+		<div class="row py-4">
+			{{ content }}
+		</div>            
+				
+		<!-- Tags -->
+		<div class="mb-4">
+			<span class="taglist">
+				{% for tag in page.tags %}
+					<a class="btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+				{% endfor %}
+			</span>
+		</div>
+        
+	</div>

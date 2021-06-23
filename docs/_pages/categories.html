@@ -1,0 +1,29 @@
+---
+title: "Categories"
+layout: default
+permalink: "/categories.html"
+---
+
+<div class="container-fluid wc-two-col wc-nav-spacing">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Categories</h1>
+      {% for category in site.categories %}
+        <h2 class="anchor-header" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h2>
+        {% assign pages_list = category[1] %}
+          {% for post in pages_list %}
+            {% if post.title != null %}
+              {% if group == null or group == post.group %}
+                {% include content-card-categories.html %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+      {% endfor %}
+    </div>
+    <div class="col-md-4">
+      {% include sidebar-featured.html %}    
+    </div>
+  </div>
+</div> 
