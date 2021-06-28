@@ -46,7 +46,9 @@ I've also put a column for my thoughts on each pairing. I do genuinely want to c
 
 So, long-story short. this is a place I'll track any Googling I end up doing, and in the meantime I'm seeing what (if any) SEO implications there are to this.
 
-The "Order" column, by the way, is just because I've lifted it from a spreadsheet that I had, where I was sorting by dates to see if there was any relevance I could see in the date order, and I didn't want to lose the original order they were displayed. I ran into problems here because I could't get the 53AD date to display properly. If anyone reads this and has any thoughts, [hit me up on Twitter](https://twitter.com/willchurchill/status/1405184420328378379). ***EDIT: Thanks to a great suggestion on Twitter, on the main spreadsheet I've now separated out the day, month, and year into separate columns and then in a fourth column concatenated them into a YYYY-MM-DD format.***
+The "Order" column, by the way, is just because I've lifted it from a spreadsheet that I had, where I was sorting by dates to see if there was any relevance I could see in the date order, and I didn't want to lose the original order they were displayed. I ran into problems here because I could't get the 53AD date to display properly. If anyone reads this and has any thoughts, [hit me up on Twitter](https://twitter.com/willchurchill/status/1405184420328378379). 
+
+***EDIT: Thanks to a great suggestion on Twitter, on the main spreadsheet I've now separated out the day, month, and year into separate columns and then in a fourth column concatenated them into a YYYY-MM-DD format.***
 
 ## Other notes about the table
 Below are some semi-structured thoughts on what I've "found".
