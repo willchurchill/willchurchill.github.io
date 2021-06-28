@@ -47,18 +47,20 @@ If I want to post a new blog, these are the steps I have to take:
 2. I put it into a specific folder on my computer.
 3. I launch something called [Docker Desktop](https://www.docker.com/) which allows me to run Jekyll from my laptop.
 4. I compile the website, including the new Markdown file (this process is actually quite intensive, and can take minutes to complete).
-5. This creates the static pages ready for upload. Using a FTP client (I opt for FileZilla), I upload the static site to my web server.
+5. This creates the static pages ready for upload. Using a FTP client (I opt for FileZilla), I upload the static site to my web server.  
 *Average time between writing the post and it being readable on the internet: 10 minutes.*
 
 By contrast, to post something on my old WordPress website, I needed to do the following:
 1. Login to WordPress
 2. Write the post
-3. Click Publish
+3. Click Publish. 
 *Average time between writing the post and it being readable on the internet: 10 seconds.*
 
 The long and short of it is that this type of website is not for everyone. That said, what I’ve described is not the only way for you to have a flat-file website. There are other CMS options that give you a good middle ground between WordPress style functionality, and the static-site benefits. [Grav](https://getgrav.org/), is a great example.
 
-It’s also important to note that my personal site is nothing more than a series of text-based pages. If you’re looking for more interactive content, perhaps something that requires a ‘back and forth’ between you and your users, then static sites might not be for you.
+It’s also important to note that my personal site is nothing more than a series of text-based pages. If you’re looking for more interactive content, perhaps something that requires a ‘back and forth’ between you and your users, then static sites might not be for you.  
+
+***EDIT (22/06/2021): Since originally writing this post, I've changed the workflow for my post writing. This site is now hosted on GitHub Pages, which means all I have to do is write the post and then commit the change to my repository. GitHub handles the rest. It's still at slightly more protracted process than publishing in WordPress, but nowhere near as demanding as when I first started.***
 
 ## Was it worth it?
 For me, yes. The exercise was about learning a new way of doing something, and I found that interesting. 
