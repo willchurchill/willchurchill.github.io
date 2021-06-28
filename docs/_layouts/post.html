@@ -24,9 +24,16 @@ layout: default
             <!-- Article -->
             {{ content }} 
         </div>
-        <div class="row">
+        <div class="row-fluid">
+            {% if page.socialsharelink %}
+                <hr>
+                <i><strong>Have any thoughts on this post? Let me know about them on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
+            {% endif %}
+        </div>
+        <div class="row-fluid">
             <!-- Tags -->
             <div class="mb-4">
+                <hr>
                 <span class="taglist">
                 {% for tag in page.tags %}
                 <a class="btn btn-secondary btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>

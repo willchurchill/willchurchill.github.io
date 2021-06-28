@@ -29,6 +29,14 @@ layout: default
 			<div class="letter-signature"></div>
 			<div class="col-12 letter-signoff">Will Churchill</div>
 		</div>
+		<div class="row">
+			<div class="col letter-content">
+				{% if page.socialsharelink %}
+					<hr>
+					<i><strong>Want to respond to this letter? You can find me on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
+				{% endif %}	
+			</div>
+		</div>
 	</div>
 	
 	<div class="row letter-otherbox">

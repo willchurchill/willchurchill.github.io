@@ -5,6 +5,7 @@ date: 2020-05-28T16:30:00+00:00
 image: https://willchurchill.co.uk/assets/images/posts/yaml-post-header.PNG
 categories: ['technology']
 tags: ['blogging','markdown','technology','jekyll','wordpress','medium']
+socialsharelink: ['Twitter','https://twitter.com/willchurchill/status/1266054546410942472']
 ---
 I go through a lot of different platforms for various web-based things. I like learning new things.
 
