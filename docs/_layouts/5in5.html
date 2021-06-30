@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+    <!-- Content -->
+    {% assign author = site.authors[page.author] %}
+    <div class="container-fluid wc-one-col wc-nav-spacing">
+        <div class="row wc-post-header">
+            <div class="col-sm-12 col-md-5 wc-post-image" style="background-image:url('{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}');"></div>
+            <div class="col align-self-center wc-post-header-text">
+                <span class="text-muted">
+                    Musings > 5 in 5
+                </span>
+                <h1 class="py-2"><strong>{{ page.title }}</strong></h1>
+                <span class="text-muted">{{ page.date | date: '%d %b, %Y' }} · {% include meta-read-time.html %}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wc-one-col">
+        <div class="row-fluid">                
+            <!-- Article -->
+            {{ content }} 
+        </div>
+        <div class="row-fluid">
+            {% if page.socialsharelink %}
+                <hr>
+                <i><strong>Have any thoughts on this post? Let me know about them on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
+            {% endif %}
+        </div>
+        <div class="row-fluid">
+            <!-- Tags -->
+            <div class="mb-4">
+                <hr>
+                <span class="taglist">
+                {% for tag in page.tags %}
+                <a class="btn btn-secondary btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+                {% endfor %}
+                </span>
+            </div>
+        </div>
+    </div>

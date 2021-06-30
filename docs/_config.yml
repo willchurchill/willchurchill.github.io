@@ -59,12 +59,6 @@ plugins:
 # Collections
 collections:
   
-  fiveinfiveitems:
-    output: true 
-  fiveinfives: 
-    output: true  
-    permalink: /5in5s/:path/
-  
   external:
     output: true
 
@@ -102,17 +96,6 @@ defaults:
       path: "_pages"
     values:
       layout: page
-
-  # all 5in5s
-  - scope:
-      path: "_fiveinfives"
-    values:
-      layout: fiveinfives
-      content-type: fiveinfives
-      image: https://willchurchill.co.uk/assets/images/posts/5-in-5.png
-      all-content: true
-      blog: true
-      news: true
   
   # all portfolio
   - scope:
