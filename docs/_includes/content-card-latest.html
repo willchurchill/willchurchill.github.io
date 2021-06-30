@@ -13,7 +13,7 @@
 		<div class="text-muted font-italic">
 			{% if post.content-type=="external" %}
 				{{ post.date | date: '%b %d, %Y' }} | 
-				via <a class="text-capitalize text-muted anchor-link" href="{{ post.externalsite[1] }}">{{ post.externalsite[0] }}</a>
+				via <strong><a class="text-capitalize text-muted anchor-link" href="{{ post.externalsite[1] }}">{{ post.externalsite[0] }}</a></strong>
 			{% elsif post.content-type=="fiction" %}
 				{{ post.date | date: '%b %d, %Y' }} | <strong>Fiction</strong>
 			{% elsif post.content-type=="letter" %}

@@ -113,15 +113,6 @@ defaults:
       all-content: true
       blog: true
       news: true
-
-  # all external
-  - scope:
-      path: "_external"
-    values:
-      layout: post
-      content-type: external
-      all-content: true
-      blog: true
   
   # all portfolio
   - scope:

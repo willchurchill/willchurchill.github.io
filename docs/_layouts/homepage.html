@@ -79,8 +79,8 @@ layout: default
 			</div>
 		</div>
 		<div class="row">
-			{% assign external = site.external | sort: 'date' | reverse %}
-			{% for post in external limit:5 %}
+			{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
+			{% for post in external limit:6 %}
 				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
 			{% endfor %}
 		</div>
