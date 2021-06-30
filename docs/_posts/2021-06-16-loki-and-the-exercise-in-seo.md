@@ -11,7 +11,7 @@ tags: ['technology','seo','mcu']
 
 There are two things you need to know about this post. The first, is that I'm a nerd. The second, is that this website is almost entirely self-serving as an exercise. This post is perhaps the most self-serving on the site.
 
-The aim of this post is to satisfy my curiosity on something regarding SEO. Some background: this morning the latest episode of Marvel's Loki dropped on Disney+. At the end of the show there where a series of dates, times, and locations displayed onscreen that were very pertinent to the plot. There are a lot of them, and they are relatively obscure. Naturally, as a nerd (and a big Marvel nerd, at that) I wanted to jot them all down and lose some hours this evening frantically Googling them to see what they might be about.
+The aim of this post is to satisfy my curiosity on something regarding SEO. Some background: this morning the latest episode of Marvel's Loki dropped on Disney+. At the end of the show there where a series of dates, times, and locations displayed on-screen that were very pertinent to the plot. There are a lot of them, and they are relatively obscure. Naturally, as a nerd (and a big Marvel nerd, at that) I wanted to jot them all down and lose some hours this evening frantically Googling them to see what they might be about.
 
 Because the dates are so varied, and yet specific, it made me wonder as to how many sites would list them all out and draw traffic to them. So, I thought, why not test that? I'm not trying to be a big draw for Marvel fans, but I am curious as to whether this will draw any "unusual" traffic.
 
@@ -33,7 +33,7 @@ I've also put a column for my thoughts on each pairing. I do genuinely want to c
 | 7     | 46432678=042 | 10/03/1390 | Rome, Italy        |                                                                                       |
 | 8     | 46492982=140 | 08/13/1984 | Sakaar, Tayo       | why specify the star system? Time flows differently on Sakaar. Highest Event number.                                                                                     |
 | 9     | 46412321=091 | 02/02/1808 | Barichara, (Col)   | why is Columbia shortened? Just for space?                                                                                      |
-| 10    | 46409821=590 | 07/14/1708 | Porvoo, Finland    | Porvoo Cathedral destoryed by a fire this year by Russian forces                                                                                      |
+| 10    | 46409821=590 | 07/14/1708 | Porvoo, Finland    | Porvoo Cathedral destroyed by a fire this year by Russian forces                                                                                      |
 | 11    | 46492810=808 | 12/27/1382 | Ego                | First time Ego planted a seed on a planet??                                                                                      |
 | 12    | 46454356=077 | 10/13/1982 | Titan              | Is Thanos involved?                                                                                      |
 | 13    | 46423454=432 | 09/21/1947 | New York, USA      |                                                                                       |
@@ -46,7 +46,7 @@ I've also put a column for my thoughts on each pairing. I do genuinely want to c
 
 So, long-story short. this is a place I'll track any Googling I end up doing, and in the meantime I'm seeing what (if any) SEO implications there are to this.
 
-The "Order" column, by the way, is just because I've lifted it from a spreadsheet that I had, where I was sorting by dates to see if there was any relevance I could see in the date order, and I didn't want to lose the original order they were displayed. I ran into problems here because I could't get the 53AD date to display properly. If anyone reads this and has any thoughts, [hit me up on Twitter](https://twitter.com/willchurchill/status/1405184420328378379). 
+The "Order" column, by the way, is just because I've lifted it from a spreadsheet that I had, where I was sorting by dates to see if there was any relevance I could see in the date order, and I didn't want to lose the original order they were displayed. I ran into problems here because I couldn't get the 53AD date to display properly. If anyone reads this and has any thoughts, [hit me up on Twitter](https://twitter.com/willchurchill/status/1405184420328378379). 
 
 ***EDIT: Thanks to a great suggestion on Twitter, on the main spreadsheet I've now separated out the day, month, and year into separate columns and then in a fourth column concatenated them into a YYYY-MM-DD format.***
 

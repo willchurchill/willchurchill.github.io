@@ -23,7 +23,7 @@ That is where it gets interesting. You see, for a rational, functioning human be
 
 So I compromise — I sit in bed and try to do work. But it’s terrible work. I’ve spent an entire week writing two documents, and it’s some of the worst work I’ve ever done. Luckily though, that realisation was enough to convince me to take a break and get some proper rest.
 
-Ha, just kidding. It made the whole thing worse. The worse my work got, the harder I took it, the worse my mood got, the more I forced myself to work, the worse my work got, the harder I took it, the worse my mood got… _ad nauseum_. Literally.
+Ha, just kidding. It made the whole thing worse. The worse my work got, the harder I took it, the worse my mood got, the more I forced myself to work, the worse my work got, the harder I took it, the worse my mood got… _ad nauseam_. Literally.
 
 #### Pouring fuel on the&nbsp;fire
 

@@ -15,7 +15,7 @@ You see, while I am incredibly proud of what the three of us have achieved (to s
 
 > I should be over the moon. Why am I not?
 
-The above quote is actually something I wrote in a personal blog around 10 years ago. In that week, I had been awarded a black belt in a martial art I’d been practicing for years, and had also completed a 55 mile challenge trek across Dartmoor in under 32 hours — something for which I’d been training for months. Each was incredibly important to me, and to have achieved them both in the space of a few days was incredible. Yet I distinctly remember waking up the next morning feeling decidedly less euphoric than I assumed I would.
+The above quote is actually something I wrote in a personal blog around 10 years ago. In that week, I had been awarded a black belt in a martial art I’d been practising for years, and had also completed a 55 mile challenge trek across Dartmoor in under 32 hours — something for which I’d been training for months. Each was incredibly important to me, and to have achieved them both in the space of a few days was incredible. Yet I distinctly remember waking up the next morning feeling decidedly less euphoric than I assumed I would.
 
 I’m not sure why that line sticks out in my head, verbatim, after so long. But I was forcibly reminded of it over the last few days. Don’t get me wrong. I’m thrilled – I really really am. The event went well and – more importantly – the feedback we got from everyone involved was overwhelmingly positive. I’m proud of that weekend as a result of the hard work than went into it, and neither am I saying that I’ve constantly felt empty since the event ended — not at all.
 
@@ -33,6 +33,6 @@ But I have a finite amount of time and energy, and putting my all into something
 
 Yet at the same time, I don’t know how else to function. The irony is that there’s a part of me that’s scared about taking my eye off the ball — even if only for a little bit, for the longer term benefit of my health (and by proxy the business). Success and that feeling of a job well done is a drug — one that I need larger and larger doses of to maintain my normal function.
 
-The same logical analysis that convinces my that my depression is an inextricable part of me, is the same thought process that goes into deciding that I probably should be working harder than I do. I exist in a sort of Schrodinger’s cat-style situation where at all times I know that I need to work harder, and I also know that I need to take my foot off the accelerator a little. The two are mutually exclusive, and both can’t be true. I _know_ that.
+The same logical analysis that convinces my that my depression is an inextricable part of me, is the same thought process that goes into deciding that I probably should be working harder than I do. I exist in a sort of Schrödinger's cat-style situation where at all times I know that I need to work harder, and I also know that I need to take my foot off the accelerator a little. The two are mutually exclusive, and both can’t be true. I _know_ that.
 
 It’s just that I also know they both are.

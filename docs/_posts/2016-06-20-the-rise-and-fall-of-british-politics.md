@@ -6,7 +6,7 @@ image: https://willchurchill.co.uk/assets/images/posts/downing-street-sign.jpg
 categories: ['politics']
 tags: ['politics','labour','elections']
 ---
-I've long been critical of the Labour party for providing a weak opposition force to the Conservatives much slicker machine. But actually, if I were to ignore the little voice in my head calling for the public humiliation of Corbyn and his reckless endangerment of our economy through his unforgivable inertness during the referedum campaigning, I have a bigger problem.
+I've long been critical of the Labour party for providing a weak opposition force to the Conservatives much slicker machine. But actually, if I were to ignore the little voice in my head calling for the public humiliation of Corbyn and his reckless endangerment of our economy through his unforgivable inertness during the referendum campaigning, I have a bigger problem.
 
 Some people are saying that the coup could spell the end of the Labour party as we know it - that factions could split off and form their own parties. There are calls that the party needs to regroup and realign. We're in danger of the biggest political meltdown in generations.
 
@@ -14,13 +14,13 @@ Good. Politics is broken.
 
 Except, it isn't. I don't think Politics hasn't become a bigger or smaller thing in our lives - it's just that our understand of it has evolved. Yet our political system hasn't. It's not that politics is broken, I don't think; it's that the disconnect between the 'way things are done' and the way people understand politics has never been greater.
 
-There's a part of me that wants Labour to break up in to separate parties - New New Labour and the Socailist Labour Party - I don't care what you call them. Sure, it would be a blow at first. But it would do one incredibly important thing. It would stop this ridiculous level of political infighting.
+There's a part of me that wants Labour to break up in to separate parties - New New Labour and the Socialist Labour Party - I don't care what you call them. Sure, it would be a blow at first. But it would do one incredibly important thing. It would stop this ridiculous level of political infighting.
 
 Because of the way we run the country - with MPs put forward by somewhat arbitrary constituencies and our country's leader elected through a First Past The Post system - we have a Parliament where the natural equilibrium is a two party state. That worked perfectly well when there were only two parties, and a finite list of things that we gave a shit about.
 
 We give a shit about a whole lot of things now, and there's an entire roster of things that we don't yet give a shit about but we really need to soon.
 
-You know what I find interesting about British politics? Whenever there's something super important to research or opine upon, Westminster appoints a cross-party committee to debate and deliberate and then provide a recommendation. In addition to this, our politcal backstop is the House of Lords, which is (broadly speaking) a proportional representation of parties and industrial sectors.
+You know what I find interesting about British politics? Whenever there's something super important to research or opine upon, Westminster appoints a cross-party committee to debate and deliberate and then provide a recommendation. In addition to this, our political backstop is the House of Lords, which is (broadly speaking) a proportional representation of parties and industrial sectors.
 
 Why do we accept nothing else than proportional representation in these instances, and yet are content with the 'day to day' running of our country in the hands of a party that statistically speaking only ever gets 30% of the popular vote?
 

@@ -26,7 +26,7 @@ Take hashtagging, for example, a convention started by Twitter. For a hashtag in
 
   1. I’d have to take out the spaces or the hashtag would just be “#Will”.
   2. I’d have to lose the exclamation mark, which would leave me with “#Willishavinggrammaticalproblems”.
-  3. The thing is though, to keep good twitter form, I’d want to make that as short as possible. I would certainly have to turn “Will is” into “Will’s”, which brings up the whole issue of removing the apostrophe denoting the abreviation, but that would only save me one measly character. So I’d probably reword it to something like “#Willsgotgrammarissues” — much more conducive to a format that limits one to 140 characters.
+  3. The thing is though, to keep good twitter form, I’d want to make that as short as possible. I would certainly have to turn “Will is” into “Will’s”, which brings up the whole issue of removing the apostrophe denoting the abbreviation, but that would only save me one measly character. So I’d probably reword it to something like “#Willsgotgrammarissues” — much more conducive to a format that limits one to 140 characters.
   4. Also, nobody puts capital letters in a hashtag, so it would probably end up as “#willsgotgrammarissues”.
 
 Here lies the interesting part (you can debate amongst yourselves how loosely that term was used): I have no issue doing that. I have no issue with it, despite the fact that my name is a proper noun, that I haven’t announced the fact that I’ve truncated a word, or that I don’t ‘got’ grammar issues, I ‘have’ grammar problems.
