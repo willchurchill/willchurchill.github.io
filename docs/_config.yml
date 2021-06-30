@@ -58,9 +58,6 @@ plugins:
 
 # Collections
 collections:
-  
-  external:
-    output: true
 
   interesting:
     output: true
