@@ -1,0 +1,19 @@
+---
+title: "Musings"
+layout: default
+permalink: "/other-thoughts/"
+---
+
+<div class="container-fluid wc-two-col wc-nav-spacing">
+    <div class="row">
+        <div class="col">
+            <h1>OTHER THOUGHTS IN OTHER PLACES</h1>
+        </div>
+    </div>
+    <div class="row">
+        {% assign thoughts = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
+        {% for post in thoughts %}
+            <div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
+        {% endfor %}
+    </div>
+</div>

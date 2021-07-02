@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5{
         padding-top:50px;
     }
 
+    .wc-footer-padding{
+        padding:20px 20px;
+    }
+
     .wc-one-col{
         padding-left:50px;
         padding-right:50px;
@@ -68,6 +72,10 @@ h1, h2, h3, h4, h5{
 
     .wc-post-header-text{
         padding-left:50px
+    }
+
+    .wc-footer-padding{
+        padding:30px 20px;
     }
 }
 

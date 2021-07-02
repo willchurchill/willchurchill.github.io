@@ -29,9 +29,10 @@ layout: default
 		</div>
 		<div class="row">
 			{% assign interesting = site.interesting | sort: 'date' | reverse %}
-			{% for post in interesting limit:6 %}
+			{% for post in interesting limit:8 %}
 				<div class="col-sm-12 col-md-4">{% include content-card-interesting.html %}</div>
 			{% endfor %}
+			<div class="col-6 wc-see-more-spacing"><a href="interesting/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
 		</div>
 	</div>
 
@@ -80,9 +81,10 @@ layout: default
 		</div>
 		<div class="row">
 			{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
-			{% for post in external limit:6 %}
+			{% for post in external limit:3 %}
 				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
 			{% endfor %}
+			<div class="col-6 wc-see-more-spacing"><a href="other-thoughts/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
 		</div>
 	</div>
 
