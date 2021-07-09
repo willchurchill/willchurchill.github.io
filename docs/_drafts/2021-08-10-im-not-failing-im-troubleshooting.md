@@ -7,23 +7,10 @@ categories: ['mental health']
 tags: ['','','']
 ---
 
-## Galloway split the vote on the left
+I like problem solving. I'm a web developer - it comes with the territory. If you write a piece of code and it runs correctly the first time, you've still done something wrong. It's actually one of the reasons I like coding; there is nothing more logical than a computer. Everything is a puzzle to be solved, and I enjoy the process of deconstructing the problem to find out the solution. My dad's an engineer, and both my parents are multi-lingual, so I'm not short of pedigree when it comes to figuring stuff out.
 
-He may well have done. But let's have a look at the maths.
+And yet at the same time, I'm distinctly uncomfortable with making mistakes. I hate it. Aside from the fact that it doesn't play nice with my underlying issues with self-worth, getting stuff wrong is just so inefficient. I mean if I get something wrong I have to do it all again. Who has time for that?
 
-- Labour (Leadbeater): 13,296 (35.3%)
-- Conservative (Stephenson): 12,973 (34.4%)
-- Workers Party (Galloway): 8,264 (21.9%)
-- *Others: 3,126 (8.4%)*
+In therapy this week, I recounted a time when I was 8 years old. I was living and being schooled in France, and I remember getting an exercise wrong. I cried, distraught at the idea that I hadn't done the right thing. It was a translation issue - the problem itself was simple enough, but I had misunderstood what the question was. Once I understood the question, I got the right answer.
 
-Lets assume the only change is that Galloway doesn't run, and that everyone who voted for him would have voted for Leadbeater instead. The total number of voters remains at 37,659, and the split now looks like this:
-
-- Labour (Leadbeater): 21,560 (57.3%)
-- Conservative (Stephenson): 12,973 (34.4%)
-- *Others: 3,126 (8.4%)*
-
-So a much more comfortable win for Labour it would seem. In fact, percentage wise, this would have been the biggest victory for Labour in this seat since Tracy Brabin claimed 86% of the vote in the 2016 by-election. For multiple reasons of course, the 2016 by-election is not a good yardstick for the seat. 
-
-In any case, the 2021 by-election saw a lower than average turnout. With the exception of the 2016 by-election, the seat has always drawn a turnout of over 60%, often closer to 70%. This compared to this year's 47%.
-
-## Labour still won
+So I've been thinking a bit about the inconsistency in those two positions. One the one hand being so averse to failure, and yet on the other 
