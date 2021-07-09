@@ -1,10 +1,10 @@
 ---
-title: "Fracturing in Politics"
-description: The Batley and Spen by-election was more than just a warning shot to Labour. Why aren't they taking it more seriously?
-date: 2021-07-10T10:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/posts/fracture-politics.jpg
-categories: ['politics']
-tags: ['voting','fptp','elections']
+title: "I'm not failing, I'm troubleshooting"
+description: I've been doing some thinking around why I see some things as problems, and others as puzzles.
+date: 2021-08-10T10:00:00+00:00
+image: https://willchurchill.co.uk/assets/images/posts/puzzle.jpg
+categories: ['mental health']
+tags: ['','','']
 ---
 
 ## Galloway split the vote on the left
