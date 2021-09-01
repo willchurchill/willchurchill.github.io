@@ -50,11 +50,12 @@ h1, h2, h3, h4, h5{
     .wc-mobile-latest-banner{
         background-color: #37474F;
         color: #fff;
-        margin:0.5em 0;
+        text-align: center;
     }
 
     .text-link-banner{
         color:#fff;
+        font-weight: bold;
     }
 }
 @media (min-width:992px) {
