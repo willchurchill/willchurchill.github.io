@@ -2,6 +2,16 @@
 layout: default
 ---
 
+	<!-- Mobile Banner -->
+	<div class="container-fluid wc-mobile-view">
+		<div class="row">
+			<div class="col wc-one-col">
+				{% for post in site.posts limit:1 %}
+					{% include content-banner-latest.html %}
+				{% endfor %} 
+			</div>
+		</div>		
+	</div>
 	<!-- Content -->
 	<div class="container-fluid wc-two-col wc-nav-spacing">
 		<div class="row">

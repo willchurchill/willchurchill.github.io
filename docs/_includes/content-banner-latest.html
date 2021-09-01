@@ -1,0 +1,5 @@
+{% if post.content-type=="external" %}
+	<span class="wc-latest-banner">LATEST: </span><a href="{{post.posturl}}" target="_blank" class="text-link"><h4>{{post.title}}</h4></a>
+{% else %}
+	<span class="wc-latest-banner">LATEST: </span><a href="{{site.baseurl}}{{post.url}}" class="text-link"><h4>{{post.title}}</h4></a>
+{% endif %}

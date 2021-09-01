@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5{
     .wc-footer-padding{
         padding:30px 20px;
     }
+
+    .wc-mobile-view{
+        display: none;
+    }
 }
 
 .nav-link{
