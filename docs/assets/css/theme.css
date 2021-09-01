@@ -46,6 +46,13 @@ h1, h2, h3, h4, h5{
     .wc-see-more-spacing{
         margin:20px 0;
     }
+
+    .wc-mobile-latest-banner{
+        background-color: #37474F;
+        color: #fff;
+        margin-top: 1.5em;
+        margin-bottom: 0;
+    }
 }
 @media (min-width:992px) {
 
@@ -78,7 +85,7 @@ h1, h2, h3, h4, h5{
         padding:30px 20px;
     }
 
-    .wc-mobile-view{
+    .wc-mobile-latest-banner{
         display: none;
     }
 }
