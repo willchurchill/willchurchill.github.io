@@ -1,5 +1,5 @@
 {% if post.content-type=="external" %}
-	<a href="{{post.posturl}}" target="_blank" class="text-link text-link"><h4 class="text-link-banner">Latest: {{post.title}}</h4></a>
+	<a href="{{post.posturl}}" target="_blank" class="text-link text-link"><h4 class="text-link-banner">Latest: <u>{{post.title}}</u></h4></a>
 {% else %}
-	<a href="{{site.baseurl}}{{post.url}}" class="text-link text-link"><h4 class="text-link-banner">Latest: {{post.title}}</h4></a>
+	<a href="{{site.baseurl}}{{post.url}}" class="text-link text-link"><h4 class="text-link-banner">Latest: <u>{{post.title}}</u></h4></a>
 {% endif %}
