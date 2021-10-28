@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5{
 .font-montserrat{
     font-family: 'Montserrat' !important;
 }
-.navbar{ background-color: #fffaed; }
+.navbar{ background-color: #fffaed !important; }
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
