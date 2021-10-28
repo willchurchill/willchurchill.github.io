@@ -234,7 +234,7 @@ pullquote{
 @media (max-width:992px){
     .letter-page-background{
         margin-top:-10px;
-        background-color: #faedc8;
+        background-color: #fffaed;
         padding:5vh 5vw;
     }
     .letter-container{
@@ -245,7 +245,7 @@ pullquote{
 @media (min-width:992px){
     .letter-page-background{
         margin-top:-20px;
-        background-color: #faedc8;
+        background-color: #fffaed;
         padding:10vh 10vw;
     }
     .letter-container{
