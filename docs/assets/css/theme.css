@@ -130,7 +130,7 @@ body {
 	overflow-x:hidden;
 	padding-top:69.75px;
 	font-family: 'Montserrat';
-    background-color: #ece5c5;
+    background-color: #fffaed;
 }
 .homefirstpage .main-loop .main-loop-card:nth-child(-n+5) {
 	display:none !important;
