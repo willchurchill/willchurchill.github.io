@@ -4,12 +4,12 @@ layout: default
 permalink: "musings/technology/"
 ---
 
-<div class="container-fluid wc-two-col wc-nav-spacing">
+<div class="container">
     <div class="row">
-        <div class="col">
-            <h1>TECHNOLOGY
+        <div class="twelve columns">
+            <h1><span class="wrc-parenthesis">Technology Musings</span>
                 <small>
-                    <span class="wc-h1-small-initial"><a href="{{base.url}}/musings/" class="text-muted">See all Musings</a></span>
+                    <span class=""><a href="{{base.url}}/musings/" class="text-muted">See all Musings</a></span>
                 </small>
             </h1>
         </div>
@@ -17,7 +17,7 @@ permalink: "musings/technology/"
     <div class="row">
         {% assign musings = site.posts | where: "content-type","musing" | where: "categories","technology" | sort: 'date' | reverse %}
         {% for post in musings %}
-            <div class="col-6">{% include content-card-dedicated.html %}</div>
+            <div class="twelve columns">{% include content-card-specific.html %}</div>
         {% endfor %}
     </div>
 </div>

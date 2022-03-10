@@ -2,7 +2,7 @@
 title: On what I’ve learned from conferences
 date: 2015-05-14T15:30:00+00:00
 image: https://willchurchill.co.uk/assets/images/posts/conference.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['conference','enterprise','entrepreneurship']
 ---
 As part of both my interests and my job, I spend a lot of my time going to social enterprise conferences. As a result, I thought it would be a good time to share a handful of the more common lessons I hear again and again.

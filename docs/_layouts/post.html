@@ -4,41 +4,39 @@ layout: default
 
     <!-- Content -->
     {% assign author = site.authors[page.author] %}
-    <div class="container-fluid wc-one-col wc-nav-spacing">
-        <div class="row wc-post-header">
-            <div class="col-sm-12 col-md-5 wc-post-image" style="background-image:url('{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}');"></div>
-            <div class="col align-self-center wc-post-header-text">
-                <span class="text-muted">
-                    {% for category in page.categories %}
-                        <span class="text-capitalize">{{ page.content-type }}s</span> > <span class="text-capitalize">{{ category }}</span>
-                    {% endfor %}
-                </span>
-                <h1 class="py-2"><strong>{{ page.title }}</strong></h1>
-                <span class="text-muted">{{ page.date | date: '%d %b, %Y' }} · {% include meta-read-time.html %}</span>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid wc-one-col">
-        <div class="row-fluid">                
-            <!-- Article -->
-            {{ content }} 
-        </div>
-        <div class="row-fluid">
-            {% if page.socialsharelink %}
-                <hr>
-                <i><strong>Have any thoughts on this post? Let me know about them on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
-            {% endif %}
-        </div>
-        <div class="row-fluid">
-            <!-- Tags -->
-            <div class="mb-4">
-                <hr>
-                <span class="taglist">
-                {% for tag in page.tags %}
-                <a class="btn btn-secondary btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
-                {% endfor %}
-                </span>
+    <div class="container">
+        <div class="row wrc-pb5">
+            <div class="twelve columns">
+                <p class="wrc-bold">
+                    {% for category in page.categories %}
+                        <span class="">{{ page.content-type }}s</span> > <span class="">{{ category }}</span>
+                    {% endfor %}
+                </p>
+                <h1>{{ page.title }}</h1>
+                <p class="wrc-bold">
+                    {{ page.date | date: '%d %b, %Y' }} | {% include meta-read-time.html %}
+                </p>
             </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">{{ content }}</div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                {% if page.socialsharelink %}
+                    <hr>
+                    <i><strong>Have any thoughts on this post? Let me know about them on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <p class="wrc-bold">
+                tags: 
+                {% for tag in page.tags %}
+                    <a class="" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+                {% endfor %}
+            </p>
         </div>
     </div>

@@ -4,40 +4,20 @@ layout: default
 permalink: "university/"
 ---
 
-<div class="container-fluid wc-two-col wc-nav-spacing">
-    
-    <div class="row mt-3">
-    
-        <div class="col-md-8 main-loop">
-            
-            <h1>University Essays</h1>
-
-            <div class="ccwc-foreward">
-                <p>
-                    Below I've collected some of the essays I wrote whilst studying for a BSc Degree in Politics and Economics, from the University of Southampton.
-                </p>
-                <p>
-                    I graduated from university in 2012, and acheived a 2:1 (Second Class Honours, Upper Division). These essays have been uploaded as they were submitted, including any errors in spelling, grammar, and judgement. Any edits made are purely stylistic, and have been done so to allow them to be displayed in the context of a website, rather than a document.
-                </p>
-                <p>
-                    As with any piece of writing, these documents represent my thinking on a subject at the point in time that it was written. They do not necessarily represent my thoughts on the same subject now.
-                </p>
-            </div>
-
-            {% assign sorted-posts = site.university | sort: 'date' | reverse %}
-            
-            {% for post in sorted-posts %}
-            
-                {% include card-post-university.html %}
-            
-            {% endfor %}
-
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1 class="wrc-parenthesis">University</h1>
         </div>
-        
-        <div class="col-md-4">
-            {% include sidebar-featured.html %}    
-        </div>
-        
+        <p>Below I've collected some of the essays I wrote whilst studying for a BSc Degree in Politics and Economics, from the University of Southampton.</p>
+        <p>I graduated from university in 2012, and acheived a 2:1 (Second Class Honours, Upper Division). These essays have been uploaded as they were submitted, including any errors in spelling, grammar, and judgement. Any edits made are purely stylistic, and have been done so to allow them to be displayed in the context of a website, rather than a document.</p>
+        <p>As with any piece of writing, these documents represent my thinking on a subject at the point in time that it was written. They do not necessarily represent my thoughts on the same subject now.</p>
+        <hr>
     </div>
-
+    <div class="row">
+        {% assign sorted-posts = site.university | sort: 'date' | reverse %}
+        {% for post in sorted-posts %}
+            <div class="twelve columns">{% include content-card-specific.html %}</div>
+        {% endfor %}
+    </div>
 </div>

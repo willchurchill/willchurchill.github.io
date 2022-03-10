@@ -2,26 +2,21 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div class="container-fluid letter-page-background">
-	<div class="letter-container">
-		<div class="row">
-			<div class="col letter-header">
-				<span class="letter-eyebrow">Submitted in partial fulfilment of a BSc Degree in Politics and Economics 2012, University of Southampton</span>
-				<h1>{{ page.title }}</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 letter-subject"></div>
-		</div>
-		<div class="row">
-			<div class="col letter-content">
-				<article class="article-post">                
-					{{ content }}                
-				</article>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col letter-date">Date: {{ page.date | date: '%-d %b, %Y' }}<br />Word count: {{ page.wordcount }}</div>
-		</div>
-	</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns" style="text-align:center;">
+            <p>Submitted in partial fulfillment of a BSc Degree in Politics and Economics 2012, University of Southampton</p>
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                {{ content }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns" style="text-align:right;">
+                Date: {{ page.date | date: '%-d %b, %Y' }}<br />Word count: {{ page.wordcount }}
+            </div>
+        </div>
+    </div>
 </div>

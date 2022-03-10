@@ -1,112 +1,69 @@
 ---
 layout: default
 ---
-	<div class="container-fluid wc-nav-spacing wc-mobile-latest-banner">
-		<div class="row">
-			<div class="col">
-				{% for post in site.posts limit:1 %}
-					{% include content-banner-latest.html %}
-				{% endfor %} 
-			</div>
-		</div>
-	</div>
-	<!-- Content -->
-	<div class="container-fluid wc-two-col wc-nav-spacing">
-		<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<h1>ABOUT</h1>
-				<p>Whether through mentoring, programme delivery, or web development, I'm passionate about driving effective change, and enabling others to realise their potential.</p>
-				<p>I do this with a number of hats - as the co-founder and "Code" half of <a href="https://copyandcode.co.uk">Copy & Code</a>, as the Technology Lead at <a href="https://esmeefairbairn.org.uk">Esmee Fairbairn</a>, and as a Trustee for <a href="https://the-sse.org">the School for Social Entrepreneurs</a>.</p>
-				<p>This website is a place for me to opine, muse, and occasionally rant, about anything that's occupying my mind. I have particular interests in Politics, Technology, and Mental Health - so most of my stuff is about that. I don't pretend to be an expert in any of these things, and I certainly don't claim to speak for anyone but myself. I am, at the end of the day, just a guy with an opinion and an internet connection.</p>
-				<p>Feel free to have a poke about. You can also find me on <a href="https://twitter.com/willchurchill">Twitter</a> and, inexplicably, <a href="https://www.instagram.com/willchurchill89/">Instagram</a>.</p>
-			</div>
-			<div class="col">
-				<h1>LATEST</h1>
-				{% for post in site.posts limit:4 %}
-					{% include content-card-latest.html %}
-				{% endfor %}
-			</div>
-		</div>
-	</div>
 
-	<div class="container-fluid wc-two-col">
-		<div class="row">
-			<div class="col">
-				<h1>WHAT CURRENTLY HAS MY INTEREST</h1>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="eight columns">
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-about')">About</h1>
+				<div class="row" id="homepage-about">
+					{% capture include_about %}{% include about.md %}{% endcapture %}
+					{{ include_about | markdownify }}
+				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-musings')">Musings</h1>
+				<div class="row" id="homepage-musings">
+					{% assign musings = site.posts | where: "content-type","musing" | sort: 'date' | reverse %}
+					{% for post in musings %}
+						<div class="twelve columns">{% include content-card-main.html %}</div>
+					{% endfor %}
+				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-wchmi')">What Currently Has My Interest</h1>
+				<div class="row" id="homepage-wchmi">
+					{% assign interesting = site.interesting | sort: 'date' | reverse %}
+					{% for post in interesting limit:5 %}
+						<div class="twelve columns">{% include content-card-interesting.html %}</div>
+					{% endfor %}
+				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-letters')">Letters</h1>
+				<div class="row" id="homepage-letters">
+					{% assign letters = site.posts | where: "content-type","letter" | sort: 'date' | reverse %}
+					{% for post in letters %}
+						<div class="twelve columns">{% include content-card-main.html %}</div>
+					{% endfor %}
+				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-otiop')">Other Thoughts in Other Places</h1>
+				<div class="row" id="homepage-otiop">
+					{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
+					{% for post in external %}
+						<div class="twelve columns">{% include content-card-main.html %}</div>
+					{% endfor %}
+				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-fiction')">Fiction</h1>
+				<div class="row" id="homepage-fiction">
+					{% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
+					{% for post in fiction %}
+						<div class="twelve columns">{% include content-card-main.html %}</div>
+					{% endfor %}
+				</div>
 		</div>
-		<div class="row">
-			{% assign interesting = site.interesting | sort: 'date' | reverse %}
-			{% for post in interesting limit:8 %}
-				<div class="col-sm-12 col-md-4">{% include content-card-interesting.html %}</div>
-			{% endfor %}
-			<div class="col-6 wc-see-more-spacing"><a href="interesting/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
+		<div class="four columns">
+			<h1 class="wrc-parenthesis">Latest</h1>
+				{% include sidebar-latest.html %}
+			<h1 class="wrc-parenthesis">Featured</h1>
+				{% include sidebar-featured.html %}
 		</div>
 	</div>
+</div>
 
-	<div class="container-fluid wc-two-col">
-		<div class="row">
-			<div class="col">
-				<h1>MUSINGS
-					<small class="d-none d-sm-inline">
-						<span class="wc-h1-small-initial"><a href="musings/general/" class="text-muted">General</a></span>
-						<span class="wc-h1-small"><a href="musings/politics/" class="text-muted">Politics</a></span>
-						<span class="wc-h1-small"><a href="musings/mental-health/" class="text-muted">Mental Health</a></span>
-						<span class="wc-h1-small"><a href="musings/technology/" class="text-muted">Technology</a></span>
-					</small>
-				</h1>
-			</div>
-		</div>
-		<div class="row">
-			{% assign musings = site.posts | where: "content-type","musing" | sort: 'date' | reverse %}
-			{% for post in musings limit:5 %}
-				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
-			{% endfor %}
-			<div class="col-6 wc-see-more-spacing"><a href="musings/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
-		</div>
-	</div>
+<script>
+	$("#homepage-about").fadeOut();
+	$("#homepage-musings").fadeOut();
+	$("#homepage-wchmi").fadeOut();
+	$("#homepage-letters").fadeOut();
+	$("#homepage-otiop").fadeOut();
+	$("#homepage-fiction").fadeOut();
 
-	<div class="container-fluid wc-two-col">
-		<div class="row">
-			<div class="col">
-				<h1>LETTERS</h1>
-			</div>
-		</div>
-		<div class="row">
-			{% assign letters = site.posts | where: "content-type","letter" | sort: 'date' | reverse %}
-			{% for post in letters limit:5 %}
-				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
-			{% endfor %}
-			<div class="col-6 wc-see-more-spacing"><a href="letters/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
-		</div>
-	</div>
-
-	<div class="container-fluid wc-two-col">
-		<div class="row">
-			<div class="col">
-				<h1>OTHER THOUGHTS IN OTHER PLACES</h1>
-			</div>
-		</div>
-		<div class="row">
-			{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
-			{% for post in external limit:3 %}
-				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
-			{% endfor %}
-			<div class="col-6 wc-see-more-spacing"><a href="other-thoughts/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
-		</div>
-	</div>
-
-	<div class="container-fluid wc-two-col">
-		<div class="row">
-			<div class="col">
-				<h1>FICTION</h1>
-			</div>
-		</div>
-		<div class="row">
-			{% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
-			{% for post in fiction limit:5 %}
-				<div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
-			{% endfor %}
-			<div class="col-6 wc-see-more-spacing"><a href="fiction/" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a></div>
-		</div>
-	</div>
+	function wrcSlideToggle(elem){
+		$("#"+elem).slideToggle();
+	}
+</script>

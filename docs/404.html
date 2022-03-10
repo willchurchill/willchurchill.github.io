@@ -1,29 +1,20 @@
 ---
-title: Page not found
 permalink: /404.html
 layout: default
 ---
 
 <div class="container">
-    
-  <div class="row mt-3">
-  
-      <div class="col-md-8 main-loop">
-          
-          <h2 class="font-weight-bold section-heading font-breeserif">404</h2>
-
-          <p><strong>Page not found!</strong></p>
-          <p>Not sure what you were looking for, but can we interest you in something from our 'Featured' collection?</p>
-          
-          <img src="https://willchurchill.co.uk/assets/images/generic/compass.jpg" />
-          <br />
-
-      </div>
-      
-      <div class="col-md-4">
-          {% include sidebar-featured.html %}
-      </div>
-      
+  <div class="row">
+    <div class="eight columns">
+      <h1 class="wrc-parenthesis">404</h1>
+      <p class="wrc-bold">Page not found :(</p>
+      <p>The requested page could not be found.<br />Maybe try one of the featured posts?</p>
+    </div>
+    <div class="four columns">
+      <h1 class="wrc-parenthesis">Latest</h1>
+				{% include sidebar-latest.html %}
+			<h1 class="wrc-parenthesis">Featured</h1>
+				{% include sidebar-featured.html %}
+    </div>
   </div>
-
 </div>

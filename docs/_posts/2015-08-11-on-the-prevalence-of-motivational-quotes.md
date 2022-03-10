@@ -2,7 +2,7 @@
 title: On the prevalence of motivational quotes
 date: 2015-08-11T09:16:41+00:00
 image: https://willchurchill.co.uk/assets/images/posts/fake-quote.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['business','quotes']
 ---
 > _“It does not matter how slowly you go, as long as you do not stop.”_

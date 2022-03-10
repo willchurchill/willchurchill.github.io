@@ -2,7 +2,7 @@
 title: Some thoughts on The Apprentice
 date: 2015-11-12T14:53:44+00:00
 image: https://willchurchill.co.uk/assets/images/posts/the-apprentice.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['business','entrepreneurship','tv shows']
 ---
 This year is the first in the 12 years of the BBC’s _The Apprentice_ that I haven’t been watching. I’m not boycotting it or anything, but I have to say that I’m not missing it at all.

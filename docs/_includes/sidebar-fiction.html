@@ -1,27 +1,6 @@
-<div class="" style="top:100px;">
-    <h2 class="font-weight-bold section-heading font-breeserif">Fiction...</h2>
+<div class="">
     {% assign sorted-posts = site.fiction %}
-    {% for fiction in sorted-posts %}                
-        <div class="container mb-5 justify-content-between">
-            <div class="row">
-                <div class="col-md-3 col-sm-12 pr-2">
-                    {% if fiction.image %}
-                        <a href="{{site.baseurl}}{{fiction.url}}">
-                            <img class="w-100" src="{% if fiction.image contains "://" %}{{ fiction.image }}{% else %}{{ site.baseurl }}/{{ fiction.image }}{% endif %}" alt="{{ fiction.title }}">
-                        </a>
-                    {% endif %}
-                </div>
-                <div class="col">
-                    <h4 class="mb-1 pt-2 pt-md-0 h5 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{fiction.url}}">{{ fiction.title }}</a>
-                    </h4>
-                    <small class="text-muted">
-                        {% if fiction.tagline %}
-                            {{ fiction.tagline }}
-                        {% endif %}
-                    </small>
-                </div>
-            </div>
-        </div>
-    {% endfor %}   
-</div> 
+    {% for fiction in sorted-posts | limit: 5 %}                
+        {% include content-card-main.html %}   
+    {% endfor %}
+</div>

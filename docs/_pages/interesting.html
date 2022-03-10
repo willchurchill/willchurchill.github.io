@@ -4,44 +4,20 @@ layout: default
 permalink: "/interesting/"
 ---
 
-<div class="container-fluid wc-two-col wc-nav-spacing">
+<div class="container">
     <div class="row">
-        <div class="col">
-            <h1>THINGS I'VE FOUND INTERESTING</h1>
+        <div class="twelve columns">
+            <h1 class="wrc-parenthesis">Things I've found interesting</h1>
         </div>
     </div>
     <div class="row">
         {% assign interesting = site.interesting | sort: 'date' | reverse %}
         {% for post in interesting %}
-            <div class="col-12">
-                <div class="row wc-content-card-spacing">
-                    <div class="col" onclick="clicklink('{{post.posturl}}')">
-                        <table>
-                            <tr>
-                                <td>
-                                    {% if post.interest-type=="news" %}
-                                        <i class="far fa-newspaper"></i>
-                                    {% elsif post.interest-type=="report" %}
-                                        <i class="fas fa-chart-line"></i>
-                                    {% elsif post.interest-type=="blog" %}
-                                        <i class="fas fa-pen-square"></i>
-                                    {% elsif post.interest-type=="letter" %}
-                                        <i class="fas fa-envelope-open-text"></i>
-                                    {% else %}
-                                        <i class="fas fa-align-left"></i>
-                                    {% endif %}
-                                </td>
-                                <td>
-                                    <a href="{{post.posturl}}" target="_blank" class="text-link"><h4>{{post.title}}</h4></a>
-                                    <div class="">{{ post.description }}</div>
-                                    <div class="text-muted font-italic">
-                                        a {{ post.interest-type }} by <a class="text-capitalize text-muted anchor-link" href="{{ post.authordetails[1] }}"><strong>{{ post.authordetails[0] }}</strong></a> | {{ post.date | date: '%b %d, %Y' }}
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+            <div class="twelve columns">
+                <a href="{{post.posturl}}" target="_blank" class="whitelink wrc-bold">
+                    {{ post.title }} ({{ post.date | date: '%b %d, %Y' }})
+                </a>
+                <p>{{ post.description }}</p>
             </div>
         {% endfor %}
     </div>
