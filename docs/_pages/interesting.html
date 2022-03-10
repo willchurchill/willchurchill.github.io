@@ -15,6 +15,15 @@ permalink: "/interesting/"
         {% for post in interesting %}
             <div class="twelve columns">
                 <a href="{{post.posturl}}" target="_blank" class="whitelink wrc-bold">
+                    {% if post.interest-type=="report" %} 
+                        [rep] 
+                    {% elsif post.interest-type=="blog" %} 
+                        [blg] 
+                    {% elsif post.interest-type=="letter" %} 
+                        [let] 
+                    {% else %} 
+                        [int] 
+                    {% endif %}
                     {{ post.title }} ({{ post.date | date: '%b %d, %Y' }})
                 </a>
                 <p>{{ post.description }}</p>
