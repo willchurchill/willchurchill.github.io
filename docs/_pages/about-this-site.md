@@ -7,7 +7,7 @@ permalink: "/about-this-site/"
 ## Technology
 This site is a flat-file blog, hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://jekyllrb.com/). If you're interested in why I've built it this way, you can read a post about it [here]({% post_url 2020-05-28-i-blog-in-markdown-now %}).
 
-I redesigned the layout in March 2022 to be almost purely text-based. It was mostly an exercise to see if I could get a perfect score on GTMetrix, and whether I could get the source code for the site onto a floppy disk. I don't have any floppy disks, or the means to put the website on one if I did, but the site itself weighs in at 1.35Mb, so I'm counting it.
+I redesigned the layout in March 2022 to be almost purely text-based. It was mostly an exercise to see if I could get a perfect score on GTMetrix, and whether I could get the source code for the site onto a floppy disk. I don't have any floppy disks, or the means to put the website on one if I did, but the site itself weighs in at 1.35Mb, so I'm counting it. I used [Skeleton](http://getskeleton.com/) as the base for the CSS, and have pulled in the entire jQuery library to use exactly one feature.
 
 I write posts in Markdown, usually straight into Visual Studio Code (because that's how much of a nerd I am). From VSCode I can push the changes straight to my GitHub repository, and let the fine folks there handle the rest.
 
