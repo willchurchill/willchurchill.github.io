@@ -23,7 +23,7 @@ Markdown is a way of storing text-based information. Designed in 2004, it's a qu
 
 Markdown has little tricks and features that make it nice to write in. For one, it can be done from any editor (though there are Markdown specific editors available). Additionally, the lack of tags makes it quite a distraction-free experience.
 
-Markdown itself is great - in the same way that flour, yeast, and water are great. To make tasty tasty bread though, you need an oven. For this site, the oven come in the form of Jekyll. Jekyll takes Markdown files, combines them with template files made up of HTML, CSS, and other fun things, and spits out a static, flat-file website.
+Markdown itself is great - in the same way that flour, yeast, and water are great. To make tasty tasty bread though, you need an oven. For this site, the oven comes in the form of Jekyll. Jekyll takes Markdown files, combines them with template files made up of HTML, CSS, and other fun things, and spits out a static, flat-file website.
 
 There are plenty of ways of getting to a static website. For me, putting my content into Markdown gives me the opportunity to start playing around with other technologies and Content Management Systems, without worrying about compatibility. I settled on Jekyll as a first foray into static sites, because it’s one of the most popular platforms, and allows for a lot of customisation.
 
