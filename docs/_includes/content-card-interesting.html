@@ -1,22 +1,14 @@
-<div class="row wc-content-card-spacing">
-	<div class="col-1" onclick="clicklink('{{post.posturl}}')">
-		{% if post.interest-type=="news" %}
-			<i class="far fa-newspaper"></i>
-		{% elsif post.interest-type=="report" %}
-			<i class="fas fa-chart-line"></i>
-		{% elsif post.interest-type=="blog" %}
-			<i class="fas fa-pen-square"></i>
-		{% elsif post.interest-type=="letter" %}
-			<i class="fas fa-envelope-open-text"></i>
-		{% else %}
-			<i class="fas fa-align-left"></i>
+<div class="wrc-pb1">
+	<a href="{{post.posturl}}" target="_blank" class="whitelink">
+		{% if post.interest-type=="report" %} 
+			[rep] 
+		{% elsif post.interest-type=="blog" %} 
+			[blg] 
+		{% elsif post.interest-type=="letter" %} 
+			[let] 
+		{% else %} 
+			[int] 
 		{% endif %}
-	</div>
-	<div class="col">
-		<a href="{{post.posturl}}" target="_blank" class="text-link"><h4>{{post.title}}</h4></a>
-		<div class="text-muted font-italic">
-			{{ post.date | date: '%b %d, %Y' }} | 
-			a {{ post.interest-type }} by <a class="text-capitalize text-muted anchor-link" href="{{ post.authordetails[1] }}"><strong>{{ post.authordetails[0] }}</strong></a>
-		</div>
-	</div>
+		{{post.authordetails[0]}} : {{post.title}} ( {{ post.date | date: '%b %d, %Y' }} )
+	</a>
 </div>

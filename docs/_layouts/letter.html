@@ -2,44 +2,32 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div class="container-fluid letter-page-background">
-	<div class="letter-container">
-		<div class="row">
-			<div class="col letter-header">
-				<span class="letter-eyebrow">From the keyboard of</span>
-				<h2>Will Churchill</h2>
-				<p><a href="https://willchurchill.co.uk">willchurchill.co.uk</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col letter-date">Date: {{ page.date | date: '%-d %b, %Y' }}</div>
-		</div>
-		<div class="row">
-			<div class="col-12 letter-subject">FAO: {{ page.fao }}</div>
-			<div class="col-12 letter-subject">RE: {{ page.subject }}</div>
-		</div>
-		<div class="row">
-			<div class="col letter-content">
-				<article class="article-post">                
-					{{ content }}                
-				</article>
-			</div>
-		</div>
-		<div class="row">
-			<div class="letter-signature"></div>
-			<div class="col-12 letter-signoff">Will Churchill</div>
-		</div>
-		<div class="row">
-			<div class="col letter-content">
-				{% if page.socialsharelink %}
-					<hr>
-					<i><strong>Want to respond to this letter? You can find me on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
-				{% endif %}	
-			</div>
+
+<div class="container">
+	<div class="row wrc-pb5">
+	  <div class="twelve columns">
+		<div class="wrc-sitetitle wrc-italics" style="text-align:center;">from the keyboard of {{ site.name }}</div>
+		<div class="wrc-bold" style="text-align:right;">Date: {{ page.date | date: '%-d %b, %Y' }}</div>
+		<div class="wrc-bold">FAO: {{ page.fao }}</div>
+		<div class="wrc-bold">Subject: {{ page.subject }}</div>
+	  </div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			{{ content }}
 		</div>
 	</div>
-	
-	<div class="row letter-otherbox">
-		<div class="col"><a href="{{site.baseurl}}/letters.html">View all letters</a></div>
+	<div class="row">
+		<div class="twelve columns letter-signature">{{ site.name }}</div>
+		<div class="twelve columns">{{ site.name }}</div>
+	</div>
+
+	<div class="row">
+		<div class="twelve columns">
+			{% if page.socialsharelink %}
+				<hr>
+				<i><strong>Want to respond to this letter? You can find me on <a href="{{ page.socialsharelink[1] }}">{{ page.socialsharelink[0] }}</a>.</strong></i>
+			{% endif %}
+		</div>
 	</div>
 </div>

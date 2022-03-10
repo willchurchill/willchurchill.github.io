@@ -2,7 +2,7 @@
 title: On The X-Files and stereotypes
 date: 2016-03-07T23:39:55+00:00
 image: https://willchurchill.co.uk/assets/images/posts/x-files.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['media','racism','tv shows','x files']
 ---
 Cult sci-fi shows, no matter how good they are, rarely elicit blog posts from me. _The X-Flies_ episode <em>[Babylon](http://www.imdb.com/title/tt4549946/?ref_=ttep_ep5)</em> though, which aired tonight in the UK, is different. It focussed on events after a terror attack in Texas, and it was decidedly controversial.

@@ -4,16 +4,21 @@ layout: default
 permalink: "/other-thoughts/"
 ---
 
-<div class="container-fluid wc-two-col wc-nav-spacing">
+<div class="container">
     <div class="row">
-        <div class="col">
-            <h1>OTHER THOUGHTS IN OTHER PLACES</h1>
+        <div class="twelve columns">
+            <h1 class="wrc-parenthesis">Other thoughts in other places</h1>
         </div>
     </div>
     <div class="row">
         {% assign thoughts = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
         {% for post in thoughts %}
-            <div class="col-sm-12 col-md-6">{% include content-card-main.html %}</div>
+            <div class="twelve columns">
+                <a href="{{post.posturl}}" target="_blank" class="whitelink wrc-bold">
+                    {{ post.title }} ({{ post.date | date: '%b %d, %Y' }})
+                </a>
+                <p>{{ post.description }}</p>
+            </div>
         {% endfor %}
     </div>
 </div>

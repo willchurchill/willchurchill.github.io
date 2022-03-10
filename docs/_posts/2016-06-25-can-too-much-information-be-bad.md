@@ -2,7 +2,7 @@
 title: Can too much information be bad?
 date: 2016-06-25T13:18:16+00:00
 image: https://willchurchill.co.uk/assets/images/posts/shredded-paper.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['brexit','decision making','information overload','life']
 ---
 I wrote a draft for a post last Mental Health Awareness Week about an issue I have with ‘listicle’ style articles on mental health; “_12 things not to say to someone with depression_”, “_Feeling sad, read these 5 foolproof methods to brighten your day_” — that sort of thing. The overall point was that I’m a little wary of those because, while it’s obviously and measurably a good thing that more people have more access to more information about mental health, giving people only half the story can sometimes cause more harm than good. A little knowledge is a dangerous thing, and all that.

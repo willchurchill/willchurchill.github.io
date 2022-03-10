@@ -3,7 +3,7 @@ title: On the Enactus UK National Competition
 description: Enactus is a global student society that empowers young people to create social action initiatives all over the world. Every year, the UK holds its National competition. This is what I thought.
 date: 2013-04-23T18:19:24+00:00
 image: https://willchurchill.co.uk/assets/images/posts/enactus-trophies.jpg
-categories: ['general musings']
+categories: ['general']
 tags: ['enactus','entrepreneurship','social enterprise','students']
 ---
 So while I was going to write a post straight after the event, I knew that it would be full of gushing praise, riddled with emotion, and barely comprehensible. So instead, I’ve opted to wait a week, and then reflect on what an incredible few days I had at the Enactus UK National Competition.

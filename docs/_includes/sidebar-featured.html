@@ -1,13 +1,6 @@
-<div class="wc-sticky-top">
-    <h1>Featured Content</h1>
+<div class="">
     {% assign featured-posts = site.tags.featured %}
-    {% for post in featured-posts | limit: 5 %}                
-        {% include content-card-text-only.html %}   
+    {% for post in featured-posts | limit: 3 %}                
+        {% include content-card-main.html %}   
     {% endfor %}
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col">
-            <a href="tags.html#featured" class="text-align-center text-muted"><i class="fas fa-angle-double-right"></i> See more...</a>
-        </div>
-    </div>
 </div> 
