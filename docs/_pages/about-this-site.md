@@ -36,5 +36,7 @@ In the latest redesign of this site (March 2022) I opted for an almost purely te
 
 **[tec] - Technology** - posts about technology - more often than not something I've either just bought (I went through a real phase posting about [Chromebooks]({{site.url}}/tags.html#chromebook) in my youth), or something I'm coveting.
 
+**[web] - Website** - a website that I find interesting. This is usually because I find the style or the functionality of the website itself intriguing.
+
 <hr>
 *Since writing this, I realised that there were some images embedded in old posts that I didn't really want to do without, so I readded them. This took the size of the site up to 1.72Mb, which I'm very annoyed about. If you zip it though, it comes to 988Kb. It's not the win I wanted, but for now I'll take it.
