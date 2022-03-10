@@ -126,7 +126,7 @@ body {
   font-weight: 400;
   font-family: 'Red Hat Mono', monospace;
   color: #fff;
-  background-color: #474747;}
+  background-color: #35595B;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -173,7 +173,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #e0ddd5; }
 a:hover {
   color: #0FA0CE; }
 
