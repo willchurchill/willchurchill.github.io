@@ -6,40 +6,40 @@ layout: default
 	<div class="row">
 		<div class="eight columns">
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-about')">About</h1>
-				<div class="row" id="homepage-about">
+				<div class="row" id="homepage-about" style="display:none;">
 					{% capture include_about %}{% include about.md %}{% endcapture %}
 					{{ include_about | markdownify }}
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-musings')">Musings</h1>
-				<div class="row" id="homepage-musings">
+				<div class="row" id="homepage-musings" style="display:none;">
 					{% assign musings = site.posts | where: "content-type","musing" | sort: 'date' | reverse %}
 					{% for post in musings %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-wchmi')">What Currently Has My Interest</h1>
-				<div class="row" id="homepage-wchmi">
+				<div class="row" id="homepage-wchmi" style="display:none;">
 					{% assign interesting = site.interesting | sort: 'date' | reverse %}
 					{% for post in interesting limit:5 %}
 						<div class="twelve columns">{% include content-card-interesting.html %}</div>
 					{% endfor %}
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-letters')">Letters</h1>
-				<div class="row" id="homepage-letters">
+				<div class="row" id="homepage-letters" style="display:none;">
 					{% assign letters = site.posts | where: "content-type","letter" | sort: 'date' | reverse %}
 					{% for post in letters %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-otiop')">Other Thoughts in Other Places</h1>
-				<div class="row" id="homepage-otiop">
+				<div class="row" id="homepage-otiop" style="display:none;">
 					{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
 					{% for post in external %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-fiction')">Fiction</h1>
-				<div class="row" id="homepage-fiction">
+				<div class="row" id="homepage-fiction" style="display:none;">
 					{% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
 					{% for post in fiction %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
@@ -56,13 +56,6 @@ layout: default
 </div>
 
 <script>
-	$("#homepage-about").fadeOut();
-	$("#homepage-musings").fadeOut();
-	$("#homepage-wchmi").fadeOut();
-	$("#homepage-letters").fadeOut();
-	$("#homepage-otiop").fadeOut();
-	$("#homepage-fiction").fadeOut();
-
 	function wrcSlideToggle(elem){
 		$("#"+elem).slideToggle();
 	}
