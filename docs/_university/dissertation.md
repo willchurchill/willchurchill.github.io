@@ -147,7 +147,7 @@ An internet survey was distributed consisting of 3 sections: Section 1 determine
 
 The survey found that, of those who had studied Politics at any point in their academic career 100% of them voted in the general election. This compares with only 66% turnout for those who had never studied Politics. With regards to the AV referendum, turnout amongst Politics students was 75%, and 50% for those who had not studied Politics.
 
-![Figure - Pie Charts showing voter turnout for the 2010 General Elections for Non-Politics students (left) and Politics students (right)](https://willchurchill.co.uk/assets/images/university/dis-fig1-2010-election-turnout-politics-nonpolitics.jpg)
+![Figure - Pie Charts showing voter turnout for the 2010 General Elections for Non-Politics students (left) and Politics students (right)]({{site.url}}/assets/images/university/dis-fig1-2010-election-turnout-politics-nonpolitics.jpg)
 <br><small>Figure - Pie Charts showing voter turnout for the 2010 General Elections for Non-Politics students (left) and Politics students (right)</small>
 
 While there were several limitations to the pilot study (for instance, the low number of respondents; only 20 people completed the survey), the results show a clear correlation between studying Politics, and political participation, with regards to voting. More importantly, the results highlighted the potential for a further investigation.
@@ -199,7 +199,7 @@ This system allows each of the &#39;scores&#39; for each of the categories to be
 
 A total of 120 participants answered the survey, with a fairly even split between Politics and non-Politics respondents (56 and 64 respectively). There was a slightly higher proportion of males who took the survey compared with females (54% to 46% respectively), and over half of the respondents (68%) claimed to have a moderate to high interest in Politics, scoring themselves a 4 or 5 on Question 3.1 (&quot;On a scale of 1 to 5 (1 being &#39;Not at all interested&#39; and 5 being &#39;Very interested&#39;) how interested in Politics/political affairs would you consider yourself?&quot;).
 
-![Figure - Pie Chart showing the Male to Female split between questionnaire respondents](https://willchurchill.co.uk/assets/images/university/dis-fig2-gender-split.png)
+![Figure - Pie Chart showing the Male to Female split between questionnaire respondents]({{site.url}}/assets/images/university/dis-fig2-gender-split.png)
 <br><small>Figure - Pie Chart showing the Male to Female split between questionnaire respondents</small>
 
 10 of the respondents (making up 8% of the sample) scored themselves &#39;2&#39; or lower on Question 3.1, indicating that they have a limited interest in Politics. Of those, 70% still voted in the General Elections, and all but 3 of these participants plan to vote in the next General Elections (one participant of the 10 stated they were still unsure). These findings concur with those of the Hansard _Audit of Political Engagement 8_, which found that a large portion of people &quot;absolutely certain&quot; to vote in the next General Election felt they did not know a lot about Parliament (2010, p.5). While the percentages differ in the findings of this paper, this dissertation&#39;s sample population is predominantly made up of university students, who tend to be better educated. Because of this, and the fact that _Audit 8_ questions a cross-section of the whole population, it should be expected that the latter would have a higher percentage of respondents with a lower knowledge of political affairs.
@@ -222,7 +222,7 @@ The answers were then scored. In the case of Section 4 correct answers were give
 
 **Findings**
 
-![Figure - Graph of Participants&#39; Interest in Politics against their Political Knowledge Scores](https://willchurchill.co.uk/assets/images/university/dis-fig3-interest-vs-knowledge.png)
+![Figure - Graph of Participants&#39; Interest in Politics against their Political Knowledge Scores]({{site.url}}/assets/images/university/dis-fig3-interest-vs-knowledge.png)
 <br><small>Figure - Graph of Participants&#39; Interest in Politics against their Political Knowledge Scores</small>
 
 
@@ -242,7 +242,7 @@ These two percentages were then placed in a graph. The findings are written belo
 
 **Findings**
 
-![Figure - Graph showing Participants&#39; Political Knowledge against their Political Involvement Score](https://willchurchill.co.uk/assets/images/university/dis-fig4-knowledge-vs-involvement.png)
+![Figure - Graph showing Participants&#39; Political Knowledge against their Political Involvement Score]({{site.url}}/assets/images/university/dis-fig4-knowledge-vs-involvement.png)
 <br><small>Figure - Graph showing Participants&#39; Political Knowledge against their Political Involvement Score</small>
 
 
@@ -262,7 +262,7 @@ This allowed comparison with the &#39;Knowledge Score&#39; to assess correlation
 
 Figure 5 shows the results of the analysis. The trend line appears to show a positive correlation between the amount of exposure to news outlets, and the level of political knowledge possessed by an individual. Calculating Spearman&#39;s Rank Correlation Co-efficient gives a value of 0.390 – again proving a positive correlation.
 
-![Figure - Graph showing Participants&#39; Political Knowledge against their exposure to News outlets](https://willchurchill.co.uk/assets/images/university/dis-fig5-knowledge-vs-news-exposure.png)
+![Figure - Graph showing Participants&#39; Political Knowledge against their exposure to News outlets]({{site.url}}/assets/images/university/dis-fig5-knowledge-vs-news-exposure.png)
 <br><small>Figure - Graph showing Participants&#39; Political Knowledge against their exposure to News outlets</small>
 
 Once again, correlation is the only thing that can be inferred; while it might be true that watching more news makes an individual more knowledgeable in political affairs (thus pointing towards news channels as a source of education), and even if that suggestion appears to have an &#39;internal logic&#39;, it could be equally possible from the data that the reverse is true – being more knowledgeable makes one more likely to watch the news. Admittedly, the former explanation seems more logical. Chapter 5 examines these correlations in more detail, and attempts to determine a causal relationship.
@@ -271,7 +271,7 @@ Once again, correlation is the only thing that can be inferred; while it might b
 
 All of the scores above take the sample group as an entirety. In this section the differences between those who have formally studied Politics at any level (i.e. as a degree subject, or during their A-levels), and those who have not, is assessed in greater detail through the evaluation of their various &#39;scores&#39;.
 
-![Figure - Graph showing questionnaire scores for Politics students against non-Politics students](https://willchurchill.co.uk/assets/images/university/dis-fig6-questionnaire-scores-politics-nonpolitics.png)
+![Figure - Graph showing questionnaire scores for Politics students against non-Politics students]({{site.url}}/assets/images/university/dis-fig6-questionnaire-scores-politics-nonpolitics.png)
 <br><small>Figure - Graph showing questionnaire scores for Politics students against non-Politics students</small>
 
 Figure 6 shows the mean scores for both Politics and non-Politics students. [^8]
@@ -286,7 +286,7 @@ The fact that participation appears to be higher with politics students, but tha
 
 The participation score. This score is determined by summing the scores from Section 3 of the questionnaire (excluding Q3.1). This includes questions on past voting attendance, as well as expected future voting attendance, and also includes whether the respondent is a member of a political party. Figure 7 shows a breakdown of part of the participation scores.
 
-![Figure - Graph showing breakdown of &#39;Participation Score&#39; for Politics and non-Politics Students](https://willchurchill.co.uk/assets/images/university/dis-fig7-participation-politics-nonpolitics.png)
+![Figure - Graph showing breakdown of &#39;Participation Score&#39; for Politics and non-Politics Students]({{site.url}}/assets/images/university/dis-fig7-participation-politics-nonpolitics.png)
 <br><small>Figure - Graph showing breakdown of &#39;Participation Score&#39; for Politics and non-Politics Students</small>
 
 Here there is a very marked difference in some cases, and some of the results were unexpected. For instance, within the sample population a higher percentage of non-Politics students voted in the 2010 General Election than Politics students (68% of the former, compared with only 53 % of the latter). In addition, a higher percentage of non-Politics students are members of Political Parties – however in this case the difference is so slight that it is barely of significance. Given that the survey was primarily distributed to current students, it was possible that some respondents were not old enough to have voted in their last General Election. However, Questions 3.5c and 3.5d aimed to mitigate this possibility. [^9]
@@ -407,7 +407,7 @@ The &#39;Knowledge Score&#39; used throughout is based on the answers to 3 quest
 
 Nevertheless, the questionnaire appears to have suffered from self-selection bias. Of those who completed the questionnaire, over half (68%) gave a score of 4 or 5 to Question 3.1, showing an interest in Politics. Only 9% of respondents, by contrast, admitted to not being interested, scoring themselves a 1 or 2 on the question. 23% of respondents scored themselves a 3, showing them to be fairly neutral.
 
-![Figure - Graph showing responses to Q3.1](https://willchurchill.co.uk/assets/images/university/dis-fig8-q3-responses.png)
+![Figure - Graph showing responses to Q3.1]({{site.url}}/assets/images/university/dis-fig8-q3-responses.png)
 <br><small>Figure - Graph showing responses to Q3.1</small>
 
 This could be mitigated in further research by conducting the questionnaire in a different setting. Rather than having it solely online and waiting for people to complete it, further questionnaires could be handed out in hard-copy form or through a direct email to selected individuals (in line with the Quota sampling method). The reason this was not chosen for this dissertation was that response rates for email surveys have been shown to be less than desirable, with one study by Couper _et al_ showing a non-response rate to an email questionnaire at 52.9% (2001, p.241). However, with a large enough population, this low response rate can be overcome.

@@ -43,7 +43,7 @@ I read a lot of blogs by people suffering with mental health problems though, a 
 
 Another reason why I’ve decided to break my silence is that it frustrates me how poor the level of dialogue is in general for mental health — and specifically for men’s mental health. This isn’t to say that I have ever helped with this. My attitude to talking about mental health is a little like the NIMBY attitude to nuclear power or to wind-farms — sure, they seem like a good idea in general, so long as it is Not In My Back Yard. Wider discourse in the media and online and whatever PSHE lessons in schools are called these days, sure. But I’ve always been nervous about talking about it from a personal point of view.
 
-![xkcd comic](https://willchurchill.co.uk/assets/images/posts/xkcd-pastime.jpg)
+![xkcd comic](https://imgs.xkcd.com/comics/pastime.png)
 <br><small><a href="https://xkcd.com/1222/" target="_blank" rel="noopener noreferrer"><em>xkcd — Pastime</em></a></small>
 
 In short, I’m a hypocrite. Actually it’s worse than that — I’m a coward. I think all of these things, yet I still don’t want to be the one to do them. I refuse to talk properly to my doctor, seek a therapist, or approach any of my friends about how I feel. I know all the steps I need to take — all the steps I would tell anyone else in my position to take — to get me to a better place. I just refuse to do them. I hide behind a social media presence that flits between conferences, geeky tweets, and rants to companies that piss me off, rather than using it as a platform to speak about something important that — actually — is a subject on which I have a lot of things to say.
@@ -78,7 +78,7 @@ I’ll talk about how I cope with down-phases in a minute, but when it comes to 
 
 Even in good phases, my sleep is pretty screwed. The bright side is that I’ve managed to start a business that means being awake at 3am is beneficial to the events I run. The downside is literally all of the other things associated with insomnia.
 
-![Awkward Yeti comic](https://willchurchill.co.uk/assets/images/posts/the-awkward-yeti-impending-doom.jpg)
+![Awkward Yeti comic](https://theawkwardyeti.com/wp-content/uploads/2014/05/107_ImpendingDoom.png)
 <br><small><a href="http://theawkwardyeti.com/comic/impending-doom/" target="_blank" rel="noopener noreferrer"><em>The Awkward Yeti — Impending Doom</em></a></small>
 
 #### Guilt complex
@@ -126,7 +126,7 @@ The science is somewhat disputed, but I can vouch for a lack of sunshine correla
 
 If you can make it outside, the next step that many self-help sites will tell you is to do some exercise. Sure, endorphins are great, but my struggling to get out of bed doesn’t morph into me wanting to become Mo Farah just because I changed clothes and ate some fruit. Good news is that even a walk helps.<figure class="wp-block-image wp-caption">
 
-![Depression Comix](https://willchurchill.co.uk/assets/images/posts/depression-comix-trapped.jpg)
+![Depression Comix](https://i0.wp.com/www.depressioncomix.com/wp-content/uploads/2016/02/depcom.276.col_.400px.jpg?w=400&ssl=1)
 <br><small><a href="http://www.depressioncomix.com/posts/276/" target="_blank" rel="noopener noreferrer"><em>Depression Comix — Trapped</em></a></small>
 
 #### Medication
@@ -155,7 +155,7 @@ I’m not arrogant enough to suggest that my ramblings here — only some of
 
 Doesn’t it?<figure class="wp-block-image wp-caption">
 
-![xkcd comic](https://willchurchill.co.uk/assets/images/posts/xkcd-positive-attitude.jpg)
+![xkcd comic](https://imgs.xkcd.com/comics/positive_attitude.png)
 <br><small><a href="https://xkcd.com/828/" target="_blank" rel="noopener noreferrer"><em>xkcd — Positive Attitude</em></a></small>
 
 ---

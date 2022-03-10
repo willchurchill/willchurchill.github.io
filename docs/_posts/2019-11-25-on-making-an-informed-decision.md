@@ -20,7 +20,7 @@ Yes, we might live in an age where it's easier to be fed bad information. But th
 
 I don't think this is an excuse. I don't think that the fact that the Conservative party can straight up lie about the number of starter homes they have built is any reason for you as a person with an internet connection and a brain to not know that there is an actual answer to that question.
 
-![Quote from NAO's report on Starter Homes.](https://willchurchill.co.uk/assets/images/posts/starter-homes-screencap.jpg)
+![Quote from NAO's report on Starter Homes.]({{site.url}}/assets/images/posts/starter-homes-screencap.jpg)
 <br><small><em>Screen grab from the National Audit Office's [Investigation Into Starter Homes](https://www.nao.org.uk/wp-content/uploads/2019/11/Investigation-into-starter-homes-Summary.pdf)</em></small>
 
 Zero. The answer is zero of the 200,000 starter homes promised by the government in their 2015 manifesto have been delivered. And that is not something that I know because a left-wing voice box yelled it on Twitter. It's a fact I know because I saw it on [several](https://www.theguardian.com/society/2019/nov/05/tories-broke-pledge-on-starter-homes-in-2015-manifesto-report-says) [different](https://www.independent.co.uk/news/uk/home-news/starter-homes-housing-first-time-buyers-national-audit-office-report-a9185371.html) [sources](https://www.thisismoney.co.uk/money/mortgageshome/article-7650477/Ministers-failed-deliver-promised-new-starter-homes-says-watchdog.html), who themselves are reporting on information from the National Audit Office - which incidentally you can read for yourself [here](https://www.nao.org.uk/report/investigation-into-starter-homes/).

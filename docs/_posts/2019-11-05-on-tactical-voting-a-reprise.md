@@ -18,7 +18,7 @@ There are a number of reasons why, and for me they all revolve around the fact t
 
 It shouldn't be. A General Election - by definition - shouldn't be about a specific issue. It should be the electorate deciding who best represents their needs and wants over the next 5 years. To call something as large as a General Election for the sake of a single issue is madness. We actually already have a mechanism by which the government can **_refer_** to the public on a specific question. I forget what it's called at the moment...
 
-![Google search result for "referendum"](https://willchurchill.co.uk/assets/images/posts/image.png)
+![Google search result for "referendum"]({{site.url}}/assets/images/posts/image.png)
 
 But here we are. An election has been called with the express aim of breaking a Commons deadlock. So, for better or worse, it seems the only important issue at stake is what you want to do about Brexit. Broadly speaking, your options are to carry on with the current course of action - whatever that is. Alternatively, you can vote for a party that claim it will give you a say. 
 
@@ -26,7 +26,7 @@ But here we are. An election has been called with the express aim of breaking a 
 
 Because we don't have proportional representation, a political party in the UK can govern with a minority. We know this, because it's happening.
 
-![2017 Election Results for Filton and Bradley Stoke](https://willchurchill.co.uk/assets/images/posts/image-2.png)
+![2017 Election Results for Filton and Bradley Stoke]({{site.url}}/assets/images/posts/image-2.png)
 <br><small><em>2017 Election Results for Filton and Bradley Stoke. Source: [https://tactical.vote](https://tactical.vote)</em></small>
 
 Let's say that you want a People's Vote, and your next door neighbour thinks that Brexit Means Brexit. In your constituency last year, the Tories won, and Labour came second. For argument's sake, lets say the Conservatives took 50% of the vote and Labour came second with 42%. The Lib Dems came a gallant third, with 6%. (In case you're wondering, I haven't plucked these out of thin air - these are the actual numbers for my old constituency.)
@@ -45,7 +45,7 @@ What is unlikely to happen is that the Liberal Democrats win that seat. Sticking
 
 That's the point of tactical voting. If your aim as a hypothetical constituent in this based-on-real-life constituency is to dethrone the incumbent Conservative MP, then statistically your best bet is to vote for the Labour candidate, regardless of your personal political views.
 
-![2017 Election Results for Lewes](https://willchurchill.co.uk/assets/images/posts/image-3.png)
+![2017 Election Results for Lewes]({{site.url}}/assets/images/posts/image-3.png)
 <br><small><em>2017 Election Results for Lewes. Source: [https://tactical.vote](https://tactical.vote)</em></small>
 
 So all Lib Dem voters should go out any vote Labour? Well, no. Of course there are constituencies where the numbers are reversed. In the last General Election, the constituency of Lewes saw the Tories come away with 49% of the vote, and the Lib Dems 39%. Labour trailed in at 11%. In this scenario, if ousting the Tory incumbent is your goal, you're better off (again, statistically speaking) voting Lib Dem.

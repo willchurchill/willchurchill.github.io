@@ -18,7 +18,7 @@ I read an article this week decrying one University's decision to not recognise 
 
 It strikes me that we as a society are so caught up in the idea of competition. Whether through social media, or in conversation, we can't voice an opinion - most of the time - without fear of someone else deciding that we are against them. The whole world is a zero-sum game where to have one opinion is to detract from the validity of another.
 
-![Google Search graph of the word Opinion](https://willchurchill.co.uk/assets/images/posts/opinons-google-graph.png)
+![Google Search graph of the word Opinion]({{site.url}}/assets/images/posts/opinons-google-graph.png)
 <br><small>From a Google search of the definition of 'opinion'. The graph showing mentions, in particular, I find really interesting.</small>
 
 I wrote this post on Thursday morning - straight after I read the headline I mentioned. But I've been sitting on it since then worried that my wording would somehow come across that I support the anti-feminist connotations of IMD. Or even that I think the cause of feminism is ridiculous - or worse, dangerous.
