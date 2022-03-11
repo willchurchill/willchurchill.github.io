@@ -7,15 +7,14 @@
 * 12/29/2014
 */
 
-
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
 - Base Styles
 - Typography
 - Links
-- Buttons
-- Forms
+- Buttons (removed by wrc)
+- Forms (removed by wrc)
 - Lists
 - Code
 - Tables
@@ -24,7 +23,6 @@
 - Clearing
 - Media Queries
 */
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -109,9 +107,7 @@
 
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
-
 }
-
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -169,7 +165,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
-
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -203,7 +198,6 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 
-
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -219,7 +213,6 @@ pre > code {
   padding: 1rem 1.5rem;
   white-space: pre; }
 
-
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
@@ -233,7 +226,6 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
-
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -260,7 +252,6 @@ form {
 .wrc-pb5{padding-bottom: 5rem;}
 .wrc-sitetitle,.wrc-sitetitlemain{ padding:5rem 0; }
 
-
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
@@ -274,7 +265,6 @@ form {
 .u-pull-left {
   float: left; }
 
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
@@ -286,6 +276,15 @@ hr {
 img {
   max-width: 100%;
 }
+
+pullquote {
+  display:block;
+  font-style: italic;
+  font-weight: bold;
+  padding:40px;
+}
+pullquote::before{content:"---\A";}
+pullquote::after{content:"\A---";}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -307,7 +306,6 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
