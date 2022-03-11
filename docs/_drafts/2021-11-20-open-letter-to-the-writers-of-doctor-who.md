@@ -5,14 +5,14 @@ permalink: /letters/:title/
 image: https://willchurchill.co.uk/assets/images/generic/laptop-typewriter.jpg
 
 title: Open letter to Russell T Davies
-description: A few weeks ago I had what you might call a 'mental health episode'. Getting help for it has not been an easy journey...
+description: With another season of Doctor Who coming to an end, I have some nervous energy around the new series.
 fao: The writers of Doctor Who
-recipient: Matt Hancock
-subject: Mental Health Support
+recipient: Russell T Davies
+subject: The future of Doctor Who
 date: 2020-10-28T12:00:00+00:00
 
-categories: ['mental health']
-tags: ['mental health','depression','nhs','politics','healthcare','featured']
+categories: ['general']
+tags: ['general','doctor who','tv shows','media']
 
 socialsharelink: ['Twitter','https://twitter.com/willchurchill/status/1321761471089573889']
 ---
@@ -36,7 +36,7 @@ Of course, the companions are very important. Or at least they are supposed to b
 
 The delight of the show is in its ability to marry historically semi-accurate but fun episodes, like [the one with Shakespeare in it] with the more sci-fi flavours of the show [like the one with New New New New New... New York]. Then, every once in a while, you'll get an episode like The Girl in the Fireplace which manages to do both.
 
-Neither, while we're on the subject, should they have deus-ex-machinas at every turn. For me, nothing exemplifies this better than the evolution of the sonic screwdriver. This is a device that, for all intents and purposes, should just be a really good screwdriver. It opens things. I understand the requirement for it to also scan, and I'm onboard with that. But having it as a point-and-click miracle worker seems convinent to the point of pointlessness.
+Neither, while we're on the subject, should they have deus-ex-machinas at every turn. For me, nothing exemplifies this better than the evolution of the sonic screwdriver. This is a device that, for all intents and purposes, should just be a really good screwdriver. It opens things. I understand the requirement for it to also scan, and I'm onboard with that. But having it as a point-and-click miracle worker seems convenient to the point of pointlessness.
 
 As for who the next Doctor should be, I genuinely couldn't care less. It's not about them. They are the vehicle for the audience to experience the Who-niverse.
 
