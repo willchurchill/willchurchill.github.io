@@ -1,0 +1,1 @@
+Share this via: [Twitter](https://twitter.com/intent/tweet?url={{site.url|url_encode}}{{page.url|url_encode}}&text=Check+this+out+from+&#64;willchurchill), [Facebook](https://www.facebook.com/sharer.php?u={{site.url|url_encode}}{{page.url|url_encode}}), [LinkedIn](https://www.linkedin.com/shareArticle?url={{site.url|url_encode}}{{page.url|url_encode}}&source=Will-Churchill)

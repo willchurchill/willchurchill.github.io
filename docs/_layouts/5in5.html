@@ -41,5 +41,9 @@ layout: default
                     <a class="" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
                 {% endfor %}
             </p>
+            <p>
+                {% capture include_share %}{% include share.md %}{% endcapture %}
+                {{ include_share | markdownify }}
+            </p>
         </div>
     </div>
