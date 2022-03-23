@@ -41,3 +41,5 @@ In the latest redesign of this site (March 2022) I opted for an almost purely te
 
 <hr>
 *Since writing this, I realised that there were some images embedded in old posts that I didn't really want to do without, so I readded them. This took the size of the site up to 1.72Mb, which I'm very annoyed about. If you zip it though, it comes to 988Kb. It's not the win I wanted, but for now I'll take it.
+
+*Since writing _that_, I've added Technology Guides and additional images to the site. We're now at a little over 3Mb. You used to be able to get "extra-high density" floppy disks that gave you 2.88Mb of space, so maybe for now that will be my challenge.
