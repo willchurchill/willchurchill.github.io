@@ -10,7 +10,7 @@ I run a local Jekyll instance for when I want to tweak the layout, and push the 
 I have almost definitely redesigned this website more times than I've actually written any content for it. 
 
 ## Technology Guides
-When the Covid-19 pandemic hit, I started writing Technology Guides via Copy & Code - the web agency I co-founded with my wife [Ishita](htts://ishitaranjan.co.uk). Since then we have wound down the Copy & Code business, but I still try to put out content that I think people might find useful, completely free to access and use. These guides are based purely on my own research and understanding and are meant to be taken purely as such.
+When the Covid-19 pandemic hit, I started writing Technology Guides via Copy & Code - the web agency I co-founded with my wife [Ishita](htts://ishitaranjan.co.uk). I still try to put out content that I think people might find useful, completely free to access and use. These guides are based purely on my own research and understanding and are meant to be taken purely as such.
 
 The Guides use a different styling to the rest of the site, to separate them out from my musings. They all also include some text at the bottom encouraging sharing and donations to either me or - preferably - someone more deserving. This is done via a link, which is a randomly allocated outbound link to a charity or organisation, populated from a list that I add to periodically.
 
