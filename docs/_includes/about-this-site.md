@@ -1,11 +1,5 @@
----
-title: "About this site"
-layout: page
-permalink: "/about-this-site/"
----
-
-## Technology
-This site is a flat-file blog, hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://jekyllrb.com/). If you're interested in why I've built it this way, you can read a post about it [here]({% post_url 2020-05-28-i-blog-in-markdown-now %}).
+## Site Specs
+This site is a flat-file blog, hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://jekyllrb.com/). If you're interested in why I've built it this way, you can read a post about it [here]({{site.url}}/musings/i-blog-in-markdown-now/).
 
 I redesigned the layout in March 2022 to be almost purely text-based. It was mostly an exercise to see if I could get a perfect score on GTMetrix, and whether I could get the source code for the site onto a floppy disk. I don't have any floppy disks, or the means to put the website on one if I did, but the site itself weighs in at 1.35Mb, so I'm counting it.* I used [Skeleton](http://getskeleton.com/) as the base for the CSS, and have pulled in the entire jQuery library to use exactly one feature.
 
@@ -14,6 +8,11 @@ I write posts in Markdown, usually straight into Visual Studio Code (because tha
 I run a local Jekyll instance for when I want to tweak the layout, and push the changes to GitHub in the same process.
 
 I have almost definitely redesigned this website more times than I've actually written any content for it. 
+
+## Technology Guides
+When the Covid-19 pandemic hit, I started writing Technology Guides via Copy & Code - the web agency I co-founded with my wife [Ishita](htts://ishitaranjan.co.uk). Since then we have wound down the Copy & Code business, but I still try to put out content that I think people might find useful, completely free to access and use. These guides are based purely on my own research and understanding and are meant to be taken purely as such.
+
+The Guides use a different styling to the rest of the site, to separate them out from my musings. They all also include some text at the bottom encouraging sharing and donations to either me or - preferably - someone more deserving. This is done via a link, which is a randomly allocated outbound link to a charity or organisation, populated from a list that I add to periodically.
 
 ## Abbreviations
 In the latest redesign of this site (March 2022) I opted for an almost purely text-based design. As part of that I still wanted to be able to quickly identify different types of content. My logical solution was to gregariously employ the use of TLAs (three letter acronyms). Below are the ones I've used.
@@ -28,7 +27,9 @@ In the latest redesign of this site (March 2022) I opted for an almost purely te
 
 **[gen] - General** - things that don't fit into any of the other categories.
 
-**[let] - Letter** - used to denote letters that I've found interesting. I don't use these to mark letters I've written for this site (because that would be too sensible). My letters usually have a category assigned to them - for example my [letter to Matt Hancock]({% post_url 2020-10-28-open-letter-to-matt-hancock %}) has the [mha] marker.
+**[gui] - Technology Guides** - these are guides that I've written about specific technology or web development questions that I've been asked with various hats at various times, all collated for your reading pleasure into one place.
+
+**[let] - Letter** - used to denote letters that I've found interesting. I don't use these to mark letters I've written for this site (because that would be too sensible). My letters usually have a category assigned to them - for example my [letter to Matt Hancock]({{site.url}}/letters/open-letter-to-matt-hancock/) has the [mha] marker.
 
 **[mha] - Mental Health Awareness** - posts that I write that focus on mental health. Not all of them are specifically about raising awareness, but I needed a three letter acronym to keep the theme going.
 

@@ -18,7 +18,7 @@ permalink: "/musings/"
         </div>
     </div>
     <div class="row">
-        {% assign musings = site.posts | where: "content-type","musing" | sort: 'date' | reverse %}
+        {% assign musings = site.musings | sort: 'date' | reverse %}
         {% for post in musings %}
             <div class="twelve columns">{% include content-card-specific.html %}</div>
         {% endfor %}

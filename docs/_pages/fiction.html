@@ -11,7 +11,7 @@ permalink: "/fiction/"
         </div>
     </div>
     <div class="row">
-        {% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
+        {% assign fiction = site.fiction | sort: 'date' | reverse %}
         {% for post in fiction %}
             <div class="twelve columns">{% include content-card-specific.html %}</div>
         {% endfor %}

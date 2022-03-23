@@ -16,7 +16,7 @@ permalink: "/letters/"
         <hr>
     </div>
     <div class="row">
-        {% assign letters = site.posts | where: "layout","letter" | sort: 'date' | reverse %}
+        {% assign letters = site.letters | sort: 'date' | reverse %}
         {% for post in letters %}
             <div class="twelve columns">{% include content-card-specific.html %}</div>
         {% endfor %}

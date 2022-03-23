@@ -42,5 +42,8 @@ layout: default
                 {% capture include_share %}{% include share.md %}{% endcapture %}
                 {{ include_share | markdownify }}
             </p>
+            <hr>
+            <h4>Related musings</h4>
+            {% include related-posts.html %}
         </div>
     </div>

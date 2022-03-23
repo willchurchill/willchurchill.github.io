@@ -28,7 +28,7 @@ url: "https://willchurchill.co.uk/" # the base hostname & protocol for your site
 twitter_username: willchurchill
 github_username:  willchurchill
 include: ["_pages"]
-permalink: /musings/:title/
+permalink: /:collection/:title
 
 # Build settings
 # theme: minima
@@ -44,7 +44,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - _pages/university.html
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -57,62 +58,56 @@ plugins:
 #   - vendor/ruby/
 
 # Collections
+collections_dir: collections
 collections:
-
+  musings:
+    output: true
+    permalink: /:collection/:title
+  guides:
+    output: true
+    permalink: /:collection/:title
+  letters:
+    output: true
+    permalink: /:collection/:title
+  fiction:
+    output: true
+    permalink: /:collection/:title
   interesting:
     output: true
-
-  portfolio:
-    output: true
-    permalink: /:collection/:title/
-
-  roles:
-    output: true
-    permalink: /:collection/:title/
-
-  university:
-    output: true 
-    permalink: /:collection/:title/
-
+  
 # Defaults
 defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      author: "Will Churchill"
-      layout: post
-      content-type: musing
-      all-content: true
-      blog: true
-      news: true
-      
-  # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-  
-  # all portfolio
   - scope:
-      path: "_portfolio"
+      path: ""
+      type: "musings"
     values:
-      layout: portfolio
-
-  # all roles
+      layout: "post"
+      content-type: "musing"
+      documents-true: true
   - scope:
-      path: "_roles"
+      path: ""
+      type: "guides"
     values:
-      layout: role
-    
-  # all university
+      layout: "guide"
+      content-type: "guide"
+      documents-true: true
+      subject: "guide"
+      categories: ["guide"]
   - scope:
-      path: "_university"
+      path: ""
+      type: "letters"
     values:
-      author: "Will Churchill"
+      layout: "post"
+      content-type: "letter"
+      documents-true: true
+  - scope:
+      path: ""
+      type: "university"
+    values:
       layout: essay
       content-type: university
-      image: https://willchurchill.co.uk/assets/images/posts/typewriter.png
-      all-content: true
-      
+      image: https://willchurchill.co.uk/assets/images/posts/typewriter.png      

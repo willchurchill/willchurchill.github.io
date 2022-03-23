@@ -5,7 +5,7 @@ image: https://willchurchill.co.uk/assets/images/posts/river-reflection.jpg
 categories: ['mental health']
 tags: ['depression','learnings','mental health']
 ---
-Two weeks ago, I opened up about <a href="{% post_url 2016-04-03-mental-health-and-me %}" target="_blank" aria-label=" (opens in a new tab)">my struggles with mental health</a> and depression. I never really imagined the responses I’d get from my last post. I did want it out there, and I did want it to be the start of a conversation, but — and it seems wildly remiss of me, now I think about it — I never actually thought ahead as to what that conversation would look like. I had vague notions that maybe a handful of people would like the post, but I wasn’t really prepared for how much traction it got.
+Two weeks ago, I opened up about <a href="{{site.url}}/musings/mental-health-and-me/}" target="_blank" aria-label=" (opens in a new tab)">my struggles with mental health</a> and depression. I never really imagined the responses I’d get from my last post. I did want it out there, and I did want it to be the start of a conversation, but — and it seems wildly remiss of me, now I think about it — I never actually thought ahead as to what that conversation would look like. I had vague notions that maybe a handful of people would like the post, but I wasn’t really prepared for how much traction it got.
 
 As a result, when the messages came in, I didn’t really have a handle on how to respond to that. Nearly a year of training myself to not engage in conversations about my own well-being (on top of nearly a decade of trying to hide that anything was wrong in the first place) left me woefully unprepared.
 

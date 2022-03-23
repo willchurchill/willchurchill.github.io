@@ -14,4 +14,4 @@ I use this site as a place to store all sorts of content from my brain. I often 
 
 I also [dabble in fiction writing](/fiction/) from time to time, which breaks up the monotony of my political rants. I haven't settled on a "style" as such, but I tend to prefer shorter flash-fiction to longer writing. That isn't to say that I'm not working on something a little more ambitious though...
 
-This blog is a flat-file site built using Jekyll, using a custom theme. You can read more about why I've opted for flat-file [here]({% post_url 2020-05-28-i-blog-in-markdown-now %}).
+This blog is a flat-file site built using Jekyll, using a custom theme. You can read more about why I've opted for flat-file [here]({{site.url}}/musings/i-blog-in-markdown-now/).

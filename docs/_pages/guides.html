@@ -1,0 +1,76 @@
+---
+title: "Technology Guides"
+layout: guides
+permalink: "/guides/"
+---
+
+<div class="container wcc-pt5 wcc-pb5">
+    <div class="row wcc-border-left wcc-border-dark">
+        <div class="twelve columns">
+            <h1>Technology Guides</h1>
+            <p>Running your own organisation is hard work, and there are many decisions that need to be made. Here is some of the standard advice that I've given over the years, all in one place. I hope you’ll find it useful.</p>
+        </div>
+    </div>
+</div>
+<div class="container wcc-pb5">
+    <div class="row">
+        <div class="twelve columns">
+            <p class="wrc-bold">Filter by: </p>
+            {% assign tags =  site.guides | map: 'tags' | join: ','  | split: ',' | uniq %}
+            {% for tag in tags %}
+                <span class="button wcc-filter-tag" onclick="wcc_guideFilter('{{tag | remove: ' '}}')">{{ tag }}</span>
+            {% endfor %}
+            <span class="button wcc-filter-tag" onclick="wcc_guideFilter('all')">show all</span>
+        </div>
+    </div>
+</div>
+<div class="container wcc-guide-container">
+    {% assign guides = site.guides | sort: 'date' | reverse %}
+    {% for post in guides %}
+        {% assign rowfilter = "" %}
+        {% for tag in post.tags %}
+            {% assign tagoutput = tag | remove: " " %}
+            {% assign rowfilter = rowfilter | append:' wcc_filter_' | append: tagoutput %}
+        {% endfor %}
+        <div class="row wcc_filter_all {{rowfilter}}">
+            <div class="twelve columns">
+                <div class="wcc-card-wrapper">
+                    <div class="wcc-card-image" style="background-image:url('{{site.url}}/assets/images/guides/{{post.headerimage}}');"></div>
+                    <div class="wcc-card-text">
+                        <h2>{{post.title}}</h2>
+                        <p>{{post.description}}</p>
+                        <p>{{ post.date | date: '%b %d, %Y' }}</p>
+                        <p><a href="{{post.url}}" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <hr>
+    <span class="wcc-guidefooter">
+        {% capture include_guidesfooter %}{% include guides-footer.md %}{% endcapture %}
+        {{ include_guidesfooter | markdownify }}
+    </span>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <hr>
+            {% capture include_imagecredits %}{% include image-credits.md %}{% endcapture %}
+            {{ include_imagecredits | markdownify }}
+        </div>
+    </div>
+</div>
+
+<script>
+    function wcc_guideFilter(tag){
+        $(".wcc_filter_all").hide();
+        $(".wcc_filter_"+tag).show();
+    }
+</script>

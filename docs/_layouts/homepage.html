@@ -12,7 +12,7 @@ layout: default
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-musings')">Musings</h1>
 				<div class="row" id="homepage-musings" style="display:none;">
-					{% assign musings = site.posts | where: "content-type","musing" | sort: 'date' | reverse %}
+					{% assign musings = site.musings | sort: 'date' | reverse %}
 					{% for post in musings %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
@@ -26,11 +26,21 @@ layout: default
 				</div>
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-letters')">Letters</h1>
 				<div class="row" id="homepage-letters" style="display:none;">
-					{% assign letters = site.posts | where: "content-type","letter" | sort: 'date' | reverse %}
+					{% assign letters = site.letters | sort: 'date' | reverse %}
 					{% for post in letters %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
 				</div>
+			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-guides')">Technology Guides</h1>
+				<div class="row" id="homepage-guides" style="display:none;">
+					{% capture include_guidesintro %}{% include guides-intro.md %}{% endcapture %}
+					{{ include_guidesintro | markdownify }}	
+					{% assign guides = site.guides | sort: 'date' | reverse %}
+					{% for post in guides %}
+						<div class="twelve columns">{% include content-card-guides.html %}</div>
+					{% endfor %}
+				</div>
+				<!--
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-otiop')">Other Thoughts in Other Places</h1>
 				<div class="row" id="homepage-otiop" style="display:none;">
 					{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
@@ -38,9 +48,10 @@ layout: default
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}
 				</div>
+				-->
 			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-fiction')">Fiction</h1>
 				<div class="row" id="homepage-fiction" style="display:none;">
-					{% assign fiction = site.posts | where: "layout","fiction" | sort: 'date' | reverse %}
+					{% assign fiction = site.fiction | sort: 'date' | reverse %}
 					{% for post in fiction %}
 						<div class="twelve columns">{% include content-card-main.html %}</div>
 					{% endfor %}

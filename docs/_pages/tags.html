@@ -13,19 +13,19 @@ permalink: "/tags.html"
   <div class="row">
     <div class="eight columns">
       <div class="row">
-        {% assign tags_ordered = site.tags | sort: tags %}    
-        {% for tag in tags_ordered %} 
-          <h2 class="" id="{{ tag[0] | downcase }}"><span>{{ tag[0] }}</span></h2>            
-          {% assign pages_list = tag[1] %}
-          {% for post in pages_list %}
-            {% if post.title != null %}
-              {% if group == null or group == post.group %}
-                {% include content-card-main.html %}
-              {% endif %}
-            {% endif %}
+        {% assign allPosts = site.documents %}
+        {% assign allTags = allPosts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+        {% capture tag_array %}
+          {% for eachTag in allTags %}
+            {{ eachTag.name }}
           {% endfor %}
-          {% assign pages_list = nil %}
-          {% assign group = nil %}
+        {% endcapture %}
+        {% for eachTag in allTags %}
+          <h2 class="" id="{{ eachTag | downcase }}"><span>{{ eachTag }}</span></h2>
+          {% assign allTagPosts = site.documents | where: 'tags', eachTag | sortby: 'date' | reverse %}
+          {% for post in allTagPosts %}
+            {% include content-card-specific.html %}
+          {% endfor %}
         {% endfor %}
       </div>
     </div>

@@ -15,7 +15,7 @@ permalink: "musings/mental-health/"
         </div>
     </div>
     <div class="row">
-        {% assign musings = site.posts | where: "content-type","musing" | where: "categories","mental health" | sort: 'date' | reverse %}
+        {% assign musings = site.musings | where: "categories","mental health" | sort: 'date' | reverse %}
         {% for post in musings %}
             <div class="twelve columns">{% include content-card-specific.html %}</div>
         {% endfor %}

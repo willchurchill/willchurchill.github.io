@@ -13,18 +13,19 @@ permalink: "/categories.html"
     <div class="row">
       <div class="eight columns">
         <div class="row">
-            {% for category in site.categories %}
-                <h2 class="" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h2>
-                {% assign pages_list = category[1] %}
-                {% for post in pages_list %}
-                    {% if post.title != null %}
-                        {% if group == null or group == post.group %}
-                            {% include content-card-main.html %}
-                        {% endif %}
-                    {% endif %}
+            {% assign allPosts = site.documents %}
+            {% assign allCategories = allPosts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+            {% capture category_array %}
+                {% for eachCategory in allCategories %}
+                    {{ eachCategory.name }}
                 {% endfor %}
-                {% assign pages_list = nil %}
-                {% assign group = nil %}
+            {% endcapture %}
+            {% for eachCategory in allCategories %}
+                <h2 class="" id="{{ eachCategory | downcase }}"><span>{{ eachCategory }}</span></h2>
+                {% assign allCategoryPosts = site.documents | where: 'categories', eachCategory | sortby: 'date' | reverse %}
+                {% for post in allCategoryPosts %}
+                    {% include content-card-specific.html %}
+                {% endfor %}
             {% endfor %}
         </div>
       </div>
