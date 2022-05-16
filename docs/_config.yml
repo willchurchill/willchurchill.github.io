@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: Will Churchill
-title: Will Churchill
+name: William Ranjan-Churchill
+title: William Ranjan-Churchill
 email: will@copyandcode.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   An internet connection does not an expert make.
