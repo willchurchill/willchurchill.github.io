@@ -20,11 +20,11 @@
 
 name: Will Ranjan-Churchill
 title: Will Ranjan-Churchill
-email: will@copyandcode.co.uk
+email: will@willrc.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   An internet connection does not an expert make.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://willchurchill.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://willrc.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: willchurchill
 github_username:  willchurchill
 include: ["_pages"]
@@ -110,4 +110,4 @@ defaults:
     values:
       layout: essay
       content-type: university
-      image: https://willchurchill.co.uk/assets/images/posts/typewriter.png      
+      image: https://willrc.co.uk/assets/images/posts/typewriter.png      
