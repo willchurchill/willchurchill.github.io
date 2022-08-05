@@ -7,13 +7,16 @@ permalink: "/fiction/"
 <div class="container">
     <div class="row">
         <div class="twelve columns">
-            <h1 class="wrc-parenthesis">Fiction</h1>
+            <h1>Fiction</h1>
+            <p>Occasionally, I'll write a short story. Even more occasionally, I'll post it here.</p>
         </div>
     </div>
     <div class="row">
-        {% assign fiction = site.fiction | sort: 'date' | reverse %}
-        {% for post in fiction %}
-            <div class="twelve columns">{% include content-card-specific.html %}</div>
-        {% endfor %}
+        <div class="twelve columns wrc-card-container-wide">
+			{% assign guides = site.fiction | sort: 'date' | reverse %}
+			{% for post in guides %}
+				{% include content-card-standard.html %}
+			{% endfor %}
+		</div>
     </div>
 </div>

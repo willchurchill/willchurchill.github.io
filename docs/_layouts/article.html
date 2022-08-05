@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include header-wrc.html %}
+    {% include analytics.html %}
+</head>
+
+<body class="wcc-bg">
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2G445F"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    {% include navigation.html %}
+
+    <div class="container-wide wrc-headercontainer" style="background-image:url('{{site.url}}/assets/images/articles/{{page.headerimage}}')">
+        <div class="row">
+            <div class="twelve columns wrc-postheader">
+                <div class="wrc-postheadercontents">
+                    <div>{{ page.tags | array_to_sentence_string }}</div>
+                    <h1>{{ page.title }}</h1>
+                    <div>{{ page.date | date: '%d %b, %Y' }} | {% include meta-read-time.html %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="wrc-question">Answering the question: {{ page.question }}</div>
+                {{ content }}
+                <hr>
+                <h4>You may enjoy</h4>
+                {% include related-posts.html %}
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    
+</body>
+
+</html>

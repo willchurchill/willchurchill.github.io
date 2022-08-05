@@ -24,16 +24,13 @@ permalink: "/categories.html"
                 <h2 class="" id="{{ eachCategory | downcase }}"><span>{{ eachCategory }}</span></h2>
                 {% assign allCategoryPosts = site.documents | where: 'categories', eachCategory | sortby: 'date' | reverse %}
                 {% for post in allCategoryPosts %}
-                    {% include content-card-specific.html %}
+                    {% include content-card-standard.html %}
                 {% endfor %}
             {% endfor %}
         </div>
       </div>
       <div class="four columns">
-        <h1 class="wrc-parenthesis">Latest</h1>
-                  {% include sidebar-latest.html %}
-        <h1 class="wrc-parenthesis">Featured</h1>
-                  {% include sidebar-featured.html %}
+        
       </div>
     </div>
   </div>

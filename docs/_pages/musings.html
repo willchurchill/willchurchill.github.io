@@ -4,23 +4,37 @@ layout: default
 permalink: "/musings/"
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <h1><span class="wrc-parenthesis">Musings</span>
-                <small>
-                    <span class=""><a href="{{base.url}}/musings/general/" class="text-muted">General</a></span>
-                    <span class=""><a href="{{base.url}}/musings/politics/" class="text-muted">Politics</a></span>
-                    <span class=""><a href="{{base.url}}/musings/mental-health/" class="text-muted">Mental Health</a></span>
-                    <span class=""><a href="{{base.url}}/musings/technology/" class="text-muted">Technology</a></span>
-                </small>
-            </h1>
-        </div>
-    </div>
-    <div class="row">
-        {% assign musings = site.musings | sort: 'date' | reverse %}
-        {% for post in musings %}
-            <div class="twelve columns">{% include content-card-specific.html %}</div>
-        {% endfor %}
-    </div>
+<div class="container-wide">
+	<div class="row">
+		<div class="six columns">
+			<h1>My personal blog</h1>
+			{% capture include_about %}{% include about-blog.md %}{% endcapture %}
+			{{ include_about | markdownify }}
+		</div>
+		<div class="six columns">
+			<h1>Latest</h1>
+			{% assign latestblogpost = site.musings | sort: 'date' | reverse %}
+			{% for post in latestblogpost limit:1 %}
+				{% include content-card-blog-latest.html %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="wrc-h1">Popular posts</h1>
+		<div class="twelve columns wrc-card-container">
+			{% assign featuredblogposts = site.musings | where: "tags", "featured" | sort: "date" | reverse %}
+			{% for post in featuredblogposts limit: 3 %}                
+				{% include content-card-blog.html %}   
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="wrc-h1">All blog posts</h1>
+		<div class="twelve columns wrc-card-container">
+			{% assign musings = site.musings | sort: 'date' | reverse %}
+			{% for post in musings offset:1 %}
+				{% include content-card-blog.html %}
+			{% endfor %}
+		</div>
+	</div>
 </div>

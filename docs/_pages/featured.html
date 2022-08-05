@@ -1,0 +1,22 @@
+---
+title: "Featured"
+layout: default
+permalink: "/featured/"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1>Featured Articles</h1>
+            <p>Some of the more popular articles on the site.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns wrc-card-container-wide">
+			{% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
+			{% for post in featured-posts %}                
+				{% include content-card-standard.html %}   
+			{% endfor %}
+		</div>
+    </div>
+</div>

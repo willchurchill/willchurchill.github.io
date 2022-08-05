@@ -44,8 +44,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - _pages/university.html
+# exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -60,20 +59,15 @@ exclude:
 # Collections
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
   musings:
-    output: true
-    permalink: /:collection/:title
-  guides:
-    output: true
-    permalink: /:collection/:title
-  letters:
     output: true
     permalink: /:collection/:title
   fiction:
     output: true
     permalink: /:collection/:title
-  interesting:
-    output: true
   
 # Defaults
 defaults:
@@ -90,24 +84,8 @@ defaults:
       documents-true: true
   - scope:
       path: ""
-      type: "guides"
+      type: "posts"
     values:
-      layout: "guide"
-      content-type: "guide"
+      layout: "article"
+      content-type: "post"
       documents-true: true
-      subject: "guide"
-      categories: ["guide"]
-  - scope:
-      path: ""
-      type: "letters"
-    values:
-      layout: "post"
-      content-type: "letter"
-      documents-true: true
-  - scope:
-      path: ""
-      type: "university"
-    values:
-      layout: essay
-      content-type: university
-      image: https://willrc.co.uk/assets/images/posts/typewriter.png      

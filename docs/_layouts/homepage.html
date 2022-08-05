@@ -2,72 +2,61 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container-wide">
 	<div class="row">
-		<div class="eight columns">
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-about')">About</h1>
-				<div class="row" id="homepage-about" style="display:none;">
-					{% capture include_about %}{% include about.md %}{% endcapture %}
-					{{ include_about | markdownify }}
-				</div>
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-musings')">Musings</h1>
-				<div class="row" id="homepage-musings" style="display:none;">
-					{% assign musings = site.musings | sort: 'date' | reverse %}
-					{% for post in musings %}
-						<div class="twelve columns">{% include content-card-main.html %}</div>
-					{% endfor %}
-				</div>
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-wchmi')">What Currently Has My Interest</h1>
-				<div class="row" id="homepage-wchmi" style="display:none;">
-					{% assign interesting = site.interesting | sort: 'date' | reverse %}
-					{% for post in interesting limit:5 %}
-						<div class="twelve columns">{% include content-card-interesting.html %}</div>
-					{% endfor %}
-				</div>
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-letters')">Letters</h1>
-				<div class="row" id="homepage-letters" style="display:none;">
-					{% assign letters = site.letters | sort: 'date' | reverse %}
-					{% for post in letters %}
-						<div class="twelve columns">{% include content-card-main.html %}</div>
-					{% endfor %}
-				</div>
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-guides')">Technology Guides</h1>
-				<div class="row" id="homepage-guides" style="display:none;">
-					{% capture include_guidesintro %}{% include guides-intro.md %}{% endcapture %}
-					{{ include_guidesintro | markdownify }}	
-					{% assign guides = site.guides | sort: 'date' | reverse %}
-					{% for post in guides %}
-						<div class="twelve columns">{% include content-card-guides.html %}</div>
-					{% endfor %}
-				</div>
-				<!--
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-otiop')">Other Thoughts in Other Places</h1>
-				<div class="row" id="homepage-otiop" style="display:none;">
-					{% assign external = site.posts | where: "content-type","external" | sort: 'date' | reverse %}
-					{% for post in external %}
-						<div class="twelve columns">{% include content-card-main.html %}</div>
-					{% endfor %}
-				</div>
-				-->
-			<h1 class="wrc-parenthesis wrc-linkhover" onclick="wrcSlideToggle('homepage-fiction')">Fiction</h1>
-				<div class="row" id="homepage-fiction" style="display:none;">
-					{% assign fiction = site.fiction | sort: 'date' | reverse %}
-					{% for post in fiction %}
-						<div class="twelve columns">{% include content-card-main.html %}</div>
-					{% endfor %}
-				</div>
+		<div class="six columns">
+			<h1>Will Ranjan-Churchill</h1>
+			{% capture include_about %}{% include about-blurb.md %}{% endcapture %}
+			{{ include_about | markdownify }}
 		</div>
-		<div class="four columns">
-			<h1 class="wrc-parenthesis">Latest</h1>
-				{% include sidebar-latest.html %}
-			<h1 class="wrc-parenthesis">Featured</h1>
-				{% include sidebar-featured.html %}
+		<div class="six columns">
+			<h1>Latest</h1>
+			{% assign latestguide = site.posts | sort: 'date' | reverse %}
+			{% for post in latestguide limit:2 %}
+				{% include content-card-latest.html %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="wrc-h1">Featured Articles</h1>
+		<div class="twelve columns wrc-card-container">
+			{% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
+			{% for post in featured-posts limit: 3 %}                
+				{% include content-card-standard.html %}   
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<a href="{{ site.url }}/featured" class="button wrc-mt1">see all featured</a>
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="wrc-h1">Articles</h1>
+		<div class="twelve columns wrc-card-container">
+			{% assign guides = site.posts | sort: 'date' | reverse %}
+			{% for post in guides limit:12 %}
+				{% include content-card-standard.html %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<a href="{{ site.url }}/articles" class="button wrc-mt1">see all articles</a>
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="wrc-h1">From my personal blog</h1>
+		<div class="twelve columns wrc-card-container">
+			{% assign musings = site.musings | sort: 'date' | reverse %}
+			{% for post in musings limit:3 %}
+				{% include content-card-blog.html %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<a href="{{ site.url }}/musings" class="button wrc-mt1">see more personal</a>
 		</div>
 	</div>
 </div>
-
-<script>
-	function wrcSlideToggle(elem){
-		$("#"+elem).slideToggle();
-	}
-</script>

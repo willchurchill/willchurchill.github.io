@@ -16,17 +16,15 @@
         {% endif %}
     {% endfor %}
     {% if sameTagCount >= minCommonTags %}
-        <div class="four columns">
-            <span class="wrc-italics">Also in {{ commonTags }}</span>
-            <h5><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h5>
-        </div>
+    <p>
+        <span class="wrc-italics">Also in {{ commonTags }}</span>
+        <a href="{{site.url}}{{post.url}}" class="wrc-bree-serif">{{ post.title }}</a>
+    </p>
         {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
         {% if maxRelatedCounter >= maxRelated %}
             {% break %}
         {% endif %}
     {% endif %}
 {% endfor %}
-<div class="four columns">
-    <span class="wrc-italics">Or</span>
-    <h5><a href="{{ site.url }}/{{page.content-type}}s">See all {{page.content-type}}s</a></h5>
-</div>
+    <span class="wrc-italics wrc-pr1">Or</span>
+    <a href="{{ site.url }}/articles" class="button">See all articles</a>
