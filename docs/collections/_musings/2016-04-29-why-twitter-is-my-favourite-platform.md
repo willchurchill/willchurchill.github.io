@@ -1,7 +1,7 @@
 ---
 title: Why Twitter is my favourite platform
 date: 2016-04-29T09:16:43+00:00
-image: https://willchurchill.co.uk/assets/images/posts/social-media.jpg
+image: https://willchurchill.co.uk/assets/images/musings/social-media.jpg
 categories: ['technology']
 tags: ['social media','twitter','tech']
 ---

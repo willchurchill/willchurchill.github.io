@@ -2,7 +2,7 @@
 title: "My new to-do lists"
 description: I've been using a new way to manage my to-do lists, that I thought I'd share in lieu of any actual content.
 date: 2021-08-20T10:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/posts/todo-list.jpg
+image: https://willchurchill.co.uk/assets/images/musings/todo-list.jpg
 categories: ['general']
 tags: ['productivity','anxiety','mental health']
 ---

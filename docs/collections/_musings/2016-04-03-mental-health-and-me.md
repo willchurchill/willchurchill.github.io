@@ -1,7 +1,7 @@
 ---
 title: Mental health and me
 date: 2016-04-03T18:55:50+00:00
-image: https://willchurchill.co.uk/assets/images/posts/trees.jpg
+image: https://willchurchill.co.uk/assets/images/musings/trees.jpg
 categories: ['mental health']
 tags: ['depression','disclosure','mental health','featured']
 ---

@@ -15,7 +15,7 @@ What's a "meg"? Why does "up to" make it sound like they're lying? How come your
  
 But first, let's get some numbers to work with. Go to [https://www.speedtest.net/](https://www.speedtest.net/) and then click on the big "Go" button on screen. You should get back something that looks like this:
 
-![Speed test results]({{site.url}}/assets/images/guides/internet-speed-test.jpg)
+![Speed test results]({{site.url}}/assets/images/articles/internet-speed-test.jpg)
 
 These three numbers together make up your internet speed. This test was done in an office with corporate-grade internet, so don't be too disappointed if your numbers aren't quite the same.
  

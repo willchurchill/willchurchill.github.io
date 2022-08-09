@@ -1,7 +1,7 @@
 ---
 title: The falls after the highs
 date: 2016-07-17T08:42:42+00:00
-image: https://willchurchill.co.uk/assets/images/posts/olympic-park.jpg
+image: https://willchurchill.co.uk/assets/images/musings/olympic-park.jpg
 categories: ['mental health']
 tags: ['entrepreneurship','life','mental health','startup']
 ---

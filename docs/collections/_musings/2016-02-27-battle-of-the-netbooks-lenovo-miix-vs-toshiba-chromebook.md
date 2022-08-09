@@ -1,7 +1,7 @@
 ---
 title: 'Battle of the netbooks: Lenovo MIIX vs Toshiba Chromebook'
 date: 2016-02-27T10:30:41+00:00
-image: https://willchurchill.co.uk/assets/images/posts/lenovo-miix.jpg
+image: https://willchurchill.co.uk/assets/images/musings/lenovo-miix.jpg
 categories: ['technology']
 tags: ['chromebook','comparison','laptop','tech']
 ---

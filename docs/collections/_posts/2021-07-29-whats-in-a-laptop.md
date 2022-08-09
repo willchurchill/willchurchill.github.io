@@ -7,6 +7,7 @@ content-type: guide
 subject: "hardware"
 tags: ["hardware","laptops","chromebook","featured"]
 headerimage: "laptop.jpg"
+lastupdated: "This article was updated in July 2022 to make some minor tweaks, including noting that most laptops now come with Windows 11 preinstalled."
 ---
 
 Buying a new laptop is a minefield of technical specs. If you don't know your RAM from your CPUs, this guide should help you understand what you need to know - and more importantly what you should be looking for - from your next laptop.
@@ -18,14 +19,14 @@ Most laptops in 2020 need an absolute minimum of 4GB of RAM to stay happy, but i
  
 If you're going to be doing anything very taxing - e.g. video editing, gaming, or running intensive specialist applications - then try and get 16GB.
  
-RAM is one of the few components of a laptop that is usually relatively easy to expand, so if you find a good laptop but the RAM is a little pokey, then you may have the option to purchase RAM separately and install it.
- 
+~~RAM is one of the few components of a laptop that is usually relatively easy to expand, so if you find a good laptop but the RAM is a little pokey, then you may have the option to purchase RAM separately and install it.~~ *Since originally writing this, more and more vendors have gone towards laptops with memory built directly into the motherboard, so your mileage is going to vary on whether you can upgrade this or not. If in doubt, and you have the budget, assume you can't.*
+
 RAM - by the way - stands for Random Access Memory.
 
 ## Hard Drive
 Very simply, the hard drive is where all the "stuff" lives on your computer. This includes everything from the Operating System itself, to your files and folders. Hard Drive space is different from "memory", which usually refers to the RAM. It might be helpful to think of the hard drive as your bookshelf, holding all the books you own, and the RAM as your bedside table, holding the book that you're reading at that point in time.
  
-With hard drives, there are two main things to consider. The first is the size of the drive - how much "stuff" do you want to store. As more and more things are streamed, the trend for larger hard drives has drifted downwards. A decade or so ago you'd need larger drives to store music and photos. With the advent of Spotify and the like, and people's propensity to backup photos to the cloud, there's less need. For simple home office / school use a 256Gb hard drive tends to be sufficient, and this is the 'standard' drive you'll find on most laptops.
+With hard drives, there are two main things to consider. The first is the size of the drive - how much "stuff" do you want to store. As more and more things are streamed, the trend larger hard drive size has drifted downwards. A decade or so ago you'd need larger drives to store music and photos. With the advent of Spotify and the like, and people's propensity to backup photos to the cloud, there's less need. For simple home office / school use a 256Gb hard drive tends to be sufficient, and this is the 'standard' drive you'll find on most laptops.
  
 As with all things, if you have slightly more specialised needs, you might want to look at larger sizes. Modern games, and video editing, both take up large amounts of space.
  
@@ -34,7 +35,7 @@ The other consideration to make is whether to get an "SSD" or a "HDD". Solid Sta
 It comes down to usage. For most use-cases, the SSD is the clear choice - it will run faster, last longer, and still give you ample space for your needs. If you are considering a larger disk space because you want to backup important documents, photos, or videos, then consider instead buying an external disk drive, or a cloud backup solution.
 
 ## CPU
-This is the "brain" of the computer. Everything that the machine does has to pass through here to be processed - hence the name, Central Processing Unit.
+This is the "brain" of the computer. Pretty much everything that the machine does has to pass through here to be processed - hence the name, Central Processing Unit.
  
 Typically you'll have to make a decision between one of two manufacturers - Intel or AMD. Over the last decade, Intel have ruled the roost, but AMD are starting to put out more viable options. Typically, AMD fair better in the budget and the ultra-high end range, with Intel holding its own in the middle ground. For various technical reasons, if you're in doubt it's usually better to go with Intel.
  
@@ -44,7 +45,7 @@ For the most part, home computing only really needs to consider i3 and i5. The i
  
 If you are going to be doing more heavy-duty work, such as video-editing or gaming, then you might want to consider an i7. They tend to be a little overkill for general use (though companies favour them because they have a longer usage, and the incremental cost on corporate rates tends to be minimal).
  
-If you're doing the kind of work that means you should be considering an i9, you really should be getting your advice from someone else.
+If you're doing the kind of work that means you should be considering an i9, you might be a little beyond the scope of this article.
 
 ## GPU
 GPU - or Graphical Processing Unit - is a chip that handles the visuals. In laptops, they come in two flavours: "integrated" or "dedicated".
@@ -63,7 +64,7 @@ The Operating System is the underlying software that you interact with in order 
 * Linux, with a variety of flavours of Operating System including Ubuntu, Debain, and RedHat (if you haven't heard of these, don't worry)
 * Google, with its ChromeOS Operating System, found on Chromebooks.
 
-Broadly speaking, your budget for laptops will determine what OS you're going to have. For the vast majority of the market, you'll be looking at buying a laptop with Windows 10 pre-installed. The most likely exception to this is if you're buying a Mac, in which case you'll have the Apple environment installed.
+Broadly speaking, your budget for laptops will determine what OS you're going to have. For the vast majority of the market, you'll be looking at buying a laptop with Windows 11 pre-installed. The most likely exception to this is if you're buying a Mac, in which case you'll have the Apple environment installed.
 
 ## What's a Chromebook, and should I get one?
 Chromebooks are Google's answer to the question "all I need is to access my emails and watch a bit of Netflix, do I really need a £600 laptop?"

@@ -2,7 +2,7 @@
 title: On making an informed decision
 description: Why bother? Politicians and the media seem to do nothing but lie. But that's what makes it all the more important to understand what effects your decision.
 date: 2019-11-25T11:19:59+00:00
-image: https://willchurchill.co.uk/assets/images/posts/decision.jpg
+image: https://willchurchill.co.uk/assets/images/musings/decision.jpg
 categories: ['politics']
 tags: ['general election','politics','featured']
 ---
@@ -20,7 +20,7 @@ Yes, we might live in an age where it's easier to be fed bad information. But th
 
 I don't think this is an excuse. I don't think that the fact that the Conservative party can straight up lie about the number of starter homes they have built is any reason for you as a person with an internet connection and a brain to not know that there is an actual answer to that question.
 
-![Quote from NAO's report on Starter Homes.]({{site.url}}/assets/images/posts/starter-homes-screencap.jpg)
+![Quote from NAO's report on Starter Homes.]({{site.url}}/assets/images/musings/starter-homes-screencap.jpg)
 <br><small><em>Screen grab from the National Audit Office's [Investigation Into Starter Homes](https://www.nao.org.uk/wp-content/uploads/2019/11/Investigation-into-starter-homes-Summary.pdf)</em></small>
 
 Zero. The answer is zero of the 200,000 starter homes promised by the government in their 2015 manifesto have been delivered. And that is not something that I know because a left-wing voice box yelled it on Twitter. It's a fact I know because I saw it on [several](https://www.theguardian.com/society/2019/nov/05/tories-broke-pledge-on-starter-homes-in-2015-manifesto-report-says) [different](https://www.independent.co.uk/news/uk/home-news/starter-homes-housing-first-time-buyers-national-audit-office-report-a9185371.html) [sources](https://www.thisismoney.co.uk/money/mortgageshome/article-7650477/Ministers-failed-deliver-promised-new-starter-homes-says-watchdog.html), who themselves are reporting on information from the National Audit Office - which incidentally you can read for yourself [here](https://www.nao.org.uk/report/investigation-into-starter-homes/).
@@ -45,9 +45,9 @@ It's all well and good saying that people need to be sensible and make decisions
 
 There are a lot of great resources out there, independent of mainstream media and political affiliation. Organisations like [Full Fact](https://fullfact.org/) aim to provide independent reviews of statements made by politicians. In a similar vein is [Reality Check](https://www.bbc.co.uk/news/reality_check) from the BBC (though of course whether the BBC counts as an "independent" source of information is a question that you should be asking yourself).
 
-You might also find [They Work For You](https://www.theyworkforyou.com/) interesting. They provide an easy way to find out how MPs voted across all Parliamentary proceedings. Particularly as the election draws nearer, it is sometime enlightening to understand how various incumbent's statements and promises match up with their voting history.
+You might also find [They Work For You](https://www.theyworkforyou.com/) interesting. They provide an easy way to find out how MPs voted across all Parliamentary proceedings. Particularly as the election draws nearer, it is sometimes enlightening to understand how various incumbent's statements and promises match up with their voting history.
 
-If you're on Twitter, you might want to give [Simple Politics](https://twitter.com/easypoliticsUK) a follow. They aim to give non-bias coverage and commentary on current political affairs. Do take note of their pinned tweet though.
+If you're on Twitter, you might want to give [Simple Politics](https://twitter.com/easypoliticsUK) a follow. They aim to give non-biased coverage and commentary on current political affairs.
 
 ### Final thoughts
 

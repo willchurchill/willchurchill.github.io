@@ -16,7 +16,7 @@
         <div class="row">
             <div class="twelve columns wrc-postheader">
                 <div class="wrc-postheadercontents">
-                    <div>{{ page.tags | array_to_sentence_string }}</div>
+                    <div>{{ page.content-type }} | {{ page.subject }}</div>
                     <h1>{{ page.title }}</h1>
                     <div>{{ page.date | date: '%d %b, %Y' }} | {% include meta-read-time.html %}</div>
                 </div>
@@ -26,11 +26,19 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <div class="wrc-question">Answering the question: {{ page.question }}</div>
+                {% if page.question %}
+                    <div class="wrc-question">Answering the question: {{ page.question }}</div>
+                {% endif %}
                 {{ content }}
+                <p style="font-style: italic; font-weight: bold;">{{ page.lastupdated }}</p>
                 <hr>
                 <h4>You may enjoy</h4>
                 {% include related-posts.html %}
+                <hr>
+                <span style="font-style:italic">
+                    {% capture include_articlefooter %}{% include article-footer.md %}{% endcapture %}
+                    {{ include_articlefooter | markdownify }}
+                </span>
             </div>
         </div>
     </div>

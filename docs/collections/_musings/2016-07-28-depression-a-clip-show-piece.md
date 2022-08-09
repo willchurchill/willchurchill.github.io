@@ -1,7 +1,7 @@
 ---
 title: Depression — a ‘clip show’ piece
 date: 2016-07-28T20:40:44+00:00
-image: https://willchurchill.co.uk/assets/images/posts/clapperboard.jpg
+image: https://willchurchill.co.uk/assets/images/musings/clapperboard.jpg
 categories: ['mental health']
 tags: ['depression','mental health','quotes','solidarity']
 ---

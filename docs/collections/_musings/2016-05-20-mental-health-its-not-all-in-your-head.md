@@ -1,7 +1,7 @@
 ---
 title: 'Mental Health: it’s not all in your head'
 date: 2016-05-20T07:43:54+00:00
-image: https://willchurchill.co.uk/assets/images/posts/pills.jpg
+image: https://willchurchill.co.uk/assets/images/musings/pills.jpg
 categories: ['mental health']
 tags: ['burnout','depression','illness','mental health']
 ---

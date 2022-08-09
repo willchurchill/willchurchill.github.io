@@ -1,7 +1,7 @@
 ---
 title: On what I’ve learned from conferences
 date: 2015-05-14T15:30:00+00:00
-image: https://willchurchill.co.uk/assets/images/posts/conference.jpg
+image: https://willchurchill.co.uk/assets/images/musings/conference.jpg
 categories: ['general']
 tags: ['conference','enterprise','entrepreneurship']
 ---
