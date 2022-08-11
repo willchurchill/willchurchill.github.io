@@ -1,7 +1,7 @@
 ---
 title: Can too much information be bad?
 date: 2016-06-25T13:18:16+00:00
-image: https://willchurchill.co.uk/assets/images/posts/shredded-paper.jpg
+image: https://willchurchill.co.uk/assets/images/musings/shredded-paper.jpg
 categories: ['general']
 tags: ['brexit','decision making','information overload','life']
 ---

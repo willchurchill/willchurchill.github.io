@@ -1,7 +1,7 @@
 ---
 title: What IE taught me about entrepreneurship
 date: 2015-03-19T15:25:41+00:00
-image: https://willchurchill.co.uk/assets/images/posts/computer-purple.jpg
+image: https://willchurchill.co.uk/assets/images/musings/computer-purple.jpg
 categories: ['general']
 tags: ['media','browsers','entrepreneurship','tech']
 ---

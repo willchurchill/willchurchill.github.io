@@ -1,0 +1,22 @@
+---
+title: "Articles"
+layout: default
+permalink: "/articles/"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1>Articles</h1>
+            <p>Running your own organisation is hard work, and there are many decisions that need to be made. Here is some of the standard advice that I've given over the years, all in one place. I hope you’ll find it useful.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns wrc-card-container-wide">
+			{% assign guides = site.posts | sort: 'date' | reverse %}
+			{% for post in guides %}
+				{% include content-card-standard.html %}
+			{% endfor %}
+		</div>
+    </div>
+</div>

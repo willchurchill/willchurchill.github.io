@@ -2,9 +2,9 @@
 title: On rationality, morality, and valuing an individual’s life
 description: You won't be suprised to know that companies value human life all the time. But should they? What is the rationality behind this?
 date: 2011-02-12T14:52:19+00:00
-image: https://willchurchill.co.uk/assets/images/posts/ford-pinto.jpg
+image: https://willchurchill.co.uk/assets/images/musings/ford-pinto.jpg
 categories: ['general']
-tags: ['business','cost benefit analysis','ethics','morality','featured']
+tags: ['business','cost benefit analysis','ethics','morality']
 ---
 In the 1970s Ford produced a car called the Pinto. The humble little car is no infamous for one thing, the positioning of the fuel tank. Because Ford were under pressure to produce the car quickly, they decided that the best place to put the thing that stores flammable liquid would be behind the rear axle. Essentially, this meant that if ever the car was involved in a rear-end accident, the fuel tank could rupture. I’m sure you don’t need me to tell you that this could cause big problems.
 

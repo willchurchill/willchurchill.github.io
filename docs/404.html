@@ -6,15 +6,17 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="eight columns">
-      <h1 class="wrc-parenthesis">404</h1>
-      <p class="wrc-bold">Page not found :(</p>
+      <h1>404 - Page not found</h1>
       <p>The requested page could not be found.<br />Maybe try one of the featured posts?</p>
+      <div class="twelve columns wrc-card-container-wide">
+        {% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
+        {% for post in featured-posts limit: 3 %}                
+          {% include content-card-standard.html %}   
+        {% endfor %}
+      </div>
     </div>
     <div class="four columns">
-      <h1 class="wrc-parenthesis">Latest</h1>
-				{% include sidebar-latest.html %}
-			<h1 class="wrc-parenthesis">Featured</h1>
-				{% include sidebar-featured.html %}
+      
     </div>
   </div>
 </div>

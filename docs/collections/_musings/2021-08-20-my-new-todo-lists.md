@@ -2,9 +2,9 @@
 title: "My new to-do lists"
 description: I've been using a new way to manage my to-do lists, that I thought I'd share in lieu of any actual content.
 date: 2021-08-20T10:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/posts/todo-list.jpg
+image: https://willchurchill.co.uk/assets/images/musings/todo-list.jpg
 categories: ['general']
-tags: ['productivity','anxiety','mental health']
+tags: ['productivity','anxiety','mental health','featured']
 ---
 
 There are a lot of todo list methodologies out there. The 1-3-5 method, the Grocery List method, Bullet Journalling. The list is endless. I swear I've even met people who have lists to keep track of all their other lists. I'm definitely not one of them...

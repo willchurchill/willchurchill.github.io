@@ -1,9 +1,9 @@
 ---
 title: Mental health and me
 date: 2016-04-03T18:55:50+00:00
-image: https://willchurchill.co.uk/assets/images/posts/trees.jpg
+image: https://willchurchill.co.uk/assets/images/musings/trees.jpg
 categories: ['mental health']
-tags: ['depression','disclosure','mental health','featured']
+tags: ['depression','disclosure','mental health']
 ---
 _Fair warning: at about 4,000 words, this is by far and away the longest blog post I have ever written (and probably will ever write). It’s poor form, artistically speaking, but it is not something that I wanted to break into separate posts. This is a ‘rip the bandaid off’ kind of thing. Please forgive the lack of brevity — if you make it to the end, I hope you’ll understand._
 

@@ -20,11 +20,11 @@
 
 name: Will Ranjan-Churchill
 title: Will Ranjan-Churchill
-email: will@copyandcode.co.uk
+email: will@willrc.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   An internet connection does not an expert make.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://willchurchill.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://willrc.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: willchurchill
 github_username:  willchurchill
 include: ["_pages"]
@@ -44,8 +44,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - _pages/university.html
+# exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -60,54 +59,33 @@ exclude:
 # Collections
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    permalink: /articles/:title
   musings:
     output: true
     permalink: /:collection/:title
-  guides:
-    output: true
-    permalink: /:collection/:title
-  letters:
-    output: true
-    permalink: /:collection/:title
+    type: "musing"
   fiction:
     output: true
     permalink: /:collection/:title
-  interesting:
-    output: true
   
 # Defaults
 defaults:
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-  - scope:
+  -
+    scope:
       path: ""
-      type: "musings"
     values:
-      layout: "post"
+      layout: "default"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "article"
+  -
+    scope:
+      path: "_musings"
+    values:
+      layout: "musing"
+      type: "musing"
       content-type: "musing"
-      documents-true: true
-  - scope:
-      path: ""
-      type: "guides"
-    values:
-      layout: "guide"
-      content-type: "guide"
-      documents-true: true
-      subject: "guide"
-      categories: ["guide"]
-  - scope:
-      path: ""
-      type: "letters"
-    values:
-      layout: "post"
-      content-type: "letter"
-      documents-true: true
-  - scope:
-      path: ""
-      type: "university"
-    values:
-      layout: essay
-      content-type: university
-      image: https://willchurchill.co.uk/assets/images/posts/typewriter.png      

@@ -1,7 +1,7 @@
 ---
 title: 'Mental health and me: two weeks later'
 date: 2016-04-24T12:51:37+00:00
-image: https://willchurchill.co.uk/assets/images/posts/river-reflection.jpg
+image: https://willchurchill.co.uk/assets/images/musings/river-reflection.jpg
 categories: ['mental health']
 tags: ['depression','learnings','mental health']
 ---
@@ -17,7 +17,7 @@ I’m still trying to word a ‘proper’ follow up piece, but in the meantime, 
 
 This, I think, was the most surprising thing. Within about half a day of me sharing the post on Facebook, it had more hits than the rest of my blog posts put together. And that number just kept going up. It wasn’t just the number of people who liked the post, but how broad that range of people was. Old friends from school, uni, various old jobs, people I’d barely spoken to in years.
 
-![Google Analytics graph from my last post]({{site.url}}/assets/images/posts/google-analytics-mham.png)
+![Google Analytics graph from my last post]({{site.url}}/assets/images/musings/google-analytics-mham.png)
 <br><small>The Google Analytics stats for my blog. Take a guess when I last posted...</small>
 
 I know, logically, that mental health is something that affects everyone — just as physical health affects all of us. But seeing the number of people who connected with what I said really brought that point home. I was also contacted by a number of people who had shared the post with their own networks, and that had started conversations entirely separate to the ones I was a party to. That was incredibly humbling to hear, and also a testament to the power of conversation.
@@ -46,7 +46,7 @@ There were two aspects to opening up that worried me — the first was the r
 
 Now, I say that I worried, but looking back I’m not entirely sure what it was that I thought would happen. In the case of my ‘in real life’ friends, maybe I thought that hanging out in a group would be awkward in some way? That during lulls in conversation people would stare nervously at me in case I did something ‘mental’? Or maybe people would talk animatedly about me if I left the group about, only to awkwardly clam up when I returned. I don’t really know… (Sidebar: that I might have been worried these things would happen is in no way a reflection on my friends, rather on my mild paranoia on the subject.) In the event, beyond some incredibly thoughtful private messages and conversations (for all of which, I am thankful), and from one friend a gift of camomile tea, everything carried on almost exactly as it had done.
 
-![camomile tea]({{site.url}}/assets/images/posts/camomile-tea.jpeg)
+![camomile tea]({{site.url}}/assets/images/musings/camomile-tea.jpeg)
 
 Retrospectively, I’m even more confused as to how I thought my online image would change. Despite how hilarious I can be on social media, for reasons unknown I haven’t yet risen to celebrity status. As a result, it wasn’t as if I had particularly far to fall should ‘the worst’ (whatever that might be) have happened. Instead, I’ve since become more comfortable online — for example, sharing posts about mental health that I find interesting — and as a result I’ve actually had more interactions with people. I realise now that what was stopping me doing that was some weird fear that people would find out ‘my secret’ because I was posting articles about mental health and depression. When you think about it, this is odd; no one in the history of the internet has ever worried that people might think they are secretly a cat, just because they curate a Tumblr account featuring GIFs of feline pianists.
 

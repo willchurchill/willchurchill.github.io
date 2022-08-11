@@ -2,9 +2,9 @@
 title: There’s more than one way to skin a cat
 description: "Or: Why talking about Mental Health doesn’t always mean talking about mental health."
 date: 2018-02-14T13:01:57+00:00
-image: https://willchurchill.co.uk/assets/images/posts/street-sign.jpg
+image: https://willchurchill.co.uk/assets/images/musings/street-sign.jpg
 categories: ['mental health']
-tags: ['depression','mental health','storytelling','featured']
+tags: ['depression','mental health','storytelling']
 ---
 ***Or: Why talking about Mental Health doesn’t always mean talking about mental health.***
 

@@ -6,7 +6,7 @@ layout: default
 	<div class="row wrc-pb5">
 		<div class="twelve columns">
 		<div class="wrc-sitetitle" style="text-align:center;">
-			<p class="wrc-parenthesis">Fiction</p>
+			<p>Fiction</p>
 			<h1>{{ page.title }}</h1>
 			<p>{{ page.date | date: '%d %b, %Y' }} || {% include meta-read-time.html %}</p>
 		</div>
@@ -14,14 +14,5 @@ layout: default
 	</div>
 	<div class="row">
 		<div class="twelve columns">{{ content }}</div>
-	</div>
-	<div class="row">
-		<hr>
-		<p class="wrc-bold">
-			tags: 
-			{% for tag in page.tags %}
-				<a class="" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
-			{% endfor %}
-		</p>
-	</div>       
+	</div>     
 </div>

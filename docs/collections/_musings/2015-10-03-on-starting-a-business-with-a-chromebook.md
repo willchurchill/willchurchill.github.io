@@ -1,7 +1,7 @@
 ---
 title: On starting a business with a Chromebook
 date: 2015-10-03T10:23:08+00:00
-image: https://willchurchill.co.uk/assets/images/posts/chromebook.jpg
+image: https://willchurchill.co.uk/assets/images/musings/chromebook.jpg
 categories: ['technology']
 tags: ['business','chromebook','entrepreneurship','tech']
 ---

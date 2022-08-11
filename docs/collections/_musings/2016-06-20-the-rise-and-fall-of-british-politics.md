@@ -2,7 +2,7 @@
 title: The rise and fall of British politics
 description: "There's rumours of a coup in Labour. Is that a good thing? Sure - why not..."
 date: 2016-06-20T03:30:00+00:00
-image: https://willchurchill.co.uk/assets/images/posts/downing-street-sign.jpg
+image: https://willchurchill.co.uk/assets/images/musings/downing-street-sign.jpg
 categories: ['politics']
 tags: ['politics','labour','elections']
 ---

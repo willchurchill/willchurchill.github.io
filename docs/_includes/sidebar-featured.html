@@ -1,6 +1,0 @@
-<div class="">
-    {% assign featured-posts = site.documents | where: "tags", "featured" | sort: "date" | reverse %}
-    {% for post in featured-posts | limit: 3 %}                
-        {% include content-card-main.html %}   
-    {% endfor %}
-</div> 

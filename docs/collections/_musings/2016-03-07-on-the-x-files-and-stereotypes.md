@@ -1,7 +1,7 @@
 ---
 title: On The X-Files and stereotypes
 date: 2016-03-07T23:39:55+00:00
-image: https://willchurchill.co.uk/assets/images/posts/x-files.jpg
+image: https://willchurchill.co.uk/assets/images/musings/x-files.jpg
 categories: ['general']
 tags: ['media','racism','tv shows','x files']
 ---

@@ -17,7 +17,7 @@ permalink: "musings/technology/"
     <div class="row">
         {% assign musings = site.musings | where: "categories","technology" | sort: 'date' | reverse %}
         {% for post in musings %}
-            <div class="twelve columns">{% include content-card-specific.html %}</div>
+            <div class="twelve columns">{% include content-card-standard.html %}</div>
         {% endfor %}
     </div>
 </div>
