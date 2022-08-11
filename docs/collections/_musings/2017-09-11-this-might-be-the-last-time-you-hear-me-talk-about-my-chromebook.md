@@ -4,7 +4,7 @@ description: After 2 years, I’ve decided to move on from my Chromebook. On ref
 date: 2017-09-11T13:35:44+00:00
 image: https://willchurchill.co.uk/assets/images/musings/chromebook.jpg
 categories: ['technology']
-tags: ['chromebook','laptop','tech','featured']
+tags: ['chromebook','laptop','tech']
 ---
 #### After 2 years, I’ve decided to move on from my Chromebook. On reflection, would I recommend one? It depends…
 

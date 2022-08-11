@@ -4,7 +4,7 @@ description: Why bother? Politicians and the media seem to do nothing but lie. B
 date: 2019-11-25T11:19:59+00:00
 image: https://willchurchill.co.uk/assets/images/musings/decision.jpg
 categories: ['politics']
-tags: ['general election','politics','featured']
+tags: ['general election','politics']
 ---
 I've been thinking a lot about this election. About my decision on who to vote for. Whether to [tactical vote](http://copyandcode-staging.co.uk/willchurchill/on-tactical-voting-a-reprise/) or not. 
 
