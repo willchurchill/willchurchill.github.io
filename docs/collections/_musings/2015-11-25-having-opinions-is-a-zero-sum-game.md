@@ -4,7 +4,7 @@ description: "What do you put on the internet? Does it worry you? Should it?"
 date: 2015-11-25T10:00:00+00:00
 image: https://willchurchill.co.uk/assets/images/musings/bullhorn-red.jpg
 categories: ['general']
-tags: ['opinions','being online','featured']
+tags: ['opinions','being online']
 ---
 When people look back on the '10s, it's difficult to imagine what word they will use to capture the Zeitgeist of the decade. Terrorism? Climate change (still...)? Some as-yet-uncreated emoji? Two words that I have will no doubt make the shortlist: feminism and mental health (it's one word, for the purposes of this preface).
 

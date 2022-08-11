@@ -2,11 +2,11 @@
 
 I’m Will, and like most people I wear a lot of hats. One thing that I try to keep constant though is that I’m passionate about driving effective change, and enabling others to realise their potential.
 
-I’ve worked in technology and tech transformation across a range of sectors, including charity foundations and social enterprises, healthcare, and in education. In addition, as co-founder of a web-agency, I’ve helped dozens of social organisations get the most out of their online presence. I’m current the Technology Lead for [Esmee Fairbairn Foundation](https://esmeefairbairn.org.uk), and a trustee of [the School for Social Entrepreneurs](https://the-sse.org). 
+I’ve worked in technology and tech transformation across a range of sectors, including charity foundations and social enterprises, healthcare, and in education. In addition, as co-founder of a web-agency, I’ve helped dozens of social organisations get the most out of their online presence. I’m currently the Technology Lead for [Esmee Fairbairn Foundation](https://esmeefairbairn.org.uk), and a trustee of [the School for Social Entrepreneurs](https://the-sse.org). 
 
-With this site I want to share what I’ve learned - and what I’m still learning - about technology, the internet, and the huge role it plays in our lives. If you are a small to mid-sized charity, social enterprise, or socially-minded organisation, wanting to understand more about technology, I write this site for you. I hope that to help you squeeze the most out of your budgets, understand the decisions that you have to make when it comes to tech, and raise the level of understanding in your organisation, all without worrying about the implications on the work you do.
+With this site I want to share what I’ve learned - and what I’m still learning - about technology, the internet, and the huge role it plays in our lives. If you're in the social sector and want to understand more about how technology can make your work easier, I write this site for you. 
 
-I also offer my services on a freelance basis, providing support for organisations on anything from web services to technology consultancy. You can see my specialties further down the page, or [drop me an email](mailto:will@willchurchill.co.uk) to arrange a chat about whether I can be of service to you.
+I also offer my services on a freelance basis, providing support for organisations on anything from web services to technology consultancy. You can see my specialties further down the page, or [drop me an email](mailto:will@willrc.co.uk) to arrange a chat about whether I can be of service to you.
 
 ## My experience with technology
 
@@ -21,10 +21,6 @@ With over a decade of career experience, I’ve both enjoyed and benefitted from
 
 Throughout my career, my driving force has been unlocking human and organisational potential. I do this through measured, efficient, and expert use of technology. With a keen ability to both liaise with technical experts, and clearly relay information and concepts to non-technical colleagues, I am an invaluable member of any team.
 
-## My freelance work
-
-I do freelance work. I'm great. Hire me.
-
 ## About this site
 
-This site is a flat-file website, built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). If you're interested in why I designed it this way, you can read about it on my [personal blog]({{site.url}}/musings/i-blog-in-markdown-now/). Or, if you want to know more about flat-file websites and whether they're right for your organisation, you can read about it [here]({{site.url}}/articles/is-flat-file-right-for-me).
+This site is a flat-file website, built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). If you're interested in why I designed it this way, you can read about it on my [personal blog]({{site.url}}/musings/i-blog-in-markdown-now/). <!--Or, if you want to know more about flat-file websites and whether they're right for your organisation, you can read about it [here]({{site.url}}/articles/is-flat-file-right-for-me).-->

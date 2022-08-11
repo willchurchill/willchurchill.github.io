@@ -2,4 +2,4 @@ I believe there should be as few barriers to understanding technology as possibl
 
 You can also, if you're so inclined, [buy me a coffee](https://www.buymeacoffee.com/willchurchill) (though please don't feel obliged to do so - there are definitely [better ways](https://actions.tommys.org/a/tommys-change) you can spend your money).
 
-I also offer paid services and advice. If you think you or your organisation would benefit from this [drop me an email](mailto:will@willchurchill.co.uk) and we can arrange a no-pressure, no obligation, chat to see if I can help.
+I also offer paid services and advice. If you think you or your organisation would benefit from this [drop me an email](mailto:will@willrc.co.uk) and we can arrange a no-pressure, no obligation, chat to see if I can help.

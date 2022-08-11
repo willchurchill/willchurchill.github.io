@@ -61,31 +61,31 @@ collections_dir: collections
 collections:
   posts:
     output: true
-    permalink: /:collection/:title
+    permalink: /articles/:title
   musings:
     output: true
     permalink: /:collection/:title
+    type: "musing"
   fiction:
     output: true
     permalink: /:collection/:title
   
 # Defaults
 defaults:
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-  - scope:
+  -
+    scope:
       path: ""
-      type: "musings"
     values:
-      layout: "post"
-      content-type: "musing"
-      documents-true: true
-  - scope:
+      layout: "default"
+  -
+    scope:
       path: ""
-      type: "posts"
     values:
       layout: "article"
-      content-type: "post"
-      documents-true: true
+  -
+    scope:
+      path: "_musings"
+    values:
+      layout: "musing"
+      type: "musing"
+      content-type: "musing"

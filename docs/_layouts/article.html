@@ -1,50 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include header-wrc.html %}
-    {% include analytics.html %}
-</head>
+---
+layout: default
+---
 
-<body class="wcc-bg">
-    
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2G445F"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-    {% include navigation.html %}
-
-    <div class="container-wide wrc-headercontainer" style="background-image:url('{{site.url}}/assets/images/articles/{{page.headerimage}}')">
-        <div class="row">
-            <div class="twelve columns wrc-postheader">
-                <div class="wrc-postheadercontents">
-                    <div>{{ page.content-type }} | {{ page.subject }}</div>
-                    <h1>{{ page.title }}</h1>
-                    <div>{{ page.date | date: '%d %b, %Y' }} | {% include meta-read-time.html %}</div>
-                </div>
+<div class="container-wide wrc-headercontainer" style="background-image:url('{{site.url}}/assets/images/articles/{{page.headerimage}}')">
+    <div class="row">
+        <div class="twelve columns wrc-postheader">
+            <div class="wrc-postheadercontents">
+                <div>{{ page.content-type }} | {{ page.subject }}</div>
+                <h1>{{ page.title }}</h1>
+                <div>{{ page.date | date: '%d %b, %Y' }} | {% include meta-read-time.html %}</div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                {% if page.question %}
-                    <div class="wrc-question">Answering the question: {{ page.question }}</div>
-                {% endif %}
-                {{ content }}
-                <p style="font-style: italic; font-weight: bold;">{{ page.lastupdated }}</p>
-                <hr>
-                <h4>You may enjoy</h4>
-                {% include related-posts.html %}
-                <hr>
-                <span style="font-style:italic">
-                    {% capture include_articlefooter %}{% include article-footer.md %}{% endcapture %}
-                    {{ include_articlefooter | markdownify }}
-                </span>
-            </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            {% if page.question %}
+                <div class="wrc-question">Answering the question: {{ page.question }}</div>
+            {% endif %}
+            {{ content }}
+            <p style="font-style: italic; font-weight: bold;">{{ page.lastupdated }}</p>
+            <hr>
+            <h4>You may enjoy</h4>
+            {% include related-posts.html %}
+            <hr>
+            <span style="font-style:italic">
+                {% capture include_articleoutro %}{% include article-outro.md %}{% endcapture %}
+                {{ include_articleoutro | markdownify }}
+            </span>
         </div>
     </div>
-
-    {% include footer.html %}
-    
-</body>
-
-</html>
+</div>

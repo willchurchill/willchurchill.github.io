@@ -4,7 +4,7 @@ description: I flipflop between platforms a lot - this week it's the turn of Jek
 date: 2020-05-28T16:30:00+00:00
 image: https://willchurchill.co.uk/assets/images/musings/yaml-post-header.PNG
 categories: ['technology']
-tags: ['blogging','markdown','technology','jekyll','wordpress','medium']
+tags: ['blogging','markdown','technology','jekyll','wordpress','medium','featured']
 socialsharelink: ['Twitter','https://twitter.com/willchurchill/status/1266054546410942472']
 ---
 I go through a lot of different platforms for various web-based things. I like learning new things.
@@ -43,25 +43,25 @@ Most static sites are also cheap to run - they don’t need any fancy servers or
 ## Sounds great - why aren’t we all doing this?
 One thing I’ve learned whilst putting together my Jekyll based website is that, while the end result of a static site is very straightforward, the journey there is not.
 
-If I want to post a new blog, these are the steps I have to take:
-1. I write the post in Markdown.
-2. I put it into a specific folder on my computer.
-3. I launch something called [Docker Desktop](https://www.docker.com/) which allows me to run Jekyll from my laptop.
-4. I compile the website, including the new Markdown file (this process is actually quite intensive, and can take minutes to complete).
-5. This creates the static pages ready for upload. Using a FTP client (I opt for FileZilla), I upload the static site to my web server.  
-*Average time between writing the post and it being readable on the internet: 10 minutes.*
+Here's my workflow for writing a post on my Markdown site:
+1. I first write the post in Notion (I used to use Google Docs, but Notion handles Markdown better, and preserves the markup when you copy/paste it to somewhere else)
+2. Then I open up Visual Studio Code (just in case there was any doubt about how nerdy I was) and create a new Markdown file in the relevant directory of a local copy of my website
+3. I copy the contents of the Notion file into the Markdown file and make any necessary tweaks
+4. I update the YAML at the top of the file to make sure the categories are correct, etc.
+5. I save the file, and then using the Source Control feature of VSCode I commit the new file to my GitHub Pages repo, and sync.
 
-By contrast, to post something on my old WordPress website, I needed to do the following:
+In order to make any of that work, beforehand I have set up Visual Studio code to clone a repository of my GitHub Pages website, so that I can do the whole commit/sync situation. 
+
+It's actually not as labourious or long as it sounds, but even so the process for my old WordPress site was this:
 1. Login to WordPress
 2. Write the post
 3. Click Publish. 
-*Average time between writing the post and it being readable on the internet: 10 seconds.*
+
+Whichever way you slice it, the WordPress option is usually easier for the average person to get going.
 
 The long and short of it is that this type of website is not for everyone. That said, what I’ve described is not the only way for you to have a flat-file website. There are other CMS options that give you a good middle ground between WordPress style functionality, and the static-site benefits. [Grav](https://getgrav.org/), is a great example.
 
 It’s also important to note that my personal site is nothing more than a series of text-based pages. If you’re looking for more interactive content, perhaps something that requires a ‘back and forth’ between you and your users, then static sites might not be for you.  
-
-***EDIT (22/06/2021): Since originally writing this post, I've changed the workflow for my post writing. This site is now hosted on GitHub Pages, which means all I have to do is write the post and then commit the change to my repository. GitHub handles the rest. It's still at slightly more protracted process than publishing in WordPress, but nowhere near as demanding as when I first started.***
 
 ## Was it worth it?
 For me, yes. The exercise was about learning a new way of doing something, and I found that interesting. 

@@ -12,7 +12,7 @@ subject: Mental Health Support
 date: 2020-10-28T12:00:00+00:00
 
 categories: ['mental health']
-tags: ['mental health','depression','nhs','politics','healthcare','featured']
+tags: ['mental health','depression','nhs','politics','healthcare']
 
 socialsharelink: ['Twitter','https://twitter.com/willchurchill/status/1321761471089573889']
 ---

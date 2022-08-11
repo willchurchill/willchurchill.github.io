@@ -48,7 +48,7 @@ layout: default
 	<div class="row">
 		<h1 class="wrc-h1">From my personal blog</h1>
 		<div class="twelve columns wrc-card-container">
-			{% assign musings = site.musings | sort: 'date' | reverse %}
+			{% assign musings = site.musings | where: "tags", "featured" | sort: 'date' | reverse %}
 			{% for post in musings limit:3 %}
 				{% include content-card-blog.html %}
 			{% endfor %}
