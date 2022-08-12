@@ -28,7 +28,7 @@ url: "https://willrc.co.uk/" # the base hostname & protocol for your site, e.g. 
 twitter_username: willchurchill
 github_username:  willchurchill
 include: ["_pages"]
-permalink: /:collection/:title
+permalink: /:collection/:title/
 
 # Build settings
 # theme: minima
@@ -61,14 +61,14 @@ collections_dir: collections
 collections:
   posts:
     output: true
-    permalink: /articles/:title
+    permalink: /articles/:title/
   musings:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
     type: "musing"
   fiction:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
   
 # Defaults
 defaults:
