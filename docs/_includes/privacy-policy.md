@@ -18,7 +18,7 @@ To learn more about Cookies, visit the All About Cookies website [here](http://a
 ### What cookies are used
 We use up to three cookies to track useage on this site:
 
-* **_ga** and **_ga_KT...** are Third-Party cookies that load if you consent to their use. You can give consent via the banner at the bottom of the page. They facilitate the collection of non-essential tracking information, as detailed above.
+* **_ga** and other cookies starting with this are Third-Party cookies that facilitate the collection of non-essential tracking information, as detailed above. These cookies only load if you give consent to their use, which you can do via the banner at the bottom of the page.
 * **cookie-notice** loads once you accept/decline the use of third party cookies on the website banner. If you accept, the value of this cookie is set to "accepted" and the website will load Google Analytics tracking cookie. If you decline, the value of this cookie is set to "declined" and the site will not load the Third Party cookies. This cookie is stored for 30 days (or until manually removed), after which you must approve/decline the use of Third Party cookies again.
 
 ## Site information
