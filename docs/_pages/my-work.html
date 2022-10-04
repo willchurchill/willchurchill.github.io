@@ -1,0 +1,14 @@
+---
+title: "About"
+layout: default
+permalink: "/my-work/"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            {% capture include_mywork %}{% include my-work.md %}{% endcapture %}
+			{{ include_mywork | markdownify }}
+        </div>
+    </div>
+</div>
