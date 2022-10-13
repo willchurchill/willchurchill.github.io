@@ -1,6 +1,6 @@
 ---
 title: "Rollout of IT hardware"
-description: "Moving a website from one CMS - either a previous bespoke, or an existing platform like Squarespace or Weebly - to a modern instance of WordPress."
-example-client: ["Esmee Fairbairn Foundation","https://esmeefairbairn.org.uk"]
+example-client: ["Circle Health","https://www.circlehealthgroup.co.uk/","for"]
 ---
 
+Regardless of the size of your organisation, rolling out new hardware can be a daunting task.
