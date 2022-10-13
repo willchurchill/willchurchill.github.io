@@ -62,6 +62,9 @@ collections:
   posts:
     output: true
     permalink: /articles/:title/
+  projects:
+    output: true
+    permalink: /articles/:title/
   musings:
     output: true
     permalink: /:collection/:title/

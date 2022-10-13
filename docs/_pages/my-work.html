@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "My work"
 layout: default
 permalink: "/my-work/"
 ---
@@ -7,8 +7,22 @@ permalink: "/my-work/"
 <div class="container">
     <div class="row">
         <div class="twelve columns">
-            {% capture include_mywork %}{% include my-work.md %}{% endcapture %}
-			{{ include_mywork | markdownify }}
+            <h1>My Work</h1>
+            <p>
+                If you think there's something that I can help you with, don't hesitate to reach out. Email me on <a href="mailto:will@willrc.co.uk">will@willrc.co.uk</a>, or reach out to me on <a href="https://twitter.com/willchurchill">Twitter</a>.
+            </p>
+            <h2>Projects I've worked on</h2>
+            <p>
+                In no particular order (well, actually in alphabetical order based on how I've named them), here are some of the projects I've worked on over the years.
+            </p>
         </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns wrc-card-container">
+			{% assign projects = site.projects %}
+			{% for post in projects %}
+				{% include content-card-projects.html %}
+			{% endfor %}
+		</div>
     </div>
 </div>
