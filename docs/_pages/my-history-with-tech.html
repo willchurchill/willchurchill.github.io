@@ -1,0 +1,14 @@
+---
+title: "My History in Tech"
+layout: default
+permalink: "/my-history-in-tech/"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            {% capture include_myhistory %}{% include my-history.md %}{% endcapture %}
+			{{ include_myhistory | markdownify }}
+        </div>
+    </div>
+</div>

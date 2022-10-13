@@ -1,6 +1,6 @@
 ---
 title: "Digital Transformation Taskforce"
-description: "Moving a website from one CMS - either a previous bespoke, or an existing platform like Squarespace or Weebly - to a modern instance of WordPress."
-example-client: ["Esmee Fairbairn Foundation","https://esmeefairbairn.org.uk"]
+example-client: ["School for Social Entrepreneurs","https://www.the-sse.org/","with"]
 ---
 
+giving strategic oversight on priorities like hybrid learning across the programmes, and cyber security
