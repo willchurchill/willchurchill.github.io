@@ -21,6 +21,8 @@ With over a decade of career experience, I’ve both enjoyed and benefitted from
 
 Throughout my career, my driving force has been unlocking human and organisational potential. I do this through measured, efficient, and expert use of technology. With a keen ability to both liaise with technical experts, and clearly relay information and concepts to non-technical colleagues, I am an invaluable member of any team.
 
+To find out more about some of the projects I've been a part of, see the [My Work]({{site.url}}/my-work) page. 
+
 ## About this site
 
 This site is a flat-file website, built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). If you're interested in why I designed it this way, you can read about it on my [personal blog]({{site.url}}/musings/i-blog-in-markdown-now/). <!--Or, if you want to know more about flat-file websites and whether they're right for your organisation, you can read about it [here]({{site.url}}/articles/is-flat-file-right-for-me).-->

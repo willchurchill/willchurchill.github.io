@@ -1,0 +1,28 @@
+---
+title: "My work"
+layout: default
+permalink: "/my-work/"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1>My Work</h1>
+            <p>
+                If you think there's something that I can help you with, don't hesitate to reach out. Email me on <a href="mailto:will@willrc.co.uk">will@willrc.co.uk</a>, or reach out to me on <a href="https://twitter.com/willchurchill">Twitter</a>.
+            </p>
+            <h2>Projects I've worked on</h2>
+            <p>
+                In no particular order (well, actually in alphabetical order based on how I've named them), here are some of the projects I've worked on over the years. This isn't a full list, but hopefully gives you an idea as to the kinds of things I might be able to help you and your organisation with. I don't make any commission or get any rewards from any of the services or platforms that are mentioned below. If I recommend something, it's because I genuinely think its the right tool for the job - and that is the only reason.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns wrc-card-container-projects">
+			{% assign projects = site.projects %}
+			{% for post in projects %}
+				{% include content-card-projects.html %}
+			{% endfor %}
+		</div>
+    </div>
+</div>
