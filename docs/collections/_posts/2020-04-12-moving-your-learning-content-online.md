@@ -28,7 +28,7 @@ All the options we’ve listed have a few common features that are common across
 
 All of the platforms also allow the educators to track the progress of individual learners. This can be done via simply tracking what materials have been accessed, or through quizzing / exam functionality.
 
-# Moodle
+# 1. Moodle
 ## Overview
 Moodle is one of the most popular “free” LMS platforms, and is used extensively in the higher education space. Moodle is what is known as a “open source, self hosted” platform. This means that while the platform itself is free, it needs to be hosted on a server, which will cost money. We’ve recommended Moodle’s own hosting platform, Moodlecloud, which also removes a lot of the need for technical expertise.
 
@@ -58,7 +58,7 @@ Moodle is a great choice for organisations with a limited budget, and who are no
 
 [See the MoodleCloud pricing structure here.](https://moodlecloud.com/app/en/)
 
-# Easy LMS
+# 2. Easy LMS
 ## Overview
 Easy LMS is a very popular stand-alone e-learning platform, boasting an easy-to-use interface for both learners and educators. Unlike Moodle, there is no need to self-host this platform, and the level of technical understanding required is relatively low.
 
@@ -90,7 +90,7 @@ Easy LMS is a good option for organisations with a little budget to put into onl
 
 [See the pricing structure here.](https://price.easy-lms.com/)
 
-# TalentLMS
+# 3. TalentLMS
 ## Overview
 TalentLMS is a very popular e-learning platform, priding itself on its ease of use, strong feature set, and good customer service.
 
@@ -118,7 +118,7 @@ TalentLMS suits organisations looking for a more streamlined product from their 
 
 [See the pricing structure here.](https://www.talentlms.com/prices)
 
-# LearnDash
+# 4. LearnDash
 ## Overview
 Unlike the other options on this list, LearnDash is not a standalone LMS. Instead, it is a plugin for the popular WordPress website platform. LearnDash leverages the existing infrastructure of your WordPress website, and adds functionality to allow users to login and start learning.
 
