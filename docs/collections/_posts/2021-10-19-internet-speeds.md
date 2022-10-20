@@ -1,7 +1,7 @@
 ---
 title: "Internet Speeds"
 date: 2021-10-19T10:00:00+00:00
-description: "What dictates an internet speed, and why are you getting what you paid for?"
+description: "What dictates an internet speed, and why aren't you getting what you paid for?"
 question: "How do I know what to look for in an internet service provider?"
 content-type: guide
 subject: "internet"
