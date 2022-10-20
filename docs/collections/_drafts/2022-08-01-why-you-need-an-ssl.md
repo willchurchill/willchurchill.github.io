@@ -6,7 +6,7 @@ question: "Why do I need an SSL Certificate when my website doesn't have sensiti
 content-type: guide
 subject: "charity tech"
 tags: ["communication","video conferencing","featured"]
-headerimage: "padlock.jpg"
+image: "padlock.jpg"
 ---
 
 ## What is an SSL certificate

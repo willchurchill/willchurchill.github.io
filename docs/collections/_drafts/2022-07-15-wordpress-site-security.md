@@ -6,6 +6,6 @@ question: "What security do I need to think about for my WordPress website?"
 content-type: guide
 subject: "charity tech"
 tags: ["communication","video conferencing","featured"]
-headerimage: "padlock.jpg"
+image: "padlock.jpg"
 ---
 

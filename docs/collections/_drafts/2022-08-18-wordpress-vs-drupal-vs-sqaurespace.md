@@ -6,6 +6,6 @@ question: "Which Content Management System (CMS) is right for my small organisat
 content-type: guide
 subject: "charity tech"
 tags: ["communication","video conferencing","featured"]
-headerimage: "laptop-dashboard.jpg"
+image: "laptop-dashboard.jpg"
 ---
 

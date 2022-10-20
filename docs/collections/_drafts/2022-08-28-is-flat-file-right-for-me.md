@@ -6,6 +6,6 @@ question: "What do I need to ask my web developer to get the best for my charity
 content-type: guide
 subject: "charity tech"
 tags: ["communication","video conferencing","featured"]
-headerimage: "laptop-dashboard.jpg"
+image: "laptop-dashboard.jpg"
 ---
 

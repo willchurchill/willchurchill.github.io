@@ -5,6 +5,6 @@ description: "There are myriad options available to communicate with others - on
 content-type: opinion
 subject: "technology"
 tags: ["communication","video conferencing","featured"]
-headerimage: "laptop-dashboard.jpg"
+image: "laptop-dashboard.jpg"
 ---
 

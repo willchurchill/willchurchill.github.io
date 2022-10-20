@@ -6,7 +6,7 @@ question: "Is Zoom the best video conferencing option for my small organisation?
 content-type: guide
 subject: "communication"
 tags: ["communication","video conferencing","featured"]
-headerimage: "communication.jpg"
+image: "communication.jpg"
 ---
 
 ***22/05/2020 UPDATE: Zoom have released version 5.0 of their application, and after 30th May 2020 will enforcing mandatory updates. One of the additional features is a switch to GCM encryption, which is a much more secure type of encryption than as been previously used. If you are using Zoom, you should update as soon as possible. You can find more information on [Zoom's blog here](https://blog.zoom.us/wordpress/2020/04/27/its-here-5-things-to-know-about-zoom-5-0/).***

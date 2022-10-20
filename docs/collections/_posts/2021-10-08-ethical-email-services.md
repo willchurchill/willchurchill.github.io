@@ -6,7 +6,7 @@ question: "Is there a good ethical email provider?"
 content-type: guide
 subject: "communication"
 tags: ["communication","email"]
-headerimage: "email.jpg"
+image: "email.jpg"
 ---
 
 So you or a loved one has decided to get a new personal email address. Maybe you want to cut and run from an old one, maybe you just want a new one to separate out different aspects of your life. Maybe you need to recommend one for someone in your life that has never had an email address before. Whatever the reason, you're a socially conscious individual and the "ethicality", morality, and sustainability of the provider is important.

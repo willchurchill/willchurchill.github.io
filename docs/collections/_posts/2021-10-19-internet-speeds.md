@@ -6,7 +6,7 @@ question: "How do I know what to look for in an internet service provider?"
 content-type: guide
 subject: "internet"
 tags: ["internet","featured"]
-headerimage: "fibreoptic.jpg"
+image: "fibreoptic.jpg"
 ---
 
 So how fast is your internet? If you listen to your internet service provider, then you'll no doubt have "blazing fast" broadband, sometimes "up to one hundred meg!"
