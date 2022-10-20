@@ -6,7 +6,7 @@ question: "What e-learning platform is the right one for me?"
 content-type: guide
 subject: "web development"
 tags: ["web development","e-learning"]
-image: "webdev.jpg"
+image: "assets/images/articles/webdev.jpg"
 ---
 
 # Should I be considering an e-learning platform?

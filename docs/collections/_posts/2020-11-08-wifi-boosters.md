@@ -6,7 +6,7 @@ question: "How do I improve my internet when working from home?"
 content-type: guide
 subject: "hardware"
 tags: ["hardware","internet"]
-image: "hardware.jpg"
+image: "assets/images/articles/hardware.jpg"
 ---
 
 If you're experiencing poor internet connectivity in your home, there are three type of hardware that you can consider to improve your situation. Each comes with their pros and their cons, so it's worth thinking about which might be suitable.

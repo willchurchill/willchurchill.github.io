@@ -6,7 +6,7 @@ question: "What specifications should I look for in a laptop?"
 content-type: guide
 subject: "hardware"
 tags: ["hardware","laptops","chromebook","featured"]
-image: "laptop.jpg"
+image: "assets/images/articles/laptop.jpg"
 lastupdated: "This article was updated in July 2022 to make some minor tweaks, including noting that most laptops now come with Windows 11 preinstalled."
 ---
 

@@ -6,7 +6,7 @@ question: "What is the right way to upload images for my website?"
 content-type: guide
 subject: "web development"
 tags: ["web development","image optimisation"]
-image: "webdev.jpg"
+image: "assets/images/articles/webdev.jpg"
 ---
 
 One of the easiest "quick wins" to making your website load faster is choosing the right images and making sure they are formatted and sized correctly. In this guide, we go through some of the things to look out for when sorting your images out.
