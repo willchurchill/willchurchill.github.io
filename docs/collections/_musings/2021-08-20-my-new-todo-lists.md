@@ -20,10 +20,10 @@ Recently though I've found myself increasingly overwhelmed with the sheer number
 
 When that happens, I write a **4,3,2,1 list**:
 
-- I write down the first four things that I need to complete. These things are what needs to happen *immediately* in order for me to calm down and get back on track. On a standard work day, these might include responding to an urgent email. On a bad mental health day, it might include eating breakfast.
-- The next three things are usually a little more substantial, but still somewhat time sensitive. They require a little more effort to complete, but are still not big tasks.
-- The next two things should be a bit more involved, and lower down in terms of time sensitivity. Where as tasks 1-7 are quick-wins, 8 and 9 might not look out of place on your 'regular' productivity system.
-- Item ten has the least amount of pressure attached to it. If you're the kind of person who things in stretch goals, then this could be it.
+- I write down the first **four** things that I need to complete. These things are what needs to happen *immediately* in order for me to calm down and get back on track. On a standard work day, these might include responding to an urgent email. On a bad mental health day, it might include eating breakfast.
+- The next **three** things are usually a little more substantial, but still somewhat time sensitive. They require a little more effort to complete, but are still not big tasks.
+- The next **two** things should be a bit more involved, and lower down in terms of time sensitivity. Where as tasks 1-7 are quick-wins, 8 and 9 might not look out of place on your 'regular' productivity system.
+- The last **one** - item ten - has the least amount of pressure attached to it. If you're the kind of person who things in stretch goals, then this could be it.
 
 ## Why does this help?
 For me, this came out of trying to manage myself when I'm having acute periods of intense anxiety. It borrows heavily from the [5-4-3-2-1 Grounding Technique](https://insighttimer.com/blog/54321-grounding-technique/) some people use when they are anxious. I like the countdown element of it, and I like how strongly it helps focus me. It's not outcome driven in the way that most to-do lists are, and certainly isn't suitable for managing projects or complex issues. Rather it focuses on getting you to do things - the aim is to get you out of the rut of anxiety and just start ticking things off the list. That's why it not only doesn't matter that the first four are small quick tasks, it's actually integral to the process.

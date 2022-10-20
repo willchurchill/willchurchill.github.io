@@ -166,6 +166,6 @@ But that doesn’t mean that you have to spend vast amounts of money on a soluti
 
 There are a number of things to consider when choosing a video conferencing option - including cost, performance, and whether what you are looking for is to host a video conference, or a webinar.
 
-We’ve written a guide on choosing a video conferencing platform, which you can read [here]({{site.url}}articles/video-conferencing-zoom-and-other-options/).
+We’ve written a guide on choosing a video conferencing platform, which you can read [here]({{site.url}}/articles/video-conferencing-zoom-and-other-options/).
 
 Google have also recently launched their [Teach From Home site](https://teachfromhome.google/intl/en/), which is full of content and resources to help you use the Google Suite of products to get as close to a classroom experience for your students as possible. 

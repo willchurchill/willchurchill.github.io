@@ -24,7 +24,7 @@ email: will@willrc.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   An internet connection does not an expert make.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://willrc.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://willrc.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: willchurchill
 github_username:  willchurchill
 include: ["_pages"]
