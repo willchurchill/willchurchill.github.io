@@ -71,7 +71,7 @@ There, much neater.
 
 So far, we've got a function that takes out all our brackets and makes it easier to manipulate. That's good, but what are we actually trying to achieve?
 
-Because we now have our `capture_brackets[]` array, we can iterate through that and check that we have proper nesting. How do we do that? Well, we know that for the input string to be valid, if I open a bracket I have to either close it with the same bracket, or else open another bracket. If I take an open bracket and then next one in the sequence is the wrong closed bracket, then I know the input string is not valid
+Because we now have our `capture_brackets[]` array, we can iterate through that and check that we have proper nesting. How do we do that? Well, we know that for the input string to be valid, if I open a bracket I have to either close it with the same bracket, or else open another bracket. If I take an open bracket and then next one in the sequence is the wrong closed bracket, then I know the input string is not valid.
 
 Let's spitball what that might look like:
 
@@ -115,7 +115,7 @@ function check_nesting( capture_brackets ){
 
 So, this looks like a promising start, but there are several problems. And, I'll be honest with you, this little rabbit hole is one I spent a little longer down than I should have. I did need a little nudge from the other devs to get out of this. 
 
-The fundemental problem with this method is that it has no "memory". In other words, if I have an input string that looks like this `[]{}]` where I have a trailing closed bracket with no corresponding open bracket, it won't flag because all this function is looking at is the immediate character and the one after.
+The fundamental problem with this method is that it has no "memory". In other words, if I have an input string that looks like this `[]{}]` where I have a trailing closed bracket with no corresponding open bracket, it won't flag because all this function is looking at is the immediate character and the one after.
 
 So, let's rethink this slightly...
 
@@ -123,7 +123,7 @@ So, let's rethink this slightly...
 
 So far we've been looking at this problem linearly. In other words, we've been looking for opening brackets and then checking that the next one in the sequence matches. What if instead we looked for closed brackets and then worked backwards? If we assume a perfectly nested input - something like `{([])}` then the first closed bracket we hit will have to be immediately preceeded by the corresponding opening bracket. We just need our function to "remember" what the opening brackets are.
 
-So now the problem is "memory". We know how to solve memory problems - our old friend arrays! As we iterate through out `capture_bracket[]` array, when we hit and open bracket we can push that to a new array and then carry on. When we hit a closed bracket, all we need to do is check the last opening bracket of the new array. If they don't match, we have a problem. If they do match, then we can remove the last open bracket from the new array, and then move on.
+So now the problem is "memory". We know how to solve memory problems - our old friend arrays! As we iterate through out `capture_bracket[]` array, when we hit an open bracket we can push that to a new array and then carry on. When we hit a closed bracket, we need to check the last opening bracket of the new array. If they don't match, we have a problem. If they do match, then we can remove the last open bracket from the new array, and then move on.
 
 Let's map this out:
 
@@ -175,7 +175,7 @@ function check_nesting( capture_brackets ){
 
 ```
 
-So, going through this bit by bit, what we're doing is iterating through the `capture_brackets` input and saying that if we hit an open bracket, push that into the new `capture_open_brackets[]` array. If we hit a closed bracket, then take the last open bracket we saw (using `capture_open_brackets.slice(-1)`) and then run some checks on that. Those checks essentially try to match the pairs. If the check is successful, remove that last open bracket from the array (using `capture_open_brackets.pop()`) and carry on. If the check fails, send a message to the console.
+So, going through this bit by bit, what we're doing is iterating through the `capture_brackets` input and saying that if we hit an open bracket, push that into the new `capture_open_brackets[]` array. If we hit a closed bracket, then take the last open bracket we saw (using `capture_open_brackets.slice(-1)`) and then run some checks on that. Those checks essentially try to match the pairs. If the check is successful, remove that last open bracket from the array (using `capture_open_brackets.pop()`) and carry on. If the check fails, send a message to the console. I've also added some `console.log()` functions in there, just incase I've failed to account for something.
 
 I think we've got our component parts. Let's start to bring them together.
 
@@ -195,13 +195,13 @@ So, thinking back to the original problem statement, we need a way for inputted 
 
 ```
 
-Nothing overly complex here - just a text box, button, and a place for the function to give a verdict. The button calls the `parse_input()` function, and we've given the input field an id, so we'll just need to tweak that function to pull the code from there rather than assuming it's been passed the string.
+Nothing overly complex here - just an input box, a button, and a place for the function to give a verdict. The button calls the `parse_input()` function, and we've given the input field an id, so we'll just need to tweak that function to pull the code from there rather than assuming it's been passed the string.
 
-We're also going to call the `check_nesting()` function from within the first function, but rather than relying on the console we're going to need an output that we can measure. So we'll be replacing the `console.log()` functions with `return` functions: `return 1` if the check was successful, and `return 0` if it wasn't.
+We're also going to call the `check_nesting()` function from within the first function, and for that we need `check_nesting()` to give us back a verdict, rather than spit it out to the console. So we'll be replacing the `console.log()` with `return` function in the if/else statements. We'll use `return 1` if the check was successful, and `return 0` if it wasn't.
 
 Finally, that output will be assessed, and then converted into a message for the user.
 
-Let's see what that all looks like.
+Let's see what that all looks like:
 
 ```
 
