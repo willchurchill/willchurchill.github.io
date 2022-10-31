@@ -123,7 +123,7 @@ So, let's rethink this slightly...
 
 ## Sail array with me, honey
 
-So far we've been looking at this problem linearly. In other words, we've been looking for opening brackets and then checking that the next one in the sequence matches. What if instead we looked for closed brackets and then worked backwards? If we assume a perfectly nested input - something like `{([])}` then the first closed bracket we hit will have to be immediately preceeded by the corresponding opening bracket. We just need our function to "remember" what the opening brackets are.
+So far we've been looking at this problem linearly. In other words, we've been looking for opening brackets and then checking that the next one in the sequence matches. What if instead we looked for closed brackets and then worked backwards? If we assume a perfectly nested input - something like `{([])}` then the first closed bracket we hit will have to be immediately preceded by the corresponding opening bracket. We just need our function to "remember" what the opening brackets are.
 
 So now the problem is "memory". We know how to solve memory problems - our old friend arrays! As we iterate through out `capture_bracket[]` array, when we hit an open bracket we can push that to a new array and then carry on. When we hit a closed bracket, we need to check the last opening bracket of the new array. If they don't match, we have a problem. If they do match, then we can remove the last open bracket from the new array, and then move on.
 
@@ -300,4 +300,4 @@ There's just one more thing I'd added to that code. You may have noticed the `cl
 
 That's it! We've solved the problem. I never doubted us.
 
-Of course, this is by no means the only way to do this - even just using Javascript. One thing I'm always relearning is that a lot of the time, being a developer is more about thinking your way around problems than it is actually writing code. For me, this was a great exercise in that. I'm challengin myself to take on more of these "crossword puzzles for nerds" and I'll share my journey with you.
+Of course, this is by no means the only way to do this - even just using Javascript. One thing I'm always relearning is that a lot of the time, being a developer is more about thinking your way around problems than it is actually writing code. For me, this was a great exercise in that. I'm challenging myself to take on more of these "crossword puzzles for nerds" and I'll share my journey with you.
