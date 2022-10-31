@@ -13,7 +13,9 @@ image: "assets/images/articles/code.jpg"
 In this post, I'll be writing a function that takes an input and decides if it is well structured. Here's the criteria:
 
 > The input can contain any number of any type of bracket - round (), square [], or curly {}.
+
 > Open brackets must have a corresponding closed bracket.
+
 > Brackets must be properly nested - (so [this]) would be fine, [but (this]) would not.
 
 This particular puzzle was given to me as part of an exercise in front of other developers. Full disclosure, this is not the solution I came up with in the room, but rather one I arrived at immediately after the pressure was off, and has been influenced by the help they offered.
@@ -24,7 +26,7 @@ Let's get to work.
 
 For this problem I'm going to use Javascript to take an input string and run some checks on it. The first thing I'll need to do is to isolate any brackets. I'm going to use a `for` loop to iterate through the input string, analysing each character. For now, I'm just going to spit the brackets out to the console. Let's see what that might look like:
 
-```
+```javascript
 
 function parse_input( input_string ){
 
@@ -48,7 +50,7 @@ Then, because all I'm actually interested in are the brackets, I'm going to push
 
 So, let's rework our code a little bit.
 
-```
+```javascript
 
 all_brackets = ["(",")","[","]","{","}"];
 capture_brackets = [];
@@ -75,7 +77,7 @@ Because we now have our `capture_brackets[]` array, we can iterate through that 
 
 Let's spitball what that might look like:
 
-```
+```javascript
 
 function check_nesting( capture_brackets ){
 
@@ -127,7 +129,7 @@ So now the problem is "memory". We know how to solve memory problems - our old f
 
 Let's map this out:
 
-```
+```javascript
 
 open_brackets = ["(","[","{"];
 closed_brackets = [")","]","}"];
@@ -183,7 +185,7 @@ I think we've got our component parts. Let's start to bring them together.
 
 So, thinking back to the original problem statement, we need a way for inputted text to be checked and, presumably, the inputter to be told whether their input is valid. So far we've been working in the abstract, so before we go any further let's create a very basic input/output on a webpage. I'm not going to bother here with full HTML notation - but don't let my laziness rub off on you.
 
-```
+```html
 
 <html>
 
@@ -203,7 +205,7 @@ Finally, that output will be assessed, and then converted into a message for the
 
 Let's see what that all looks like:
 
-```
+```html
 
 <html>
 
