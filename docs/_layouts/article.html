@@ -19,6 +19,9 @@ layout: default
             {% if page.question %}
                 <div class="wrc-question">Answering the question: {{ page.question }}</div>
             {% endif %}
+            {% if page.alt-title %}
+                <div class="wrc-question">Alternative title: {{ page.alt-title }}</div>
+            {% endif %}
             {{ content }}
             <p style="font-style: italic; font-weight: bold;">{{ page.lastupdated }}</p>
             <hr>
