@@ -5,8 +5,9 @@ description: "With recent shake-ups in the Big Tech space, more people are flock
 alt-title: "Did the golden age of online communities really end, or did it just move?"
 content-type: opinion
 subject: "social media"
-tags: ["social media","blogging","communities"]
+tags: ["social media","blogging","communities","featured"]
 image: "assets/images/articles/writing.jpg"
+wrcpost: "yes"
 ---
 
 **With Elon Musk completing his takeover of Twitter, tens of thousands of people have started to explore Mastodon - a microblogging site / social media platform / Twitter clone on steroids. Ever one to explore new (either new-new or new-to-me) things, now seemed like a good time to take a look.**

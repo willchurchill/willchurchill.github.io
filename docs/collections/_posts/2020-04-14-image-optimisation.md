@@ -7,6 +7,7 @@ content-type: guide
 subject: "web development"
 tags: ["web development","image optimisation"]
 image: "assets/images/articles/webdev.jpg"
+wrcpost: "yes"
 ---
 
 One of the easiest "quick wins" to making your website load faster is choosing the right images and making sure they are formatted and sized correctly. In this guide, we go through some of the things to look out for when sorting your images out.

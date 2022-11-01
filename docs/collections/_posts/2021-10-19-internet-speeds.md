@@ -7,6 +7,7 @@ content-type: guide
 subject: "internet"
 tags: ["internet","featured"]
 image: "assets/images/articles/fibreoptic.jpg"
+wrcpost: "yes"
 ---
 
 So how fast is your internet? If you listen to your internet service provider, then you'll no doubt have "blazing fast" broadband, sometimes "up to one hundred meg!"

@@ -6,6 +6,7 @@ content-type: coding
 subject: "javascript"
 tags: ["javascript"]
 image: "assets/images/articles/code.jpg"
+wrcpost: "yes"
 ---
 
 ***It's been a while since I've done coding for the fun of it, so I thought I'd get back into the game, and bring you along for the ride. In a series of these posts, I'll be solving problems with code. Sort of like doing a crossword puzzle for nerds.***

@@ -11,7 +11,7 @@ layout: default
 		</div>
 		<div class="six columns">
 			<h1>Latest</h1>
-			{% assign latestguide = site.posts | sort: 'date' | reverse %}
+			{% assign latestguide = site.documents | where: "wrcpost", "yes" | sort: 'date' | reverse %}
 			{% for post in latestguide limit:2 %}
 				{% include content-card-latest.html %}
 			{% endfor %}
@@ -20,7 +20,7 @@ layout: default
 	<div class="row">
 		<h1 class="wrc-h1">Featured Articles</h1>
 		<div class="twelve columns wrc-card-container">
-			{% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
+			{% assign featured-posts = site.documents | where: "tags", "featured" | sort: "date" | reverse %}
 			{% for post in featured-posts limit: 3 %}                
 				{% include content-card-standard.html %}   
 			{% endfor %}

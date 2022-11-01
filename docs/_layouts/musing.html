@@ -32,12 +32,14 @@ layout: default
         </div>
         <div class="row">
             <hr>
+            <!--
             <p class="wrc-bold">
                 tags: 
                 {% for tag in page.tags %}
                     <a class="" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
                 {% endfor %}
             </p>
+            -->
             <p>
                 {% capture include_share %}{% include share.md %}{% endcapture %}
                 {{ include_share | markdownify }}

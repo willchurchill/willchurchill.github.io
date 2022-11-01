@@ -7,6 +7,7 @@ content-type: guide
 subject: "web development"
 tags: ["web development","e-learning"]
 image: "assets/images/articles/webdev.jpg"
+wrcpost: "yes"
 ---
 
 # Should I be considering an e-learning platform?
