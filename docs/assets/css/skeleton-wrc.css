@@ -489,10 +489,13 @@ pullquote {
   display:block;
   font-style: italic;
   font-weight: bold;
-  padding:40px;
+  padding:30px 20px;
+  margin:20px 15%;
+  border-radius: 20px;
+  background-color: #BDB9B7;
+  text-align: center;
 }
-pullquote::before{content:"---\A";}
-pullquote::after{content:"\A---";}
+pullquote > a { color:#fff; }
 
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
