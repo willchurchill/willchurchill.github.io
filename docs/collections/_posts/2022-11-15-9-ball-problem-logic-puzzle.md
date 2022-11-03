@@ -1,6 +1,6 @@
 ---
 title: "9 ball problem - Solving a logic puzzle with Javascript"
-date: 2022-11-08T10:00:00+00:00
+date: 2022-11-15T10:00:00+00:00
 description: "Carrying on with my 'coding for the fun of it' series, I'm looking at a classic logic problem, and seeing whether we can write code to solve it."
 content-type: coding
 subject: "logic puzzle"
