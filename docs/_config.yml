@@ -92,6 +92,7 @@ defaults:
       layout: "musing"
       type: "musing"
       content-type: "musing"
+      image: "/assets/images/generic/blog.jpg"
 
 markdown: kramdown
 highlighter: rouge

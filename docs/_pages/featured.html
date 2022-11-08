@@ -13,7 +13,7 @@ permalink: "/featured/"
     </div>
     <div class="row">
         <div class="twelve columns wrc-card-container-wide">
-			{% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
+			{% assign featured-posts = site.documents | where: "wrcpost", "yes" | where: "tags", "featured" | sort: "date" | reverse %}
 			{% for post in featured-posts %}                
 				{% include content-card-standard.html %}   
 			{% endfor %}
