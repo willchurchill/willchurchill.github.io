@@ -2,8 +2,8 @@
 title: "Counterfeit coins - Solving a logic puzzle with Javascript"
 date: 2022-11-08T10:00:00+00:00
 description: "Solving a logic puzzle using Javascript"
-content-type: guide
-subject: "logic"
+content-type: coding
+subject: "javascript"
 tags: ["logic puzzle","javascript"]
 image: "assets/images/articles/code.jpg"
 ---
