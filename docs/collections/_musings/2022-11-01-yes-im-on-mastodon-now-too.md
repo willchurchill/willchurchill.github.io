@@ -1,6 +1,7 @@
 ---
 title: "Yes, I'm on Mastodon now too"
 date: 2022-11-01T08:00:00+00:00
+categories: ['technology']
 description: "With recent shake-ups in the Big Tech space, more people are flocking to the Mastodon and the Fediverse. Including yours truly."
 alt-title: "Did the golden age of online communities really end, or did it just move?"
 content-type: musing

@@ -1,6 +1,6 @@
 ---
 title: "Mastodon and Twitter: Which one is better?"
-date: 2022-11-20T08:00:00+00:00
+date: 2022-11-11T08:00:00+00:00
 description: "It's been some time since I started using Mastodon. Here are some of the things I prefer about the platform, and somethings I still use Twitter for."
 question: "What are the differences between the Fediverse / Mastodon and Twitter, and why should I care?"
 content-type: opinion
@@ -52,6 +52,10 @@ But there are things about Mastodon that I am really enjoying. One of these is t
 
 Sadly, it doesn't work like that. I'd love to be able to tell you, dear reader. But aside from the fact that you are not me, and there for our opinions will likely differ, for me the actual answer comes down to what I use each platform for.
 
-We're certainly seeing a large exodus of Twitter users - or at least a huge influx of users to the Fediverse. But I don't think Twitter is going to go anywhere soon. And much like politics of any nature, the average person probably doesn't really care about the hot mess behind the scenes. They use it to connect to their sector, or maintain their own corner of the ether.
+We're certainly seeing a large exodus of Twitter users - or at least a huge influx of users to the Fediverse. But I don't think Twitter is going to go anywhere soon. And much like politics of any nature, the average person probably doesn't really care about the hot mess behind the scenes. They use it to connect to their friends / peers / sector, and to maintain their own corner of the ether.
 
-For me personally, I'm getting much more value from Mastodon than I'm currently getting from Twitter. I find it easier to engage and interact not just with individuals but also topics. The server I've joined is Fosstodon - which primarily discusses Free and Open Source software. I've enjoyed following along with people's software projects, and seeing insights from various tech conferences. These are all things I used to do with Twitter lists, but for me that just doesn't click as much anymore. I wish I could explain why. It's not necessarily the case with all the hats I wear - the UK Social Enterprise / Charity / Foundation space is still pretty active on the platform.
+For me personally, I'm getting much more value from Mastodon than I'm currently getting from Twitter. I find it easier to engage and interact not just with individuals but also topics. The server I've joined is [Fosstodon](https://fosstodon.org/) - which primarily discusses Free and Open Source software. I've enjoyed following along with people's software projects, and seeing insights from various tech conferences. These are all things I used to do with Twitter lists, but for me that just doesn't click as much anymore, at least not for "techy stuff". 
+
+It's not necessarily the case with all the hats I wear - the UK Social Enterprise / Charity / Foundation space is still pretty active on the Twitter, so I tend to flit back and forth a bit. It's horses for courses, I suppose is what I'm saying.
+
+But if you do find yourself in the Fediverse, find yourself a good server, and start engaging with people.
