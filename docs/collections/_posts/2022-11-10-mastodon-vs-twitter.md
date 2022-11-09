@@ -48,6 +48,8 @@ But there are things about Mastodon that I am really enjoying. One of these is t
 
 **You can add whatever you want to your profile** - Using meta tags, you can add as much detail to your profile as you want. Most commonly, people use them to signpost to other places on the internet that they exist. This is a tiny little quality of life thing that ultimately doesn't make or break the platform. But I think it's nice.
 
+**There's a 500 character limit** - I think it makes the dialogue across Mastodon more natural, and the discourse richer. I'll admit, when Twitter increased their limit from 140 characters, I was on the fence. I liked that the limit was so small, as it made me really consider the things I posted. But the way we used such platforms has changed, and having the extra room to breathe does make getting your point across easier. Also (and I probably need reminding of this more than most) it's a *limit*, not a *target*. 
+
 ## So which is better?
 
 Sadly, it doesn't work like that. I'd love to be able to tell you, dear reader. But aside from the fact that you are not me, and therefore our opinions will likely differ, for me the actual answer comes down to what I use each platform for.
