@@ -18,6 +18,8 @@ This is a test to see how Chromebooks handle git commands
 
 And to see what it does on the way back
 
+one more time with the script
+
 ## How much will it cost?
 
 ## Are there Privacy / Data Security considerations?
