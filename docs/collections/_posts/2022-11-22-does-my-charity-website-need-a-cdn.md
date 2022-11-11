@@ -16,6 +16,8 @@ wrcpost: "yes"
 
 This is a test to see how Chromebooks handle git commands
 
+And to see what it does on the way back
+
 ## How much will it cost?
 
 ## Are there Privacy / Data Security considerations?
