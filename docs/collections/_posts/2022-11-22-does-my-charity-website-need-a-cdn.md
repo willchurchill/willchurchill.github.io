@@ -20,6 +20,8 @@ And to see what it does on the way back
 
 one more time with the script
 
+and finally again from the CB
+
 ## How much will it cost?
 
 ## Are there Privacy / Data Security considerations?
