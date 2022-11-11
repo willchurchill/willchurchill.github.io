@@ -14,6 +14,8 @@ wrcpost: "yes"
 
 ## What is a CDN and how do they work?
 
+This is a test to see how Chromebooks handle git commands
+
 ## How much will it cost?
 
 ## Are there Privacy / Data Security considerations?
