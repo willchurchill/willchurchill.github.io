@@ -1,6 +1,6 @@
 ---
 title: "Why your website needs an SSL"
-date: 2023-11-15T10:00:00+00:00
+date: 2023-11-17T10:00:00+00:00
 description: "You've likely heard of SSL, but do you need one? And what even is it anyway? Read on and find out..."
 question: "Why do I need an SSL Certificate when my website doesn't have sensitive data?"
 content-type: guide
