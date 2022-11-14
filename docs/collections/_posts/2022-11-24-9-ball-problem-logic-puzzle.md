@@ -8,7 +8,7 @@ tags: ["logic puzzle","javascript","problem solving"]
 image: "assets/images/articles/code.jpg"
 ---
 
-It's been a while since I've done coding for the fun of it, so I thought I'd get back into the game, and bring you along for the ride. There isn't really a point to these, except to show some of the practical (and non-practical) uses for actual coding. 
+It's been a while since I've done coding for the fun of it, so I thought I'd get back into the game, and bring you along for the ride. There isn't really a point to these, except to show some of the practical (and non-practical) uses for actual coding.
 
 [Last time round]({{site.url}}/articles/counterfeit=coins-logic-puzzle/), I looked at the classic "Counterfeit Coins" problem. In this post, I'm going back to the world of weight-based logic problems for another classic: quality controlling balls.
 
