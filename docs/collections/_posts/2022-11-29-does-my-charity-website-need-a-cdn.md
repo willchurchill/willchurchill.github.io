@@ -1,6 +1,6 @@
 ---
 title: "Does my charity website need a CDN?"
-date: 2023-11-22T10:00:00+00:00
+date: 2023-11-29T10:00:00+00:00
 description: "A CDN - Content Delivery Network - can help your website load faster, be more resilient, and can reduce costs. But do you need one?"
 question: "How to I know if I'll benefit from a Content Delivery Network (CDN)?"
 content-type: guide
