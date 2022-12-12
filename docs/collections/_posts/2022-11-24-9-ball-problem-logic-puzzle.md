@@ -10,7 +10,7 @@ image: "assets/images/articles/code.jpg"
 
 It's been a while since I've done coding for the fun of it, so I thought I'd get back into the game, and bring you along for the ride. There isn't really a point to these, except to show some of the practical (and non-practical) uses for actual coding.
 
-[Last time round]({{site.url}}/articles/counterfeit=coins-logic-puzzle/), I looked at the classic "Counterfeit Coins" problem. In this post, I'm going back to the world of weight-based logic problems for another classic: quality controlling balls.
+[Last time round]({{site.url}}/articles/counterfeit-coins-logic-puzzle/), I looked at the classic "Counterfeit Coins" problem. In this post, I'm going back to the world of weight-based logic problems for another classic: quality controlling balls.
 
 The logic puzzle in question is the following:
 
@@ -70,7 +70,7 @@ function balance_scales( one, two ){
 
 ```
 
-For those who read the [Counterfeit Coins post]({{site.url}}/articles/counterfeit=coins-logic-puzzle/) you might recognise this as an adaptation of our scales function from last time. To walk through it section by section, we're taking the first inputted array (or `one` as the function understands it) iterating through it to find the total value, summing as we go. Then it does the same for the second inputted array (`two` as the function understands it). Finally, it compares the two values (`sum_one` and `sum_two`) and does one of 3 things:
+For those who read the [Counterfeit Coins post]({{site.url}}/articles/counterfeit-coins-logic-puzzle/) you might recognise this as an adaptation of our scales function from last time. To walk through it section by section, we're taking the first inputted array (or `one` as the function understands it) iterating through it to find the total value, summing as we go. Then it does the same for the second inputted array (`two` as the function understands it). Finally, it compares the two values (`sum_one` and `sum_two`) and does one of 3 things:
 
 1. If the values are the same - meaning that the groups weigh the same - it gives us a value of `0`.
 2. If the first array has a higher value than the second array - meaning that the first group weighs more than the second - it gives a value of `1`.
