@@ -4,9 +4,10 @@ date: 2022-12-13T10:00:00+00:00
 description: "There are many ways you can host your website online. Here we walk through some of the options."
 question: "Is Shared Hosting right for me, or should I be looking at other options?"
 content-type: guide
-subject: "charity tech"
-tags: ["communication","web hosting","featured"]
-image: "webdev.jpg"
+subject: "web development"
+tags: ["communication","web hosting"]
+image: "assets/images/articles/webdev.jpg"
+wrcpost: "yes"
 ---
 
 ## Let's start with Shared Hosting... what is it?
