@@ -25,7 +25,7 @@ There are literally hundreds of e-learning platforms available, and it would be 
 4. **LearnDash** - popular plugin for WordPress, with prices starting at $160 per year
 
 # Common features of LMSs
-All the options we’ve listed have a few common features that are common across almost all e-learning platforms. They all allow learners to sign up to the platform for free (meaning, at no cost to the learner), and consume content in a variety of ways. This includes access to PowerPoint slides, PDF documents, and video content.
+All the options we’ve listed have a few features that are common across almost all e-learning platforms. They all allow learners to sign up to the platform for free (meaning, at no cost to the learner), and consume content in a variety of ways. This includes access to PowerPoint slides, PDF documents, and video content.
 
 All of the platforms also allow the educators to track the progress of individual learners. This can be done via simply tracking what materials have been accessed, or through quizzing / exam functionality.
 

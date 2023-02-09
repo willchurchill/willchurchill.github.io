@@ -185,6 +185,10 @@ p {
   margin-bottom: 2em;
 }
 
+blockquote{
+  font-family: 'Bree Serif', serif;
+}
+
 .wrc-bree-serif{ font-family: 'Bree Serif', serif; }
 .wrc-signature{ font-size: 4rem; font-family: 'MrDafoe', cursive; }
 
@@ -454,7 +458,10 @@ hr {
   border-top: 1px solid #E1E1E1; }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wcc-border-left{
@@ -490,10 +497,10 @@ pullquote {
   font-style: italic;
   font-weight: bold;
   padding:30px 20px;
-  margin:20px 15%;
-  border-radius: 20px;
+  margin:20px 0;
+  border-radius: 10px;
   background-color: #BDB9B7;
-  text-align: center;
+  text-align: left;
 }
 pullquote > a { color:#fff; }
 
@@ -525,7 +532,7 @@ pullquote > a { color:#fff; }
 .wrc-card {
   display:flex;
   min-height: 200px;
-  border-radius:20px;
+  border-radius:10px;
 }
 .wrc-card-image {
   flex:1;
