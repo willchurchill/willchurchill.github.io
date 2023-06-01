@@ -4,7 +4,7 @@ date: 2023-02-28T10:00:00+00:00
 description: "There's lots of mental tasks we can outsource to technology now. But should we? And how does doing that affect us?"
 question: "Does internet access change the way we think?"
 content-type: opinion
-subject: "technology"
+subject: "general"
 tags: ["technology"]
 image: "assets/images/articles/thinking-emoji.jpg"
 wrcpost: "yes"
