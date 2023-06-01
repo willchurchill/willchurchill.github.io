@@ -10,7 +10,7 @@ image: "assets/images/articles/dj-decks.jpg"
 wrcpost: "yes"
 ---
 
-***It's difficult to get me to shut-up about new tech, so to help contain that excitement I've asked people to give me questions they have about things they want to know more about. In this post, my friend Chris - drummer for the band [scrap](https://linktr.ee/scrapband)- wanted to know whether the rise in AI could be a good thing or a bad things for songwriters.***
+***It's difficult to get me to shut-up about new tech, so to help channel that excitement I've asked people to give me specific tech questions they have. In this post, my friend Chris - drummer for the band [scrap](https://linktr.ee/scrapband) - wanted to know whether the rise in AI could be a good thing or a bad thing for songwriters.***
 
 Since the public launch of ChatGPT 6 months ago (yup, it really was only 6 months ago), it seems there’s nothing that “AI” can’t help us with. From [creating diet plans](https://www.washingtonpost.com/wellness/2023/05/02/chatgpt-ai-meal-planning-diet/) to [writing college essays](https://www.techradar.com/news/i-had-chatgpt-write-my-college-essay-and-now-im-ready-to-go-back-to-school-and-do-nothing), and even [helping with interview prep](https://www.explainthis.io/en/chatgpt/interview), no realm is safe from computer incursion. And that’s just in the world of text-based responses. Platforms like Dall-E and others can use prompts to create images, and some have even started using AI to [create films](https://www.newyorker.com/culture/screening-room/an-ai-generated-film-depicts-human-loneliness-in-thank-you-for-not-answering).
 
