@@ -5,7 +5,7 @@ description: "There's plenty about AI and ChatGPT in the news at the moment. Her
 question: "How will AI help or hinder songwriting?"
 content-type: opinion
 subject: "general"
-tags: ["technology"]
+tags: ["technology","ai","chatGPT"]
 image: "assets/images/articles/dj-decks.jpg"
 wrcpost: "yes"
 ---
