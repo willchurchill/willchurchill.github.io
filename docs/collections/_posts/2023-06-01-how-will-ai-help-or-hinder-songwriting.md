@@ -10,6 +10,8 @@ image: "assets/images/articles/dj-decks.jpg"
 wrcpost: "yes"
 ---
 
+***It's difficult to get me to shut-up about new tech, so to help contain that excitement I've asked people to give me questions they have about things they want to know more about. In this post, my friend Chris - drummer for the band [scrap](https://linktr.ee/scrapband)- wanted to know whether the rise in AI could be a good thing or a bad things for songwriters.***
+
 Since the public launch of ChatGPT 6 months ago (yup, it really was only 6 months ago), it seems there’s nothing that “AI” can’t help us with. From [creating diet plans](https://www.washingtonpost.com/wellness/2023/05/02/chatgpt-ai-meal-planning-diet/) to [writing college essays](https://www.techradar.com/news/i-had-chatgpt-write-my-college-essay-and-now-im-ready-to-go-back-to-school-and-do-nothing), and even [helping with interview prep](https://www.explainthis.io/en/chatgpt/interview), no realm is safe from computer incursion. And that’s just in the world of text-based responses. Platforms like Dall-E and others can use prompts to create images, and some have even started using AI to [create films](https://www.newyorker.com/culture/screening-room/an-ai-generated-film-depicts-human-loneliness-in-thank-you-for-not-answering).
 
 Not even coders themselves are without competition. ChatGPT has even been used to create [basic WordPress plugins](https://www.zdnet.com/article/i-asked-chatgpt-to-write-a-wordpress-plugin-i-needed-it-did-it-in-less-than-5-minutes/), among other things.
@@ -30,7 +32,7 @@ A very clear and eloquent answer immediately presented itself. The only problem?
 
 I have never worked at the Prince’s Trust, but I have mentored young people. It says as much in my LinkedIn profile, and so when ChatGPT found the words “mentoring” and “young people”, it’s predictive nature kicked in. You know what happens when you Google “mentoring young people”?
 
-![Google Search for "mentoring young people" where the top result is for The Prince's Trust.]({{site.url}}/assets/images/articles/ai-songwriting/google-mentoring-young-people.png)
+![Google Search for "mentoring young people" where the top result is for The Prince's Trust.]({{site.url}}/assets/images/articles/ai-songwriting/google-search-mentoring-young-people.png)
 
 So all ChatGPT has done is tried to fill in gaps by predicting what the next part of the sentence should be, all with the lens of making sure that whatever the response is, it sounds like a real sentence.
 
@@ -84,7 +86,7 @@ It is worth noting that, while I’ve focused here on ChatGPT (largely because i
 
 Despite the plethora of [self-published AI-generated sci-fi](https://www.reuters.com/technology/chatgpt-launches-boom-ai-written-e-books-amazon-2023-02-21/) books flooding Amazon, I don’t think Neal Stephenson is losing out on sales. And on the flipside, there are many people who are making money now who weren’t before. Could this be one of those times where technology actually acts as a leveller of the field? Is it fair to say that more people are getting a bite of the cherry, without damaging the livelihoods of those already eating?
 
-I’m not a musician, but I do have some experience with creating and marketing content. It strikes me that the creation of content is so rarely the problem. If anything, AI-assistance here may well help those who struggle in that area, but it isn’t going to be a game-changer to those already producing content. The problem most people face is in getting people to consume what they produce. *********Heart On My Sleeve********* didn’t go viral because it was an incredible song. It went viral because people thought they were listening to The Weeknd and Drake, and then stayed viral because of the novelty that they actually weren’t.
+I’m not a musician, but I do have some experience with creating and marketing content. It strikes me that the creation of content is so rarely the problem. If anything, AI-assistance here may well help those who struggle in that area, but it isn’t going to be a game-changer to those already producing content. The problem most people face is in getting people to consume what they produce. *Heart On My Sleeve* didn’t go viral because it was an incredible song. It went viral because people thought they were listening to The Weeknd and Drake, and then stayed viral because of the novelty that they actually weren’t.
 
 ## Final thoughts
 
