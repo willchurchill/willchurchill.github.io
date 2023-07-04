@@ -5,7 +5,7 @@ permalink: "/musings/"
 ---
 
 <div class="container-wide">
-	<div class="row">
+	<div class="row row-padding">
 		<div class="six columns">
 			<h1>My personal blog</h1>
 			{% capture include_about %}{% include about-blog.md %}{% endcapture %}
@@ -19,7 +19,7 @@ permalink: "/musings/"
 			{% endfor %}
 		</div>
 	</div>
-	<div class="row">
+	<div class="row row-padding">
 		<h1 class="wrc-h1">Popular posts</h1>
 		<div class="twelve columns wrc-card-container">
 			{% assign featuredblogposts = site.musings | where: "tags", "featured" | sort: "date" | reverse %}
@@ -28,7 +28,7 @@ permalink: "/musings/"
 			{% endfor %}
 		</div>
 	</div>
-	<div class="row">
+	<div class="row row-padding">
 		<h1 class="wrc-h1">All blog posts</h1>
 		<div class="twelve columns wrc-card-container">
 			{% assign musings = site.musings | sort: 'date' | reverse %}
