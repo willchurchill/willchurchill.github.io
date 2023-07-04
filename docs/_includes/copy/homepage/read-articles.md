@@ -1,0 +1,2 @@
+## Tech Articles
+I'm always learning, and what I learn I like to share. I write articles on technology, the internet, and the huge role it plays in our lives. Click the button below to read guides, opinion pieces, and news posts.

@@ -31,7 +31,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -50,6 +50,14 @@
 
 .container-wide>.row{
   padding:0 5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-container{
+  background-color: #fff;
+  margin:5rem 0;
+  padding:5rem 10rem;
+  text-align:center;
 }
 
 /* For devices larger than 400px */
@@ -275,6 +283,16 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+.button-light{
+  color:#fff;
+  background-color: #BDB9B7;
+  border-color: #FAF9F6;
+}
+.button-dark{
+  color:#BDB9B7;
+  background-color: #102027;
+  border-color: #BDB9B7;
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -504,6 +522,20 @@ pullquote {
 }
 pullquote > a { color:#fff; }
 
+.wrc-sitelogo{
+  text-decoration: none;
+  color:#102027;
+  font-size: 3rem;
+}
+.wrc-navlink{
+  margin-left:2rem;
+}
+
+.wrc-blogheader{
+  background-color: #112B3A;
+  color: #fff;
+}
+
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -536,8 +568,8 @@ pullquote > a { color:#fff; }
 }
 .wrc-card-image {
   flex:1;
-  min-width: 25%;
-  max-width:25%;
+  min-width:30%;
+  max-width:30%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -548,6 +580,39 @@ pullquote > a { color:#fff; }
 }
 .wrc-card-text > h2 {
   font-size:2em;
+}
+
+.wrc-hero-card {
+  display:flex;
+  min-height: 200px;
+  border-radius:10px;
+}
+.wrc-hero-card-image {
+  flex:1;
+  min-width:40%;
+  max-width:40%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 20px 20px 0;
+}
+.wrc-hero-card-text {
+  padding:5rem;
+}
+.wrc-hero-card-text > h2 {
+  font-size:2em;
+}
+
+.hero-card-dark {
+  background-color: #102027;
+  color:#fff;
+}
+.hero-card-light {
+  background-color: #BDB9B7;
+  color:#37474F;
+}
+.hero-card-light a{
+  color:#fff;
 }
 
 /* Clearing

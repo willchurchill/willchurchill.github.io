@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   An internet connection does not an expert make.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://willrc.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: willchurchill
+twitter_username: willranjhill
 github_username:  willchurchill
 include: ["_pages"]
 permalink: /:collection/:title/
@@ -65,6 +65,9 @@ collections:
   projects:
     output: true
     permalink: /articles/:title/
+  services:
+    output: true
+    permalink: /services/:title/
   musings:
     output: true
     permalink: /:collection/:title/

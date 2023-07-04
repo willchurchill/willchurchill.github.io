@@ -1,11 +1,11 @@
 ---
-title: "AI as a creative tool"
-date: 2023-06-01T10:00:00+00:00
+title: "Meta - worth it?"
+date: 2023-07-14T10:00:00+00:00
 description: "There's plenty about AI and ChatGPT in the news at the moment. Here I take a look at the potential for some more creative uses."
 question: "How will AI help or hinder songwriting?"
 content-type: opinion
 subject: "general"
-tags: ["technology","ai","chatGPT","featured"]
+tags: ["technology","ai","chatGPT"]
 image: "assets/images/articles/dj-decks.jpg"
 wrcpost: "yes"
 ---
