@@ -4,10 +4,9 @@ layout: default
 
     <!-- Content -->
     {% assign author = site.authors[page.author] %}
-
-    <div class="container">
-        <div class="row wrc-pb5">
-            <div class="twelve columns">
+    <div class="container-wide wrc-headercontainer wrc-blogheader">
+        <div class="row">
+            <div class="twelve columns wrc-postheader">
                 <p class="wrc-bold">
                     {% for category in page.categories %}
                         <span class="">{{ page.content-type }}s</span> > <span class="">{{ category }}</span>
@@ -19,6 +18,8 @@ layout: default
                 </p>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="twelve columns">{{ content }}</div>
         </div>

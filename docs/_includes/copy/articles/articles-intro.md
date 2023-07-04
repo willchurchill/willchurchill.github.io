@@ -1,0 +1,2 @@
+# Articles
+Running an organisation is hard work, and regardless of your sector there is always going to be a need for you to use tech. I believe there should be as few barriers to understanding technology as possible, so here I post advice, guides, and opinions, all completely free to access.

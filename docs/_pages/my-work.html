@@ -4,17 +4,27 @@ layout: default
 permalink: "/my-work/"
 ---
 
-<div class="container">
+{% capture include_myWork %}{% include copy/my-work/my-work.md %}{% endcapture %}
+{% capture include_projectsIntro %}{% include copy/my-work/projects-intro.md %}{% endcapture %}
+{% capture include_ctaContact %}{% include copy/cta/cta-contact.md %}{% endcapture %}
+{% capture include_chromeExtensions %}{% include copy/chrome-extensions/extension-intro.md %}{% endcapture %}
+{% capture include_chrome4321 %}{% include copy/chrome-extensions/4321.md %}{% endcapture %}
+{% capture include_chromeNowNextLater %}{% include copy/chrome-extensions/nownextlater.md %}{% endcapture %}
+
+<div class="container-wide">
     <div class="row">
         <div class="twelve columns">
-            <h1>My Work</h1>
-            <p>
-                If you think there's something that I can help you with, don't hesitate to reach out. Email me on <a href="mailto:will@willrc.co.uk">will@willrc.co.uk</a>, or reach out to me on <a href="https://twitter.com/willranjhill">Twitter</a>.
-            </p>
-            <h2>Projects I've worked on</h2>
-            <p>
-                In no particular order (well, actually in alphabetical order based on how I've named them), here are some of the projects I've worked on over the years. This isn't a full list, but hopefully gives you an idea as to the kinds of things I might be able to help you and your organisation with. I don't make any commission or get any rewards from any of the services or platforms that are mentioned below. If I recommend something, it's because I genuinely think its the right tool for the job - and that is the only reason.
-            </p>
+            <div class="wrc-hero-card hero-card-dark">
+				<div class="wrc-hero-card-text">
+					{{ include_myWork | markdownify }}
+				</div>
+				<div class="wrc-hero-card-image" style="background-image:url('{{site.url}}/assets/images/generic/strategy-graph.jpg');"></div>
+			</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            {{ include_projectsIntro | markdownify }}
         </div>
     </div>
     <div class="row">
@@ -25,27 +35,34 @@ permalink: "/my-work/"
 			{% endfor %}
 		</div>
     </div>
+    <div class="cta-container">
+        {{ include_ctaContact | markdownify }}
+        <a href="mailto:will@willrc.co.uk" class="button">Email me at will@willrc.co.uk</a>
+    </div>
     <a name="extensions"></a>
     <div class="row">
         <div class="twelve columns">
-            <h2>Chrome Extensions</h2>
-            <p>
-                Every now and again I get a bee in my bonnet about a very specific way I like to work. Usually this is to do with how I store information. Below are a couple of Chrome Extensions I wrote to help me manage certain tasks. I offer them here completely free. These are not projects I regularly come back to, but if you have suggestions or questions about them, please do <a href="mailto:will@willrc.co.uk">get in touch</a>.
-            </p>
-            <h3>4321 Extension</h3>
-            <p>
-                This was my first publicly available Chrome Extension, which I used for a while to help me manage overwhelm in specific projects. The idea is that you can chunk tasks into blocks of 4, 3, 2, then 1 final task. You can read more about how and why I created this in my <a href="https://willrc.co.uk/musings/my-new-todo-lists/">personal blog</a>.
-            </p>
-            <p>
-                If you want to use the extension, you can find it on the <a href="https://chrome.google.com/webstore/detail/4321-todo-extension/mmophiodbcfhifbdaklpfjdfiadgobpo">Chrome Web Store</a>.
-            </p>
-            <h3>NowNextLater Extension</h3>
-            <p>
-                I'm constantly searching for, refining, and changing the way I track tasks. More recently I've gone back to basics, and started to log tasks that I need to do Now, things that I need to do in the near future (Next), and those that I need to be aware of, but that aren't super urgent. This led me to write the NowNextLater Extension, which is currently how I keep track of tasks that aren't really part of any specific project.
-            </p>
-            <p>
-                It's currently being reviewed by Google for acceptance into the Chrome Web Store, but check back soon for the link.
-            </p>
+            {{ include_chromeExtensions | markdownify }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="wrc-hero-card hero-card-light">
+				<div class="wrc-hero-card-text">
+					{{ include_chrome4321 | markdownify }}
+				</div>
+				<div class="wrc-hero-card-image" style="background-image:url('{{site.url}}/assets/images/generic/4321-screenshot.jpg');"></div>
+			</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="wrc-hero-card hero-card-dark">
+				<div class="wrc-hero-card-text">
+					{{ include_chromeNowNextLater | markdownify }}
+				</div>
+				<div class="wrc-hero-card-image" style="background-image:url('{{site.url}}/assets/images/generic/nownextlater-screenshot.jpg');"></div>
+			</div>
         </div>
     </div>
 </div>

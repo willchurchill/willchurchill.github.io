@@ -1,0 +1,4 @@
+## NowNextLater Extension
+I'm constantly searching for, refining, and changing the way I track tasks. More recently I've gone back to basics, and started to log tasks that I need to do Now, things that I need to do in the near future (Next), and those that I need to be aware of, but that aren't super urgent. This led me to write the NowNextLater Extension, which is currently how I keep track of tasks that aren't really part of any specific project.
+
+If you'd like to use the extension, you can find it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/nownextlater-extension/hmeicodhjdadobfkagbmjgkpgfmdnmhj/).

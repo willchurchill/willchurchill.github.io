@@ -4,19 +4,30 @@ layout: default
 permalink: "/articles/"
 ---
 
-<div class="container">
+{% capture include_articlesIntro %}{% include copy/articles/articles-intro.md %}{% endcapture %}
+{% capture include_ctaContact %}{% include copy/cta/cta-contact.md %}{% endcapture %}
+
+<div class="container-wide">
     <div class="row">
         <div class="twelve columns">
-            <h1>Articles</h1>
-            <p>Running your own organisation is hard work, and there are many decisions that need to be made. Here is some of the standard advice that I've given over the years, all in one place. I hope you’ll find it useful.</p>
+            <div class="wrc-hero-card hero-card-light">
+				<div class="wrc-hero-card-text">
+					{{ include_articlesIntro | markdownify }}
+				</div>
+				<div class="wrc-hero-card-image" style="background-image:url('{{site.url}}/assets/images/generic/laptop-typewriter.jpg');"></div>
+			</div>
         </div>
     </div>
     <div class="row">
-        <div class="twelve columns wrc-card-container-wide">
+        <div class="twelve columns wrc-card-container">
 			{% assign guides = site.posts | sort: 'date' | reverse %}
 			{% for post in guides %}
 				{% include content-card-standard.html %}
 			{% endfor %}
 		</div>
+    </div>
+	<div class="cta-container">
+        {{ include_ctaContact | markdownify }}
+        <a href="mailto:will@willrc.co.uk" class="button">Email me at will@willrc.co.uk</a>
     </div>
 </div>

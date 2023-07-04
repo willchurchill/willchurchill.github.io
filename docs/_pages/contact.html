@@ -4,19 +4,17 @@ layout: default
 permalink: "/contact/"
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <h1>Get in touch</h1>
-            <h3>By email</h3>
-            You can reach out to me via email on <a href="mailto:will@willrc.co.uk">will@willrc.co.uk</a>.
-            <h3>By social media</h3>
-            I'm on all the millennial-frequented social media platforms. Get in touch with me on:
-            <ul>
-                <li><a href="https://twitter.com/willranjhill">Twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/willranjanchurchill/">LinkedIn</a></li>
-                <li><a href="https://instagram.com/willranjhill">Instagram</a></li>
-            </ul>
-        </div>
-    </div>
+{% capture include_contactMe %}{% include copy/contact/contact-me.md %}{% endcapture %}
+
+<div class="container-wide">
+	<div class="row">
+		<div class="twelve columns">
+			<div class="wrc-hero-card hero-card-dark">
+				<div class="wrc-hero-card-text">
+					{{ include_contactMe | markdownify }}
+				</div>
+				<div class="wrc-hero-card-image" style="background-image:url('{{site.url}}/assets/images/generic/email-notification.jpg');"></div>
+			</div>
+		</div>
+	</div>
 </div>

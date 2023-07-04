@@ -1,0 +1,3 @@
+## About this site
+
+This site is a flat-file website, built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). If you're interested in why I designed it this way, you can read about it on my [personal blog]({{site.url}}/musings/i-blog-in-markdown-now/). <!--Or, if you want to know more about flat-file websites and whether they're right for your organisation, you can read about it [here]({{site.url}}/articles/is-flat-file-right-for-me).-->
