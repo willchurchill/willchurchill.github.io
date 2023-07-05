@@ -1,5 +1,5 @@
 ---
-title: "Hardware recommendation"
+title: "Hardware recommendations"
 fa: "fa-solid fa-microchip"
 ---
 
