@@ -570,6 +570,31 @@ pullquote > a { color:#fff; }
   color: #fff;
 }
 
+@media (max-width: 549px) {
+  .wrc-mm-dl{
+    text-align: center;
+  }
+  .wrc-mm-dr{
+    text-align: center;
+  }
+  .wrc-mm-dm{
+    text-align: center;
+    margin:1rem 0;
+  }
+}
+@media (min-width: 550px) {
+  .wrc-mm-dl{
+    text-align: left;
+  }
+  .wrc-mm-dr{
+    text-align: right;
+  }
+  .wrc-mm-dm{
+    text-align: center;
+  }
+}
+
+
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
