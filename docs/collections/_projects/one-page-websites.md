@@ -1,5 +1,6 @@
 ---
 title: "One Page Websites"
+fa: "fa-solid fa-file"
 ---
 
 Sometimes what you need is a quick and simple website to get your message out there. Maybe you're a sole trader who needs a website to show your wares. Maybe you're running a local community group and you just need a page for information.

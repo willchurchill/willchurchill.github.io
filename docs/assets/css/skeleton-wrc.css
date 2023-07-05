@@ -224,6 +224,9 @@ blockquote{
 .wrc-fa{
   font-size: 4rem;
 }
+.wrc-fa-project{
+  font-size: 8rem;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -641,6 +644,24 @@ pullquote > a { color:#fff; }
 }
 .wrc-card-text > h2 {
   font-size:2em;
+}
+@media (min-width: 550px) {
+  .wrc-card-text-project {
+    padding-right:5rem;
+  }
+}
+.wrc-card-image-project{
+  flex:1;
+  min-width:25%;
+  max-width:25%;
+  border-radius: 10px 0 0 10px;
+  margin:auto;
+  text-align: center;
+}
+@media (max-width: 549px) {
+  .wrc-card-image-project{
+    display:none;
+  }
 }
 
 .wrc-card-container-services{

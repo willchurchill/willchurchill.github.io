@@ -1,6 +1,7 @@
 ---
 title: "Bespoke CRM creation"
 example-client: ["Enactus UK Alumni","https://www.enactusukalumni.co.uk/","for"]
+fa: "fa-solid fa-server"
 ---
 
 While there are a range of CRMs out there, sometimes you need something very specific. One of my first web projects was designing and building a CRM to help a volunteer organisation track the activity of their mentors.
