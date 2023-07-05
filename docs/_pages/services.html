@@ -5,7 +5,9 @@ permalink: "/services/"
 ---
 
 {% capture include_servicesIntro %}{% include copy/services/services-intro.md %}{% endcapture %}
+{% capture include_workingWithMe %}{% include copy/services/working-with-me.md %}{% endcapture %}
 {% capture include_ctaContact %}{% include copy/cta/cta-contact.md %}{% endcapture %}
+{% capture include_ctaMyWork %}{% include copy/cta/cta-mywork.md %}{% endcapture %}
 
 <script src="https://kit.fontawesome.com/2b622faef3.js" crossorigin="anonymous"></script>
 
@@ -28,8 +30,17 @@ permalink: "/services/"
 			{% endfor %}
 		</div>
     </div>
-    <div class="cta-container">
-        {{ include_ctaContact | markdownify }}
-        <a href="mailto:will@willrc.co.uk" class="button">Email me at will@willrc.co.uk</a>
+</div>
+<div class="cta-container">
+    {{ include_ctaContact | markdownify }}
+    <a href="mailto:will@willrc.co.uk" class="button">Email me at will@willrc.co.uk</a>
+</div>
+<div class="container">
+    <div class="row row-padding">
+        {{ include_workingWithMe | markdownify }}
     </div>
+</div>
+<div class="cta-container">
+    {{ include_ctaMyWork | markdownify }}
+    <a href="{{ site.url }}/my-work" class="button">See my work</a>
 </div>

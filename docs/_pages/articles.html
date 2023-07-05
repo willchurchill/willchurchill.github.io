@@ -6,6 +6,7 @@ permalink: "/articles/"
 
 {% capture include_articlesIntro %}{% include copy/articles/articles-intro.md %}{% endcapture %}
 {% capture include_ctaContact %}{% include copy/cta/cta-contact.md %}{% endcapture %}
+{% capture include_services %}{% include copy/cta/cta-services.md %}{% endcapture %}
 
 <div class="container-wide">
     <div class="row">
@@ -26,8 +27,8 @@ permalink: "/articles/"
 			{% endfor %}
 		</div>
     </div>
-	<div class="cta-container">
-        {{ include_ctaContact | markdownify }}
-        <a href="mailto:will@willrc.co.uk" class="button">Email me at will@willrc.co.uk</a>
-    </div>
+</div>
+<div class="cta-container">
+    {{ include_services | markdownify }}
+    <a href="{{ site.url }}/services" class="button">See my Services</a>
 </div>

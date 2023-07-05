@@ -7,6 +7,7 @@ permalink: "/about/"
 {% capture include_aboutWill %}{% include copy/about/about-will.md %}{% endcapture %}
 {% capture include_techExperience %}{% include copy/about/my-experience-with-tech.md %}{% endcapture %}
 {% capture include_aboutSite %}{% include copy/about/about-this-site.md %}{% endcapture %}
+{% capture include_readArticles %}{% include copy/cta/cta-articles.md %}{% endcapture %}
 
 <div class="container-wide">
     <div class="row">
@@ -20,11 +21,15 @@ permalink: "/about/"
 		</div>
 	</div>
 </div>
-<div class="container-wide">
+<div class="container">
     <div class="row row-padding">
         <div class="twelve columns">
 			{{ include_techExperience | markdownify }}
 			{{ include_aboutSite | markdownify }}
         </div>
     </div>
+</div>
+<div class="cta-container">
+    {{ include_readArticles | markdownify }}
+    <a href="{{ site.url }}/articles" class="button">Read my articles</a>
 </div>

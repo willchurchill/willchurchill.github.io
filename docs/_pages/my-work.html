@@ -10,6 +10,7 @@ permalink: "/my-work/"
 {% capture include_chromeExtensions %}{% include copy/chrome-extensions/extension-intro.md %}{% endcapture %}
 {% capture include_chrome4321 %}{% include copy/chrome-extensions/4321.md %}{% endcapture %}
 {% capture include_chromeNowNextLater %}{% include copy/chrome-extensions/nownextlater.md %}{% endcapture %}
+{% capture include_ctaServices %}{% include copy/cta/cta-services.md %}{% endcapture %}
 
 <div class="container-wide">
     <div class="row">
@@ -65,4 +66,8 @@ permalink: "/my-work/"
 			</div>
         </div>
     </div>
+</div>
+<div class="cta-container">
+    {{ include_ctaServices | markdownify }}
+    <a href="{{ site.url }}/services" class="button">See my services</a>
 </div>

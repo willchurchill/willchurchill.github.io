@@ -5,6 +5,7 @@ permalink: "/contact/"
 ---
 
 {% capture include_contactMe %}{% include copy/contact/contact-me.md %}{% endcapture %}
+{% capture include_ctaArticles %}{% include copy/cta/cta-articles.md %}{% endcapture %}
 
 <div class="container-wide">
 	<div class="row">
@@ -17,4 +18,8 @@ permalink: "/contact/"
 			</div>
 		</div>
 	</div>
+</div>
+<div class="cta-container">
+    {{ include_ctaArticles | markdownify }}
+    <a href="{{ site.url }}/articles" class="button">Read my articles</a>
 </div>
