@@ -221,6 +221,10 @@ blockquote{
 .wrc-bree-serif{ font-family: 'Bree Serif', serif; }
 .wrc-signature{ font-size: 4rem; font-family: 'MrDafoe', cursive; }
 
+.wrc-fa{
+  font-size: 4rem;
+}
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a { color: #1EAEDB; font-family: 'Bree Serif', serif; }
@@ -569,7 +573,7 @@ pullquote > a { color:#fff; }
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.wrc-card-container, .wrc-card-container-wide, .wrc-card-container-projects{
+.wrc-card-container, .wrc-card-container-wide, .wrc-card-container-projects, .wrc-card-container-services{
   max-width:100%;
   margin: 0 auto;
   display: grid;
@@ -586,10 +590,12 @@ pullquote > a { color:#fff; }
 @media (min-width: 900px) {
   .wrc-card-container { grid-template-columns: repeat(2, 1fr); }
   .wrc-card-container-projects { grid-template-columns: repeat(1, 1fr); }
+  .wrc-card-container-services { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 1200px) {
   .wrc-card-container { grid-template-columns: repeat(3, 1fr); }
   .wrc-card-container-projects { grid-template-columns: repeat(2, 1fr); }
+  .wrc-card-container-services { grid-template-columns: repeat(3, 1fr); }
 }
 .wrc-card {
   display:flex;
@@ -610,6 +616,15 @@ pullquote > a { color:#fff; }
 }
 .wrc-card-text > h2 {
   font-size:2em;
+}
+
+.wrc-card-container-services{
+  margin-top: 3rem;
+  width:100%;
+  text-align: center;
+}
+.wrc-card-services{
+  margin:auto;
 }
 
 .wrc-hero-card {

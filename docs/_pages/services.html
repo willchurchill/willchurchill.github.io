@@ -7,6 +7,8 @@ permalink: "/services/"
 {% capture include_servicesIntro %}{% include copy/services/services-intro.md %}{% endcapture %}
 {% capture include_ctaContact %}{% include copy/cta/cta-contact.md %}{% endcapture %}
 
+<script src="https://kit.fontawesome.com/2b622faef3.js" crossorigin="anonymous"></script>
+
 <div class="container-wide">
     <div class="row">
         <div class="twelve columns">
@@ -19,10 +21,10 @@ permalink: "/services/"
         </div>
     </div>
     <div class="row">
-        <div class="twelve columns wrc-card-container-projects">
+        <div class="twelve columns wrc-card-container-services">
 			{% assign services = site.services %}
 			{% for post in services %}
-				{% include content-card-projects.html %}
+				{% include content-card-services.html %}
 			{% endfor %}
 		</div>
     </div>
