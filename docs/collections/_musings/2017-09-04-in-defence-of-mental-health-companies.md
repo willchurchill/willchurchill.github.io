@@ -2,7 +2,6 @@
 title: In defence of mental health companies
 description: "Also: my experience with Cognitive Behavioural Therapy, and some thoughts on Tesla."
 date: 2017-09-04T14:12:08+00:00
-image: https://willchurchill.co.uk/assets/images/musings/business-paper.jpg
 categories: ['mental health']
 tags: ['business','capitalism','mental health','tesla','features']
 ---

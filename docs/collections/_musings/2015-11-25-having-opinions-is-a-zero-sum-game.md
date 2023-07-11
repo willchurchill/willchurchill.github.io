@@ -2,7 +2,6 @@
 title: Having opinions is a zero-sum game
 description: "What do you put on the internet? Does it worry you? Should it?"
 date: 2015-11-25T10:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/musings/bullhorn-red.jpg
 categories: ['general']
 tags: ['opinions','being online']
 ---

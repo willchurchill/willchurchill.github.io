@@ -1,9 +1,9 @@
 ---
 title: Why Twitter is my favourite platform
 date: 2016-04-29T09:16:43+00:00
-image: https://willchurchill.co.uk/assets/images/musings/social-media.jpg
 categories: ['technology']
 tags: ['social media','twitter']
+wrcpost: "yes"
 ---
 Twitter usage is dwindling. With so many social media options around these days, it was always going to be difficult to maintain traction on any single one. Instagram continues to gain in popularity — despite being (or perhaps because it is) a largely one-sided platform. Facebook, obviously, doesn’t seem likely to die soon. I’ve still no idea what Pinterest is for, but they [made the news](http://uk.businessinsider.com/pinterest-cofounder-evan-sharp-featured-collections-global-growth-2016-4?r=US&IR=T) recently with some new feature, so I guess they’re doing ok. 
 

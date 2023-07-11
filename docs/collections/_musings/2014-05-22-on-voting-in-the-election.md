@@ -1,7 +1,6 @@
 ---
 title: On voting in the election
 date: 2014-05-22T16:54:04+00:00
-image: https://willchurchill.co.uk/assets/images/musings/polling-station.jpg
 categories: ['politics']
 tags: ['democracy','elections','politics','voting']
 ---

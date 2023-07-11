@@ -1,7 +1,6 @@
 ---
 title: Some thoughts on The Apprentice
 date: 2015-11-12T14:53:44+00:00
-image: https://willchurchill.co.uk/assets/images/musings/the-apprentice.jpg
 categories: ['general']
 tags: ['business','entrepreneurship','tv shows']
 ---

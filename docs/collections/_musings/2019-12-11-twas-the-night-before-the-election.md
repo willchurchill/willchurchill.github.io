@@ -2,7 +2,6 @@
 title: "'Twas the night before the election"
 description: Before the end of this Conservative government, and the election, I wanted to jot down some thoughts, and maybe leave you with some things to think about.
 date: 2019-12-11T14:05:46+00:00
-image: https://willchurchill.co.uk/assets/images/musings/voting.jpg
 categories: ['politics']
 tags: ['elections','general election','politics']
 ---

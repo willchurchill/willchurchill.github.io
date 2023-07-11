@@ -2,7 +2,6 @@
 title: On the evolution of the written word
 description: I'm something of a stickler for grammar, but increasingly this seems to be less of a concern to people. How does language evolve, and is this a good thing?
 date: 2013-04-27T17:17:52+00:00
-image: https://willchurchill.co.uk/assets/images/musings/paper-and-pen.jpg
 categories: ['general']
 tags: ['english language','grammar','language','ted']
 ---

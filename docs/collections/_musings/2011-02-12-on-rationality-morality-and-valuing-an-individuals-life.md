@@ -2,7 +2,6 @@
 title: On rationality, morality, and valuing an individual’s life
 description: You won't be suprised to know that companies value human life all the time. But should they? What is the rationality behind this?
 date: 2011-02-12T14:52:19+00:00
-image: https://willchurchill.co.uk/assets/images/musings/ford-pinto.jpg
 categories: ['general']
 tags: ['business','cost benefit analysis','ethics','morality']
 ---

@@ -1,9 +1,9 @@
 ---
 title: What IE taught me about entrepreneurship
 date: 2015-03-19T15:25:41+00:00
-image: https://willchurchill.co.uk/assets/images/musings/computer-purple.jpg
 categories: ['general']
 tags: ['media','browsers','entrepreneurship','tech']
+wrcpost: "yes"
 ---
 So it seems the days of the (in)famous [Internet Explorer are numbered](http://www.theverge.com/2015/3/17/8230631/microsoft-is-killing-off-the-internet-explorer-brand). While it’s obvious that Microsoft won’t bow out of the internet browser war completely, IE as we know it will apparently be retired in favour of ‘[Project Spartan](http://www.theverge.com/2015/1/21/7863331/microsoft-project-spartan-new-web-browser)' (if nothing else, Microsoft need to be commended on the confident naming of their new product).
 

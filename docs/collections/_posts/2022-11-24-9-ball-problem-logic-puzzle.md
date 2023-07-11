@@ -4,7 +4,7 @@ date: 2022-11-24T10:00:00+00:00
 description: "Carrying on with my 'coding for the fun of it' series, I'm looking at a classic logic problem, and seeing whether we can write code to solve it."
 content-type: coding
 subject: "logic puzzle"
-tags: ["logic puzzle","javascript","problem solving"]
+tags: ["logic puzzle","javascript","problem solving","featured"]
 image: "assets/images/articles/code.jpg"
 ---
 

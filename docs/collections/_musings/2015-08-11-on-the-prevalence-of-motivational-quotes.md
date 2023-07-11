@@ -1,7 +1,6 @@
 ---
 title: On the prevalence of motivational quotes
 date: 2015-08-11T09:16:41+00:00
-image: https://willchurchill.co.uk/assets/images/musings/fake-quote.jpg
 categories: ['general']
 tags: ['business','quotes']
 ---

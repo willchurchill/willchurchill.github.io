@@ -2,7 +2,6 @@
 title: 'On tactical voting - a reprise'
 description: I'm not sure where I stand on tactical voting, but I do know that we should be talking about it.
 date: 2019-11-05T11:58:04+00:00
-image: https://willchurchill.co.uk/assets/images/musings/parliament.jpg
 categories: ['politics']
 tags: ['general election','politics','tactical voting']
 ---

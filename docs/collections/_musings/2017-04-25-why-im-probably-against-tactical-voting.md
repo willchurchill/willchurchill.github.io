@@ -2,7 +2,6 @@
 title: Why I’m (Probably) Against Tactical Voting
 description: Wherein I try to resolve my thoughts around tactical voting. Do I succeed? No. But I think it's important to talk about it.
 date: 2017-04-25T12:44:45+00:00
-image: https://willchurchill.co.uk/assets/images/musings/parliament01.jpg
 categories: ['politics']
 tags: ['ge2017','general election','tactical voting','politics','voting']
 ---

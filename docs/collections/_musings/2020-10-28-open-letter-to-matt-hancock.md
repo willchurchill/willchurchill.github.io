@@ -2,8 +2,6 @@
 layout: letter
 content-type: letter
 permalink: /letters/:title/
-image: https://willchurchill.co.uk/assets/images/generic/laptop-typewriter.jpg
-
 title: Open letter to Matt Hancock
 description: A few weeks ago I had what you might call a 'mental health episode'. Getting help for it has not been an easy journey...
 fao: Rt. Hon. Matt Hancock, MP West Suffolk, Secretary of State for Health of the United Kingdom

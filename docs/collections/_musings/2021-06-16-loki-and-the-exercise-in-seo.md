@@ -2,7 +2,6 @@
 title: "Loki and the exercise in SEO"
 description: The end of Episode 2 of Loki gives me a good opportunity to see whether I can boost SEO with some specific dates and times.
 date: 2021-06-16T17:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/musings/loki.jpg
 categories: ['general']
 tags: ['technology','seo','mcu']
 ---

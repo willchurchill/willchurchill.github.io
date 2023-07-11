@@ -1,9 +1,9 @@
 ---
 title: On starting a business with a Chromebook
 date: 2015-10-03T10:23:08+00:00
-image: https://willchurchill.co.uk/assets/images/musings/chromebook.jpg
 categories: ['technology']
 tags: ['business','chromebook','entrepreneurship','tech']
+wrcpost: "yes"
 ---
 So, its probably not a surprise to many of you that I own a Chromebook. Whether you know me in real life, or just through my social media, it turns out I happen to talk about it quite a lot. I try not to be too evangelical about it, but in the last couple of months I’ve gone through the process of starting a company, and given that the Chromebook is currently my only laptop, I did think this was worthy of a post.
 

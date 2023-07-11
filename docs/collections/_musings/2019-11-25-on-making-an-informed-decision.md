@@ -2,7 +2,6 @@
 title: On making an informed decision
 description: Why bother? Politicians and the media seem to do nothing but lie. But that's what makes it all the more important to understand what effects your decision.
 date: 2019-11-25T11:19:59+00:00
-image: https://willchurchill.co.uk/assets/images/musings/decision.jpg
 categories: ['politics']
 tags: ['general election','politics']
 ---

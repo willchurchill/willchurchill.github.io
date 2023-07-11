@@ -7,7 +7,6 @@ alt-title: "Did the golden age of online communities really end, or did it just 
 content-type: musing
 subject: "social media"
 tags: ["social media","blogging","communities","featured"]
-image: "assets/images/articles/writing.jpg"
 wrcpost: "yes"
 ---
 

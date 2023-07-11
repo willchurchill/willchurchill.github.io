@@ -1,7 +1,6 @@
 ---
 title: 'Mental health and me: two weeks later'
 date: 2016-04-24T12:51:37+00:00
-image: https://willchurchill.co.uk/assets/images/musings/river-reflection.jpg
 categories: ['mental health']
 tags: ['depression','learnings','mental health']
 ---

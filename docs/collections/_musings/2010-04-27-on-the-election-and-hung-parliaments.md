@@ -2,7 +2,6 @@
 title: On the Election, and Hung Parliaments
 description: What happens when an election gives us a hung parliament? What even is a hung parliament, and how will it affect us? Let's find out...
 date: 2010-04-27T17:57:34+00:00
-image: https://willchurchill.co.uk/assets/images/musings/parliament02.jpg
 categories: ['politics']
 tags: ['democracy','elections','politics','voting']
 ---

@@ -5,7 +5,7 @@ description: "It's been some time since I started using Mastodon. Here are some 
 question: "What are the differences between the Fediverse / Mastodon and Twitter, and why should I care?"
 content-type: opinion
 subject: "communication"
-tags: ["social media","twitter","fediverse","mastodon"]
+tags: ["social media","twitter","fediverse","mastodon","featured"]
 image: "assets/images/articles/social-media.jpg"
 wrcpost: "yes"
 ---

@@ -2,7 +2,6 @@
 title: "On the F-word. No, not that F-word."
 description: You scumbag, you maggot, you cheap lousy...
 date: 2019-12-28T10:00:00+00:00
-image: https://willchurchill.co.uk/assets/images/musings/christmas-tree.jpg
 categories: ['general']
 tags: ['language','censorship','christmas']
 ---
