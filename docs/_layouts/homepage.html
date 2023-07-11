@@ -55,7 +55,7 @@ layout: default
 	</div>
 	<div class="row">
 		<div class="twelve columns wrc-card-container">
-			{% assign featured-posts = site.documents | where: "tags", "featured" | sort: "date" | reverse %}
+			{% assign featured-posts = site.posts | where: "tags", "featured" | sort: "date" | reverse %}
 			{% for post in featured-posts limit: 6 %}                
 				{% include content-card-standard.html %}   
 			{% endfor %}
@@ -71,7 +71,7 @@ layout: default
 	</div>
 	<div class="row">
 		<div class="twelve columns wrc-card-container">
-			{% assign musings = site.musings | where: "tags", "featured" | sort: 'date' | reverse %}
+			{% assign musings = site.musings | where: "wrcpost", "yes" | sort: 'date' | reverse %}
 			{% for post in musings limit:3 %}
 				{% include content-card-blog.html %}
 			{% endfor %}
