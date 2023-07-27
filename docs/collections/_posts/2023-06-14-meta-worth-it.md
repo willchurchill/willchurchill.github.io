@@ -1,97 +1,119 @@
 ---
-title: "Meta - worth it?"
+title: "How the metaverse might change the world?"
 date: 2023-07-14T10:00:00+00:00
-description: "There's plenty about AI and ChatGPT in the news at the moment. Here I take a look at the potential for some more creative uses."
-question: "How will AI help or hinder songwriting?"
+description: "Love it or hate it, there's lots to know about the metaverse. In this long read, I explore where the innovations are, and what to look out for."
+question: "The metaverse: what is it, and will it be worth it?"
 content-type: opinion
 subject: "general"
-tags: ["technology","ai","chatGPT"]
-image: "assets/images/articles/dj-decks.jpg"
+tags: ["technology","metaverse","virtual reality","long read"]
+image: "assets/images/articles/vr-headset.jpg"
 wrcpost: "yes"
 ---
 
-***It's difficult to get me to shut-up about new tech, so to help channel that excitement I've asked people to give me specific tech questions they have. In this post, my friend Chris - drummer for the band [scrap](https://linktr.ee/scrapband) - wanted to know whether the rise in AI could be a good thing or a bad thing for songwriters.***
+***It’s difficult to get me to shut-up about tech, so to help channel that excitement I’ve asked people to give me specific tech questions they have. Lots of people ask me questions about the “metaverse” so in this post I have a look at what it is, and will it be worth it?***
 
-Since the public launch of ChatGPT 6 months ago (yup, it really was only 6 months ago), it seems there’s nothing that “AI” can’t help us with. From [creating diet plans](https://www.washingtonpost.com/wellness/2023/05/02/chatgpt-ai-meal-planning-diet/) to [writing college essays](https://www.techradar.com/news/i-had-chatgpt-write-my-college-essay-and-now-im-ready-to-go-back-to-school-and-do-nothing), and even [helping with interview prep](https://www.explainthis.io/en/chatgpt/interview), no realm is safe from computer incursion. And that’s just in the world of text-based responses. Platforms like Dall-E and others can use prompts to create images, and some have even started using AI to [create films](https://www.newyorker.com/culture/screening-room/an-ai-generated-film-depicts-human-loneliness-in-thank-you-for-not-answering).
+## What is the Metaverse?
 
-Not even coders themselves are without competition. ChatGPT has even been used to create [basic WordPress plugins](https://www.zdnet.com/article/i-asked-chatgpt-to-write-a-wordpress-plugin-i-needed-it-did-it-in-less-than-5-minutes/), among other things.
+Because the world of technology isn’t confusing enough already, there are actually two broadly held definitions for the word “metaverse”. The first is a term used to describe a sort of pseudo-space, combining Virtual and/or Augmented Reality, usually with the use of a headset that covers your eyes and often ears. Unless specified otherwise, this is the definition you should have in your mind when you read the rest of this post.
 
-But what about music? Can the latest in “AI” technology make a dent in the music business. Specifically, how can AI help or hinder songwriting?
+The other way you’ll likely hear the term “metaverse” is as the specific brand name for Mark Zuckerberg’s company’s metaverse. Mark Zuckerberg’s company is called Meta, and this is his universe. I guess Zuck was going for a “hoover” or “duct tape” approach to naming things - hoping that the name would become synonymous with the thing.
 
-## What is AI? Or more specifically, what is ChatGPT?
+Incidentally, for etymology fans amongst you, the word “metaverse” is actually a creation of celebrated speculative fiction writer Neal Stephenson, for his 1992 book *Snow Crash*. The novel focuses on a post-economic-crash world sometime in the 21st Century. Much of the book takes place in a virtual reality world, hosted on the internet, which users access via a headset. Sometimes these sci-fi authors really miss the mark, don’t they?
 
-First, let’s take a look at what we mean by “AI”. While much song and dance was made about ChatGPT when it first hit the mainstream, it’s quickly become apparent that we’re still a few steps away from Skynet. There are plenty of super in-depth articles about the specifics of what we’ve come to call “AI”, but for our purposes the thing to understand is that, when you ask ChatGPT a question it’s primary aim is to give you an answer that sounds like a human being responded.
+While you’re reading this, there is one more thing I want you to bear in mind. We’ll talk about “the metaverse” like its one thing, or one place, or even like its a single service that everyone hooks into - like the internet. This isn’t the case. Different companies are creating their own ‘verses to suit their own needs. To carry on the internet analogy, it might be helpful to think of each individual ‘verse like a website with its own login and password. It’s not exactly like that, but thinking about it in this way helps contextualise some of the barriers to adoption that we’ll talk about.
 
-One of the downsides of this is that it’s actually not great at giving accurate answers. For example, I asked ChatGPT a few weeks ago to write me a short biography.
+Alright - that’s the housekeeping done. We’ve talked a little bit about what the metaverse is, let have a look at some of the things we can use it for.
 
-![Screenshot of me asking ChatGPT to write me a bio. It produced a very eloquent, but inaccurate, response. Response included a statement that I had worked for the Prince's Trust.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-who-is-willrc.png)
+## Using the Metaverse for education
 
-A very clear and eloquent answer immediately presented itself. The only problem? Almost none of that is true. Even more worrying, when you try to query the answer itself, ChatGPT falls down a rabbit hole of gaslighting:
+I remember when VR headsets first stuck their nose into the mainstream. I’d gone to visit a tech incubator in central London who’d just picked up a couple of HTC Vives. Part of the software package they were showing off put you in an assembly line, and had you manage the operations for building cars. This sort of thing was to be all the rage - education was going to lead the charge into a whole new world of experiences.
 
-![Screenshot of me asking ChatGPT why it thought I worked at the Prince's Trust. It replied that it made no such claim.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-princes-trust-question.png)
+It wasn’t hard to see why. Slip on the headset and you could train to be a mechanic, a heart surgeon, a pilot, or even a sculptor. All without putting at risk someone’s car, heart, plane, or… rock…? More than that, you could attend campuses and join lectures run by some of the best minds on the planet - distance, language, and lecture hall capacity would all cease to be barriers.
 
-I have never worked at the Prince’s Trust, but I have mentored young people. It says as much in my LinkedIn profile, and so when ChatGPT found the words “mentoring” and “young people”, it’s predictive nature kicked in. You know what happens when you Google “mentoring young people”?
+Nearly a decade on from that visit, and I’ve yet to see any real leaps in that space. There are lots of reasons for that - not least of which was that, pre-Covid, securing tech financing was shooting fish in a barrel. People were throwing money at technology prospects like they’d watched Wolf of Wall Street backwards. Today’s landscape is very different. But even back then, while supply didn’t seem to be an issue, demand seemed to be lacking.
 
-![Google Search for "mentoring young people" where the top result is for The Prince's Trust.]({{site.url}}/assets/images/articles/ai-songwriting/google-search-mentoring-young-people.png)
+To be clear, I don’t think anybody thinks that these things are bad ideas. It’s just that the low barrier to entry I mentioned before is not the whole picture. In order to gain cheap access to interactive lessons, you first need to buy expensive hardware. In fact, these days companies like Meta are charging over the odds for their gear (compared to the value of the components, at least) because they are using some of that money to recoup the cost of the very expensive VR development. Like a lot of technology, we seem to be in that phase where only the rich can have access, while the market sorts itself out. Apple’s recently announced entrance into the foray of VR headsets, clocking in at $3,500, is certainly not doing anything to speed that process up. But, at some point, we may see cheaper hardware. Cheaper hardware would mean more people joining the ‘verse which means more demand, which encourages better supply, which means more people joining up, which means better supply, etc. etc. etc. You can by a flatscreen TV for a couple of hundred pounds now, where 10 years ago you’d need to add at least one zero. We don’t even call them “flatscreens” anymore, because that would be like pointing out they showed colour. My point is, technology usually gets cheaper.
 
-So all ChatGPT has done is tried to fill in gaps by predicting what the next part of the sentence should be, all with the lens of making sure that whatever the response is, it sounds like a real sentence.
+For now though, it seems as though education isn’t the draw that we expected it to be. So what else might come to the metaverse’s rescue?
 
-## Ok, so ChatGPT might not always be accurate, but does that matter for songwriting?
+## The future of remote working
 
-While we know that ChatGPT isn’t the go-to for fact-checking, what we have learned is that it is great at putting words together in specific ways.
+If you’ve seen anything about using VR headsets, you might have seen Meta’s Metaverse examples of the virtual boardroom, and cartoon-like avatars “doing business”. The idea is you slip on your headset and join a virtual board room. We have Zoom meetings now, but so much is lost in the simplification of that communication down to 2D. The theory is that by immersing yourself more completely in the experience, you’ll get back some of what you’re missing by not being face-to-face.
 
-Structure, in fact, is one of the things ChatGPT is best at. So with the right parameters, it is a very powerful tool in a lot of ways. It’s great at organising data, and also understands how to put information into specific form factors. Let’s see what happens if we ask ChatGPT to write us a little ditty.
+I think one of the reasons this is getting a lot of the press attention is that the technology is basically there - it’s just a matter of figuring out who wants it (read: who wants to pay for it). This is as compared to some of the other uses we’ll explore further down, which are still very much in development.
 
-![Screenshot of a haiku generated by ChatGPT.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-haiku-01.png)
+But its price that’s rearing it’s ugly head again. While theoretically VR meetings might be better than “traditional” video calling, the price jump involved in giving all your staff headsets, then upgrading their tech to handle the VR environment, then paying for the VR service, then all the training involved in new technology… it becomes very hard to justify the cost for the benefit of being able to more clearly see when someone sarcastically raises their eyebrows at your presentation.
 
-Not great, perhaps. But not too bad as far as 5 seconds of work goes. Here is where it gets interesting though - one thing that sets apart ChatGPT from its predecessors is the ability for you to hold a dialogue with the platform. If you liked a particular part of this haiku, you can ask the bot to emphasis it in further iterations.
+So perhaps we need to look at another sector to bring the metaverse into sharper focus.
 
-![Screenshot of ChatGPT revising the haiku based on feedback.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-haiku-02.png)
+## Gaming
 
-And let’s go for one more revision.
+When it comes to some of the underlying technology for the metaverse, this is probably where most of the foundational work has already been done. Much of the hardware we’re using in the space, and a good deal of the software used to create the worlds, comes from the gaming industry. Even looking at ways to interconnect different devices in one virtual world is something that multiplayer games of the more traditional variety have been deftly handling for decades.
 
-![Screenshot of a further revision to the haiku based on further feedback.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-haiku-03.png)
+Slight sidebar, but the e-Sports market is worth somewhere around the $1.2 billion mark [$1.2 billion mark](https://finance.yahoo.com/news/global-esports-market-report-2023-140800513.html), and you better believe people want a slice of that.
 
-You get the idea. We’re probably not going to win any awards here. But the point is that you can go back and forth and make adjustments without having to do much actual thinking. Here I’ve used a haiku to keep it simple, but the software doesn’t care what type of song you want.
+But while we have multiplayer gaming - and lots of it - there is still a jump that has yet to be made. Today’s games are expensive to make, and comparatively risky endeavours when it comes to financing them. Without a big name franchise backing the move into metaverse / VR gaming - something like a Call of Duty, or a League of Legends - it’s hard to see this really taking off. Not even Minecraft, the most popular video game in history, has managed to make it’s VR flavour popular enough to get people to invest in the platform. So far, the most likely candidate to break into this looks to be Epic Games’ Fortnight, which is leading the charge in VR Battle Royale. It’s a short jump over to a metaverse of its own - something that CEO Tim Sweeney has now confirmed the company is [actively gunning for](https://www.theverge.com/2023/3/23/23652928/tim-sweeney-interview-epic-games-fortnite-metaverse).
 
-![Screenshot of ChatGPT creating a country and and western song about using ChatGPT to create music.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-country-song.png)
+Of course, it’s all a big melting pot of different factors. Without the big player count already in the eco-system, the average gamer isn’t going to get enough FOMO to invest in the hardware. Without people chomping at the bit for a VR version of your game, you as the developer aren’t going to spend the exponential amount of money needed to turn your FPS or your top-down strategy into a VR environment. Without the investment from the big game houses, we might not see that needle shift.
 
-You can even rip off existing songs, and rework them for your own purposes, if you’re so inclined. (And yes, I most definitely threw in a typo on purpose to demonstrate that the mighty ChatGPT can see through that…)
+So, while there looks like there’s progress in the gaming world, perhaps there is another sector that will get us to universal metaverse adoption quicker…
 
-![Screenshot of ChatGPT rewriting Billy Joel's "Piano Man", but to be about ChatGPT.]({{site.url}}/assets/images/articles/ai-songwriting/chatgpt-piano-man.png)
+## E-commerce and banking
 
-## Looks like there’s nothing it can’t do. What’s the downside?
+It shouldn’t be surprising that one of the big players in the metaverse space is expected to be e-commerce. On the old-school, boring, 2D internet that you’re on right now, over [26 million websites offer](https://bloggingwizard.com/ecommerce-statistics/) e-commerce services.  
 
-There’s a couple of things to be aware of here. The first you’ve probably already spotted. It’s not very good. Now, you can fix that (to a point) with some back and forth, and a lot of tweaking and rewording of what you’re asking the system to do. The more you do that, perhaps the closer to a workable song you’ll get. If that’s the road you want to take though, at a certain point you’ve got to question how much time do you want to spend on guiding the AI vs doing your own thinking.
+It might not strike you as the most innovative of sectors. But the technology has come a long way from the early days of eBay in terms of getting you to part with your hard earned cash. As one example, anyone who has done a home renovation project recently may well have benefitted from Augmented Reality. The likes of Dulux will let you “paint” your living room from the viewscreen of your phone’s camera to make sure you get exactly the right colour in different lighting. A lot of furniture stores will also let you use Augmented Reality to place your new wardrobe or side table in the room to make sure it makes exactly the statement you want it to (and will also fit).
 
-There is perhaps a wider concern though. While it is admittedly an over-simplification to keep referring to ChatGPT as a predictive text generator (and I’d definitely have made some very clever people angry if they read that), it is important to remember that AI-models are based on existing data. Vast amounts of it, to be sure, but finite amounts nonetheless. Beyond a certain point, everything that an AI like ChatGPT produces is a derivation of existing content. Of course, there are those that argue that all art is thus. We only have a finite number of words in the dictionary, after all. So how can you do anything in art without it being derivative. And while we’re staring down that train of thought, what’s the line between derivative and homage? Why is Andy Warhol considered an artist? What about Weird Al?
+Work is already being done in the various flavours of the metaverse in terms of buying up virtual real estate within shopping districts. Yes, the various metaverses have already carved out areas specifically for you to shop. Among these metaverse options is “Decentraland”, which has been around in various forms since 2017. It’s only really in the last couple of years that the mainstream brands started to pay attention; the likes of Samsung, Adidas, and Miller Lite all bought property in Decentraland in late 2021 to early 2022. Not only that, but Decentraland has hosted events such as fashion shows attended by D&G and Estee Lauder, and concerts by DeadMau5 and Grimes. You can take your avatar to these places and experience them like you would the real-world. In the case of shopping, your purchases in the virtual world can then appear on your real-world doorstep the very next day.
 
-## So is that a yay or nay for AI as a songwriting tool?
+We’re a little way off this being the normal way to interact with brands, but big names are certainly backing the idea that this will happen sooner rather than later.
 
-I’m not a musician, but it strikes me that, as with a lot of technology, the answer to that question depends on how you use it.
+And of course, if you want to shop on the ‘verse, you’ll need to bank there as well. That’s the gamble that HSBC are taking. In 2022, they [purchased “land” in The Sandbox](https://sandboxgame.medium.com/hsbc-to-become-the-first-global-financial-services-provider-to-enter-the-sandbox-c066e4f48163) - another flavour of metaverse - with the aim of serving customers following and participating in e-sports. Back over in Decentraland, JP Morgan Chase have setup a [lobby in the main mall district](https://hypebeast.com/2022/2/jp-morgan-virtual-lounge-decentraland-first-bank-enter-metaverse), offering customers information on the blockchain and other areas the bank in investing.
 
-ChatGPT has proven itself to be good at generating structure. It’s also got a keen virtual ear for rhyme and a reasonable one for meter. And, of course, it has access to basically every lyric in recorded history ([pre 2021](https://help.openai.com/en/articles/6783457-what-is-chatgpt)). It can very much write you a song.
+This is all very exciting stuff. But is this really all we’re using this technology for? Just to replicate the things we are doing now but in a computer simulation? Happily, no…
 
-Indeed it has - and I don’t mean country music of dubious quality. A few months ago, a new collaboration between The Weeknd and Drake - *Heart On My Sleeve* - [went viral across](https://www.nytimes.com/2023/04/19/arts/music/ai-drake-the-weeknd-fake.html) social media. Only, it wasn’t a collab at all. Various AI tools had been used - including a ChatGPT-esque platform to create the lyrics - in order to put together a song that sounded like a genuine article. While super fans might have been able to tell something was up, for most *Heart On My Sleeve* was a very passable track that could have been the real deal. From a lyrics point of view, AI was able to analyse existing tracks from both artists, and put together words that were in keeping with their style.
+## More niche interests
 
-So perhaps it comes down to what you want. Ghostwriting in music has been around for about as long as we’ve had music. If you’re the kind of artist that uses a ghostwriter, should it make a difference to you whether the words you sing come from a human or a machine? If the quality is the same, would you even notice?
+Remember way back up towards the top of this article, when we were talking about the idea of training people to be pilots without putting planes (and, by extension, people) at risk? Or how VR could be the silver bullet that education has been looking for? And then we spent a considerable amount of time talking about people playing games, and buying paint, and going into a bank branch? 
 
-Or maybe you can use it as a “first draft” - a little kickstart for your inspiration before you build and make it your own.
+Well let’s get back on track, shall we?
 
-Either way, one of the most important aspects is the prompt you give it. Just like our haiku example above, we can tweak and refine the output by iterating the prompt. 
+Siemens and NVIDIA have joined forces to create their “Industrial Metaverse”. This is “a virtual world [created] to solve real-world problems” ([quote from Siemens' website](https://www.siemens.com/global/en/company/insights/siemens-and-nvidia-partner-to-build-the-industrial-metaverse.html)). The idea is that real-world machinery will be plugged into a photo-realistic virtual space to allow anyone from anywhere in the world (presumably with a decent internet connection) to collaborate on projects and develop new engineering principles. It brings together all the best buzzwords and acronyms from technology over the last decade - AI, IoT solutions, VR, data-driven design, AR, metaverse, ***omniverse***. For me, this is perhaps the most interesting use of the technology that is in active production at the moment.
 
-It is worth noting that, while I’ve focused here on ChatGPT (largely because it’s the most well known of the AI chatbots), it is not the only player in the space. ChatGPT has been specifically designed for a certain type of output - human-style conversation. But other services have been developed for more niche uses. While I’m not aware of any that have been designed especially for songwriting at the moment, the technology to do that does exist.
+But even with the exciting, there are still things to consider.
 
-## But it’s not just about creating the content…
+## Security implications
 
-Despite the plethora of [self-published AI-generated sci-fi](https://www.reuters.com/technology/chatgpt-launches-boom-ai-written-e-books-amazon-2023-02-21/) books flooding Amazon, I don’t think Neal Stephenson is losing out on sales. And on the flipside, there are many people who are making money now who weren’t before. Could this be one of those times where technology actually acts as a leveller of the field? Is it fair to say that more people are getting a bite of the cherry, without damaging the livelihoods of those already eating?
+There are a lot of concerns about how to handle security across the Metaverse. A lot of these concerns stem from the whole “the metaverse isn’t really one thing” problem we spoke about up top. Why is that an issue? Well if you use the same password for your Facebook account and your online banking, and one of them is compromised, then there’s a higher chance that you’ll be hacked on the other. The same principle applies - weakness in the security of one place you access might well mean your security is weakened elsewhere.
 
-I’m not a musician, but I do have some experience with creating and marketing content. It strikes me that the creation of content is so rarely the problem. If anything, AI-assistance here may well help those who struggle in that area, but it isn’t going to be a game-changer to those already producing content. The problem most people face is in getting people to consume what they produce. *Heart On My Sleeve* didn’t go viral because it was an incredible song. It went viral because people thought they were listening to The Weeknd and Drake, and then stayed viral because of the novelty that they actually weren’t.
+Ok, so we’re talking about run of the mill online security considerations then? Well not really. Because of the way that the metaverse functions, and the by-its-very-nature invasiveness of the thing, there is more risk involved. To give one very simple example, if someone hacks into your work email tomorrow, they might be able to do a little damage pretending to be you as they email your boss. What they can’t do is pretend to be you on a Zoom call. With access to your metaverse account though (whatever that means - see the “the metaverse isn’t one thing” issue), the ways in which they could steal your identity multiply.
+
+A lot of the benefits of the metaverse are in the fact that you can put more of yourself on the platform. More of yourself out there means more of you to steal, means a more attractive target for nefarious actors. To quote Vision in *Captain America: Civil War*, “our very existence invites challenge”.
+
+Moreover, a lot of the experiences in the metaverse can be enhanced by putting more of yourself out there. Shopping for clothes becomes easier if your avatar is a photo-realistic version of you. But where does that stop? Will your retina scan be on there, available for people to use? What if we make the switch to metaverse doctors? Will you need to put your medical infomation on the system?
+
+And beyond personal security, if Siemens and NVIDIA’s idea of the omniverse takes root - the ability to interact with the physical world from the virtual one - what risks are inherent in that.
+
+Now, I’m not saying any of this to fearmonger. A lot of the same sort of concerns follow tech innovations wherever they go - from the very creation of the internet, to online banking, through to the objectively bizzare concept of calling a stranger on your phone and then getting in their car.
+
+But data security is always something that worries tech professionals, and whatever form the metaverse takes, its ability to safetly and securely handle you is going to be paramount. Think about how long it took for most organisations to get a handle on GDPR - now imagine if GDPR had to account for the metaverse.
+
+## The law in the metaverse
+
+Quick hypothetical question for you: What happens if a crime is committed against you in the metaverse? What even would a crime in the metaverse look like? If I killed your avatar, is that ok because we’re basically in a game, or is that a crime because we’re in a replica of the real world?
+
+While you’re pondering what a crime actually is, let’s have a think about how you would police that across a system of disconnected platforms. In the real world, we have the likes of Interpol to deal with specific and serious crimes that transcend borders. Would Interpol’s jurisdiction cover the various metaverses? Would a new organisation be required. How would you even get each metaverse to recognise the authority of such an entity?
+
+Let’s take an example. Let’s say you’re a content creator in Decentraland, and you make a thing that goes viral and makes you a decent amount of money. What if someone copies that thing in Decentraland, and recreates it in The Sandbox and profits from it. The patents and IP that are used to create the metaverse might well be protected in the real-world, but what about things that are created “down there”?
+
+There are plenty of very smart people working on this kind of law as we speak, but the law is a slow and methodical tool that rarely moves quick enough to deal with technological change.
 
 ## Final thoughts
 
-So to return to our question, will AI help or hinder songwriters? I think it has the power to do both. But, on balance, I think if used in the right way it could help. That is, after all, the point of technology. We just need to work out how best to use it. 
+Right at the start, we asked what the metaverse was, and whether it will be worth it. That second part is a big question to answer - not least because, as you may have learned from this, we don’t really know what it is yet. We also don’t know what it’s going to cost us - either as individuals, or what we might need to provide as a collective. 
 
-The common theme throughout the examples we’ve looked at here is iteration. I don’t think we’re in danger of the music scene being overwhelmed with AI-generated music that puts songwriters out of business. I think that for largely the same reasons that I’m relatively sure my work as a developer is not going to be put in huge danger. AI can only take you so far. You need to understand what you’re putting into the system, and you need to be able to work with what that system spits out. Some of the grunt work can be done by the machines, but you still need someone at either end of the process who understands the fundamentals of the craft.
+There are a huge number of hurdles to overcome - technical, legal, and financial, not to mention some pretty meaty security implications.
 
-I’m a technology optimist. I’m not naïve to the concerns people have around AI, but as a tool to help us be better, I definitely think there’s a lot of exciting things happening.
+But if all of those can work themselves out, we could be looking at the most disruptive technology the world has ever seen. I still believe that when we iron this all out, we are looking a a huge leveller. High quality education, life-changing experiences, and the ability to interact and learn from each other like never before, could be accessible to everyone.
+
+Will it be worth it? Time will tell, but I’m hopeful.
