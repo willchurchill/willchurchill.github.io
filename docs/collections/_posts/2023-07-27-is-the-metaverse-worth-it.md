@@ -1,6 +1,6 @@
 ---
 title: "How the metaverse might change the world"
-date: 2023-07-14T10:00:00+00:00
+date: 2023-07-27T10:00:00+00:00
 description: "Love it or hate it, there's lots to know about the metaverse. In this long read, I explore where the innovations are, and what to look out for."
 question: "The metaverse: what is it, and will it be worth it?"
 content-type: opinion
