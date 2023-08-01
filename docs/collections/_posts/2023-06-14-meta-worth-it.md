@@ -5,7 +5,7 @@ description: "Love it or hate it, there's lots to know about the metaverse. In t
 question: "The metaverse: what is it, and will it be worth it?"
 content-type: opinion
 subject: "general"
-tags: ["technology","metaverse","virtual reality","long read"]
+tags: ["technology","metaverse","virtual reality","long read","featured"]
 image: "assets/images/articles/vr-headset.jpg"
 wrcpost: "yes"
 ---
@@ -50,9 +50,9 @@ So perhaps we need to look at another sector to bring the metaverse into sharper
 
 When it comes to some of the underlying technology for the metaverse, this is probably where most of the foundational work has already been done. Much of the hardware we’re using in the space, and a good deal of the software used to create the worlds, comes from the gaming industry. Even looking at ways to interconnect different devices in one virtual world is something that multiplayer games of the more traditional variety have been deftly handling for decades.
 
-Slight sidebar, but the e-Sports market is worth somewhere around the $1.2 billion mark [$1.2 billion mark](https://finance.yahoo.com/news/global-esports-market-report-2023-140800513.html), and you better believe people want a slice of that.
+Slight sidebar, but the e-Sports market is worth somewhere around the [$1.2 billion mark](https://finance.yahoo.com/news/global-esports-market-report-2023-140800513.html), and you better believe people want a slice of that.
 
-But while we have multiplayer gaming - and lots of it - there is still a jump that has yet to be made. Today’s games are expensive to make, and comparatively risky endeavours when it comes to financing them. Without a big name franchise backing the move into metaverse / VR gaming - something like a Call of Duty, or a League of Legends - it’s hard to see this really taking off. Not even Minecraft, the most popular video game in history, has managed to make it’s VR flavour popular enough to get people to invest in the platform. So far, the most likely candidate to break into this looks to be Epic Games’ Fortnight, which is leading the charge in VR Battle Royale. It’s a short jump over to a metaverse of its own - something that CEO Tim Sweeney has now confirmed the company is [actively gunning for](https://www.theverge.com/2023/3/23/23652928/tim-sweeney-interview-epic-games-fortnite-metaverse).
+But while we have multiplayer gaming - and lots of it - there is still a jump that has yet to be made. Today’s games are expensive to make, and comparatively risky endeavours when it comes to financing them. Without a big name franchise backing the move into metaverse / VR gaming - something like a Call of Duty, or a League of Legends - it’s hard to see this really taking off. Not even Minecraft, the most popular video game in history, has managed to make it’s VR flavour enticing enough to get people to invest in the platform. So far, the most likely candidate to break into this looks to be Epic Games’ Fortnite, which is leading the charge in VR Battle Royale. It’s a short jump over to a metaverse of its own - something that CEO Tim Sweeney has now confirmed the company is [actively gunning for](https://www.theverge.com/2023/3/23/23652928/tim-sweeney-interview-epic-games-fortnite-metaverse).
 
 Of course, it’s all a big melting pot of different factors. Without the big player count already in the eco-system, the average gamer isn’t going to get enough FOMO to invest in the hardware. Without people chomping at the bit for a VR version of your game, you as the developer aren’t going to spend the exponential amount of money needed to turn your FPS or your top-down strategy into a VR environment. Without the investment from the big game houses, we might not see that needle shift.
 
@@ -92,7 +92,7 @@ A lot of the benefits of the metaverse are in the fact that you can put more of 
 
 Moreover, a lot of the experiences in the metaverse can be enhanced by putting more of yourself out there. Shopping for clothes becomes easier if your avatar is a photo-realistic version of you. But where does that stop? Will your retina scan be on there, available for people to use? What if we make the switch to metaverse doctors? Will you need to put your medical infomation on the system?
 
-And beyond personal security, if Siemens and NVIDIA’s idea of the omniverse takes root - the ability to interact with the physical world from the virtual one - what risks are inherent in that.
+And beyond personal security, if Siemens and NVIDIA’s idea of the omniverse takes root - the ability to interact with the physical world from the virtual one - what risks are inherent in that?
 
 Now, I’m not saying any of this to fearmonger. A lot of the same sort of concerns follow tech innovations wherever they go - from the very creation of the internet, to online banking, through to the objectively bizzare concept of calling a stranger on your phone and then getting in their car.
 
@@ -104,7 +104,7 @@ Quick hypothetical question for you: What happens if a crime is committed agains
 
 While you’re pondering what a crime actually is, let’s have a think about how you would police that across a system of disconnected platforms. In the real world, we have the likes of Interpol to deal with specific and serious crimes that transcend borders. Would Interpol’s jurisdiction cover the various metaverses? Would a new organisation be required. How would you even get each metaverse to recognise the authority of such an entity?
 
-Let’s take an example. Let’s say you’re a content creator in Decentraland, and you make a thing that goes viral and makes you a decent amount of money. What if someone copies that thing in Decentraland, and recreates it in The Sandbox and profits from it. The patents and IP that are used to create the metaverse might well be protected in the real-world, but what about things that are created “down there”?
+Let’s take a different example. Let’s say you’re a content creator in Decentraland, and you make a thing that goes viral and makes you a decent amount of money. What if someone copies that thing in Decentraland, and recreates it in The Sandbox and profits from it. The patents and IP that are used to create the metaverse might well be protected in the real-world, but what about things that are created “down there”?
 
 There are plenty of very smart people working on this kind of law as we speak, but the law is a slow and methodical tool that rarely moves quick enough to deal with technological change.
 
@@ -114,6 +114,6 @@ Right at the start, we asked what the metaverse was, and whether it will be wort
 
 There are a huge number of hurdles to overcome - technical, legal, and financial, not to mention some pretty meaty security implications.
 
-But if all of those can work themselves out, we could be looking at the most disruptive technology the world has ever seen. I still believe that when we iron this all out, we are looking a a huge leveller. High quality education, life-changing experiences, and the ability to interact and learn from each other like never before, could be accessible to everyone.
+But if all of those can work themselves out, we could be looking at the most disruptive technology the world has ever seen. When we iron this all out, and I'm optimistic that we will, we are looking at a huge leveller. High quality education, life-changing experiences, and the ability to interact and learn from each other like never before, could be accessible to everyone.
 
 Will it be worth it? Time will tell, but I’m hopeful.
