@@ -763,3 +763,47 @@ there.
 .wrc-font{
   font-family: 'Red Hat Mono', monospace;
 }
+
+/* Business Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.business-card-background-dark{
+  background-color: #102027;
+  color:#fff;
+  padding-bottom:1.5em;
+}
+.business-card-text-center{
+  text-align:center;
+}
+.business-card-heading{
+  padding:1em;
+}
+.business-card-contact-container{
+  padding-bottom: 1em;
+}
+.business-card-button-row > span,
+.business-card-icon{
+  text-align: center;
+}
+.business-card-button{
+  display:inline-block;
+  width:30vw;
+}
+.business-card-button > a{
+  color:#fff;
+  text-decoration: none;
+}
+.business-card-icon{
+  display:inline-block;
+  width:25vw;
+}
+.business-card-social-icon{
+  text-align: center;
+  display:inline-block;
+  width:30vw;
+  padding-bottom: 2em;
+}
+.business-card-info > a,
+.business-card-social-icon > a{
+  color:#37474F;
+  text-decoration: none;
+}
