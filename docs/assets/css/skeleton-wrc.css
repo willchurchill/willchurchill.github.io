@@ -788,7 +788,8 @@ there.
   display:inline-block;
   width:30vw;
 }
-.business-card-button > a{
+.business-card-button > a,
+.business-card-download-contact > p > a{
   color:#fff;
   text-decoration: none;
 }
@@ -806,4 +807,9 @@ there.
 .business-card-social-icon > a{
   color:#37474F;
   text-decoration: none;
+}
+
+.business-card-download-contact > p {
+  padding-top:1em;
+  text-align: center;
 }
