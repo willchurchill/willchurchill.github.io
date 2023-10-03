@@ -776,8 +776,6 @@ there.
   color:#fff;
   padding-bottom:1.5em;
 }
-
-
 .business-card-text-center{
   text-align:center;
 }
@@ -789,13 +787,29 @@ there.
   grid-template-columns: 25% 75%;
   padding-bottom: 1em;
 }
+.business-card-button-row{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+.business-card-button-one{ grid-column: 1/2; }
+.business-card-button-two{ grid-column: 2/3; }
+.business-card-button-three{ grid-column: 3/4; }
+@media (max-width: 549px) {
+  .business-card-button-row,
+  .business-card-contact-container{
+    width:100vw;
+  }
+}
+@media (min-width: 550px) {
+  .business-card-button-row,
+  .business-card-contact-container{
+    width:50vw;
+    margin:0 auto;
+  }
+}
 .business-card-button-row > span,
 .business-card-icon{
   text-align: center;
-}
-.business-card-button{
-  display:inline-block;
-  width:30vw;
 }
 .business-card-button > a,
 .business-card-download-contact > p > a{
