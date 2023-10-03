@@ -771,6 +771,13 @@ there.
   color:#fff;
   padding-bottom:1.5em;
 }
+.business-card-background-effpink{
+  background-color: #EA5792;
+  color:#fff;
+  padding-bottom:1.5em;
+}
+
+
 .business-card-text-center{
   text-align:center;
 }
@@ -778,6 +785,8 @@ there.
   padding:1em;
 }
 .business-card-contact-container{
+  display:grid;
+  grid-template-columns: 25% 75%;
   padding-bottom: 1em;
 }
 .business-card-button-row > span,
@@ -794,8 +803,10 @@ there.
   text-decoration: none;
 }
 .business-card-icon{
-  display:inline-block;
-  width:25vw;
+  grid-column: 1/2;
+}
+.business-card-info{
+  grid-column: 2/3;
 }
 .business-card-social-icon{
   text-align: center;
