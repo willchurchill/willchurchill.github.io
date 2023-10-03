@@ -795,12 +795,19 @@ there.
 .business-card-button-two{ grid-column: 2/3; }
 .business-card-button-three{ grid-column: 3/4; }
 @media (max-width: 549px) {
+  .business-card-image{
+    width:80%;
+  }
   .business-card-button-row,
   .business-card-contact-container{
     width:100vw;
   }
 }
 @media (min-width: 550px) {
+  .business-card-image{
+    width:30%;
+    border-radius:100px;
+  }
   .business-card-button-row,
   .business-card-contact-container{
     width:50vw;
