@@ -845,3 +845,23 @@ there.
   padding-top:1em;
   text-align: center;
 }
+
+/* ASOSM (as seen on social media)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.asosm-container{
+  background-color: #37474F;
+  border-radius: 20px;
+  padding:10px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.asosm-container > a{
+  color:#fff;
+  text-decoration: none;
+}
+
+@media (max-width: 549px) {
+  .hidden-on-mobile{
+    display:none;
+  }
+}
