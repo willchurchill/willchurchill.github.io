@@ -44,6 +44,8 @@ Recently, Meta announced they were exploring offering a [paid tier for Instagram
 
 My concern is that we're going to enter an age where the ability to consume content safe from algorithmic influence is only going to be for those who can afford it. In the same way that those benefiting from - and therefore influencing the direction of - AI. Here though, my concern is less about how the platforms will be shaped by those with money. It is more about what happens to those who won't or can't pay. They will still be served those ads, and the ads will be more aggressive for it.
 
+***I talk a little more about how pervasive technology is in my blog about [Technology and the Cult of Celebrity]({{site.baseurl}}/musings/technology-and-the-cult-of-celebrity/)***
+
 ## Most people will experience online harm
 
 Did you know that 62% of adults who access the internet have encountered online harm in the last week? Did you know that number goes up to 68% for 13-17 year olds? Chloe Colliver of [Ofcom](https://www.ofcom.org.uk/home), talked through some of the research that lead to the creation of the Online Safety Bill - due to be passed into law in the coming weeks.
@@ -52,7 +54,9 @@ The average person in the UK spends a little over 4 hours online every day, and 
 
 While a full discussion on the Bill is beyond the scope of this post, there are some things to note. It's a very complicated document that can be interpreted in a number of ways - something that critics have been eager to point out. It also seems to demand the ability to decrypt secure messages, and calls into question how anonymous one can be on the internet. Clearly there are nefarious purposes for being untraceable online, but also there are a great many reasons someone might *need* to remain anonymous (tangentially related: [this 2021 post from Anonyome Labs](https://anonyome.com/2021/04/removing-anonymity-online-would-risk-the-most-vulnerable-users/) about the risk of removing online anonymity).
 
-That said, you can't argue with the numbers. With more young people accessing the internet more often, at a younger age, there certainly needs to be more though into how to make sure people are safe. As pricing models for everything from Generative AI to messaging apps evolve, different groups are going to be targetted for different reasons.
+That said, you can't argue with the numbers. With more young people accessing the internet more often, at a younger age, there certainly needs to be more thought put into making sure people are safe. As pricing models for everything from Generative AI to messaging apps evolve, different groups are going to be targeted for different reasons.
+
+***See also: [Centre for Countering Digital Hate](https://counterhate.com/), which (alongside being sued by Elon Musk) is celebrating its 4th anniversary.***
 
 ## Final thoughts
 
