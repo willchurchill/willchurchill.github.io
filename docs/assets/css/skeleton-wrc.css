@@ -215,6 +215,26 @@ p {
 }
 
 blockquote{
+  background-color: #FAF9F6;
+  color: #102027;
+  border: #BDB9B7 5px solid;
+  margin:0;
+  padding:2em;
+  font-family: 'Bree Serif', serif;
+}
+
+blockquote > p{
+  margin-bottom:0;
+}
+
+.pullquote {
+  display: block;
+  background-color: #FAF9F6;
+  color: #102027;
+  border-left: #BDB9B7 5px solid;
+  margin-bottom:2.5rem;
+  padding:2em;
+  text-align: center;
   font-family: 'Bree Serif', serif;
 }
 
@@ -543,18 +563,6 @@ img {
   background-color: #102027;
   color:#fff;
 }
-
-pullquote {
-  display:block;
-  font-style: italic;
-  font-weight: bold;
-  padding:30px 20px;
-  margin:20px 0;
-  border-radius: 10px;
-  background-color: #BDB9B7;
-  text-align: left;
-}
-pullquote > a { color:#fff; }
 
 .wrc-sitelogo{
   text-decoration: none;
