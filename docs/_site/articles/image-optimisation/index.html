@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Image Optimisation | Will Ranjan-Churchill</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Image Optimisation | Will Ranjan-Churchill</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Image Optimisation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Making sure your website loads quickly is key to getting and keeping visitors. A big part of that is how your images load. Here I look at how to speed that up." />
+<meta property="og:description" content="Making sure your website loads quickly is key to getting and keeping visitors. A big part of that is how your images load. Here I look at how to speed that up." />
+<link rel="canonical" href="https://willrc.co.uk/articles/image-optimisation/" />
+<meta property="og:url" content="https://willrc.co.uk/articles/image-optimisation/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:image" content="https://willrc.co.uk/assets/images/articles/webdev.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-14T11:00:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://willrc.co.uk/assets/images/articles/webdev.jpg" />
+<meta property="twitter:title" content="Image Optimisation" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-04-14T11:00:00+01:00","datePublished":"2020-04-14T11:00:00+01:00","description":"Making sure your website loads quickly is key to getting and keeping visitors. A big part of that is how your images load. Here I look at how to speed that up.","headline":"Image Optimisation","image":"https://willrc.co.uk/assets/images/articles/webdev.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://willrc.co.uk/articles/image-optimisation/"},"url":"https://willrc.co.uk/articles/image-optimisation/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/skeleton-wrc.css">
+<link rel="stylesheet" href="/assets/css/syntax.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d9406cdf40.js" crossorigin="anonymous"></script>
+<script src="/assets/js/lunr.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTETBDVBN2"></script>
+    <style>
+    #cookie-notice {padding: 1.5rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8); z-index:100;}
+    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="cookie-notice">
+    <div>We would like to use a small number of third party cookies to help get a better understanding of website usage.<br>If you consent to this, please click the Approve button. If not, no worries! Just hit the Decline button and carry on. If you want more information, you can read our <a href="/privacy">Privacy Policy</a>.</div>
+    <div><br><a id="cookie-notice-accept" class="button button-primary">Approve</a><a id="cookie-notice-decline" class="button">Decline</a></div>
+</div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice')=='accepted') {
+        window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-KTETBDVBN2');
+        console.log("GA loaded");
+    } else if(readCookie('cookie-notice')=='declined') {
+        console.log("GA disabled");
+    }
+    else {
+        document.getElementById('cookie-notice').style.display = 'block';
+        console.log("GA tbd");
+    }
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice','accepted',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+        createCookie('cookie-notice','declined',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    
+</script>
+</head>
+
+<body>
+
+    <div class="container-wide">
+    <div class="row row-padding">
+        <div class="six columns"><div class="wrc-sitetitle"><a href="https://willrc.co.uk" class="wrc-sitelogo">Will Ranjan-Churchill</div></div>
+        <div class="six columns" style="text-align:right;">
+            <div class="wrc-sitetitle">
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/about">About me</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/my-work">My work</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/services">Services</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/articles">Articles</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/contact">Get in touch</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/search">Search</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-wide wrc-headercontainer" style="background-image:url('https://willrc.co.uk/assets/images/articles/webdev.jpg')">
+    <div class="row">
+        <div class="twelve columns wrc-postheader">
+            <div class="wrc-postheadercontents">
+                <div>guide | web development</div>
+                <h1>Image Optimisation</h1>
+                <div>14 Apr, 2020 | <span class="reading-time">
+  
+  
+    6 min read
+  
+</span>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            
+                <div class="wrc-question">Answering the question: What is the right way to upload images for my website?</div>
+            
+            
+            <p>One of the easiest “quick wins” to making your website load faster is choosing the right images and making sure they are formatted and sized correctly. In this guide, we go through some of the things to look out for when sorting your images out.</p>
+
+<p>We’ve put this together to give you an idea of what makes for a good image, but there are also online tools that, while not perfect, can do a lot of the heavy lifting for you. One of the most popular is <a href="https://tinyjpg.com/">TingJPG</a>. Alternatively, if you’re using a WordPress site take a look at the <a href="https://wordpress.org/plugins/wp-smushit/">Smush</a> plugin.</p>
+
+<h1 id="establishing-where-the-image-will-be-used">Establishing where the image will be used</h1>
+<p>Making sure you pick the right image size for the right place it key. Choose an image that is too small, and the quality of the image may suffer, as the fixed number of pixels in the image are stretched and enlarged to allow the image to fit. Choose one that’s too big, and your user is using unnecessarily downloading ‘extra’ information about that image that won’t benefit them. It might take longer for the website to load, and your bounce rate as a result is likely to be higher.</p>
+
+<h1 id="editing-images">Editing images</h1>
+<p>While tools like <a href="https://www.adobe.com/uk/products/photoshop.html">Adobe Photoshop</a> will very quickly and easily allow you to edit images, not everyone has access to such a professional piece of software. There are lots of other free tools that will allow you to do similar things. At Copy &amp; Code, our favourite of these free options is <a href="https://www.gimp.org/">GIMP</a> (the GNU Image Manipulation Programme). This is a cross-platform, open-source programme that allows you to make a multitude of edits to images.</p>
+
+<h1 id="the-image-parameters">The image parameters</h1>
+<p>There are lots of things about a given image that you can edit in order to make it render quicker. Basically, they all boil down to reducing the file size of the image as much as possible, with as little degradation to the image quality as possible. At the bottom of this guide is a crib sheet that Copy &amp; Code uses as a guide to resize and compress images ready for web consumption.</p>
+
+<p>Be aware that these are just guidelines, and that every image is different. For example, you might find that images with fewer colours are able to be compressed further than suggested without loss of quality. Similarly, the file size of monochromatic images are usually far smaller than colour images of the same subject.</p>
+
+<h2 id="width">Width</h2>
+<p>Most platforms, such as WordPress or Squarespace, and most coded instances of images fit the source file to the required space. As a result, it is easy to ignore the dimensions of the image when optimising, as it doesn’t usually make a difference to the visual end result. However, every time an image is rendered on a website, the entirety of that image must be processed. As a result, if you were to display a thumbnail image for a product, but use a banner size image as the source file, the browser will take unnecessary resources to render that file.</p>
+
+<p>While file dimensions include both the width and the height of the file, we have chosen only to focus on the width here. The reason for this is that in most cases the width of the image has the greatest impact on the end result. While consulting this document, bear in mind the specific use for the image in question, and the resulting aspect ratio of the image.</p>
+
+<h2 id="file-type">File Type</h2>
+<p>By and large, JPEG (file extension .jpg) is the go-to for website images. They offer the best quality to file size ratio, and can be compressed a significant amount without visible loss of quality. If the image requires good quality whilst scaling, and / or has elements of transparency, then you should opt for PING files (file extension .png). These are most commonly used for logos.</p>
+
+<p>Note that there is a new file type known as webp, developed by Google, that offers superior quality at a lower file size. However at the time of the last edit of this document, webp is still not supported by all browsers, and therefore Copy &amp; Code recommend sticking with either JPEG or PING files.</p>
+
+<h2 id="image-quality">Image quality</h2>
+<p>When saving images, good image editing software will offer you the option of setting the image quality, or setting a compression level. These two are interchangeable, and you are not likely to see both options. JPEG images are fairly resilient to compression, and depending on a number of factors, good results have been seen with a reduction in quality of up to 70%. Factors that influence this include</p>
+
+<ul>
+  <li><strong>The intended use for the photo.</strong> If the image is being used in an instance where it is not the main focus, for example in a banner with an overlay, you can afford to increase the compression. Images that require detail - for example product photos - usually benefit from higher in quality</li>
+  <li><strong>The number of colours in the photo.</strong> As a general rule of thumb, the fewer colours in the image, the greater its resilience to compression.</li>
+  <li><strong>The number of ‘shapes’ / the ‘complexity’ of the image.</strong> The more there is happening in the photo (for example a group photo, or a busy painting), the more the image tends to suffer from compression.</li>
+</ul>
+
+<h2 id="file-size">File size</h2>
+<p>In some image editing software, sure as Adobe Lightroom, this is a parameter that can be set. Usually however, this is an attribute that is determined by the others. Simply put, the smaller the file size, the quicker it will load on the page. Therefore, the aim of manipulating the other attributes of the image is to arrive at the smallest file size possible. The sizes given in the table below are intended as guidelines to show what the largest image size should be for each. If the images greatly exceed the recommended size, consider adjusting some of the parameters.</p>
+
+<h2 id="image-parameters-crib-sheet">Image parameters crib-sheet</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Where will the image be used?</th>
+      <th>Width (pixels)</th>
+      <th>File Type</th>
+      <th>Image Quality (%) / Compression level</th>
+      <th>File Size</th>
+      <th>Example Uses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Banner Image</td>
+      <td>1080 - 1680</td>
+      <td>.jpg</td>
+      <td>85-95%</td>
+      <td>&lt;500Kb</td>
+      <td>Banner image for page background image in full-page layout</td>
+    </tr>
+    <tr>
+      <td>Large Image</td>
+      <td>800 - 1024</td>
+      <td>.jpg</td>
+      <td>80-90%</td>
+      <td>&lt;300Kb</td>
+      <td>Main page image on blog post, feature image for product page</td>
+    </tr>
+    <tr>
+      <td>Medium Sized Image</td>
+      <td>400 - 600</td>
+      <td>.jpg</td>
+      <td>75-85%</td>
+      <td>&lt;200Kb</td>
+      <td>Inline image for page</td>
+    </tr>
+    <tr>
+      <td>Small Image</td>
+      <td>280 - 350</td>
+      <td>.jpg</td>
+      <td>80-90%</td>
+      <td>&lt;150Kb</td>
+      <td>Thumbnail image for products on e-commerce store</td>
+    </tr>
+    <tr>
+      <td>Portrait Image</td>
+      <td>180 - 240</td>
+      <td>.jpg</td>
+      <td>80-90%</td>
+      <td>&lt;50Kb</td>
+      <td>Images used in an ‘Our Team’ style section</td>
+    </tr>
+    <tr>
+      <td>Logo - large</td>
+      <td>450 - 600</td>
+      <td>.png</td>
+      <td>3</td>
+      <td>&lt;50Kb</td>
+      <td>Used as a centre piece image for a holding page</td>
+    </tr>
+    <tr>
+      <td>Logo - Small</td>
+      <td>100 - 300</td>
+      <td>.png</td>
+      <td>3</td>
+      <td>&lt;30Kb</td>
+      <td>Main logo at top of a page</td>
+    </tr>
+    <tr>
+      <td>Favicon</td>
+      <td>64</td>
+      <td>.png / .ico</td>
+      <td>0</td>
+      <td>&lt;20Kb</td>
+      <td>Used to create the website icon in the browser tab</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>At-a-glance guide to image sizes for various uses</em></p>
+
+<h2 id="final-note">Final note</h2>
+<p>Optimising images has often been compared to more of an art than a science. Because of the vast differences between image subjects it is nearly impossible to provide a set of rules that will satisfy every use case. As a result, you may find that these settings are not the optimal ones for your use case. Please see the next page for our guideline table of values.</p>
+
+            <p style="font-style: italic; font-weight: bold;"></p>
+            <hr>
+            <h4>You may enjoy</h4>
+            
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <p>
+        <span class="wrc-italics">Also in  <span class="label label-default">web development, </span> </span>
+        <a href="https://willrc.co.uk/articles/moving-your-learning-content-online/" class="wrc-bree-serif">Moving your learning content online</a>
+    </p>
+        
+        
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    <span class="wrc-italics wrc-pr1">Or</span>
+    <a href="https://willrc.co.uk/articles" class="button">See all articles</a>
+            <hr>
+            <span style="font-style:italic">
+                
+                <p>I believe there should be as few barriers to understanding technology as possible, so everything I post on this site is completely free to access. If you feel like you’ve learned something from this article, it would mean a lot if you shared it with others - via <a href="https://twitter.com/intent/tweet?url=https://willrc.co.uk%2Farticles%2Fimage-optimisation%2F&amp;text=Check+this+out+from+&#64;willchurchill&amp;hashtags=technology,webdev">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u=https://willrc.co.uk%2Farticles%2Fimage-optimisation%2F">Facebook</a>, <a href="https://www.linkedin.com/shareArticle?url=https://willrc.co.uk%2Farticles%2Fimage-optimisation%2F&amp;source=Will-Churchill">LinkedIn</a>, or any other way you see fit.</p>
+
+<p>You can also, if you’re so inclined, <a href="https://www.buymeacoffee.com/willchurchill">buy me a coffee</a> (though please don’t feel obliged to do so - there are definitely <a href="https://actions.tommys.org/a/tommys-change">better ways</a> you can spend your money).</p>
+
+<p>I also offer paid services and advice. If you think you or your organisation would benefit from this <a href="mailto:will@willrc.co.uk">drop me an email</a> and we can arrange a no-pressure, no obligation, chat to see if I can help.</p>
+
+            </span>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+<footer class="wrc-pb5">
+    <div class="container-wide">
+        <div class="row">
+            <hr>
+        </div>
+        <div class="row row-padding wrc-sitetitle">
+            <div class="four columns wrc-bree-serif wrc-mm-dl">
+                © WRCTECH LTD, 2023</script>
+            </div>
+            <div class="four columns wrc-mm-dm">
+                <span class=""><a href="https://willrc.co.uk/privacy">Privacy Policy</a></span>
+            </div>
+            <div class="four columns wrc-mm-dr">
+                <span class="wrc-navlink"><a href="https://twitter.com/willranjhill">Twitter</a></span>  <span class="wrc-navlink"><a rel="me" href="https://fosstodon.org/@willrc">Mastodon</a></span>  <span class="wrc-navlink"><a href="https://instagram.com/willranjhill">Instagram</a></span>  <span class="wrc-navlink"><a href="https://www.linkedin.com/in/willranjanchurchill">LinkedIn</a></span>  <span class="wrc-navlink"><a href="https://github.com/willchurchill">GitHub</a></span>
+            </div>
+        </div>
+    </div>        
+</footer>
+
+<!-- JS -->
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/lunr.js"></script>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" media="print" onload="this.media='all'" />
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+</noscript>
+
+    
+</body>
+
+</html>
