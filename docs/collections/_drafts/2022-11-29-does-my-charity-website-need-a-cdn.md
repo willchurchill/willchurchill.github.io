@@ -8,7 +8,7 @@ subject: "webdev"
 tags: ["webdev","internet","cdn"]
 image: "assets/images/articles/fibreoptic.jpg" 
 wrcpost: "yes"
---- 
+---  
 
 > I often get asked questions in the course of my work that I think others would benefit from having answered.
 
