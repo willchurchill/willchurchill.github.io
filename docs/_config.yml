@@ -30,7 +30,7 @@ github_username:  willchurchill
 include: ["_pages"]
 permalink: /:collection/:title/ 
 
-# Build settings
+# Build settings 
 # theme: minima
 plugins:
   - jekyll-feed
