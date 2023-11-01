@@ -10,7 +10,7 @@ image: "assets/images/articles/fibreoptic.jpg"
 wrcpost: "yes"
 ---
 
-> I often get asked questions in the course of my work that I think others would benefit from having answered.***
+> I often get asked questions in the course of my work that I think others would benefit from having answered.
 
 ## What is a CDN and how do they work?
 
