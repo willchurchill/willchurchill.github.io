@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Musings | Will Ranjan-Churchill</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Musings | Will Ranjan-Churchill</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Musings" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An internet connection does not an expert make." />
+<meta property="og:description" content="An internet connection does not an expert make." />
+<link rel="canonical" href="https://willrc.co.uk/musings/" />
+<meta property="og:url" content="https://willrc.co.uk/musings/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Musings" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"An internet connection does not an expert make.","headline":"Musings","url":"https://willrc.co.uk/musings/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/skeleton-wrc.css">
+<link rel="stylesheet" href="/assets/css/syntax.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d9406cdf40.js" crossorigin="anonymous"></script>
+<script src="/assets/js/lunr.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTETBDVBN2"></script>
+    <style>
+    #cookie-notice {padding: 1.5rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8); z-index:100;}
+    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="cookie-notice">
+    <div>We would like to use a small number of third party cookies to help get a better understanding of website usage.<br>If you consent to this, please click the Approve button. If not, no worries! Just hit the Decline button and carry on. If you want more information, you can read our <a href="/privacy">Privacy Policy</a>.</div>
+    <div><br><a id="cookie-notice-accept" class="button button-primary">Approve</a><a id="cookie-notice-decline" class="button">Decline</a></div>
+</div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice')=='accepted') {
+        window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-KTETBDVBN2');
+        console.log("GA loaded");
+    } else if(readCookie('cookie-notice')=='declined') {
+        console.log("GA disabled");
+    }
+    else {
+        document.getElementById('cookie-notice').style.display = 'block';
+        console.log("GA tbd");
+    }
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice','accepted',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+        createCookie('cookie-notice','declined',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    
+</script>
+</head>
+
+<body>
+
+    <div class="container-wide">
+    <div class="row row-padding">
+        <div class="six columns"><div class="wrc-sitetitle"><a href="https://willrc.co.uk" class="wrc-sitelogo">Will Ranjan-Churchill</div></div>
+        <div class="six columns" style="text-align:right;">
+            <div class="wrc-sitetitle">
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/about">About me</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/my-work">My work</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/services">Services</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/articles">Articles</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/contact">Get in touch</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/search">Search</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-wide">
+	<div class="row row-padding">
+		<div class="six columns">
+			<h1>My personal blog</h1>
+			
+			<p>While the rest of the site is dedicated to technology and helping small social organisations, this part of the site is a place for me to opine, muse, and occasionally rant, about anything that’s occupying my mind. I have particular interests in Politics, Technology, and Mental Health - so most of my stuff is about that. I don’t pretend to be an expert in any of these things (expect, in some cases, technology - which I make most of my living from), and I certainly don’t claim to speak for anyone but myself. I am, at the end of the day, just a guy with an opinion and an internet connection.</p>
+
+<p>Feel free to have a poke about. You can also find me on <a href="https://twitter.com/willranjhill">Twitter</a> and, inexplicably, <a href="https://www.instagram.com/willranjhill/">Instagram</a>.</p>
+
+		</div>
+		<div class="six columns">
+			<h1>Latest</h1>
+			
+			
+				<div class="wrc-card" style="background-color: #102027; color:#fff;">
+	<div class="wrc-card-text">
+		<p>Jul 19, 2023</p>
+		<h2>Technology, and the cult of celebrity</h2>
+		<p>So-called modern technology has been a part of our lives for decades, but why do today's CEOs seem to get so much more negative press than their forebears?</p>
+		<p><a href="/musings/technology-and-the-cult-of-celebrity/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+		</div>
+	</div>
+	<div class="row row-padding">
+		<h1 class="wrc-h1">Popular posts</h1>
+		<div class="twelve columns wrc-card-container">
+			
+			                
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jul 19, 2023</p>
+		<h2>Technology, and the cult of celebrity</h2>
+		<p>So-called modern technology has been a part of our lives for decades, but why do today's CEOs seem to get so much more negative press than their forebears?</p>
+		<p><a href="/musings/technology-and-the-cult-of-celebrity/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>   
+			                
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 01, 2022</p>
+		<h2>Yes, I'm on Mastodon now too</h2>
+		<p>With recent shake-ups in the Big Tech space, more people are flocking to the Mastodon and the Fediverse. Including yours truly.</p>
+		<p><a href="/musings/yes-im-on-mastodon-now-too/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>   
+			                
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Aug 20, 2021</p>
+		<h2>My new to-do lists</h2>
+		<p>I've been using a new way to manage my to-do lists, that I thought I'd share in lieu of any actual content.</p>
+		<p><a href="/musings/my-new-todo-lists/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>   
+			
+		</div>
+	</div>
+	<div class="row row-padding">
+		<h1 class="wrc-h1">All blog posts</h1>
+		<div class="twelve columns wrc-card-container">
+			
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 01, 2022</p>
+		<h2>Yes, I'm on Mastodon now too</h2>
+		<p>With recent shake-ups in the Big Tech space, more people are flocking to the Mastodon and the Fediverse. Including yours truly.</p>
+		<p><a href="/musings/yes-im-on-mastodon-now-too/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Sep 02, 2021</p>
+		<h2>2nd September 2021</h2>
+		<p>It's three (not five... again...) questions this time round from me, including: what makes a 'good' coder, and what happens if you can't differentiate burnout from depression.</p>
+		<p><a href="/musings/5in5-3/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Aug 20, 2021</p>
+		<h2>My new to-do lists</h2>
+		<p>I've been using a new way to manage my to-do lists, that I thought I'd share in lieu of any actual content.</p>
+		<p><a href="/musings/my-new-todo-lists/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jun 16, 2021</p>
+		<h2>Loki and the exercise in SEO</h2>
+		<p>The end of Episode 2 of Loki gives me a good opportunity to see whether I can boost SEO with some specific dates and times.</p>
+		<p><a href="/musings/loki-and-the-exercise-in-seo/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Oct 29, 2020</p>
+		<h2>29th October 2020</h2>
+		<p>Only 3 out of 5 this time round. It's a process.</p>
+		<p><a href="/musings/5in5-2/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Oct 28, 2020</p>
+		<h2>Open letter to Matt Hancock</h2>
+		<p>A few weeks ago I had what you might call a 'mental health episode'. Getting help for it has not been an easy journey...</p>
+		<p><a href="/letters/open-letter-to-matt-hancock/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Oct 10, 2020</p>
+		<h2>10th October 2020</h2>
+		<p>In an attempt to get better at producing content, I present to you a new thing - 5 thoughts in 5 minutes. This week, Apple, the BMJ's report, and some thoughts on the cinema.</p>
+		<p><a href="/musings/5in5-1/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>May 28, 2020</p>
+		<h2>I blog in Markdown now</h2>
+		<p>I flipflop between platforms a lot - this week it's the turn of Jekyll and Markdown</p>
+		<p><a href="/musings/i-blog-in-markdown-now/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Dec 28, 2019</p>
+		<h2>On the F-word. No, not that F-word.</h2>
+		<p>You scumbag, you maggot, you cheap lousy...</p>
+		<p><a href="/musings/on-the-f-word-no-not-that-f-word/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Dec 11, 2019</p>
+		<h2>'Twas the night before the election</h2>
+		<p>Before the end of this Conservative government, and the election, I wanted to jot down some thoughts, and maybe leave you with some things to think about.</p>
+		<p><a href="/musings/twas-the-night-before-the-election/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 25, 2019</p>
+		<h2>On making an informed decision</h2>
+		<p>Why bother? Politicians and the media seem to do nothing but lie. But that's what makes it all the more important to understand what effects your decision.</p>
+		<p><a href="/musings/on-making-an-informed-decision/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 05, 2019</p>
+		<h2>On tactical voting - a reprise</h2>
+		<p>I'm not sure where I stand on tactical voting, but I do know that we should be talking about it.</p>
+		<p><a href="/musings/on-tactical-voting-a-reprise/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Feb 14, 2018</p>
+		<h2>There’s more than one way to skin a cat</h2>
+		<p>Or: Why talking about Mental Health doesn’t always mean talking about mental health.</p>
+		<p><a href="/musings/theres-more-than-one-way-to-skin-a-cat/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Sep 11, 2017</p>
+		<h2>This might be the last time you hear me talk about my Chromebook</h2>
+		<p>After 2 years, I’ve decided to move on from my Chromebook. On reflection, would I recommend one? It depends…</p>
+		<p><a href="/musings/this-might-be-the-last-time-you-hear-me-talk-about-my-chromebook/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Sep 07, 2017</p>
+		<h2>What defines an Entrepreneur</h2>
+		<p>For nearly 2 years, as the co-founder of a startup, I’ve called myself an entrepreneur. A few weeks ago though, I left that company. Since then I’ve been wondering about my claim to that moniker.</p>
+		<p><a href="/musings/what-defines-an-entrepreneur/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Sep 04, 2017</p>
+		<h2>In defence of mental health companies</h2>
+		<p>Also: my experience with Cognitive Behavioural Therapy, and some thoughts on Tesla.</p>
+		<p><a href="/musings/in-defence-of-mental-health-companies/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 25, 2017</p>
+		<h2>Why I’m (Probably) Against Tactical Voting</h2>
+		<p>Wherein I try to resolve my thoughts around tactical voting. Do I succeed? No. But I think it's important to talk about it.</p>
+		<p><a href="/musings/why-im-probably-against-tactical-voting/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jul 30, 2016</p>
+		<h2>Velvety red, dark crimson</h2>
+		<p>How much blood is in the human body?</p>
+		<p><a href="/fiction/velvety-red-dark-crimson/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jul 28, 2016</p>
+		<h2>Depression — a ‘clip show’ piece</h2>
+		<p></p>
+		<p><a href="/musings/depression-a-clip-show-piece/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jul 17, 2016</p>
+		<h2>The falls after the highs</h2>
+		<p></p>
+		<p><a href="/musings/the-falls-after-the-highs/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jun 25, 2016</p>
+		<h2>Can too much information be bad?</h2>
+		<p></p>
+		<p><a href="/musings/can-too-much-information-be-bad/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Jun 20, 2016</p>
+		<h2>The rise and fall of British politics</h2>
+		<p>There's rumours of a coup in Labour. Is that a good thing? Sure - why not...</p>
+		<p><a href="/musings/the-rise-and-fall-of-british-politics/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>May 20, 2016</p>
+		<h2>Mental Health: it’s not all in your head</h2>
+		<p></p>
+		<p><a href="/musings/mental-health-its-not-all-in-your-head/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 29, 2016</p>
+		<h2>Why Twitter is my favourite platform</h2>
+		<p></p>
+		<p><a href="/musings/why-twitter-is-my-favourite-platform/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 24, 2016</p>
+		<h2>Mental health and me: two weeks later</h2>
+		<p></p>
+		<p><a href="/musings/mental-health-and-me-two-weeks-later/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 03, 2016</p>
+		<h2>Mental health and me</h2>
+		<p></p>
+		<p><a href="/musings/mental-health-and-me/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Mar 07, 2016</p>
+		<h2>On The X-Files and stereotypes</h2>
+		<p></p>
+		<p><a href="/musings/on-the-x-files-and-stereotypes/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Feb 27, 2016</p>
+		<h2>Battle of the netbooks: Lenovo MIIX vs Toshiba Chromebook</h2>
+		<p></p>
+		<p><a href="/musings/battle-of-the-netbooks-lenovo-miix-vs-toshiba-chromebook/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 25, 2015</p>
+		<h2>Having opinions is a zero-sum game</h2>
+		<p>What do you put on the internet? Does it worry you? Should it?</p>
+		<p><a href="/musings/having-opinions-is-a-zero-sum-game/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Nov 12, 2015</p>
+		<h2>Some thoughts on The Apprentice</h2>
+		<p></p>
+		<p><a href="/musings/some-thoughts-on-the-apprentice/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Oct 03, 2015</p>
+		<h2>On starting a business with a Chromebook</h2>
+		<p></p>
+		<p><a href="/musings/on-starting-a-business-with-a-chromebook/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Aug 11, 2015</p>
+		<h2>On the prevalence of motivational quotes</h2>
+		<p></p>
+		<p><a href="/musings/on-the-prevalence-of-motivational-quotes/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>May 14, 2015</p>
+		<h2>On what I’ve learned from conferences</h2>
+		<p></p>
+		<p><a href="/musings/on-what-ive-learned-from-conferences/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Mar 19, 2015</p>
+		<h2>What IE taught me about entrepreneurship</h2>
+		<p></p>
+		<p><a href="/musings/what-ie-taught-me-about-entrepreneurship/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>May 22, 2014</p>
+		<h2>On voting in the election</h2>
+		<p></p>
+		<p><a href="/musings/on-voting-in-the-election/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 27, 2013</p>
+		<h2>On the evolution of the written word</h2>
+		<p>I'm something of a stickler for grammar, but increasingly this seems to be less of a concern to people. How does language evolve, and is this a good thing?</p>
+		<p><a href="/musings/on-the-evolution-of-the-written-word/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 23, 2013</p>
+		<h2>On the Enactus UK National Competition</h2>
+		<p>Enactus is a global student society that empowers young people to create social action initiatives all over the world. Every year, the UK holds its National competition. This is what I thought.</p>
+		<p><a href="/musings/on-the-enactus-uk-national-competition/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Feb 12, 2011</p>
+		<h2>On rationality, morality, and valuing an individual’s life</h2>
+		<p>You won't be suprised to know that companies value human life all the time. But should they? What is the rationality behind this?</p>
+		<p><a href="/musings/on-rationality-morality-and-valuing-an-individuals-life/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+				<div class="wrc-card">
+	<div class="wrc-card-text">
+		<p>Apr 27, 2010</p>
+		<h2>On the Election, and Hung Parliaments</h2>
+		<p>What happens when an election gives us a hung parliament? What even is a hung parliament, and how will it affect us? Let's find out...</p>
+		<p><a href="/musings/on-the-election-and-hung-parliaments/" class="wcc-whitelink"><i class="fa-brands fa-readme"></i> Read more...</a></p>
+	</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+
+    <!-- Footer -->
+<footer class="wrc-pb5">
+    <div class="container-wide">
+        <div class="row">
+            <hr>
+        </div>
+        <div class="row row-padding wrc-sitetitle">
+            <div class="four columns wrc-bree-serif wrc-mm-dl">
+                © WRCTECH LTD, 2023</script>
+            </div>
+            <div class="four columns wrc-mm-dm">
+                <span class=""><a href="https://willrc.co.uk/privacy">Privacy Policy</a></span>
+            </div>
+            <div class="four columns wrc-mm-dr">
+                <span class="wrc-navlink"><a href="https://twitter.com/willranjhill">Twitter</a></span>  <span class="wrc-navlink"><a rel="me" href="https://fosstodon.org/@willrc">Mastodon</a></span>  <span class="wrc-navlink"><a href="https://instagram.com/willranjhill">Instagram</a></span>  <span class="wrc-navlink"><a href="https://www.linkedin.com/in/willranjanchurchill">LinkedIn</a></span>  <span class="wrc-navlink"><a href="https://github.com/willchurchill">GitHub</a></span>
+            </div>
+        </div>
+    </div>        
+</footer>
+
+<!-- JS -->
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/lunr.js"></script>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" media="print" onload="this.media='all'" />
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+</noscript>
+
+    
+</body>
+
+</html>
