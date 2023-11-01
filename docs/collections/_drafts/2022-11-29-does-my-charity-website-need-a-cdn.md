@@ -12,7 +12,7 @@ wrcpost: "yes"
 
 > I often get asked questions in the course of my work that I think others would benefit from having answered.
 
-## What is a CDN and how do they work?
+## What is a CDN and how do they work? 
 
 This is a test to see how Chromebooks handle git commands
 
