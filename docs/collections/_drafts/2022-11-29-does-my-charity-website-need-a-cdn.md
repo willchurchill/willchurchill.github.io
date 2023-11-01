@@ -6,7 +6,7 @@ question: "How to I know if I'll benefit from a Content Delivery Network (CDN)?"
 content-type: guide
 subject: "webdev"
 tags: ["webdev","internet","cdn"]
-image: "assets/images/articles/fibreoptic.jpg"
+image: "assets/images/articles/fibreoptic.jpg" 
 wrcpost: "yes"
 ---
 
