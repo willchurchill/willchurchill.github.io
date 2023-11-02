@@ -20,6 +20,8 @@ The other way you’ll likely hear the term “metaverse” is as the specific b
 
 Incidentally, for etymology fans amongst you, the word “metaverse” is actually a creation of celebrated speculative fiction writer Neal Stephenson, for his 1992 book *Snow Crash*. The novel focuses on a post-economic-crash world sometime in the 21st Century. Much of the book takes place in a virtual reality world, hosted on the internet, which users access via a headset. Sometimes these sci-fi authors really miss the mark, don’t they?
 
+{% pullquote We talk about the metaverse like it's one thing, but that isn't the case. %}
+
 While you’re reading this, there is one more thing I want you to bear in mind. We’ll talk about “the metaverse” like its one thing, or one place, or even like its a single service that everyone hooks into - like the internet. This isn’t the case. Different companies are creating their own ‘verses to suit their own needs. To carry on the internet analogy, it might be helpful to think of each individual ‘verse like a website with its own login and password. It’s not exactly like that, but thinking about it in this way helps contextualise some of the barriers to adoption that we’ll talk about.
 
 Alright - that’s the housekeeping done. We’ve talked a little bit about what the metaverse is, let have a look at some of the things we can use it for.
