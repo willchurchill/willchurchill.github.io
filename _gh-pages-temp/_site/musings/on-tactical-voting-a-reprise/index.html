@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>On tactical voting - a reprise | Will Ranjan-Churchill</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>On tactical voting - a reprise | Will Ranjan-Churchill</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="On tactical voting - a reprise" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’m not sure where I stand on tactical voting, but I do know that we should be talking about it." />
+<meta property="og:description" content="I’m not sure where I stand on tactical voting, but I do know that we should be talking about it." />
+<link rel="canonical" href="https://willrc.co.uk/musings/on-tactical-voting-a-reprise/" />
+<meta property="og:url" content="https://willrc.co.uk/musings/on-tactical-voting-a-reprise/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:image" content="https://willrc.co.uk/assets/images/generic/blog.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-05T11:58:04+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://willrc.co.uk/assets/images/generic/blog.jpg" />
+<meta property="twitter:title" content="On tactical voting - a reprise" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-11-05T11:58:04+00:00","datePublished":"2019-11-05T11:58:04+00:00","description":"I’m not sure where I stand on tactical voting, but I do know that we should be talking about it.","headline":"On tactical voting - a reprise","image":"https://willrc.co.uk/assets/images/generic/blog.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://willrc.co.uk/musings/on-tactical-voting-a-reprise/"},"url":"https://willrc.co.uk/musings/on-tactical-voting-a-reprise/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/skeleton-wrc.css">
+<link rel="stylesheet" href="/assets/css/syntax.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d9406cdf40.js" crossorigin="anonymous"></script>
+<script src="/assets/js/lunr.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTETBDVBN2"></script>
+    <style>
+    #cookie-notice {padding: 1.5rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8); z-index:100;}
+    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="cookie-notice">
+    <div>We would like to use a small number of third party cookies to help get a better understanding of website usage.<br>If you consent to this, please click the Approve button. If not, no worries! Just hit the Decline button and carry on. If you want more information, you can read our <a href="/privacy">Privacy Policy</a>.</div>
+    <div><br><a id="cookie-notice-accept" class="button button-primary">Approve</a><a id="cookie-notice-decline" class="button">Decline</a></div>
+</div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice')=='accepted') {
+        window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-KTETBDVBN2');
+        console.log("GA loaded");
+    } else if(readCookie('cookie-notice')=='declined') {
+        console.log("GA disabled");
+    }
+    else {
+        document.getElementById('cookie-notice').style.display = 'block';
+        console.log("GA tbd");
+    }
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice','accepted',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+        createCookie('cookie-notice','declined',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    
+</script>
+</head>
+
+<body>
+
+    <div class="container-wide">
+    <div class="row row-padding">
+        <div class="six columns"><div class="wrc-sitetitle"><a href="https://willrc.co.uk" class="wrc-sitelogo">Will Ranjan-Churchill</div></div>
+        <div class="six columns" style="text-align:right;">
+            <div class="wrc-sitetitle">
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/about">About me</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/my-work">My work</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/services">Services</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/articles">Articles</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/contact">Get in touch</a></span>
+                <span class="wrc-navlink"><a href="https://willrc.co.uk/search">Search</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Content -->
+    
+    <div class="container-wide wrc-headercontainer wrc-blogheader">
+        <div class="row">
+            <div class="twelve columns wrc-postheader">
+                <p class="wrc-bold">
+                    
+                        <span class="">musings</span> > <span class="">politics</span>
+                    
+                </p>
+                <h1>On tactical voting - a reprise</h1>
+                <p class="wrc-bold">
+                    05 Nov, 2019 | <span class="reading-time">
+  
+  
+    9 min read
+  
+</span>
+    
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns"><p>Back in 2017, I wrote <a href="https://blog.politicsmeanspolitics.com/why-im-probably-against-tactical-voting-89590ba368b3">this article</a> on my thoughts around tactical voting. With a General Election mere weeks away, now seemed an appropriate time to revisit.</p>
+
+<p>I was on the fence last time. The main reason being that I just don’t think tactical voting is in the spirit of democracy. My idealist view point is that one should vote to put someone in power, not to stop someone else getting power.</p>
+
+<p>Broadly speaking, my principles haven’t changed. Whether I’ll stick to them though, is a separate issue.</p>
+
+<p>There are a number of reasons why, and for me they all revolve around the fact that the system we live in is fundamentally ill-equipped to deal with the kind of politics we are seeing.</p>
+
+<h4 id="this-election-is-about-brexit">This election is about Brexit</h4>
+
+<p>It shouldn’t be. A General Election - by definition - shouldn’t be about a specific issue. It should be the electorate deciding who best represents their needs and wants over the next 5 years. To call something as large as a General Election for the sake of a single issue is madness. We actually already have a mechanism by which the government can <strong><em>refer</em></strong> to the public on a specific question. I forget what it’s called at the moment…</p>
+
+<p><img src="https://willrc.co.uk/assets/images/musings/image.png" alt="Google search result for &quot;referendum&quot;" /></p>
+
+<p>But here we are. An election has been called with the express aim of breaking a Commons deadlock. So, for better or worse, it seems the only important issue at stake is what you want to do about Brexit. Broadly speaking, your options are to carry on with the current course of action - whatever that is. Alternatively, you can vote for a party that claim it will give you a say.</p>
+
+<h4 id="fptp-does-not-give-us-what-we-need">FPTP does not give us what we need</h4>
+
+<p>Because we don’t have proportional representation, a political party in the UK can govern with a minority. We know this, because it’s happening.</p>
+
+<p><img src="https://willrc.co.uk/assets/images/musings/image-2.png" alt="2017 Election Results for Filton and Bradley Stoke" />
+<br /><small><em>2017 Election Results for Filton and Bradley Stoke. Source: <a href="https://tactical.vote">https://tactical.vote</a></em></small></p>
+
+<p>Let’s say that you want a People’s Vote, and your next door neighbour thinks that Brexit Means Brexit. In your constituency last year, the Tories won, and Labour came second. For argument’s sake, lets say the Conservatives took 50% of the vote and Labour came second with 42%. The Lib Dems came a gallant third, with 6%. (In case you’re wondering, I haven’t plucked these out of thin air - these are the actual numbers for my old constituency.)</p>
+
+<p>All of what follows is purely speculation, but it is based on real data.</p>
+
+<p>Historically, a respectable swing is in the region of 10-15%. It is not that common, but let’s for argument’s sake say that a 10% swing potential across the board is achievable. So, some example scenarios might be:</p>
+
+<ul>
+  <li>Everything stays the same</li>
+  <li>Conservatives pick up 10% of the votes, Labour and Lib Dems each lose 5%</li>
+  <li>Labour picks up 10% of the votes and Conservatives lose 10% of the votes, with Lib Dems staying the same</li>
+</ul>
+
+<p>You get the picture. It is possible in this hypothetical scenario for Labour to walk away with 52% of the vote, compared to the Tories 40% of the vote.</p>
+
+<p>What is unlikely to happen is that the Liberal Democrats win that seat. Sticking with the assumption that there is a 10% swing potential, they could go from 6% to 16%. Given the average voter profiles, and the similarity of the manifestos, the likelihood is that those extra 10% are going to come from Labour. But let’s be super generous and say that they take 10% from Labour <em>and</em> 10% from the Tories. Even in this 20% swing scenario, the Yellows still come third with 26% compared to 40% and 32% for the Blues and the Reds respectively. In other words, nothing changes.</p>
+
+<p>That’s the point of tactical voting. If your aim as a hypothetical constituent in this based-on-real-life constituency is to dethrone the incumbent Conservative MP, then statistically your best bet is to vote for the Labour candidate, regardless of your personal political views.</p>
+
+<p><img src="https://willrc.co.uk/assets/images/musings/image-3.png" alt="2017 Election Results for Lewes" />
+<br /><small><em>2017 Election Results for Lewes. Source: <a href="https://tactical.vote">https://tactical.vote</a></em></small></p>
+
+<p>So all Lib Dem voters should go out any vote Labour? Well, no. Of course there are constituencies where the numbers are reversed. In the last General Election, the constituency of Lewes saw the Tories come away with 49% of the vote, and the Lib Dems 39%. Labour trailed in at 11%. In this scenario, if ousting the Tory incumbent is your goal, you’re better off (again, statistically speaking) voting Lib Dem.</p>
+
+<p>What this means for the wider context is that we could end up with a situation where the Tories lose a bunch of seats, but they go in a split towards both the Labour and Liberal Democrat candidates across the board. It seems statistically improbable that any one party left of centre will gain a majority, so the “best case” is that the Tories lose their majority, and a coalition of left parties - perhaps Labour, Liberal Democrats, and the Green Party - make up enough numbers to form a Government.</p>
+
+<pullquote>All of this assumes a status-quo of voters - which is not what we'll have. A recent surge of 18-25s registering to vote could throw all of this out of the window.</pullquote>
+
+<p>It’s worth mentioning at this point that all of the above assumes the same number of voters. There has been a recent surge in 18-25 year olds registering to vote. Typically this demographic is left leaning and liberal, so there is a lot that could change. I’m trying to keep this post slightly shorter than a novella, so I’m going to ignore it. You shouldn’t though - it’s actually a phenomenally interesting demonstration of political engagement.</p>
+
+<h4 id="my-issues-with-tactical-voting">My issues with tactical voting</h4>
+
+<p>Our political system is designed such that we elect a local representative to Parliament. We are not supposed to elect a Government, and we are definitely not supposed to elect a Prime Minister. The PM gains the title by virtue of being the leader of the party with the most seats in Parliament - that’s it. In turn, the Government is the party (or coalition of parties) that can command a majority - the technicalities of what constitutes a “majority” are beyond the scope of this post.</p>
+
+<p>Practically what this means is that there are people who vote (or don’t vote - and I’ll come on to that) for a party based on their leader. Or if they are slightly more in tune, based on their national manifesto. Of those of you that have voted, how many of you voted for your local representative because of what they would do for you locally, rather than because they were the representative of a party that you like the look of nationally?</p>
+
+<h4 id="its-against-the-spirit-of-democracy">Its against the spirit of democracy</h4>
+
+<p>Perhaps I’m being a bit too left-liberal-snowflake about it all, but to me this seems like a negative way to conduct national politics. Shouldn’t I be exercising my right to vote in a way that gives a mandate to a party representative?</p>
+
+<p>So why has tactical voting become such a prominent strategy? Well, a lot of people are very dissatisfied with the incumbent. There are also people who don’t really care either way about the incumbent, but they are keen to see that Brexit is delivered in a particular way. There are still others who want to exercise their right to vote, but can’t in good conscience vote in a particular way.</p>
+
+<p>What can you do? What do you do when a vote for the Tories is a vote against the NHS? Can you cast your vote for Labour, when that is essentially condoning antisemitism? Why vote for the Liberal Democrats when they’ve made it clear that they are neither liberal nor democratic? What are you supposed to do? Spoil your ballot? Not vote at all? Take to the internet and post a long winded essay on the fallacy of modern parliamentary democracy?</p>
+
+<p>Maybe tactical voting is against the spirit of politics. But from what I’ve seen nothing that has happened in the last 3 years has been in the spirit of anything other than doing right by number one.</p>
+
+<pullquote>What can you do when your choices are: destroy the NHS, condone antisemitism, or a giant screw-you to the democratic process?</pullquote>
+
+<p>I guess that’s the appeal with tactical voting. The very thing I dislike about it is the very thing that makes it possibly the only viable option. You aren’t voting for someone; you’re voting to keep someone out. What that means is that you get to hide behind the idea that what you are voting for is the possibility that the best parts of the parties you didn’t deem worthy of an actual vote come together, rather than the worst parts of the parties that gain votes simply by virtue of not having been the ones to strangle the NHS, stir up fear and anti-immigration rhetoric across the country, and consistently fail to deliver on anything that they have promised.</p>
+
+<p>This essay was supposed to be a way for me to somehow come to a conclusion on what to do come the General Election. I think it’s safe to say that I haven’t succeeded. If you were looking for something useful, dear reader, I’m afraid I have little to offer you, save perhaps the knowledge that if you’re struggling with what to do on December 12th, you’re not alone.</p>
+
+<p>I would implore you to do two things though. The first is <a href="https://www.gov.uk/register-to-vote">register to vote</a>. Even if you don’t know what you’re going to do, you should at least have the option. It takes 5 minutes.</p>
+
+<p>The second is to educate yourself. I say that not to be patronising, but because it is an important point. Read though the parties’ manifestos. Pay attention to good quality new sources. Think for yourself, and take <em>nothing</em> at face value.</p>
+
+<p>And if you do decide to vote tactically, there are websites where you can find out all the information you’ll need. I’m not going to link them, because in my head that is apparently a bridge too far for some reason. But you have an internet connection, and presumably know how to use Google. Figure it out.</p>
+
+<p>And if you don’t know how to use Google, try this: <a href="http://letmegooglethat.com/?q=tactical+voting">http://letmegooglethat.com/?q=tactical+voting</a></p>
+</div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <!--
+            <p class="wrc-bold">
+                tags: 
+                
+                    <a class="" href="/tags.html#general election">general election</a>
+                
+                    <a class="" href="/tags.html#politics">politics</a>
+                
+                    <a class="" href="/tags.html#tactical voting">tactical voting</a>
+                
+            </p>
+            -->
+            <p>
+                
+                <p>Share this via: <a href="https://twitter.com/intent/tweet?url=https://willrc.co.uk%2Fmusings%2Fon-tactical-voting-a-reprise%2F&amp;text=Check+this+out+from+&#64;willranjhill">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u=https://willrc.co.uk%2Fmusings%2Fon-tactical-voting-a-reprise%2F">Facebook</a>, <a href="https://www.linkedin.com/shareArticle?url=https://willrc.co.uk%2Fmusings%2Fon-tactical-voting-a-reprise%2F&amp;source=Will-Ranjan-Churchill">LinkedIn</a></p>
+
+            </p>
+            <hr>
+            <a href="https://willrc.co.uk/articles" class="button">See my tech articles</a> <a href="https://willrc.co.uk/musings" class="button">Read more musings</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="wrc-pb5">
+    <div class="container-wide">
+        <div class="row">
+            <hr>
+        </div>
+        <div class="row row-padding wrc-sitetitle">
+            <div class="four columns wrc-bree-serif wrc-mm-dl">
+                © WRCTECH LTD, 2023</script>
+            </div>
+            <div class="four columns wrc-mm-dm">
+                <span class=""><a href="https://willrc.co.uk/privacy">Privacy Policy</a></span>
+            </div>
+            <div class="four columns wrc-mm-dr">
+                <span class="wrc-navlink"><a href="https://twitter.com/willranjhill">Twitter</a></span>  <span class="wrc-navlink"><a rel="me" href="https://fosstodon.org/@willrc">Mastodon</a></span>  <span class="wrc-navlink"><a href="https://instagram.com/willranjhill">Instagram</a></span>  <span class="wrc-navlink"><a href="https://www.linkedin.com/in/willranjanchurchill">LinkedIn</a></span>  <span class="wrc-navlink"><a href="https://github.com/willchurchill">GitHub</a></span>
+            </div>
+        </div>
+    </div>        
+</footer>
+
+<!-- JS -->
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/lunr.js"></script>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" media="print" onload="this.media='all'" />
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" />
+</noscript>
+
+    
+</body>
+
+</html>
