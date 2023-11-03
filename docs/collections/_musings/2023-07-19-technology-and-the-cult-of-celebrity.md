@@ -88,7 +88,7 @@ But Zuckerberg wasn’t the only one. If Jobs opened the door for tech celebriti
 
 What these three - Zuckerberg, Bezos, and Musk - all have in common is that they understand just how valuable data about individuals is. They are all, to varying degrees of success, developing ways to monetise that.
 
-<pullquote>If the service is free, you’re the product.</pullquote>
+{% pullquote If the service is free, you’re the product. %}
 
 ## The stakes are much higher
 
