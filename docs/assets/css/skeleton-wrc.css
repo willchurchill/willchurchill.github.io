@@ -238,6 +238,28 @@ blockquote > p{
   font-family: 'Bree Serif', serif;
 }
 
+.quote-container {
+  display: table;
+  background-color: #FAF9F6;
+  color: #102027;
+  margin-bottom:2.5rem;
+  padding:2em;
+  font-family: 'Bree Serif', serif;
+}
+.quotemarks-open,.quotemarks-close{
+  display:table-cell;
+  font-size: 50px;
+  padding:0;
+  margin:0;
+}
+.quotemarks-close{
+  vertical-align: bottom;
+}
+.quotetext{
+  display: table-cell;
+  padding:0 2em;
+}
+
 .wrc-bree-serif{ font-family: 'Bree Serif', serif; }
 .wrc-signature{ font-size: 4rem; font-family: 'MrDafoe', cursive; }
 
