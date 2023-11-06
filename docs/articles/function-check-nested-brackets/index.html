@@ -149,16 +149,10 @@ gtag('config', 'G-KTETBDVBN2');
 <p>In this post, I’ll be writing a function that takes an input and decides if it is well structured. Here’s the criteria:</p>
 
 <blockquote>
-  <p>The input can contain any number of any type of bracket - round (), square [], or curly {}.</p>
+  <p>The input can contain any number of any type of bracket - round, square, or curly. Open brackets must have a corresponding closed bracket. Brackets must be properly nested.</p>
 </blockquote>
 
-<blockquote>
-  <p>Open brackets must have a corresponding closed bracket.</p>
-</blockquote>
-
-<blockquote>
-  <p>Brackets must be properly nested - (so [this]) would be fine, [but (this]) would not.</p>
-</blockquote>
+<p>In other words, (something like [this]) would be fine, [but (this]) would not.</p>
 
 <p>This particular puzzle was given to me as part of an exercise in front of other developers. Full disclosure, this is not the solution I came up with in the room, but rather one I arrived at immediately after the pressure was off, and has been influenced by the help they offered.</p>
 
