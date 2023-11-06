@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-06T11:06:16+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">Takeaways from the IT Leaders Summit</title><link href="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/" rel="alternate" type="text/html" title="Takeaways from the IT Leaders Summit" /><published>2023-10-09T11:00:00+01:00</published><updated>2023-10-09T11:00:00+01:00</updated><id>https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit</id><content type="html" xml:base="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/"><![CDATA[<p>Last week I went to <a href="https://www.computing.co.uk/">Computing’s</a> <a href="https://event.computing.co.uk/itleaderssummit2023/en/page/home">IT Leaders Summit</a>. Amongst other things, we talked about managing IT Security, the rise of Generative Artificial Intelligence, and what’s going on with IT budgets. Here are some of the things I’ve taken away.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-06T12:09:49+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">Takeaways from the IT Leaders Summit</title><link href="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/" rel="alternate" type="text/html" title="Takeaways from the IT Leaders Summit" /><published>2023-10-09T11:00:00+01:00</published><updated>2023-10-09T11:00:00+01:00</updated><id>https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit</id><content type="html" xml:base="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/"><![CDATA[<p>Last week I went to <a href="https://www.computing.co.uk/">Computing’s</a> <a href="https://event.computing.co.uk/itleaderssummit2023/en/page/home">IT Leaders Summit</a>. Amongst other things, we talked about managing IT Security, the rise of Generative Artificial Intelligence, and what’s going on with IT budgets. Here are some of the things I’ve taken away.</p>
 
 <h2 id="it-spending-is-up">IT spending is up</h2>
 
@@ -1149,7 +1149,9 @@
 
 <p>Fun fact for you, “pings” borrow their name form sonar technology, where bursts of high-frequency sounds are sent out and the echoes uses to determine information about surroundings.</p>
 
-<pullquote>Recap: You want your ping as low as possible. Anything under 25ms should be good for most uses.</pullquote>
+<blockquote>
+  <p>Recap: You want your ping as low as possible. Anything under 25ms should be good for most uses.</p>
+</blockquote>
 
 <h2 id="what-is-download-speed">What is Download speed?</h2>
 <p>This what companies reference when they quote their speeds. Simply put, this is how quickly you can get information from the internet into your computer / device. This includes seeing other people’s faces on video calls, as well as watching Netflix, and general web browsing.</p>
@@ -1158,7 +1160,9 @@
 
 <p>If you’ve taken the speed test and your Download number is anything north of about 15/20Mbps, then you should be good for most internet activities. Theoretically, you can run a Zoom call with as low a Download speed as 3 Mbps. But bear in mind that your speed test is showing you the total available speed to you, meaning that not all of that number is going to be available to one application.</p>
 
-<pullquote>Recap: You'll rarely get the "up to" speed, but bigger is better. 20Mbps is a good "average" speed for most uses.</pullquote>
+<blockquote>
+  <p>Recap: You’ll rarely get the “up to” speed, but bigger is better. 20Mbps is a good “average” speed for most uses.</p>
+</blockquote>
 
 <h2 id="what-is-upload-speed">What is Upload speed?</h2>
 <p>Upload speed is how quickly you can send data from your laptop to the rest of the world. This includes sending your voice and image to others via video conferencing. When everyone else is having a great time on Zoom, but your video quality is poor, it’s likely because your upload speed is too slow.</p>
@@ -1167,7 +1171,9 @@
 
 <p>Because of this, it’s rare that people worry about Upload speeds. In practice, anything above 5Mbps should allow you to handle video calls fairly well, so if your download speeds are 25Mbps or higher, you upload speed is rarely going to be a problem.</p>
 
-<pullquote>Recap: You'll rarely have to worry about upload speeds, and most domestic providers don't quote it. It should roughly track with your download speed.</pullquote>
+<blockquote>
+  <p>Recap: You’ll rarely have to worry about upload speeds, and most domestic providers don’t quote it. It should roughly track with your download speed.</p>
+</blockquote>
 
 <h2 id="why-am-i-not-getting-what-im-paying-for">Why am I not getting what I’m paying for?</h2>
 <p>Every single internet provider is very careful about how they advertise to you. They will all claim “up to” speeds, but rarely if ever will you see them. There’s a number of reasons why:</p>
