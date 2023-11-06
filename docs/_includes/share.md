@@ -1,1 +1,0 @@
-Share this via: [Twitter](https://twitter.com/intent/tweet?url=https://willrc.co.uk{{page.url|url_encode}}&text=Check+this+out+from+&#64;willranjhill), [Facebook](https://www.facebook.com/sharer.php?u=https://willrc.co.uk{{page.url|url_encode}}), [LinkedIn](https://www.linkedin.com/shareArticle?url=https://willrc.co.uk{{page.url|url_encode}}&source=Will-Ranjan-Churchill)

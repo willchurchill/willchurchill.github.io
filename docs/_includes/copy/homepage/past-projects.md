@@ -1,2 +1,0 @@
-## Previous Projects
-Sometimes it's helpful to see some of the actual projects someone's worked on, to get an idea of whether they'd be a good fit for you. Head over to the My Work section to see a range of work I've completed for other organisations.

@@ -1,7 +1,0 @@
-# ubuntu setup
-
-git clone https://github.com/willchurchill/willchurchill.github.io.git && cd willchurchill.github.io && git init && cd docs && JEKYLL_ENV=production bundle exec jekyll build
-
-## ubuntu push to githubpages
-
-cp -r _site ../newsite && cd .. && git stash --include-untracked && git checkout gh-pages && rm-rf * && git stash apply && mv newsite/ docs/ && git add -A && git commit -m "latest update" && git push && git checkout main

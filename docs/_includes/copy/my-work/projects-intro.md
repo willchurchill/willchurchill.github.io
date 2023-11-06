@@ -1,2 +1,0 @@
-# Projects I've worked on
-In no particular order (well, actually in alphabetical order based on how I've named them), here are some of the projects I've worked on over the years. This isn't a full list, but hopefully gives you an idea as to the kinds of things I might be able to help you and your organisation with. I don't make any commission or get any rewards from any of the services or platforms that are mentioned below. If I recommend something, it's because I genuinely think its the right tool for the job - and that is the only reason.

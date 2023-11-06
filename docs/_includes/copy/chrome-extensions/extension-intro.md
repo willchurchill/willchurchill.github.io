@@ -1,2 +1,0 @@
-# Chrome Extensions
-Every now and again I get a bee in my bonnet about a very specific way I like to work. Usually this is to do with how I store information. Below are a couple of Chrome Extensions I wrote to help me manage certain tasks. I offer them here completely free. These are not projects I regularly come back to, but if you have suggestions or questions about them, please do [get in touch](mailto:will@willrc.co.uk).
