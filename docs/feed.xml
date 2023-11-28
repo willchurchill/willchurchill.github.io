@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-28T11:12:21+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">I’ve recently changed how I consume content</title><link href="https://willrc.co.uk/articles/how-i-consume-content/" rel="alternate" type="text/html" title="I’ve recently changed how I consume content" /><published>2023-11-23T10:00:00+00:00</published><updated>2023-11-23T10:00:00+00:00</updated><id>https://willrc.co.uk/articles/how-i-consume-content</id><content type="html" xml:base="https://willrc.co.uk/articles/how-i-consume-content/"><![CDATA[<p>I’ve been doing a revamp of the way I consume data lately, and in the interest of sharing (and having more content to write) I thought I’d post it here.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-28T11:35:32+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">I’ve recently changed how I consume content</title><link href="https://willrc.co.uk/articles/how-i-consume-content/" rel="alternate" type="text/html" title="I’ve recently changed how I consume content" /><published>2023-11-23T10:00:00+00:00</published><updated>2023-11-23T10:00:00+00:00</updated><id>https://willrc.co.uk/articles/how-i-consume-content</id><content type="html" xml:base="https://willrc.co.uk/articles/how-i-consume-content/"><![CDATA[<p>I’ve been doing a revamp of the way I consume data lately, and in the interest of sharing (and having more content to write) I thought I’d post it here.</p>
 
 <p>This also coincided with me getting a new phone, and not reinstalling many of my ‘usual’ social media apps. I’ve realised how much of my time I spent on X - not just doom-scrolling (though there was plenty of that), but also as a source of news, and sometimes a place to store thoughts.</p>
 
 <p>Anyway, here’s how I digitally organise my brain. Shout out to the two big apps in my life: <a href="https://omnivore.app/">Omnivore</a>, and <a href="https://obsidian.md/">Obsidian</a>. They feature a lot in this post.</p>
 
-<h2 id="the-funnel---where-i-get-my-content">The Funnel - where I get my content</h2>
-<h3 id="mastodon">Mastodon</h3>
+<p class="pullquote">Technology exists to make things easier. If it isn't doing that, then rethink what you're using it for. </p>
+
+<h1 id="the-funnel---where-i-get-my-content">The Funnel - where I get my content</h1>
+<h2 id="mastodon">Mastodon</h2>
 <p>Since I don’t really use Twitter/X anymore, I’ve joined the pilgrimage to Mastodon. I think I’m still a little way off where I was at peak Twitter, but that is mostly because I’m trying to compare 10 years of Twitter use with like 10 months on the Fediverse. That said I do get a good amount of use from it - particularly accounts like <a href="https://mastodon.world/@longreads">Longreads</a> or more tech-specific feeds.</p>
 
 <p>I’ve talked a little before about the way that <a href="https://willrc.co.uk/articles/mastodon-vs-twitter/">Mastodon differs from Twitter</a>, but one of the benefits, for me at least, is that it I’ve found it very easy to curate a feed that is predominantly about technology. I struggle to remember what the early days of Twitter were like. But even before it devolved it was still quite a “broad” place. Good, in its own way, but perhaps less focused.</p>
-<h3 id="rss-feeds-and-omnivore">RSS feeds and Omnivore</h3>
+<h2 id="rss-feeds-and-omnivore">RSS feeds and Omnivore</h2>
 <p>I’ve had a tumultuous relationship with RSS over the years. Like many, for the last decade I lamented the loss of Google Reader. In it’s wake, I’ve tried a lot of options, from <a href="https://feedly.com/">Feedly</a> to <a href="https://about.flipboard.com/">Flipboard</a>. But for some reason they’ve never really stuck. I think because I would use the RSS reader as the place to read content, and then have a different app to make notes, and then a different one again to store things like highlights / favourite posts etc.</p>
 
 <p>Enter <a href="https://omnivore.app/">Omnivore</a> - for me it’s the first actual “most in one” platform that I’ve used where I actually do the things it suggests in the platform. You can subscribe to RSS feeds and the platform will periodically pull those feeds into your inbox, sync them for offline viewing (if you’re on mobile), and also allow you to make highlights and annotations. You can also create email addresses to allow you to sign up to newsletters, and read those in the app, keeping your inbox free of that ever expanding filtered folder of unread emails.</p>
@@ -18,8 +20,8 @@
 
 <p>It will also allow you to spit things out into other applications, which for me is great because of the next part of my thought pipeline…</p>
 
-<h2 id="the-hub---where-it-all-lives">The hub - where it all lives</h2>
-<h3 id="obsidian">Obsidian</h3>
+<h1 id="the-hub---where-it-all-lives">The hub - where it all lives</h1>
+<h2 id="obsidian">Obsidian</h2>
 <p>I’ve been back and forth with <a href="https://obsidian.md/">Obsidian</a> for a while. A mixture of not really having the rest of my pipeline sorted, and being entrenched in <a href="https://www.notion.so/">Notion</a> for so long, meant that despite conceptually loving it, Obsidian never really stuck for me.</p>
 
 <p>Meanwhile I loved Notion. It works like my brain works, and it can be adapted to handle pretty much anything. You need a basic project management tool? Somewhere to send articles to read and annotate later? A place to track habits? Somewhere to draft blog posts? Notion can handle all of that easily.</p>
@@ -32,17 +34,17 @@
 
 <p>Neither option is inherently better or worse. The fact that everything is immediately available to you in Notion in some ways makes it easier to discover what it can do. But part of my issue with it has been it’s speed, and it’s hard to look past that.</p>
 
-<h2 id="what-ive-learned">What I’ve learned</h2>
-<h3 id="being-offline-is-more-important-to-me-than-i-realised">Being offline is more important to me than I realised</h3>
+<h1 id="what-ive-learned">What I’ve learned</h1>
+<h2 id="being-offline-is-more-important-to-me-than-i-realised">Being offline is more important to me than I realised</h2>
 <p>I should have known this, having <a href="https://willrc.co.uk/musings/this-might-be-the-last-time-you-hear-me-talk-about-my-chromebook/">oft lamented</a> the old-school Chromebooks with their very generous definition of working online. (Reader: they don’t.)</p>
 
 <p>I’m not one to claim that I want to optimise every second of my day. But equally I have really noticed how much more on the ball with specific topics I’ve been since reworking my pipeline. I can use the time on my commute to read and reflect on things that are important to me, rather than just scrolling aimlessly through my socials.</p>
 
 <p>It goes beyond just using my commute time better. There’s much less friction between me having a thought and writing it down - and specifically between me reading something and having a thought about it, and then writing that down. Omnivore even syncs my Kindle highlights for me, so I’m not confined to just ruminating on news stories.</p>
-<h3 id="simpler-is-better-but-its-also-subjective">Simpler is better, but it’s also subjective</h3>
+<h2 id="simpler-is-better-but-its-also-subjective">Simpler is better, but it’s also subjective</h2>
 <p>I didn’t intend for this to be an advert for Omnivore and Obsidian, and these platforms definitely won’t be for everyone. But one of the main draws for me is Obsidian’s use of Markdown. As I’ve <a href="https://willrc.co.uk/musings/i-blog-in-markdown-now/">mentioned before</a>, I really like the format for writing, but might not be everyone’s cup of tea. That Markdown-first way of capturing content, combined with a flexible way of storing, sorting, and linking data, makes it really easy for me to use Obsidian as my complete personal library.</p>
 
-<h2 id="final-thoughts">Final Thoughts</h2>
+<h1 id="final-thoughts">Final Thoughts</h1>
 <p>In reality, I probably count have replaced all of the above with the following three takeaways:</p>
 
 <ol>
