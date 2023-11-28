@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-08T16:40:08+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">Takeaways from the IT Leaders Summit</title><link href="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/" rel="alternate" type="text/html" title="Takeaways from the IT Leaders Summit" /><published>2023-10-09T11:00:00+01:00</published><updated>2023-10-09T11:00:00+01:00</updated><id>https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit</id><content type="html" xml:base="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/"><![CDATA[<p>Last week I went to <a href="https://www.computing.co.uk/">Computing’s</a> <a href="https://event.computing.co.uk/itleaderssummit2023/en/page/home">IT Leaders Summit</a>. Amongst other things, we talked about managing IT Security, the rise of Generative Artificial Intelligence, and what’s going on with IT budgets. Here are some of the things I’ve taken away.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://willrc.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://willrc.co.uk/" rel="alternate" type="text/html" /><updated>2023-11-28T11:12:21+00:00</updated><id>https://willrc.co.uk/feed.xml</id><title type="html">Will Ranjan-Churchill</title><subtitle>An internet connection does not an expert make.</subtitle><entry><title type="html">I’ve recently changed how I consume content</title><link href="https://willrc.co.uk/articles/how-i-consume-content/" rel="alternate" type="text/html" title="I’ve recently changed how I consume content" /><published>2023-11-23T10:00:00+00:00</published><updated>2023-11-23T10:00:00+00:00</updated><id>https://willrc.co.uk/articles/how-i-consume-content</id><content type="html" xml:base="https://willrc.co.uk/articles/how-i-consume-content/"><![CDATA[<p>I’ve been doing a revamp of the way I consume data lately, and in the interest of sharing (and having more content to write) I thought I’d post it here.</p>
+
+<p>This also coincided with me getting a new phone, and not reinstalling many of my ‘usual’ social media apps. I’ve realised how much of my time I spent on X - not just doom-scrolling (though there was plenty of that), but also as a source of news, and sometimes a place to store thoughts.</p>
+
+<p>Anyway, here’s how I digitally organise my brain. Shout out to the two big apps in my life: <a href="https://omnivore.app/">Omnivore</a>, and <a href="https://obsidian.md/">Obsidian</a>. They feature a lot in this post.</p>
+
+<h2 id="the-funnel---where-i-get-my-content">The Funnel - where I get my content</h2>
+<h3 id="mastodon">Mastodon</h3>
+<p>Since I don’t really use Twitter/X anymore, I’ve joined the pilgrimage to Mastodon. I think I’m still a little way off where I was at peak Twitter, but that is mostly because I’m trying to compare 10 years of Twitter use with like 10 months on the Fediverse. That said I do get a good amount of use from it - particularly accounts like <a href="https://mastodon.world/@longreads">Longreads</a> or more tech-specific feeds.</p>
+
+<p>I’ve talked a little before about the way that <a href="https://willrc.co.uk/articles/mastodon-vs-twitter/">Mastodon differs from Twitter</a>, but one of the benefits, for me at least, is that it I’ve found it very easy to curate a feed that is predominantly about technology. I struggle to remember what the early days of Twitter were like. But even before it devolved it was still quite a “broad” place. Good, in its own way, but perhaps less focused.</p>
+<h3 id="rss-feeds-and-omnivore">RSS feeds and Omnivore</h3>
+<p>I’ve had a tumultuous relationship with RSS over the years. Like many, for the last decade I lamented the loss of Google Reader. In it’s wake, I’ve tried a lot of options, from <a href="https://feedly.com/">Feedly</a> to <a href="https://about.flipboard.com/">Flipboard</a>. But for some reason they’ve never really stuck. I think because I would use the RSS reader as the place to read content, and then have a different app to make notes, and then a different one again to store things like highlights / favourite posts etc.</p>
+
+<p>Enter <a href="https://omnivore.app/">Omnivore</a> - for me it’s the first actual “most in one” platform that I’ve used where I actually do the things it suggests in the platform. You can subscribe to RSS feeds and the platform will periodically pull those feeds into your inbox, sync them for offline viewing (if you’re on mobile), and also allow you to make highlights and annotations. You can also create email addresses to allow you to sign up to newsletters, and read those in the app, keeping your inbox free of that ever expanding filtered folder of unread emails.</p>
+
+<p>But neither of those were what initially drew me to Omnivore. It was actually it’s function as a “read it later” platform that swung it for me. It’s clean, has the usual tagging functionality you’d expect, and even lets you highlight and annotate pages from the app. Most importantly for me though, the mobile app is fantastic, and the ability to sync and read longform content offline has been a game changer. Despite living in 2023, I still find myself in patches of no signal for considerable stretches of my commute. Omnivore makes it really easy to scroll the usual places for things to read, send them over to the platform, and then actually do the reading while I’ve got no signal.</p>
+
+<p>It will also allow you to spit things out into other applications, which for me is great because of the next part of my thought pipeline…</p>
+
+<h2 id="the-hub---where-it-all-lives">The hub - where it all lives</h2>
+<h3 id="obsidian">Obsidian</h3>
+<p>I’ve been back and forth with <a href="https://obsidian.md/">Obsidian</a> for a while. A mixture of not really having the rest of my pipeline sorted, and being entrenched in <a href="https://www.notion.so/">Notion</a> for so long, meant that despite conceptually loving it, Obsidian never really stuck for me.</p>
+
+<p>Meanwhile I loved Notion. It works like my brain works, and it can be adapted to handle pretty much anything. You need a basic project management tool? Somewhere to send articles to read and annotate later? A place to track habits? Somewhere to draft blog posts? Notion can handle all of that easily.</p>
+
+<p>But lately it’s been running really slowly for me - something that is a common criticism of the platform. For me also, I need it to work smoothly offline, and Notion just doesn’t. I find myself doing a lot of note-taking and reading on my phone. Notion, for all its many many perks, does not behave well for me when all I want to do is fire up an app and jot down some thoughts.</p>
+
+<p>Meanwhile, Obsidian is an offline product. It offers the same experience across platforms - handy for someone who spends an equal amount of time across Windows, Linux, and Android. It also has a number of options for dealing with syncing across devices. I’ve opted to pay for Obsidian’s own sync function (about £80 for the year), but there are other community driven ways of dealing with this.</p>
+
+<p>Speaking of the community, there are thousands of extensions you can download and use to enhance Obsidian. It takes the opposite approach to tools like Notion, and gives you a streamlined base that you can customise exactly how you want, rather than giving you the world and letting you decide which corners you want to live in.</p>
+
+<p>Neither option is inherently better or worse. The fact that everything is immediately available to you in Notion in some ways makes it easier to discover what it can do. But part of my issue with it has been it’s speed, and it’s hard to look past that.</p>
+
+<h2 id="what-ive-learned">What I’ve learned</h2>
+<h3 id="being-offline-is-more-important-to-me-than-i-realised">Being offline is more important to me than I realised</h3>
+<p>I should have known this, having <a href="https://willrc.co.uk/musings/this-might-be-the-last-time-you-hear-me-talk-about-my-chromebook/">oft lamented</a> the old-school Chromebooks with their very generous definition of working online. (Reader: they don’t.)</p>
+
+<p>I’m not one to claim that I want to optimise every second of my day. But equally I have really noticed how much more on the ball with specific topics I’ve been since reworking my pipeline. I can use the time on my commute to read and reflect on things that are important to me, rather than just scrolling aimlessly through my socials.</p>
+
+<p>It goes beyond just using my commute time better. There’s much less friction between me having a thought and writing it down - and specifically between me reading something and having a thought about it, and then writing that down. Omnivore even syncs my Kindle highlights for me, so I’m not confined to just ruminating on news stories.</p>
+<h3 id="simpler-is-better-but-its-also-subjective">Simpler is better, but it’s also subjective</h3>
+<p>I didn’t intend for this to be an advert for Omnivore and Obsidian, and these platforms definitely won’t be for everyone. But one of the main draws for me is Obsidian’s use of Markdown. As I’ve <a href="https://willrc.co.uk/musings/i-blog-in-markdown-now/">mentioned before</a>, I really like the format for writing, but might not be everyone’s cup of tea. That Markdown-first way of capturing content, combined with a flexible way of storing, sorting, and linking data, makes it really easy for me to use Obsidian as my complete personal library.</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>In reality, I probably count have replaced all of the above with the following three takeaways:</p>
+
+<ol>
+  <li>Being more selective about the social media you consume makes it easier to give yourself the brain space to actually consume and reflect on it. Go figure…</li>
+  <li>Technology isn’t always about fancy plugins and shiny features. Sometimes the best tech just gets out of your way and lets you do the thinking.</li>
+  <li>It feels like we’re constantly pushed towards cloud-based and online options for products - in part because it’s easier there to push the shiny new things that keep you interested in the platform. But offline is just as good for a lot of things - and better for some.</li>
+</ol>
+
+<p>Or, to put it even more simply: 
+Technology exists to make things easier. If it isn’t doing that, then rethink what you’re using it for.</p>]]></content><author><name></name></author><category term="technology" /><category term="online" /><category term="productivity" /><category term="omnivore" /><category term="obsidian" /><category term="featured" /><summary type="html"><![CDATA[It's not a secret that the way we consume online content can often be flawed. But I've never really played with that, until now.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://willrc.co.uk/assets/images/articles/stuttgart-library.jpg" /><media:content medium="image" url="https://willrc.co.uk/assets/images/articles/stuttgart-library.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Takeaways from the IT Leaders Summit</title><link href="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/" rel="alternate" type="text/html" title="Takeaways from the IT Leaders Summit" /><published>2023-10-09T11:00:00+01:00</published><updated>2023-10-09T11:00:00+01:00</updated><id>https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit</id><content type="html" xml:base="https://willrc.co.uk/articles/takeaways-from-the-it-leaders-summit/"><![CDATA[<p>Last week I went to <a href="https://www.computing.co.uk/">Computing’s</a> <a href="https://event.computing.co.uk/itleaderssummit2023/en/page/home">IT Leaders Summit</a>. Amongst other things, we talked about managing IT Security, the rise of Generative Artificial Intelligence, and what’s going on with IT budgets. Here are some of the things I’ve taken away.</p>
 
 <h2 id="it-spending-is-up">IT spending is up</h2>
 
@@ -1122,62 +1176,4 @@
 
 <p>That’s it! We’ve solved the problem. I never doubted us.</p>
 
-<p>Of course, this is by no means the only way to do this - even just using Javascript. One thing I’m always relearning is that a lot of the time, being a developer is more about thinking your way around problems than it is actually writing code. For me, this was a great exercise in that. I’m challenging myself to take on more of these “crossword puzzles for nerds” and I’ll share my journey with you.</p>]]></content><author><name></name></author><category term="javascript" /><summary type="html"><![CDATA[Wherein I write a function to check if brackets are properly nested, just because.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://willrc.co.uk/assets/images/articles/code.jpg" /><media:content medium="image" url="https://willrc.co.uk/assets/images/articles/code.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Internet Speeds</title><link href="https://willrc.co.uk/articles/internet-speeds/" rel="alternate" type="text/html" title="Internet Speeds" /><published>2021-10-19T11:00:00+01:00</published><updated>2021-10-19T11:00:00+01:00</updated><id>https://willrc.co.uk/articles/internet-speeds</id><content type="html" xml:base="https://willrc.co.uk/articles/internet-speeds/"><![CDATA[<p>So how fast is your internet? If you listen to your internet service provider, then you’ll no doubt have “blazing fast” broadband, sometimes “up to one hundred meg!”</p>
-
-<p>What’s a “meg”? Why does “up to” make it sound like they’re lying? How come your internet is so slow even though you pay so much? All of these are great questions, and here I’ll try to unpack them.</p>
-
-<p>But first, let’s get some numbers to work with. Go to <a href="https://www.speedtest.net/">https://www.speedtest.net/</a> and then click on the big “Go” button on screen. You should get back something that looks like this:</p>
-
-<p><img src="https://willrc.co.uk/assets/images/articles/internet-speed-test.jpg" alt="Speed test results" /></p>
-
-<p>These three numbers together make up your internet speed. This test was done in an office with corporate-grade internet, so don’t be too disappointed if your numbers aren’t quite the same.</p>
-
-<p>Let’s go through what they mean.</p>
-
-<h1 id="what-is-ping-speed">What is Ping speed?</h1>
-<p>Your “Ping” is the time it takes for a packet of information to travel from your laptop, over the internet to an external point, and then come all the way back again. For nerdy technology professionals, it’s one of the most accurate ways of assessing the responsiveness of your internet speed.</p>
-
-<p>Unlike the Download and Upload numbers where bigger is better, you want your ping number to be as low as possible. Lower numbers mean that the data packet is returning more quickly. In practical terms, this is most apparent in online-gaming, or in video calling. High ping usually results in lagging - in other words what you see on Zoom is delayed by some seconds, rather than real-time. It can also lead to “jittering” of the video call, as the software tries to compensate for the lag by buffering the stream and then throwing it at you all at once.</p>
-
-<p>For video calling, a Ping of 25ms or lower should be fine. Higher than this and you might see some stuttering or lagging, but you shouldn’t be overly concerned unless you’re seeing a ping of 150ms or more.</p>
-
-<p>Fun fact for you, “pings” borrow their name form sonar technology, where bursts of high-frequency sounds are sent out and the echoes uses to determine information about surroundings.</p>
-
-<blockquote>
-  <p>Recap: You want your ping as low as possible. Anything under 25ms should be good for most uses.</p>
-</blockquote>
-
-<h1 id="what-is-download-speed">What is Download speed?</h1>
-<p>This what companies reference when they quote their speeds. Simply put, this is how quickly you can get information from the internet into your computer / device. This includes seeing other people’s faces on video calls, as well as watching Netflix, and general web browsing.</p>
-
-<p>When your internet provider tells you you can get “up to X meg speeds”, what they mean is that the theoretical maximum download speed is X Mbps (megabits per second). The likes of Virgin Media and Sky typically start their X number from 50 and work their way up. In practice, you’re not likely to get close to those speeds. We explore why later down the page.</p>
-
-<p>If you’ve taken the speed test and your Download number is anything north of about 15/20Mbps, then you should be good for most internet activities. Theoretically, you can run a Zoom call with as low a Download speed as 3 Mbps. But bear in mind that your speed test is showing you the total available speed to you, meaning that not all of that number is going to be available to one application.</p>
-
-<blockquote>
-  <p>Recap: You’ll rarely get the “up to” speed, but bigger is better. 20Mbps is a good “average” speed for most uses.</p>
-</blockquote>
-
-<h1 id="what-is-upload-speed">What is Upload speed?</h1>
-<p>Upload speed is how quickly you can send data from your laptop to the rest of the world. This includes sending your voice and image to others via video conferencing. When everyone else is having a great time on Zoom, but your video quality is poor, it’s likely because your upload speed is too slow.</p>
-
-<p>Typically upload speeds and download speed track each other fairly well, with Upload being slightly - but not usually noticeably - lower.</p>
-
-<p>Because of this, it’s rare that people worry about Upload speeds. In practice, anything above 5Mbps should allow you to handle video calls fairly well, so if your download speeds are 25Mbps or higher, you upload speed is rarely going to be a problem.</p>
-
-<blockquote>
-  <p>Recap: You’ll rarely have to worry about upload speeds, and most domestic providers don’t quote it. It should roughly track with your download speed.</p>
-</blockquote>
-
-<h1 id="why-am-i-not-getting-what-im-paying-for">Why am I not getting what I’m paying for?</h1>
-<p>Every single internet provider is very careful about how they advertise to you. They will all claim “up to” speeds, but rarely if ever will you see them. There’s a number of reasons why:</p>
-
-<ul>
-  <li><strong>The speed they quote is usually the speed at the router.</strong> This will be different from the speed you get if you’re connected to the WiFi, as there is a significant drop-off in connection speed from about 10 feet away.
-    <ul>
-      <li>Top tip: If you’re able to plug your device directly into the router, this will usually give you a much better internet connection. Working from a different room to your router? Have a read of the <a href="https://willrc.co.uk/guides/wifi-boosters/">WiFi Boosters Guide</a> to see if these might help.</li>
-    </ul>
-  </li>
-  <li><strong>Your distance from the exchange will make a difference.</strong> Have you ever noticed those green metal boxes on the side of the road? That’s where the little internet gnomes live. Well, not really, but it is where the internet comes from the exchange and then “branches out” to the various houses. The further you are from this box, and the further the box is from the exchange, all make a difference to your speed. If you’re a fan of bad analogies, think of the green box as the source of a river. The more people you have upstream to you, the poorer the quality of the water. Sadly, the only thing you can really do about this one is move house - which isn’t really a practical consideration for most people. The good news is though that as technology improves, this is becoming less and less of a limiting factor.</li>
-  <li><strong>Are there other devices are connected to your router?</strong> That 50Mbps that Virgin Media promises you? That’s for your whole house. If you’ve got multiple people doing multiple things, you aren’t all likely to get 50Mbps speeds. It’s also worth thinking about what else other people are doing. Streaming (e.g. watching Netflix), Video calling (including FaceTime / WhatsApp video calling), and online-gaming are all high-impact activities. If you have people in one household doing all of these simultaneously, then you’re likely to need a fairly robust internet connection.</li>
-</ul>]]></content><author><name></name></author><category term="internet" /><category term="featured" /><summary type="html"><![CDATA[What dictates an internet speed, and why aren't you getting what you paid for?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://willrc.co.uk/assets/images/articles/fibreoptic.jpg" /><media:content medium="image" url="https://willrc.co.uk/assets/images/articles/fibreoptic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Of course, this is by no means the only way to do this - even just using Javascript. One thing I’m always relearning is that a lot of the time, being a developer is more about thinking your way around problems than it is actually writing code. For me, this was a great exercise in that. I’m challenging myself to take on more of these “crossword puzzles for nerds” and I’ll share my journey with you.</p>]]></content><author><name></name></author><category term="javascript" /><summary type="html"><![CDATA[Wherein I write a function to check if brackets are properly nested, just because.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://willrc.co.uk/assets/images/articles/code.jpg" /><media:content medium="image" url="https://willrc.co.uk/assets/images/articles/code.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
