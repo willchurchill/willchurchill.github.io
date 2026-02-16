@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Will Ranjan-Churchill | Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.</title>
+<meta property="og:title" content="Will Ranjan-Churchill" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<meta property="og:description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<link rel="canonical" href="https://willrc.co.uk/" />
+<meta property="og:url" content="https://willrc.co.uk/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Will Ranjan-Churchill" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.","headline":"Will Ranjan-Churchill","name":"Will Ranjan-Churchill","url":"https://willrc.co.uk/"}</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/style/style.css">
+<link rel="stylesheet" href="/assets/style/syntax.css">
+<link type="application/atom+xml" rel="alternate" href="http://willrc.co.uk/feed.xml" title="Will Ranjan-Churchill" /></head>
+<body>
+  <header class="" role="">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand sitelogo" href="https://willrc.co.uk">wrc</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    <a class="nav-link" href="/about/">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/blog/">Blog</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/services/">Services</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/contact/">Contact</a>
+</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+<main aria-label="Content">
+
+<div class="container-fluid post-header-image" style="background-image:url('/content/images/webdev-jpg.webp')">
+
+</div>
+<div class="container-post">
+    <div class="row post-header">
+        
+        <p class="mt-3"><a class="badge text-bg-secondary" href="/categories/#guides">guides</a></p>
+        
+        <h1>Image optimization</h1>
+        <p>14 Apr, 2020 | <span class="reading-time">
+  
+  
+    7 min read
+  
+</span></p>
+    </div>
+    <div class="row">
+        
+        <p>One of the easiest “quick wins” to making your website load faster is choosing the right images and making sure they are formatted and sized correctly. In this guide, we go through some of the things to look out for when sorting your images out.</p>
+
+<p>We’ve put this together to give you an idea of what makes for a good image, but there are also online tools that, while not perfect, can do a lot of the heavy lifting for you. One of the most popular is <a href="https://tinyjpg.com/">TingJPG</a>. Alternatively, if you’re using a WordPress site take a look at the <a href="https://wordpress.org/plugins/wp-smushit/">Smush</a> plugin.</p>
+
+<h1 id="establishing-where-the-image-will-be-used">Establishing where the image will be used</h1>
+
+<p>Making sure you pick the right image size for the right place it key. Choose an image that is too small, and the quality of the image may suffer, as the fixed number of pixels in the image are stretched and enlarged to allow the image to fit. Choose one that’s too big, and your user is using unnecessarily downloading ‘extra’ information about that image that won’t benefit them. It might take longer for the website to load, and your bounce rate as a result is likely to be higher.</p>
+
+<h1 id="editing-images">Editing images</h1>
+
+<p>While tools like <a href="https://www.adobe.com/uk/products/photoshop.html">Adobe Photoshop</a> will very quickly and easily allow you to edit images, not everyone has access to such a professional piece of software. There are lots of other free tools that will allow you to do similar things. At Copy &amp; Code, our favourite of these free options is <a href="https://www.gimp.org/">GIMP</a> (the GNU Image Manipulation Programme). This is a cross-platform, open-source programme that allows you to make a multitude of edits to images.</p>
+
+<h1 id="the-image-parameters">The image parameters</h1>
+
+<p>There are lots of things about a given image that you can edit in order to make it render quicker. Basically, they all boil down to reducing the file size of the image as much as possible, with as little degradation to the image quality as possible. At the bottom of this guide is a crib sheet that Copy &amp; Code uses as a guide to resize and compress images ready for web consumption.</p>
+
+<p>Be aware that these are just guidelines, and that every image is different. For example, you might find that images with fewer colours are able to be compressed further than suggested without loss of quality. Similarly, the file size of monochromatic images are usually far smaller than colour images of the same subject.</p>
+
+<h2 id="width">Width</h2>
+
+<p>Most platforms, such as WordPress or Squarespace, and most coded instances of images fit the source file to the required space. As a result, it is easy to ignore the dimensions of the image when optimising, as it doesn’t usually make a difference to the visual end result. However, every time an image is rendered on a website, the entirety of that image must be processed. As a result, if you were to display a thumbnail image for a product, but use a banner size image as the source file, the browser will take unnecessary resources to render that file.</p>
+
+<p>While file dimensions include both the width and the height of the file, we have chosen only to focus on the width here. The reason for this is that in most cases the width of the image has the greatest impact on the end result. While consulting this document, bear in mind the specific use for the image in question, and the resulting aspect ratio of the image.</p>
+
+<h2 id="file-type">File Type</h2>
+
+<p>By and large, JPEG (file extension .jpg) is the go-to for website images. They offer the best quality to file size ratio, and can be compressed a significant amount without visible loss of quality. If the image requires good quality whilst scaling, and / or has elements of transparency, then you should opt for PING files (file extension .png). These are most commonly used for logos.</p>
+
+<p>Note that there is a new file type known as webp, developed by Google, that offers superior quality at a lower file size. However at the time of the last edit of this document, webp is still not supported by all browsers, and therefore Copy &amp; Code recommend sticking with either JPEG or PING files.</p>
+
+<h2 id="image-quality">Image quality</h2>
+
+<p>When saving images, good image editing software will offer you the option of setting the image quality, or setting a compression level. These two are interchangeable, and you are not likely to see both options. JPEG images are fairly resilient to compression, and depending on a number of factors, good results have been seen with a reduction in quality of up to 70%. Factors that influence this include</p>
+
+<ul>
+  <li>
+    <p><strong>The intended use for the photo.</strong> If the image is being used in an instance where it is not the main focus, for example in a banner with an overlay, you can afford to increase the compression. Images that require detail - for example product photos - usually benefit from higher in quality</p>
+  </li>
+  <li>
+    <p><strong>The number of colours in the photo.</strong> As a general rule of thumb, the fewer colours in the image, the greater its resilience to compression.</p>
+  </li>
+  <li>
+    <p><strong>The number of ‘shapes’ / the ‘complexity’ of the image.</strong> The more there is happening in the photo (for example a group photo, or a busy painting), the more the image tends to suffer from compression.</p>
+  </li>
+</ul>
+
+<h2 id="file-size">File size</h2>
+
+<p>In some image editing software, sure as Adobe Lightroom, this is a parameter that can be set. Usually however, this is an attribute that is determined by the others. Simply put, the smaller the file size, the quicker it will load on the page. Therefore, the aim of manipulating the other attributes of the image is to arrive at the smallest file size possible. The sizes given in the table below are intended as guidelines to show what the largest image size should be for each. If the images greatly exceed the recommended size, consider adjusting some of the parameters.</p>
+
+<h2 id="image-parameters-crib-sheet">Image parameters crib-sheet</h2>
+
+<figure>
+
+| Where will the image be used? | Width (pixels) | File Type | Image Quality (%) / Compression level | File Size | Example Uses |
+| --- | --- | --- | --- | --- | --- |
+| Banner Image | 1080 - 1680 | .jpg | 85-95% | &lt;500Kb | Banner image for page background image in full-page layout |
+| Large Image | 800 - 1024 | .jpg | 80-90% | &lt;300Kb | Main page image on blog post, feature image for product page |
+| Medium Sized Image | 400 - 600 | .jpg | 75-85% | &lt;200Kb | Inline image for page |
+| Small Image | 280 - 350 | .jpg | 80-90% | &lt;150Kb | Thumbnail image for products on e-commerce store |
+| Portrait Image | 180 - 240 | .jpg | 80-90% | &lt;50Kb | Images used in an 'Our Team' style section |
+| Logo - large | 450 - 600 | .png | 3 | &lt;50Kb | Used as a centre piece image for a holding page |
+| Logo - Small | 100 - 300 | .png | 3 | &lt;30Kb | Main logo at top of a page |
+| Favicon | 64 | .png / .ico | 0 | &lt;20Kb | Used to create the website icon in the browser tab |
+
+<figcaption>
+
+_At-a-glance guide to image sizes for various uses_
+
+</figcaption>
+
+</figure>
+
+<h2 id="final-note">Final note</h2>
+
+<p>Optimising images has often been compared to more of an art than a science. Because of the vast differences between image subjects it is nearly impossible to provide a set of rules that will satisfy every use case. As a result, you may find that these settings are not the optimal ones for your use case. Please see the next page for our guideline table of values.</p>
+
+    </div>
+    <div class="row page-tags">
+        <p>
+            tags: 
+                
+                    <a class="" href="/tags/#image-optimisation-web-development">image-optimisation-web-development</a>
+                
+        </p>
+    </div>
+</div>
+</main>
+<footer class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+  <div class="container pt-3 pb-3">
+      <div class="col">
+        <p class="sitelogo">wrctech ltd</p>
+        <p>If your tech isn't working for you, I can help you rethink it.</p>
+      </div>
+      <div class="col text-end">
+        <p class="sitelogo">Quick Links</p>
+        <p><a href="/blog/">Blog</a><br /><a href="/contact/">Get in touch</a><br /><a href="/privacy/">Privacy Policy</a></p>
+      </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1994ecc951.js" crossorigin="anonymous"></script>
+</html>

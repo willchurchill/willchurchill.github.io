@@ -1,0 +1,172 @@
+@font-face {
+ font-family: 'breeserif';
+ src: url('https://willrc.co.uk/assets/style/fonts/breeserif.ttf');
+}
+@font-face {
+ font-family: 'montserrat';
+ src: url('https://willrc.co.uk/assets/style/fonts/montserrat.ttf');
+}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3{
+    margin: 2rem 0 1rem 0 !important;
+}
+
+.subheader{
+    font-weight: 600;
+    font-style: italic;
+    margin-top:-5px;
+}
+
+.sitelogo{
+    font-family: 'breeserif', monospace;
+}
+
+.siteheader{
+    background-color:#102027;
+    color:white;
+    text-align: center;
+    padding: 3rem 0;
+}
+.siteheader > span { margin:auto; }
+@media (max-width: 575.98px) { .siteheader > span{ max-width:540px; } }
+@media (max-width: 767.98px) { .siteheader > span{ max-width:720px; } }
+@media (max-width: 991.98px) { .siteheader > span{ max-width:960px; } }
+@media (max-width: 1199.98px) { .siteheader > span{ max-width:960px; } }
+@media (min-width: 1200px) { .siteheader > span{ max-width:960px; } }
+
+.post-card{
+    margin:0.5rem 0;
+}
+
+.post-header{
+    margin:2rem 0;
+    padding:0;
+}
+.post-header > * { padding-left:0; padding-right:0;}
+
+.post-header-image{
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.row-margin-top-large{
+    margin-top:2rem;
+}
+
+.post-description{
+    background-color: #102027;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding:2rem;
+    margin:1rem;
+}
+.page-description{
+    font-weight: 600;
+}
+.page-pullquote{
+    background-color: #BDB9B7;
+    color: #102027;
+    text-align: center;
+    font-style: italic;
+    padding:2rem;
+}
+blockquote{
+    /* background-color: #BDB9B7; */
+    color: #102027;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    padding:2rem;
+}
+.post-image{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+.post-image-wide{
+    width:90%;
+}
+
+.post-image-caption{
+    width:60%;
+    margin:auto;
+    font-size: 1rem;
+    text-align: center;
+    font-style: italic;
+    padding-top:10px;
+    padding-bottom: 2rem;
+}
+
+.meta-header{
+    background-color: #BDB9B7;
+    color: #102027;
+    text-align: center;
+    font-weight: 600;
+    padding:2rem;
+}
+
+.container-post{ margin:auto; }
+@media (max-width: 575.98px) { .container-post{ max-width:90vw; } }
+@media (max-width: 767.98px) { .container-post{ max-width:90vw; } }
+@media (max-width: 991.98px) { .container-post{ max-width:90vw; } }
+@media (max-width: 1199.98px) { .container-post{ max-width:60vw; } }
+@media (min-width: 1200px) { .container-post{ max-width:60vw; } }
+
+a{
+    color:#102027;
+    font-weight: 500;
+}
+a.badge {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.page-tags{
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.service-card{
+    padding:20px;
+}
+.service-name{
+    text-align: center;
+}
+
+.service-container{
+    margin:40px 0;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none !important;
+}
+a .card-title{
+    text-decoration: none !important;
+}
+
+.card-subtext{
+    font-size: 1rem;
+}
+
+.btn-primary{
+    background-color: #102027;
+}
+.btn-primary:hover{
+    background-color: #E5E3E2;
+    color: #102027;
+}
+
+.highlight{
+    padding:1rem;
+    margin-bottom:1rem;
+}

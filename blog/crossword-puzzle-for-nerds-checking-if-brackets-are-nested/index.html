@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Will Ranjan-Churchill | Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.</title>
+<meta property="og:title" content="Will Ranjan-Churchill" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<meta property="og:description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<link rel="canonical" href="https://willrc.co.uk/" />
+<meta property="og:url" content="https://willrc.co.uk/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Will Ranjan-Churchill" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.","headline":"Will Ranjan-Churchill","name":"Will Ranjan-Churchill","url":"https://willrc.co.uk/"}</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/style/style.css">
+<link rel="stylesheet" href="/assets/style/syntax.css">
+<link type="application/atom+xml" rel="alternate" href="http://willrc.co.uk/feed.xml" title="Will Ranjan-Churchill" /></head>
+<body>
+  <header class="" role="">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand sitelogo" href="https://willrc.co.uk">wrc</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    <a class="nav-link" href="/about/">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/blog/">Blog</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/services/">Services</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/contact/">Contact</a>
+</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+<main aria-label="Content">
+
+<div class="container-fluid post-header-image" style="background-image:url('/content/images/code-jpg.webp')">
+
+</div>
+<div class="container-post">
+    <div class="row post-header">
+        
+        <p class="mt-3"><a class="badge text-bg-secondary" href="/categories/#coding">coding</a></p>
+        
+        <h1>Crossword puzzle for nerds: Checking if brackets are nested</h1>
+        <p>31 Oct, 2022 | <span class="reading-time">
+  
+  
+    9 min read
+  
+</span></p>
+    </div>
+    <div class="row">
+        
+        <p><strong><em>It’s been a while since I’ve done coding for the fun of it, so I thought I’d get back into the game, and bring you along for the ride. In a series of these posts, I’ll be solving problems with code. Sort of like doing a crossword puzzle for nerds.</em></strong></p>
+
+<p>In this post, I’ll be writing a function that takes an input and decides if it is well structured. Here’s the criteria:</p>
+
+<blockquote>
+  <p>The input can contain any number of any type of bracket - round, square, or curly. Open brackets must have a corresponding closed bracket. Brackets must be properly nested.</p>
+</blockquote>
+
+<p>In other words, (something like [this]) would be fine, [but (this]) would not.</p>
+
+<p>This particular puzzle was given to me as part of an exercise in front of other developers. Full disclosure, this is not the solution I came up with in the room, but rather one I arrived at immediately after the pressure was off, and has been influenced by the help they offered.</p>
+
+<p>Let’s get to work.</p>
+
+<h1 id="looping-through-the-input">Looping through the input</h1>
+
+<p>For this problem I’m going to use Javascript to take an input string and run some checks on it. The first thing I’ll need to do is to isolate any brackets. I’m going to use a <code class="language-plaintext highlighter-rouge">for</code> loop to iterate through the input string, analysing each character. For now, I’m just going to spit the brackets out to the console. Let’s see what that might look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function parse_input( input_string ){
+
+    for( i=0; i &lt; input_string.length; i++ ){
+            if( input_string[i] == "{" || input_string[i] == "}" || input_string[i] == "(" || input_string[i] == ")" || input_string[i] == "[" || input_string[i] == "]"  ){
+                console.log( input_string[i] );
+            }
+        }
+
+}
+</code></pre></div></div>
+
+<p>Ok, so this works. But even at this stage I feel like I’m going to be running a lot of checks, and frankly this notation is giving me a headache. What I want is a way to group things together to make them easier to analyse.</p>
+
+<h1 id="arrays-for-days">Arrays for days</h1>
+
+<p>I’m going to start by creating an array with all the bracket options in it. That way, rather than my lengthy notation that compares every character in the input string to each option, I’ll just check if it’s in the bracket array.</p>
+
+<p>Then, because all I’m actually interested in are the brackets, I’m going to push them all out to a new array so I can manipulate that, rather than the whole string.</p>
+
+<p>So, let’s rework our code a little bit.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>all_brackets = ["(",")","[","]","{","}"];
+capture_brackets = [];
+
+function parse_input( input_string ){
+
+    for( i=0; i &lt; input_string.length; i++ ){
+            if( all_brackets.includes( input_string[i] ) ){
+                capture_brackets.push( input_string[i] );
+            }
+        }
+
+}
+</code></pre></div></div>
+
+<p>There, much neater.</p>
+
+<h1 id="lets-go-back-to-the-problem">Let’s go back to the problem</h1>
+
+<p>So far, we’ve got a function that takes out all our brackets and makes it easier to manipulate. That’s good, but what are we actually trying to achieve?</p>
+
+<p>Because we now have our <code class="language-plaintext highlighter-rouge">capture_brackets[]</code> array, we can iterate through that and check that we have proper nesting. How do we do that? Well, we know that for the input string to be valid, if I open a bracket I have to either close it with the same bracket, or else open another bracket. If I take an open bracket and then next one in the sequence is the wrong closed bracket, then I know the input string is not valid.</p>
+
+<p>Let’s spitball what that might look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function check_nesting( capture_brackets ){
+
+    for( i=0; i &lt; capture_brackets.length-1; i++ ){
+
+        if( capture_brackets[i] == "(" ){
+
+            if( capture_brackets[i+1] == "}" || capture_brackets[i+1] == "]" ){
+
+                console.log("invalid input string");
+
+            }
+
+        }else if( capture_brackets[i] == "{" ){
+
+            if( capture_brackets[i+1] == ")" || capture_brackets[i+1] == "]" ){
+
+                console.log("invalid input string");
+
+            }
+
+        }else if( capture_brackets[i] == "[" ){
+
+            if( capture_brackets[i+1] == "}" || capture_brackets[i+1] == ")" ){
+
+                console.log("invalid input string");
+
+            }
+
+        }
+
+    }
+
+}
+</code></pre></div></div>
+
+<p>So, this looks like a promising start, but there are several problems. And, I’ll be honest with you, this little rabbit hole is one I spent a little longer down than I should have. I did need a little nudge from the other devs to get out of this.</p>
+
+<p>The fundamental problem with this method is that it has no “memory”. In other words, if I have an input string that looks like this <code class="language-plaintext highlighter-rouge">[]{}]</code> where I have a trailing closed bracket with no corresponding open bracket, it won’t flag because all this function is looking at is the immediate character and the one after.</p>
+
+<p>So, let’s rethink this slightly…</p>
+
+<h1 id="sail-array-with-me-honey">Sail array with me, honey</h1>
+
+<p>So far we’ve been looking at this problem linearly. In other words, we’ve been looking for opening brackets and then checking that the next one in the sequence matches. What if instead we looked for closed brackets and then worked backwards? If we assume a perfectly nested input - something like <code class="language-plaintext highlighter-rouge">{([])}</code> then the first closed bracket we hit will have to be immediately preceded by the corresponding opening bracket. We just need our function to “remember” what the opening brackets are.</p>
+
+<p>So now the problem is “memory”. We know how to solve memory problems - our old friend arrays! As we iterate through out <code class="language-plaintext highlighter-rouge">capture_bracket[]</code> array, when we hit an open bracket we can push that to a new array and then carry on. When we hit a closed bracket, we need to check the last opening bracket of the new array. If they don’t match, we have a problem. If they do match, then we can remove the last open bracket from the new array, and then move on.</p>
+
+<p>Let’s map this out:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open_brackets = ["(","[","{"];
+closed_brackets = [")","]","}"];
+capture_open_brackets = [];
+
+function check_nesting( capture_brackets ){
+
+    for( i=0; i &lt; capture_brackets.length; i++ ){
+
+        if( open_brackets.includes( capture_brackets[i] )  ){
+
+            capture_open_brackets.push( capture_brackets[i] );
+
+        }else if( closed_brackets.includes( capture_brackets[i] )  ){
+
+            last_bracket = capture_open_brackets.slice(-1);
+
+            if( capture_brackets[i] == ")" ){
+                if( last_bracket == "(" ){
+                    capture_open_brackets.pop();
+                }else{
+                    console.log("input invalid");
+                }
+            }else if( capture_brackets[i] == "]" ){
+                if( last_bracket == "[" ){
+                    capture_open_brackets.pop();
+                }else{
+                    console.log("input invalid");
+                }
+            }else if( capture_brackets[i] == "}" ){
+                if( last_bracket == "{" ){
+                    capture_open_brackets.pop();
+                }else{
+                    console.log("input invalid");
+                }
+            }else{ 
+                console.log("something went wrong with the check");
+            }
+        }else{
+            console.log("something went wrong");
+        }
+    }
+
+}
+</code></pre></div></div>
+
+<p>So, going through this bit by bit, what we’re doing is iterating through the <code class="language-plaintext highlighter-rouge">capture_brackets</code> input and saying that if we hit an open bracket, push that into the new <code class="language-plaintext highlighter-rouge">capture_open_brackets[]</code> array. If we hit a closed bracket, then take the last open bracket we saw (using <code class="language-plaintext highlighter-rouge">capture_open_brackets.slice(-1)</code>) and then run some checks on that. Those checks essentially try to match the pairs. If the check is successful, remove that last open bracket from the array (using <code class="language-plaintext highlighter-rouge">capture_open_brackets.pop()</code>) and carry on. If the check fails, send a message to the console. I’ve also added some <code class="language-plaintext highlighter-rouge">console.log()</code> functions in there, just incase I’ve failed to account for something.</p>
+
+<p>I think we’ve got our component parts. Let’s start to bring them together.</p>
+
+<h1 id="linking-the-functions">Linking the functions</h1>
+
+<p>So, thinking back to the original problem statement, we need a way for inputted text to be checked and, presumably, the inputter to be told whether their input is valid. So far we’ve been working in the abstract, so before we go any further let’s create a very basic input/output on a webpage. I’m not going to bother here with full HTML notation - but don’t let my laziness rub off on you.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+
+&lt;input id="input_code"&gt;
+&lt;button onclick="parse_input()"&gt;Check&lt;/button&gt;
+&lt;p id="response_text"&gt;&lt;/p&gt;
+
+&lt;/html&gt;
+</code></pre></div></div>
+
+<p>Nothing overly complex here - just an input box, a button, and a place for the function to give a verdict. The button calls the <code class="language-plaintext highlighter-rouge">parse_input()</code> function, and we’ve given the input field an id, so we’ll just need to tweak that function to pull the code from there rather than assuming it’s been passed the string.</p>
+
+<p>We’re also going to call the <code class="language-plaintext highlighter-rouge">check_nesting()</code> function from within the first function, and for that we need <code class="language-plaintext highlighter-rouge">check_nesting()</code> to give us back a verdict, rather than spit it out to the console. So we’ll be replacing the <code class="language-plaintext highlighter-rouge">console.log()</code> with <code class="language-plaintext highlighter-rouge">return</code> function in the if/else statements. We’ll use <code class="language-plaintext highlighter-rouge">return 1</code> if the check was successful, and <code class="language-plaintext highlighter-rouge">return 0</code> if it wasn’t.</p>
+
+<p>Finally, that output will be assessed, and then converted into a message for the user.</p>
+
+<p>Let’s see what that all looks like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+
+&lt;script&gt;
+
+    all_brackets = ["(",")","[","]","{","}"];
+    open_brackets = ["(","[","{"];
+    closed_brackets = [")","]","}"];
+
+    capture_brackets = [];
+    capture_open_brackets = [];
+
+    function parse_input(){
+
+        input_string = document.getElementById("input_code").value;
+
+        for( i=0; i &lt; input_string.length; i++ ){
+            if( all_brackets.includes( input_string[i] )  ){
+                capture_brackets.push( input_string[i] );
+            }
+        }
+
+        output = check_nesting( capture_brackets );
+
+        if( output == 1 ){
+            document.getElementById("response_text").innerHTML = "This code is fine.";
+        }else{
+            document.getElementById("response_text").innerHTML = "This code sucks.";
+        }
+
+        clear_capture_arrays();
+
+    }
+
+    function check_nesting( capture_brackets ){
+
+        for( i=0; i &lt; capture_brackets.length; i++ ){
+
+            if( open_brackets.includes( capture_brackets[i] )  ){
+
+                capture_open_brackets.push( capture_brackets[i] );
+
+            }else if( closed_brackets.includes( capture_brackets[i] )  ){
+
+                last_bracket = capture_open_brackets.slice(-1);
+
+                if( capture_brackets[i] == ")" ){
+                    if( last_bracket == "(" ){
+                        capture_open_brackets.pop();
+                    }else{
+                        return 0;
+                    }
+                }else if( capture_brackets[i] == "]" ){
+                    if( last_bracket == "[" ){
+                        capture_open_brackets.pop();
+                    }else{
+                        return 0;
+                    }
+                }else if( capture_brackets[i] == "}" ){
+                    if( last_bracket == "{" ){
+                        capture_open_brackets.pop();
+                    }else{
+                        return 0;
+                    }
+                }else{ console.log("something went wrong with the check"); }
+            }else{
+                console.log("something went wrong");
+            }
+        }
+
+        return 1;
+
+    }
+
+    function clear_capture_arrays(){
+        capture_brackets = [];
+        capture_open_brackets = [];
+    }
+
+&lt;/script&gt;
+
+&lt;input id="input_code"&gt;&lt;button onclick="parse_input();"&gt;Check&lt;/button&gt;
+&lt;p id="response_text"&gt;&lt;/p&gt;
+
+&lt;/html&gt;
+</code></pre></div></div>
+
+<p>There’s just one more thing I’d added to that code. You may have noticed the <code class="language-plaintext highlighter-rouge">clear_capture_arrays[]</code> call and function. Because we’ve got an input field on a webpage, the user can add and readd code to continually check. In order to make sure we don’t contaminate future runs, we just need to clear out all the arrays at the end of the calculations.</p>
+
+<h1 id="final-thoughts">Final thoughts</h1>
+
+<p>That’s it! We’ve solved the problem. I never doubted us.</p>
+
+<p>Of course, this is by no means the only way to do this - even just using Javascript. One thing I’m always relearning is that a lot of the time, being a developer is more about thinking your way around problems than it is actually writing code. For me, this was a great exercise in that. I’m challenging myself to take on more of these “crossword puzzles for nerds” and I’ll share my journey with you.</p>
+
+    </div>
+    <div class="row page-tags">
+        <p>
+            tags: 
+                
+                    <a class="" href="/tags/#javascript">javascript</a>
+                
+        </p>
+    </div>
+</div>
+</main>
+<footer class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+  <div class="container pt-3 pb-3">
+      <div class="col">
+        <p class="sitelogo">wrctech ltd</p>
+        <p>If your tech isn't working for you, I can help you rethink it.</p>
+      </div>
+      <div class="col text-end">
+        <p class="sitelogo">Quick Links</p>
+        <p><a href="/blog/">Blog</a><br /><a href="/contact/">Get in touch</a><br /><a href="/privacy/">Privacy Policy</a></p>
+      </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1994ecc951.js" crossorigin="anonymous"></script>
+</html>

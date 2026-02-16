@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Will Ranjan-Churchill | Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.</title>
+<meta property="og:title" content="Will Ranjan-Churchill" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<meta property="og:description" content="Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world." />
+<link rel="canonical" href="https://willrc.co.uk/" />
+<meta property="og:url" content="https://willrc.co.uk/" />
+<meta property="og:site_name" content="Will Ranjan-Churchill" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Will Ranjan-Churchill" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Just a guy, standing in front of the vast array of tech available to small to mid-sized organisations, trying to make sense of the world.","headline":"Will Ranjan-Churchill","name":"Will Ranjan-Churchill","url":"https://willrc.co.uk/"}</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/style/style.css">
+<link rel="stylesheet" href="/assets/style/syntax.css">
+<link type="application/atom+xml" rel="alternate" href="http://willrc.co.uk/feed.xml" title="Will Ranjan-Churchill" /></head>
+<body>
+  <header class="" role="">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand sitelogo" href="https://willrc.co.uk">wrc</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    <a class="nav-link" href="/about/">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/blog/">Blog</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/services/">Services</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/contact/">Contact</a>
+</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+<main aria-label="Content">
+
+<div class="container-fluid post-header-image" style="background-image:url('/content/images/code-jpg.webp')">
+
+</div>
+<div class="container-post">
+    <div class="row post-header">
+        
+        <p class="mt-3"><a class="badge text-bg-secondary" href="/categories/#coding">coding</a></p>
+        
+        <h1>9 ball problem - Solving a logic puzzle with JavaScript</h1>
+        <p>24 Nov, 2022 | <span class="reading-time">
+  
+  
+    13 min read
+  
+</span></p>
+    </div>
+    <div class="row">
+        
+        <p>It’s been a while since I’ve done coding for the fun of it, so I thought I’d get back into the game, and bring you along for the ride. There isn’t really a point to these, except to show some of the practical (and non-practical) uses for actual coding.</p>
+
+<p><a href="http://willrc.co.uk/articles/counterfeit-coins-solving-a-logic-puzzle-with-javascript/">Last time round</a>, I looked at the classic “Counterfeit Coins” problem. In this post, I’m going back to the world of weight-based logic problems for another classic: quality controlling balls.</p>
+
+<p>The logic puzzle in question is the following:</p>
+
+<blockquote>
+  <p>You have 9 seemingly identical balls. They are all the same size and shape, however one of them is heavier than the others. You have a pair of balance scales that you can only use twice, and you have no counterweights. How do you determine which is the erroneous ball?</p>
+</blockquote>
+
+<p>Let’s get to work.</p>
+
+<h1 id="addressing-the-logic">Addressing the logic</h1>
+
+<p>Before we jump into the coding, let’s think through the logic of this. We can only use the scales twice, and we have no counterweights. So logically the only thing we can do is weigh a subset of the balls against another subset. We can do this only twice, so a “brute force” approach of just weighing everything isn’t possible.</p>
+
+<p>9 is an interesting number though, and that gives us somewhere to start. Let’s split our balls up into three sets of three. To do that, we’re going to create three arrays, and give each ball an arbitrary weight of 5 units, with the exception of the rogue ball, which can be 6 units. We’re aiming for a proof of concept here, so it doesn’t matter that we know the rogue ball.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">group_one</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+<span class="nx">group_two</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+<span class="nx">group_three</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+</code></pre></div></div>
+
+<p>Ok, so now lets do the only thing available to us. Let’s weigh two of these groups against each other. We know that one of three outcomes is going to happen, and that gives us a good start:</p>
+
+<ol>
+  <li>
+    <p><strong>Both groups will weigh the same.</strong> If that happens, then we know that the rogue ball is in the third group.</p>
+  </li>
+  <li>
+    <p><strong>Group 1 weighs more than Group 2.</strong> If that happens, we know that the rogue ball is in the first group.</p>
+  </li>
+  <li>
+    <p><strong>Group 1 weighs less than Group 2.</strong> If that happens, we know that the rogue ball is in the second group.</p>
+  </li>
+</ol>
+
+<h1 id="creating-our-scales">Creating our scales</h1>
+
+<p>To do this, we need to know the total weight of each array, compare them, and then instruct our script what to do with each scenario. That’s a lot to conceptualise at once, so let’s start with the basics. We’re going to create our scales as a function, taking two inputs and comparing them. We need to know what the outcome is, so we’ll tell the scales to return one of 3 values based on which is heavier.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">balance_scales</span><span class="p">(</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">two</span> <span class="p">){</span>
+
+    <span class="kd">let</span> <span class="nx">sum_one</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">value</span> <span class="k">of</span> <span class="nx">one</span><span class="p">){</span>
+        <span class="nx">sum_one</span> <span class="o">+=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kd">let</span> <span class="nx">sum_two</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">value</span> <span class="k">of</span> <span class="nx">two</span><span class="p">){</span>
+        <span class="nx">sum_two</span> <span class="o">+=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">==</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">&gt;</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">&lt;</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="k">return</span> <span class="mi">999</span><span class="p">;</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>For those who read the <a href="http://willrc.co.uk/articles/counterfeit-coins-solving-a-logic-puzzle-with-javascript/">Counterfeit Coins post</a> you might recognise this as an adaptation of our scales function from last time. To walk through it section by section, we’re taking the first inputted array (or <code class="language-plaintext highlighter-rouge">one</code> as the function understands it) iterating through it to find the total value, summing as we go. Then it does the same for the second inputted array (<code class="language-plaintext highlighter-rouge">two</code> as the function understands it). Finally, it compares the two values (<code class="language-plaintext highlighter-rouge">sum_one</code> and <code class="language-plaintext highlighter-rouge">sum_two</code>) and does one of 3 things:</p>
+
+<ol>
+  <li>
+    <p>If the values are the same - meaning that the groups weigh the same - it gives us a value of <code class="language-plaintext highlighter-rouge">0</code>.</p>
+  </li>
+  <li>
+    <p>If the first array has a higher value than the second array - meaning that the first group weighs more than the second - it gives a value of <code class="language-plaintext highlighter-rouge">1</code>.</p>
+  </li>
+  <li>
+    <p>If the first array has a lower value than the second array - meaning that the first group weighs less than the second - it gives a value of <code class="language-plaintext highlighter-rouge">2</code>.</p>
+  </li>
+</ol>
+
+<p>The observant of you will notice I lied. This function actually does one of 4 things. The final condition - captured by the <code class="language-plaintext highlighter-rouge">else</code> parameter, gives a value of 999. This is a little flag I’ve put in for myself to test if the code is working. If/else if statements work well in smaller scenarios like this where you can be reasonably confident that you’ve thought through all the outcomes. But code will do <em>exactly</em> what you tell it to, nothing more and nothing less. If there was an outcome that we hadn’t anticipated, and we didn’t tell the code what to do with that outcome, it won’t do anything. At best this will leave you with no output, at worst it could break your code completely. Here the <code class="language-plaintext highlighter-rouge">else</code> parameter - with no additional “if” stipulations - captures all the other eventualities and outputs a number so high that we as the end user will know something is wrong. It’s not really necessary in this code, but it’s a habit I got into when I was self-teaching, and I’ve stuck with it.</p>
+
+<p>Anyway! We have our scales. If we wanted to, we can test them just by putting in different numbers and seeing what comes out</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span> <span class="nf">balance_scales</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span> <span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span> <span class="nf">balance_scales</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span> <span class="nf">balance_scales</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span> <span class="p">);</span>
+
+<span class="c1">// This should output, respectively: 1, 0, 2</span>
+</code></pre></div></div>
+
+<h1 id="weigh-in-the-first">Weigh-in the first</h1>
+
+<p>We have everything we need for our first weigh-in. All we need to do is construct the logic around it. What we haven’t thought through yet is what happens after we know which of the groups the rogue ball is in, so for now we’ll just output some text to the console to show us the code works as expected. And to make this neat we’ll call the scales function and store it in a variable, and wrap the whole thing in a function of its own.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">first_weigh</span><span class="p">(){</span>
+
+    <span class="kd">let</span> <span class="nx">scales_result</span> <span class="o">=</span> <span class="nf">balance_scales</span><span class="p">(</span> <span class="nx">group_one</span><span class="p">,</span> <span class="nx">group_two</span> <span class="p">);</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">we know the ball is in group 3</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">we know the ball is in group 1</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">we know the ball is in group 2</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">something else has gone wrong</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>So, because we know that the faulty ball is in group three, and therefore groups one and two weigh the same, the console should give us the message “we know the ball is in group 3”.</p>
+
+<h1 id="weigh-in-the-second">Weigh-in the second</h1>
+
+<p>So, we have the group, but not the specific ball. The good news is that because the groups only contain three balls each, we can use the same thought process to solve this. In the second weigh in, we only need to weigh two of the balls against each other. If they’re the same weight then the rogue ball is the one we didn’t weigh. Otherwise, it’s whichever one is heavier.</p>
+
+<p>In a stroke of luck / genius, because we’ve captured the weights of the balls in the arrays, we actually don’t need our fancy JS Scales of Justice (patent-pending) for the second weigh-in. We can just compare the values of the balls we want to weigh. Again, for now, let’s spit out the result to the console.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">second_weigh</span><span class="p">(</span> <span class="nx">chosen_array</span> <span class="p">){</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">ball 3 is the rogue ball</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">ball 1 is the rogue ball</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">ball 2 is the rogue ball</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">something else has gone wrong</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Because we’re proof-of-concepting, we know that ball 1 is the rogue one, and the output to the console confirms this.</p>
+
+<h1 id="bringing-it-all-together">Bringing it all together</h1>
+
+<p>So, we have arrived at our answer. Now we need to put this all together. Specifically, we need the script to call our second weighing function after it determines the first. And, at the end of it all, we want the result to be displayed on the page so we don’t have to follow the console. To do that last bit, we’re just going to create a string that we will append information to as the script runs.</p>
+
+<p>Here’s what it looks like.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// start the output string</span>
+<span class="kd">var</span> <span class="nx">script_output</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">The heavy ball is </span><span class="dl">"</span><span class="p">;</span>
+
+<span class="c1">// create the balls and put them into groups</span>
+<span class="nx">group_one</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+<span class="nx">group_two</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+<span class="nx">group_three</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+
+<span class="c1">// build our scales function</span>
+<span class="kd">function</span> <span class="nf">balance_scales</span><span class="p">(</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">two</span> <span class="p">){</span>
+
+    <span class="kd">let</span> <span class="nx">sum_one</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">value</span> <span class="k">of</span> <span class="nx">one</span><span class="p">){</span>
+        <span class="nx">sum_one</span> <span class="o">+=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kd">let</span> <span class="nx">sum_two</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">value</span> <span class="k">of</span> <span class="nx">two</span><span class="p">){</span>
+        <span class="nx">sum_two</span> <span class="o">+=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">==</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">&gt;</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">sum_one</span> <span class="o">&lt;</span> <span class="nx">sum_two</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="k">return</span> <span class="mi">999</span><span class="p">;</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="c1">// build the first weigh function</span>
+<span class="kd">function</span> <span class="nf">first_weigh</span><span class="p">(){</span>
+
+    <span class="kd">let</span> <span class="nx">scales_result</span> <span class="o">=</span> <span class="nf">balance_scales</span><span class="p">(</span> <span class="nx">group_one</span><span class="p">,</span> <span class="nx">group_two</span> <span class="p">);</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Group 3 </span><span class="dl">"</span><span class="p">;</span>
+        <span class="nf">second_weigh</span><span class="p">(</span> <span class="nx">group_three</span> <span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Group 1 </span><span class="dl">"</span><span class="p">;</span>
+        <span class="nf">second_weigh</span><span class="p">(</span> <span class="nx">group_one</span> <span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">scales_result</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Group 2 </span><span class="dl">"</span><span class="p">;</span>
+        <span class="nf">second_weigh</span><span class="p">(</span> <span class="nx">group_two</span> <span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">something went wrong with the first weigh</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="c1">// build the second weigh function</span>
+<span class="kd">function</span> <span class="nf">second_weigh</span><span class="p">(</span> <span class="nx">chosen_array</span> <span class="p">){</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Ball 3 </span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Ball 1 </span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">chosen_array</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">){</span>
+        <span class="nx">script_output</span> <span class="o">+=</span> <span class="dl">"</span><span class="s2">Ball 2 </span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">something went wrong with the second weigh</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="c1">// finally, call the first weighing function, and then display the output on the page</span>
+<span class="nf">first_weigh</span><span class="p">(</span> <span class="nx">group_one</span><span class="p">,</span> <span class="nx">group_two</span> <span class="p">);</span>
+<span class="nb">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span> <span class="nx">script_output</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<h1 id="variations-on-a-theme">Variations on a theme</h1>
+
+<h2 id="what-if-there-are-only-8-balls">What if there are only 8 balls?</h2>
+
+<p>This works just as well. From a thought-process point of view, you still split the balls into three groups - this time two groups of three and a group of two. You weigh the groups of three against each other and then carry on as planned. From a coding point of view, you don’t actually have to change anything, as the code never interacts with the third ball of the third group.</p>
+
+<h2 id="what-if-the-rogue-ball-is-lighter">What if the rogue ball is lighter?</h2>
+
+<p>All the logic still holds - we’re looking for the outliers in all cases. All we need to do in this case is swap the more than <code class="language-plaintext highlighter-rouge">&gt;</code> and less than <code class="language-plaintext highlighter-rouge">&lt;</code> symbols throughout.</p>
+
+<h1 id="final-thoughts">Final Thoughts</h1>
+
+<p>Much like with our Counterfeit Coins puzzle, it might seem like a pointless exercise because we know the answer going in. I find these exercises helpful though for a number of reasons. Chief among them is the constant reminder that even when you know the answer going in, it’s never as straightforward as just coding it out. You need to understand the logic that goes into it, and be able to deal with those unexpected things that happen because you’ve made a little mistake somewhere.</p>
+
+    </div>
+    <div class="row page-tags">
+        <p>
+            tags: 
+                
+                    <a class="" href="/tags/#javascript">javascript</a>
+                
+                    <a class="" href="/tags/#logic-puzzle">logic-puzzle</a>
+                
+                    <a class="" href="/tags/#problem-solving">problem-solving</a>
+                
+        </p>
+    </div>
+</div>
+</main>
+<footer class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+  <div class="container pt-3 pb-3">
+      <div class="col">
+        <p class="sitelogo">wrctech ltd</p>
+        <p>If your tech isn't working for you, I can help you rethink it.</p>
+      </div>
+      <div class="col text-end">
+        <p class="sitelogo">Quick Links</p>
+        <p><a href="/blog/">Blog</a><br /><a href="/contact/">Get in touch</a><br /><a href="/privacy/">Privacy Policy</a></p>
+      </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1994ecc951.js" crossorigin="anonymous"></script>
+</html>
